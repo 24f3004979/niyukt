@@ -1,63 +1,35 @@
-PRAGMA foreign_keys = ON; -- Foreign enabled
+PRAGMA foreign_keys = ON;
+-- Foreign Keys config is to be loaded with every connection for cascade and foreign checks
+-- Root table : User
+CREATE TABLE user (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
 
--- User : student, company, admin by role
-create table user (
-  -- Information
-  id integer primary key autoincrement,
-  name text not null,
-  password text not null,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL UNIQUE,
+    password_hash TEXT NOT NULL,
 
-  email text not null unique,
-  status text not null check( status in ('activated', 'deactivated')), -- Managed by admin
-  role text not null check( role in ('student','admin','company'))
+    role TEXT NOT NULL CHECK(role in ('student', 'company', 'admin')),
+    status TEXT NOT NULL DEFAULT 'active'
+        CHECK(status IN ('active', 'deactivated'))
 );
 
--- Resume for student
-create table resume (
-  student_id integer primary key,
-  resume_markdown text not null, -- Frontend rende : Skill parsing
-  foreign key (student_id) references user(id)
-  on delete cascade
+-- Company
+CREATE TABLE company (
+    company_id INTEGER PRIMARY KEY,
+    discription TEXT NOT NULL,
+    contact_details INTEGER UNIQUE NOT NULL,
+
+    FOREIGN KEY(company_id) REFERENCES user(id) ON DELETE CASCADE
 );
 
--- DRIVE : COMPANY 
-create table drive (
-  id integer primary key autoincrement,
+-- Student : FIX: We could be having same in company and student validate it
+CREATE TABLE student (
+    student_id INTEGER PRIMARY KEY,
 
-  company_id integer not null,
-  role varchar(100) not null,
-  detail text,
+    resume TEXT,
+    branch TEXT,
 
-  -- time for final validations of user response
-  created_at timestamp default current_timestamp,
-  deadline datetime not null,
-  -- Constraints for DRIVE
-  constraint deadline_valid check( deadline > created_at),
-  foreign key (company_id) references user(id) on delete cascade
+    FOREIGN KEY(student_id) REFERENCES user(id) ON DELETE CASCADE
 );
 
--- Application : student
-create table application (
-  student_id integer not null,
-  drive_id integer not null,
-  status text check( status in ("pending", "shortlisted", "selected")),
-  
-  -- Format  : YYYY-MM-DD HH:MM:SS
-  applied_at datetime not null, -- Frontend timestamp for endtime
-  foreign key (drive_id) references drive(id) on delete cascade,
-  foreign key (student_id) references user(id) on delete cascade,
-  primary key (student_id, drive_id) -- no dupli
-);
 
--- Only created with final validation of student of offer and company decission
-create table application_history (
-  id integer primary key autoincrement,
-  -- id info
-  student_id integer not null,
-  drive_id integer not null,
-
-  final_result text check(final_result in ("placed", "comp-rejected", "std-rejected")),
-
-  foreign key (student_id) references user(id) on delete cascade,
-  foreign key (drive_id) references drive(id) on delete cascade
-);
