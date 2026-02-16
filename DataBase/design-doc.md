@@ -1,35 +1,27 @@
-# DB-design
+# Data Base Implementation
 
-Core Data tables
-    + user
-        > User is Root table for student, company, admin
-        handle all user level information and fetch requests
-        > DB - triggers are also using roles for seting up transactions final validation
+Schema Overview
 
-    + application
-        > Student creates application, for drive 
-        creation triggers
-            student validation + company validation + time stamp validation
-            if all conditions validate addition takes place to update the status
+1. user
+    id,name,password,email, status
+    > User could be controlled by admin for changing the status for transactions -> implementation : left [ Access Based ]
+2. student
+    resume, student-id, branch
+    > Student Extension to user
+    + Make student initiation logic for initiating other process at DB
+    + student id is connected to the user table to list out
+3. company
+    > contact, description,
+    + connected for making drives and making edits to applications
+4. placementHistory
+    > Automated updating unit to store the history of all transactions
+5. drives
+    > For making placement drives via company required for making applications by students
+6. applications
+    > Making a applications for the role required via student , unique constraint ensures no duplicate for the request
 
-        status = shortlisted --> Updates the student's application part
-        status = selected [ Finalised via company for final decission ] 
-        triggers
-            Adds student to application_history and makes entry for placement record
-        ** Company can take multiple students as they finalise their choice and close the drive **
-        triggers : rejecting all students --> placement record update
-
-    + drive 
-        > A port to set for application
-        > Validated via Admin panel
-
--- Constraints --
-creating application
-    + Student must exist
-    + Drive should not be expired
-
--- Issues and reslution proposal --
-+ How timestamp would be evaluated for application ?
-    ]- Js request would consist of timestamp of request which would be validated via trigger at DB-level to validate and Add up to the DB or raise Error
-
-
+TODO : 
+1. Make Working Queue based Core Executor function for the DB
+2. Query builder for executor to accept data from | construct the query via safe way
+3. Make easy fetch pipeline for searching and geting information from the DB
+4. Finalizing the abstract models for final API-integration and flask wrap up :)

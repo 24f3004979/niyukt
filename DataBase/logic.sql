@@ -17,7 +17,7 @@ CREATE TABLE placement_drive (
 );
 
 
--- TODO : testing required
+-- TODO : Tested working
 CREATE TABLE application (
   id INTEGER PRIMARY KEY AUTOINCREMENT, 
 
@@ -25,8 +25,8 @@ CREATE TABLE application (
   drive_id INTEGER NOT NULL,
 
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-  status TEXT NOT NULL DEFAULT 'pending'
-    CHECK(status in ('pending', 'selected', 'shortlisted', 'rejected')),
+  status TEXT NOT NULL DEFAULT 'not-applied'
+    CHECK(status in ('applied','not-applied', 'selected', 'shortlisted', 'rejected')),
   UNIQUE(student_id, drive_id),
 
   FOREIGN KEY(student_id) REFERENCES student(student_id) ON DELETE CASCADE,
@@ -42,7 +42,7 @@ CREATE TABLE placement_history (
   final_result TEXT NOT NULL
     CHECK( final_result in ('selected', 'rejected')),
   
-  UNIQUE(student_id, drive_id)
+  UNIQUE(student_id, drive_id),
   FOREIGN KEY(student_id) REFERENCES student(student_id),
   FOREIGN KEY(drive_id) REFERENCES placement_drive(id)
 );
