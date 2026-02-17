@@ -20,13 +20,14 @@ class Task:
     fetch: bool = False
 
 def CentralExecutor():
+    i = 0
     while True:
-        print(f"Running Central Executor")
+        print(f"Running CentralExecutor : {i}")
+        i += 1
         try:
             task = execution.get(timeout=1)
-            print(f"Fetched Task : {task}")
-        except Empty:
-            print(f"No Task Found :) ")
+            print(f"TASK EXECUTION : {task}")
+        except Empty as e:
+            print(f"Empty Execution : {e}")
             continue
-        print(f'Executing Dummy task : {task.query}')
         execution.task_done()
