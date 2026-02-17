@@ -6,28 +6,26 @@ fetch data if reqested
 '''
 from queue import Queue 
 from queue import Empty
-from dataclasses import dataclass 
-from typing import Optional, Tuple, Any
 import sqlite3 as sql 
 import threading
 
-execution = Queue()
+execution_queue = Queue()
 
-@dataclass
-class Task:
-    query: str
-    data: Optional[Tuple[Any, ...]] = None
-    fetch: bool = False
+
+# Executor Needs refinement for Just writing to the DB
 
 def CentralExecutor():
-    i = 0
-    while True:
-        print(f"Running CentralExecutor : {i}")
-        i += 1
-        try:
-            task = execution.get(timeout=1)
-            print(f"TASK EXECUTION : {task}")
-        except Empty as e:
-            print(f"Empty Execution : {e}")
-            continue
-        execution.task_done()
+    with sql.connect("niyukt.db") as connection:
+        cursor = connection.cursor()
+
+        while True:
+            try:
+                query, data = execution_queue.get()
+                cursor.execute(query, data)
+                connection.commit()
+                
+            except Empty:
+                print(f"Waiting For task :) ")
+                continue
+            execution.task_complte()
+

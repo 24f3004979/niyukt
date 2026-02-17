@@ -1,14 +1,12 @@
 import threading
 import time 
 from DataBase.Executor import *
+from DataBase.GenericModel import *
 
 thread = threading.Thread(target=CentralExecutor, daemon=False)
 thread.start()
 
+# Generic Model
 
-for i in range(10):
-    t = f'task{i}'
-    task = Task(query=t)
-    print(f"Adding to the execution queue : {task}")
-    execution.put(task)
+g = GenericModel(execution, "user")
 
