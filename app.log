@@ -1,0 +1,16 @@
+2026-02-18 19:51:15,530 - config - INFO - Application started
+2026-02-18 19:51:34,168 - config - INFO - Application started
+2026-02-18 19:52:22,597 - config - INFO - Application started
+2026-02-18 19:52:22,597 - config - INFO - Hello Loging
+2026-02-18 19:53:44,210 - config - INFO - Application started
+2026-02-18 19:53:44,216 - config - INFO - Hello Loging
+2026-02-18 19:53:44,216 - config - INFO - Loading Task for Execution : Task(query="insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)", data=('Himan', 'hu.com', '1234', 'student'), status='pending')
+2026-02-18 19:57:36,665 - config - INFO - Application started
+2026-02-18 19:57:36,671 - config - INFO - Loading Task for Execution : Task(query="insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)", data=('Hi', 'u.com', '1234', 'student'), status='pending')
+2026-02-18 19:57:36,684 - config - INFO - Task Final status : completed
+2026-02-18 19:58:25,647 - config - INFO - Application started
+2026-02-18 19:58:25,654 - config - INFO - Loading Task for Execution : Task(query="insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)", data=('Hiiii', 'ugogog.com', '1234', 'student'), status='pending')
+2026-02-18 19:58:25,657 - config - INFO - Task Final status : completed
+2026-02-18 19:59:02,763 - config - INFO - Application started
+2026-02-18 19:59:02,770 - config - INFO - Loading Task for Execution : Task(query="insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)", data=('Hii', 'ugjgog.com', '1234', 'student'), status='pending')
+2026-02-18 19:59:02,784 - config - INFO - Task Final status : completed

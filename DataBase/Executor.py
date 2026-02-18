@@ -7,7 +7,7 @@ fetch data if reqested
 from queue import Queue 
 from queue import Empty
 import sqlite3 as sql 
-
+from config import *
 
 class Executor:
     def __init__(self):
@@ -20,10 +20,11 @@ class Executor:
             while True:
                 try:
                     task = self.ExecutionQueue.get()
-                    print(f"Task Fetched {task}")
                     # Making DB-Execution
                     query = task.query 
                     data = task.data 
+
+                    log.info(f"Loading Task for Execution : {task}")
 
                     try:
                         cursor.execute(query, data)
@@ -33,15 +34,14 @@ class Executor:
                     except Exception as e:
                         connection.rollback()
                         task.status = 'failed'
-                        print(f"Error Occured with the core Execution : {e}")
+                        log.error(f" Central Execution Failed with : {e}")
                         raise e  # Testing Multiple layer Error Handle
 
                 except Empty:
-                    print(f"No task found")
+                    log.info(f"Queue is Empty")
                     continue
                 except Exception as e:
-                    print(f"Exception Occured : {e} ")
+                    print(f"Exception Occured as {e}")
                 finally:
-                    print(f"Task Status : {task.status}")
-
+                    log.info(f"Task Final status : {task.status}")
 

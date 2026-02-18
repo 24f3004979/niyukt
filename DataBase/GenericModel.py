@@ -24,11 +24,4 @@ class GenericModel:
                 query=query,
                 data=values
                 )
-        self.queue.put(task)
-        print(f"Status of Task : {task.status}")
-
-        
-        
-
-
-
+        self.queue.put(task)  # Executor : Creation

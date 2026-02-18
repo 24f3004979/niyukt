@@ -11,6 +11,6 @@ thread.start()
 columns = tuple('name,email,password_hash,role'.split(","))
 user = GenericModel(CentralExecutor.ExecutionQueue, "user", columns)
 
-vals = tuple('Himan,hu.com,1234,student'.split(","))
+vals = tuple('Hii,ugjgog.com,1234,student'.split(","))  # Initiating Repo Done
 user.insert(vals)
 

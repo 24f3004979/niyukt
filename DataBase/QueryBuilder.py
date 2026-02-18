@@ -20,10 +20,7 @@ class QueryBuilder:
 
     def insertion(self):
         placeholder = ','.join(['?']*len(self.columns))
-        print(placeholder)
-        
         query = f'insert into {self.table_name}{self.columns} values({placeholder})'
-        print(f'Insertion Query Generated as : {query}')
         return query  # insertion Query 
 
 
