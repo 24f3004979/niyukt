@@ -12,5 +12,5 @@ columns = tuple('name,email,password_hash,role'.split(","))
 user = GenericModel(CentralExecutor.ExecutionQueue, "user", columns)
 
 vals = tuple('Hii,ugjgog.com,1234,student'.split(","))  # Initiating Repo Done
-user.insert(vals)
+user.insert(vals)  # Make Registration Pipeline with this 
 
