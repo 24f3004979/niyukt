@@ -3,10 +3,14 @@ import time
 from DataBase.Executor import *
 from DataBase.GenericModel import *
 
-thread = threading.Thread(target=CentralExecutor, daemon=False)
+CentralExecutor = Executor()
+
+thread = threading.Thread(target=CentralExecutor.run, daemon=False)
 thread.start()
 
-# Generic Model
+columns = tuple('name,email,password_hash,role'.split(","))
+user = GenericModel(CentralExecutor.ExecutionQueue, "user", columns)
 
-g = GenericModel(execution, "user")
+vals = tuple('Himan,hu.com,1234,student'.split(","))
+user.insert(vals)
 

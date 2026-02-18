@@ -21,7 +21,10 @@ Schema Overview
     > Making a applications for the role required via student , unique constraint ensures no duplicate for the request
 
 TODO : 
-1. Make Working Queue based Core Executor function for the DB
+1. Make Working Queue based Core Executor function for the DB [under development]
 2. Query builder for executor to accept data from | construct the query via safe way
 3. Make easy fetch pipeline for searching and geting information from the DB
 4. Finalizing the abstract models for final API-integration and flask wrap up :)
+
+## -- Design Update --
+Generic Model --> Query builder request --> Executor[write] / fetch handle for fetch requests

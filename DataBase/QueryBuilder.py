@@ -11,20 +11,22 @@ from typing import Optional, Tuple, Any
 class Task:
     query: str
     data: Optional[Tuple[Any, ...]] = None
-    fetch: bool = False
+    status : str = 'pending' # Failed / completed
 
 class QueryBuilder:
-    def __init__(self, table_name):
+    def __init__(self, table_name, columns_name):
         self.table_name = table_name
-        self.columns = []
+        self.columns = columns_name # tuple must
 
-    def fetch_column_info(self):
-        return f"PRAGMA table_info({self.table_name})"
+    def insertion(self):
+        placeholder = ','.join(['?']*len(self.columns))
+        print(placeholder)
+        
+        query = f'insert into {self.table_name}{self.columns} values({placeholder})'
+        print(f'Insertion Query Generated as : {query}')
+        return query  # insertion Query 
 
-    def set_column_info(self, info):
-        print(f"Got information for initiation as : {info} ")
-        if len(self.columns) == 0:
-            self.columns = info # initiating columns
+
 
 
 
