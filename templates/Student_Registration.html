@@ -3,27 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration Form</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/form-styles.css') }}">
+  <title>Student Registration Form</title>
 </head>
 <body>
 
+  <div id="form-content-box">
   <form action="/register_student" method="post">
+    <div id="form-content">
 
-    <label for="name"> Name : </label>
-    <input type="text" id="name" name="name" required>
+    <div id="name-input-box" class="input-box">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-
-    <!-- Making resume upload section compresion of file -> markdown rendrer -- skills parsing -->
-
+    <div id="email-input-box" class="input-box">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
 
 
+    <div id='password-input-box' class="input-box">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+
+    <div id="selection-check">
+      <label for="branch-selection">Branch:</label>
+      <select id="branch-selection" name="branch-selection">
+        <option value="Data Science">Data Science </option>
+        <option value="Computer Science">Computer Science </option>
+
+      </select>
+    </div>
+
+    <div id="text-box">
+      <label for="resume">Resume MD:</label>
+      <textarea rows="4" cols="50" name="resume" id="resume" required></textarea>
+    </div>
+
+    <button id="submit-button" type='submit'>Submit</button>
+    </div>
   </form>
 
+  </div>
 
 </body>
 </html>
