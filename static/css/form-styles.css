@@ -1,6 +1,9 @@
 *{
   margin : 0;
   padding : 0;
+  font-family : Ubuntu Mono;
+  font-weight : 40;
+  font-size : 18px;
 }
 
 body{
@@ -10,62 +13,73 @@ body{
   display: flex;
   justify-content : center;
   align-items : center;
-  color : white;
   background-color : black;
 }
 
+#form-content-box{
+  display: flex;
+  justify-content : center;
+  align-items : center;
+}
+
+
 #form-content{
-  background-color : blue;
+  background-color : hsl(0, 0%, 85%);
   height : 50rem;
   width : 50rem;
   display:flex;
   justify-content :center;
   align-items : center;
+  gap : 2rem;
+  flex-direction : column;
+  border-radius : 10px;
+  box-shadow : 2px white;
 }
 
-#form-content{
-  background-color : black;
+
+.input-box{
+  background-color : hsl(0, 0%, 95%);
+  height : 3rem;
+  width : 16rem;
+  border-radius : 5px;
 
   display : flex;
-  justify-content:center;
-gap : 2rem;
-  flex-direction : column;
   align-items : center;
-  position : relative;
+  justify-content : space-between;
+  padding :2%;
+}
+
+
+.input-box input{
+  height : 1.5rem;
+  width : 10rem;
+  font-size : 18px;
+  border : 2px solid hsl(0, 0%, 10%);
+  padding : 2%;
+  font-family : Ubuntu Mono;
+  border : none;
+  background-color : hsl(0, 0%, 90%);
   border-radius : 10px;
 }
 
-@property --angle{
-  syntax: "<angle>";
-  initial-value : 0deg;
-  inherits : false;
+#text-box{
+  height : 10rem;
+  width : 30rem;
+  padding : 2%;
 }
 
-#form-content::after, #form-content::before{
-  content : '';
-  position : absolute;
-  height : 100%;
-  width : 100%;
-  background-image: conic-gradient(from var(--angle),transparent 70%, #7eff00);
-  top : 50%;
-  left : 50%;
-  translate : -50% -50%;
-  z-index : -1;
-  padding : 10px;
-  border-radius : 15px;
-
-  animation : 5s spin linear infinite;
+#text-box textarea{
+  height : 80%;
+  padding : 2%;
+  background-color : hsl(0, 0%, 90%);
+  border-radius : 10px;
+  border : none;
 }
 
-#form-content::before{
-  filter : blur(1.5rem);
-}
-
-@keyframes spin{
-  from{
-    --angle : 0deg;
-  }
-  to{
-    --angle : 360deg;
-  }
+#submit-button{
+  height : 3rem;
+  width : 6rem;
+  background-color : hsl(0, 0%, 90%);
+  border-radius : 10px;
+  box-shadow : 2px black;
 }
