@@ -1,0 +1,24 @@
+'''
+Unit for Manging Repositoy Fetch requests
+'''
+import sqlite3 as sql
+
+
+class Repo:
+    def __init__(self, table_name):
+        self.table = table_name
+
+    def search(self, anchor_information):
+        '''
+        anchor_information = (target, value)
+        '''
+        query = f"select {anchor_information[0]} from {self.table} where {anchor_information[0]} = ?"
+        print(f"Queery For repo search : {query}")
+        with sql.connect('/home/madhav/Projects/niyukt/DataBase/niyukt.db') as connection:
+
+            data = tuple(anchor_information[1])
+            cursor = connection.cursor()
+            cursor.execute(query, (anchor_information[1],))
+
+            return cursor.fetchall()
+
