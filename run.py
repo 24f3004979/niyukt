@@ -1,6 +1,5 @@
 from flask import Flask, render_template
-from API.registration import register
-from model.student import *
+from api.registration import register
 
 app = Flask(__name__)
 

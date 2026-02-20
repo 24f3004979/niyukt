@@ -2,7 +2,9 @@
 Unit for Manging Repositoy Fetch requests
 '''
 import sqlite3 as sql
+import os
 
+path = "/home/madhav/Projects/niyukt/endpoint/db/niyukt.db"
 
 class Repo:
     def __init__(self, table_name):
@@ -14,7 +16,7 @@ class Repo:
         '''
         query = f"select {anchor_information[0]} from {self.table} where {anchor_information[0]} = ?"
         print(f"Queery For repo search : {query}")
-        with sql.connect('/home/madhav/Projects/niyukt/DataBase/niyukt.db') as connection:
+        with sql.connect(path) as connection:
 
             data = tuple(anchor_information[1])
             cursor = connection.cursor()

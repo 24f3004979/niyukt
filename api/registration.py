@@ -1,6 +1,6 @@
 from flask import Blueprint, request, render_template
-from model.student import *
-from DataBase.Executor import *
+from model.user import *
+
 
 register = Blueprint('/registration', __name__, url_prefix="/register")
 
@@ -21,14 +21,23 @@ def student_register():
         selection = data.get("branch-selection")
         resume = data.get("resume")
 
-        # Validate If user Exists -- Model call for verification
-        exist = existence(user_name)
-        if exist:
-            return "USER EXISTS :)"
+        # Check Existence
+        if exists(user_name):
+            return "User exists"
         else:
-            pass # Working Endpoints now code base is mess
+            print(f"User not FOund with name : {user_name}")
 
+            user = User()
+            values = tuple([user_name, email, password, "student"])
+            print(f"Values for the DB insert functions : values")
+            user.db.insert(values)
 
-
-        
+            # Checking Creation
+            creation_request = exists(user_name)
+            if creation_request:
+                return "You are Registered"
+            else:
+                print(f"creation Request {creation_request}")
+                return "Something went wrong"
+            
         

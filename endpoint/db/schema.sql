@@ -9,7 +9,7 @@ CREATE TABLE user (
     password_hash TEXT NOT NULL,
 
     role TEXT NOT NULL CHECK(role in ('student', 'company', 'admin')),
-    status TEXT NOT NULL DEFAULT 'active'
+    status TEXT NOT NULL DEFAULT 'deactivated'
         CHECK(status IN ('active', 'deactivated'))
 );
 

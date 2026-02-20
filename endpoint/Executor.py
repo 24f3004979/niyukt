@@ -8,6 +8,28 @@ from queue import Queue
 from queue import Empty
 import sqlite3 as sql 
 from config import *
+import os
+
+'''
+Making Simpler Version of Executor for simplification
++ Potential Theading Issue of sqlite3 due to Multi thread request
+'''
+
+path = "/home/madhav/Projects/niyukt/endpoint/db/niyukt.db"
+
+
+def executor(query, data):
+
+    with sql.connect(path) as connection:
+        cursor = connection.cursor()
+
+        # Making Executions
+        try:
+            cursor.execute(query, data)
+            connection.commit()  # Making Final Commit
+        except Exception as e:
+            log.error(f"Exception Occured Raising Error : {e}")
+            connection.rollback()
 
 class Executor:
     def __init__(self):

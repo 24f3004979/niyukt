@@ -2,16 +2,17 @@
 Generic Model
 Unit for all DB interations and transactions
 '''
-from DataBase.QueryBuilder import *
+from endpoint.QueryBuilder import *
 import time
+from endpoint.Executor import *
+from config import *
 
 class GenericModel:
     """
     executor_queue, table_name
     """
-    def __init__(self, executor_queue, table_name, columns_names):
+    def __init__(self, table_name, columns_names):
         self.qb = QueryBuilder(table_name, columns_names)
-        self.queue = executor_queue
 
     def insert(self, values):
         '''
@@ -19,9 +20,10 @@ class GenericModel:
         work : Makes insertion request and executes
         '''
         query = self.qb.insertion()
-
-        task = Task(
-                query=query,
-                data=values
-                )
-        self.queue.put(task)  # Executor : Creation
+        try:
+            print(f"Geneic model for executor : {query} and {values}")
+            executor(query, values)
+            return 1
+        except Exception as e:
+            log.info(f"Exception Occured with {e}")
+            return 0 
