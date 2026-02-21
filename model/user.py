@@ -1,5 +1,6 @@
 from endpoint.GenericModel import *
 from endpoint.repo import *
+from auth.login import *
 
 class User:
     def __init__(self):
@@ -19,6 +20,7 @@ class User:
 
         # check if user already exists
         name = information[0]
+        print(f"hashed ha ha : {information}")
 
         if exists(name):
             raise Exception(f"User Already Exists")

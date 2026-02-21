@@ -1,5 +1,6 @@
 from flask import Blueprint, request, render_template
 from model.user import *
+from auth.login import *
 
 
 register = Blueprint('/registration', __name__, url_prefix="/register")
@@ -17,12 +18,12 @@ def student_register():
     elif request.method == 'POST':
         data = request.form
         name = data.get("name")
-        password = data.get("password")
+        password = hash_password(data.get("password"))
         email = data.get("email")
         selection = data.get("branch-selection")
         resume = data.get("resume")
         
-        # Data preprocessing
+        # Data preprocessing - Resume compression required here for uploads
 
         information = (name, password, email, selection, resume)
 

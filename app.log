@@ -626,3 +626,50 @@
 2026-02-21 17:21:53,737 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
 2026-02-21 17:21:53,927 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "GET /register/student HTTP/1.1" 200 -
 2026-02-21 17:21:53,951 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:25:53,938 - config - INFO - Application started
+2026-02-21 17:25:53,960 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 17:25:53,960 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 17:25:53,960 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:25:54,055 - config - INFO - Application started
+2026-02-21 17:25:54,075 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:25:54,077 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:25:58,935 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:25:58] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:25:58,971 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:25:58] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:26:12,840 - config - ERROR - Exception Occured with Registration : 'tuple' object does not support item assignment
+2026-02-21 17:26:12,841 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:26:12] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 17:27:07,466 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-21 17:27:07,499 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:27:07,590 - config - INFO - Application started
+2026-02-21 17:27:07,610 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:27:07,612 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:27:13,442 - config - ERROR - Exception Occured with Registration : 'tuple' object does not support item assignment
+2026-02-21 17:27:13,442 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:13] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 17:27:15,826 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:15] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:27:15,852 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:15] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:27:26,430 - config - ERROR - Exception Occured with Registration : 'tuple' object does not support item assignment
+2026-02-21 17:27:26,431 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:26] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 17:27:35,756 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-21 17:27:35,785 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:27:35,881 - config - INFO - Application started
+2026-02-21 17:27:35,901 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:27:35,903 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:27:37,917 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-21 17:27:37,947 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:27:38,043 - config - INFO - Application started
+2026-02-21 17:27:38,063 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:27:38,065 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:27:44,429 - config - INFO - Application started
+2026-02-21 17:27:44,451 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 17:27:44,451 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 17:27:44,451 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:27:44,539 - config - INFO - Application started
+2026-02-21 17:27:44,559 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:27:44,561 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:27:48,357 - config - ERROR - Exception Occured Raising Error : Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+2026-02-21 17:27:48,357 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:48] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 17:27:51,141 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:51] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:27:51,171 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:51] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:28:00,912 - config - ERROR - Exception Occured Raising Error : Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+2026-02-21 17:28:00,912 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:28:00] "POST /register/student HTTP/1.1" 200 -
