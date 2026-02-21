@@ -1,675 +1,88 @@
-2026-02-18 19:51:15,530 - config - INFO - Application started
-2026-02-18 19:51:34,168 - config - INFO - Application started
-2026-02-18 19:52:22,597 - config - INFO - Application started
-2026-02-18 19:52:22,597 - config - INFO - Hello Loging
-2026-02-18 19:53:44,210 - config - INFO - Application started
-2026-02-18 19:53:44,216 - config - INFO - Hello Loging
-2026-02-18 19:53:44,216 - config - INFO - Loading Task for Execution : Task(query="insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)", data=('Himan', 'hu.com', '1234', 'student'), status='pending')
-2026-02-18 19:57:36,665 - config - INFO - Application started
-2026-02-18 19:57:36,671 - config - INFO - Loading Task for Execution : Task(query="insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)", data=('Hi', 'u.com', '1234', 'student'), status='pending')
-2026-02-18 19:57:36,684 - config - INFO - Task Final status : completed
-2026-02-18 19:58:25,647 - config - INFO - Application started
-2026-02-18 19:58:25,654 - config - INFO - Loading Task for Execution : Task(query="insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)", data=('Hiiii', 'ugogog.com', '1234', 'student'), status='pending')
-2026-02-18 19:58:25,657 - config - INFO - Task Final status : completed
-2026-02-18 19:59:02,763 - config - INFO - Application started
-2026-02-18 19:59:02,770 - config - INFO - Loading Task for Execution : Task(query="insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)", data=('Hii', 'ugjgog.com', '1234', 'student'), status='pending')
-2026-02-18 19:59:02,784 - config - INFO - Task Final status : completed
-2026-02-19 21:18:01,489 - config - INFO - Application started
-2026-02-19 21:18:01,504 - werkzeug - WARNING -  * Debugger is active!
-2026-02-19 21:18:01,508 - werkzeug - INFO -  * Debugger PIN: 952-975-858
-2026-02-20 10:13:32,699 - config - INFO - Application started
-2026-02-20 10:13:32,717 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-02-21 21:34:17,355 - config - INFO - Application started
+2026-02-21 21:34:17,398 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-02-20 10:13:32,717 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 10:13:32,717 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 10:13:32,857 - config - INFO - Application started
-2026-02-20 10:13:32,870 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 10:13:32,879 - werkzeug - INFO -  * Debugger PIN: 132-421-433
-2026-02-20 10:15:00,614 - config - INFO - Application started
-2026-02-20 10:15:00,628 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-02-21 21:34:17,398 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 21:34:17,399 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 21:34:17,578 - config - INFO - Application started
+2026-02-21 21:34:17,619 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 21:34:17,621 - werkzeug - INFO -  * Debugger PIN: 616-395-324
+2026-02-21 21:34:23,185 - config - ERROR - Exception at student registration with object of type 'NoneType' has no len()
+2026-02-21 21:34:23,185 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:34:23] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 21:34:25,028 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:34:25] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 21:34:25,075 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:34:25] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 21:34:34,336 - config - ERROR - Exception at student registration with User Already Exists
+2026-02-21 21:34:34,336 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:34:34] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 21:34:38,577 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:34:38] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 21:34:38,617 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:34:38] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 21:34:49,682 - config - ERROR - Exception at student registration with object of type 'NoneType' has no len()
+2026-02-21 21:34:49,683 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:34:49] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 21:40:00,509 - config - INFO - Application started
+2026-02-21 21:40:00,553 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-02-20 10:15:00,628 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 10:15:00,629 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 10:15:00,768 - config - INFO - Application started
-2026-02-20 10:15:00,779 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 10:15:00,782 - werkzeug - INFO -  * Debugger PIN: 132-421-433
-2026-02-20 10:15:02,820 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 10:15:02] "GET / HTTP/1.1" 200 -
-2026-02-20 10:15:02,854 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 10:15:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-02-20 10:15:08,998 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 10:15:08] "[32mGET /register HTTP/1.1[0m" 308 -
-2026-02-20 10:15:09,000 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 10:15:09] "GET /register/ HTTP/1.1" 200 -
-2026-02-20 10:15:12,849 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 10:15:12] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 10:15:12,860 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 10:15:12] "GET /static/css/form-styles.css HTTP/1.1" 200 -
-2026-02-20 11:06:33,328 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 11:06:33] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 11:06:33,338 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 11:06:33] "GET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-2026-02-20 11:06:33,339 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 11:06:33] "GET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-2026-02-20 11:06:33,382 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 11:06:33] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=lI8oJoTU0oL07gjUss5z HTTP/1.1" 200 -
-2026-02-20 11:06:33,393 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 11:06:33] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-2026-02-20 11:06:56,827 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/run.py', reloading
-2026-02-20 11:06:56,858 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 11:06:56,984 - config - INFO - Application started
-2026-02-20 11:06:56,996 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 11:06:56,998 - werkzeug - INFO -  * Debugger PIN: 132-421-433
-2026-02-20 15:03:50,760 - config - INFO - Application started
-2026-02-20 15:04:16,208 - config - INFO - Application started
-2026-02-20 15:04:47,014 - config - INFO - Application started
-2026-02-20 15:04:47,029 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-02-21 21:40:00,553 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 21:40:00,554 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 21:40:00,738 - config - INFO - Application started
+2026-02-21 21:40:00,779 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 21:40:00,781 - werkzeug - INFO -  * Debugger PIN: 616-395-324
+2026-02-21 21:40:03,618 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:40:03] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 21:40:03,671 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:40:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 21:40:19,490 - config - ERROR - Exception at student registration with object of type 'NoneType' has no len()
+2026-02-21 21:40:19,491 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:40:19] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 21:41:15,227 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-21 21:41:15,307 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 21:41:15,529 - config - INFO - Application started
+2026-02-21 21:41:15,571 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 21:41:15,574 - werkzeug - INFO -  * Debugger PIN: 616-395-324
+2026-02-21 21:41:19,868 - config - INFO - Application started
+2026-02-21 21:41:19,911 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-02-20 15:04:47,029 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:04:47,029 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:04:47,161 - config - INFO - Application started
-2026-02-20 15:04:47,172 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:04:47,174 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:04:59,006 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:04:59] "GET /register/ HTTP/1.1" 200 -
-2026-02-20 15:04:59,038 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:04:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-02-20 15:05:06,651 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:05:06] "[33mGET /student HTTP/1.1[0m" 404 -
-2026-02-20 15:05:13,574 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:05:13] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:05:13,585 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:05:13] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:05:27,449 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:05:27] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 15:05:27,456 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:05:27] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-20 15:05:27,457 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:05:27] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-20 15:05:27,508 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:05:27] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=Ouusf2rWZz1ABh5hs0Cd HTTP/1.1" 200 -
-2026-02-20 15:05:27,519 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:05:27] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2026-02-20 15:11:04,564 - config - INFO - Application started
-2026-02-20 15:11:04,579 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-02-21 21:41:19,911 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 21:41:19,912 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 21:41:20,136 - config - INFO - Application started
+2026-02-21 21:41:20,177 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 21:41:20,180 - werkzeug - INFO -  * Debugger PIN: 616-395-324
+2026-02-21 21:41:23,025 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:41:23] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 21:41:23,076 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:41:23] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 21:41:36,193 - config - ERROR - Exception at student registration with object of type 'NoneType' has no len()
+2026-02-21 21:41:36,193 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:41:36] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 21:43:35,073 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-21 21:43:35,174 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 21:43:35,390 - config - INFO - Application started
+2026-02-21 21:43:35,434 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 21:43:35,436 - werkzeug - INFO -  * Debugger PIN: 616-395-324
+2026-02-21 21:43:41,342 - config - INFO - Application started
+2026-02-21 21:43:41,384 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-02-20 15:11:04,579 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:11:04,580 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:11:04,715 - config - INFO - Application started
-2026-02-20 15:11:04,727 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:11:04,730 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:11:08,501 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:08] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 15:11:08,521 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:08] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-20 15:11:08,521 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:08] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-20 15:11:08,533 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:08] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=bENqRS81oyiWOlRW0Ne7 HTTP/1.1" 200 -
-2026-02-20 15:11:08,543 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:08] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2026-02-20 15:11:11,766 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:11] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:11:11,775 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:11] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:11:26,712 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:26] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 15:11:26,720 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:26] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-20 15:11:26,721 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:26] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-20 15:11:26,729 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:26] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=bENqRS81oyiWOlRW0Ne7 HTTP/1.1[0m" 304 -
-2026-02-20 15:11:26,737 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:11:26] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2026-02-20 15:12:17,845 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/repo.py', reloading
-2026-02-20 15:12:17,876 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:12:18,000 - config - INFO - Application started
-2026-02-20 15:12:18,011 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:12:18,013 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:12:35,046 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/repo.py', reloading
-2026-02-20 15:12:35,080 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:12:35,215 - config - INFO - Application started
-2026-02-20 15:12:35,228 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:12:35,231 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:12:40,244 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/repo.py', reloading
-2026-02-20 15:12:40,273 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:12:40,402 - config - INFO - Application started
-2026-02-20 15:12:40,413 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:12:40,416 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:12:44,698 - config - INFO - Application started
-2026-02-20 15:12:44,712 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-02-21 21:43:41,385 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 21:43:41,386 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 21:43:41,565 - config - INFO - Application started
+2026-02-21 21:43:41,606 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 21:43:41,609 - werkzeug - INFO -  * Debugger PIN: 616-395-324
+2026-02-21 21:43:44,648 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:43:44] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 21:43:44,685 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:43:44] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 21:43:54,197 - config - ERROR - Exception at student registration with object of type 'NoneType' has no len()
+2026-02-21 21:43:54,198 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:43:54] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 21:44:31,924 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-21 21:44:32,042 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 21:44:32,319 - config - INFO - Application started
+2026-02-21 21:44:32,364 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 21:44:32,367 - werkzeug - INFO -  * Debugger PIN: 616-395-324
+2026-02-21 21:44:43,685 - config - INFO - Application started
+2026-02-21 21:44:43,727 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-02-20 15:12:44,712 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:12:44,713 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:12:44,847 - config - INFO - Application started
-2026-02-20 15:12:44,859 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:12:44,885 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:12:48,121 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:12:48] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 15:12:48,138 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:12:48] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-20 15:12:48,143 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:12:48] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-20 15:12:48,149 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:12:48] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=CTy0ERufwGOWAdxLAy44 HTTP/1.1" 200 -
-2026-02-20 15:12:48,161 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:12:48] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2026-02-20 15:12:51,679 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:12:51] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:12:51,689 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:12:51] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:13:03,490 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:13:03] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 15:13:03,500 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:13:03] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-20 15:13:03,501 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:13:03] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-20 15:13:03,508 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:13:03] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=CTy0ERufwGOWAdxLAy44 HTTP/1.1[0m" 304 -
-2026-02-20 15:13:03,515 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:13:03] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2026-02-20 15:13:17,937 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/repo.py', reloading
-2026-02-20 15:13:17,971 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:13:18,097 - config - INFO - Application started
-2026-02-20 15:13:18,110 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:13:18,113 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:13:38,148 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/repo.py', reloading
-2026-02-20 15:13:38,177 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:13:38,301 - config - INFO - Application started
-2026-02-20 15:13:38,313 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:13:38,315 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:14:00,803 - config - INFO - Application started
-2026-02-20 15:14:00,817 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:14:00,817 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:14:00,817 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:14:00,952 - config - INFO - Application started
-2026-02-20 15:14:00,964 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:14:00,967 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:14:04,551 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:04] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 15:14:04,568 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:04] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-20 15:14:04,572 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:04] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-20 15:14:04,583 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:04] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=D3J3S8asNY1Fe32pXG3J HTTP/1.1" 200 -
-2026-02-20 15:14:04,593 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:04] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2026-02-20 15:14:07,075 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:07] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:14:07,084 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:07] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:14:21,274 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:21] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 15:14:21,285 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:21] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-20 15:14:21,286 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:21] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-20 15:14:21,297 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:21] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=D3J3S8asNY1Fe32pXG3J HTTP/1.1[0m" 304 -
-2026-02-20 15:14:21,303 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:14:21] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2026-02-20 15:15:27,520 - config - INFO - Application started
-2026-02-20 15:15:27,534 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:15:27,534 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:15:27,535 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:15:27,674 - config - INFO - Application started
-2026-02-20 15:15:27,686 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:15:27,689 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:15:32,644 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:15:32] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:15:32,658 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:15:32] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:15:43,347 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:15:43] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:15:52,753 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:15:52] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:15:52,763 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:15:52] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:16:03,344 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:16:03] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:17:58,924 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-20 15:17:58,957 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:17:59,093 - config - INFO - Application started
-2026-02-20 15:17:59,106 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:17:59,108 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:20:04,303 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-20 15:20:04,331 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:20:04,453 - config - INFO - Application started
-2026-02-20 15:20:04,463 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:20:04,465 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:20:13,486 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-20 15:20:13,517 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:20:13,653 - config - INFO - Application started
-2026-02-20 15:20:13,665 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:20:13,668 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:23:32,971 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:23:33,003 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:23:33,128 - config - INFO - Application started
-2026-02-20 15:23:33,140 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:23:33,142 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:23:38,950 - config - INFO - Application started
-2026-02-20 15:23:38,965 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:23:38,965 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:23:38,966 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:23:39,102 - config - INFO - Application started
-2026-02-20 15:23:39,113 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:23:39,116 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:23:47,814 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:23:47] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:23:47,826 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:23:47] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:23:58,490 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:23:58] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:24:02,341 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:24:02] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:24:02,352 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:24:02] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:24:15,864 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:24:15] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 15:24:15,874 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:24:15] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-20 15:24:15,875 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:24:15] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-20 15:24:15,885 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:24:15] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=Z5KY8ezYJuonrdppQeOv HTTP/1.1" 200 -
-2026-02-20 15:24:15,893 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:24:15] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2026-02-20 15:25:05,244 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/GenericModel.py', reloading
-2026-02-20 15:25:05,276 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:25:05,413 - config - INFO - Application started
-2026-02-20 15:25:05,424 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:25:05,427 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:25:09,439 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/Executor.py', reloading
-2026-02-20 15:25:09,471 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:25:09,607 - config - INFO - Application started
-2026-02-20 15:25:09,619 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:25:09,622 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:25:18,643 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:25:18,674 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:25:18,808 - config - INFO - Application started
-2026-02-20 15:25:18,820 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:25:18,823 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:25:21,833 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/repo.py', reloading
-2026-02-20 15:25:21,863 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:25:21,990 - config - INFO - Application started
-2026-02-20 15:25:22,002 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:25:22,005 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:25:26,018 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/GenericModel.py', reloading
-2026-02-20 15:25:26,048 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:25:26,172 - config - INFO - Application started
-2026-02-20 15:25:26,184 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:25:26,187 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:25:47,210 - config - INFO - Application started
-2026-02-20 15:25:47,225 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:25:47,225 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:25:47,225 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:25:47,359 - config - INFO - Application started
-2026-02-20 15:25:47,372 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:25:47,374 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:25:52,519 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:25:52] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:25:52,532 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:25:52] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:26:09,283 - config - INFO - Exception Occured with {e}
-2026-02-20 15:26:09,285 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:26:09] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:26:52,477 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:26:52,512 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:26:52,651 - config - INFO - Application started
-2026-02-20 15:26:52,659 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:26:52,661 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:28:28,937 - config - INFO - Application started
-2026-02-20 15:28:28,995 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:28:28,995 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:28:28,997 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:28:29,469 - config - INFO - Application started
-2026-02-20 15:28:29,486 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:28:29,489 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:28:40,819 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:28:40] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:28:40,847 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:28:40] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:28:56,889 - config - INFO - Exception Occured with {e}
-2026-02-20 15:28:56,891 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:28:56] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:30:20,519 - config - INFO - Application started
-2026-02-20 15:30:20,575 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:30:20,576 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:30:20,578 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:30:20,970 - config - INFO - Application started
-2026-02-20 15:30:21,004 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:30:21,011 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:30:25,504 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:30:25] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:30:25,530 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:30:25] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:30:37,357 - config - INFO - Exception Occured with module 'sqlite3' has no attribute 'connection'
-2026-02-20 15:30:37,358 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:30:37] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:31:38,082 - config - INFO - Application started
-2026-02-20 15:31:38,130 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:31:38,131 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:31:38,133 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:31:38,593 - config - INFO - Application started
-2026-02-20 15:31:38,637 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:31:38,644 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:31:42,842 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:31:42] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:31:42,870 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:31:42] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:31:54,250 - config - ERROR - Exception Occured Raising Error : near ",": syntax error
-2026-02-20 15:31:54,250 - config - INFO - Exception Occured with name 'Excpetion' is not defined
-2026-02-20 15:31:54,253 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:31:54] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:32:56,896 - config - INFO - Application started
-2026-02-20 15:32:56,941 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:32:56,941 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:32:56,943 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:32:57,402 - config - INFO - Application started
-2026-02-20 15:32:57,428 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:32:57,432 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:33:00,127 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:33:00] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:33:00,153 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:33:00] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:33:08,508 - config - ERROR - Exception Occured Raising Error : near ",": syntax error
-2026-02-20 15:33:08,509 - config - INFO - Exception Occured with name 'Excepetion' is not defined
-2026-02-20 15:33:08,511 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:33:08] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:33:56,009 - config - INFO - Application started
-2026-02-20 15:33:56,063 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:33:56,064 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:33:56,065 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:33:56,529 - config - INFO - Application started
-2026-02-20 15:33:56,566 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:33:56,571 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:33:59,469 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:33:59] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:33:59,494 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:33:59] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:34:13,696 - config - ERROR - Exception Occured Raising Error : near ",": syntax error
-2026-02-20 15:34:13,698 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:34:13] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:35:53,202 - config - INFO - Application started
-2026-02-20 15:35:53,253 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:35:53,254 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:35:53,255 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:35:53,733 - config - INFO - Application started
-2026-02-20 15:35:53,781 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:35:53,789 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:36:00,084 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:36:00] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:36:00,111 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:36:00] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:36:13,345 - config - ERROR - Exception Occured Raising Error : near ",": syntax error
-2026-02-20 15:36:13,348 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:36:13] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:37:05,177 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/GenericModel.py', reloading
-2026-02-20 15:37:05,270 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:37:05,712 - config - INFO - Application started
-2026-02-20 15:37:05,757 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:37:05,765 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:37:22,338 - config - INFO - Application started
-2026-02-20 15:37:53,080 - config - INFO - Application started
-2026-02-20 15:38:12,123 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/repo.py', reloading
-2026-02-20 15:38:12,259 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:38:12,797 - config - INFO - Application started
-2026-02-20 15:38:12,847 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:38:12,854 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:38:14,886 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:38:15,029 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:38:15,561 - config - INFO - Application started
-2026-02-20 15:38:15,608 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:38:15,616 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:38:18,654 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-20 15:38:18,794 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:38:19,357 - config - INFO - Application started
-2026-02-20 15:38:19,403 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:38:19,411 - werkzeug - INFO -  * Debugger PIN: 143-063-356
-2026-02-20 15:38:29,202 - config - INFO - Application started
-2026-02-20 15:38:29,223 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:38:29,223 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:38:29,224 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:38:29,386 - config - INFO - Application started
-2026-02-20 15:38:29,400 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:38:29,403 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:38:37,649 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:38:37] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:38:37,679 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:38:37] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:38:53,536 - config - ERROR - Exception Occured Raising Error : near ",": syntax error
-2026-02-20 15:38:53,537 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:38:53] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:40:32,016 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/QueryBuilder.py', reloading
-2026-02-20 15:40:32,202 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:40:32,719 - config - INFO - Application started
-2026-02-20 15:40:32,744 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:40:32,748 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:40:38,036 - config - INFO - Application started
-2026-02-20 15:40:38,058 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:40:38,058 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:40:38,059 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:40:38,232 - config - INFO - Application started
-2026-02-20 15:40:38,246 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:40:38,249 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:40:42,675 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:40:42] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:40:42,705 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:40:42] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:40:55,852 - config - ERROR - Exception Occured Raising Error : near ",": syntax error
-2026-02-20 15:40:55,855 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:40:55] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:42:20,744 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/QueryBuilder.py', reloading
-2026-02-20 15:42:20,790 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:42:20,968 - config - INFO - Application started
-2026-02-20 15:42:20,982 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:42:20,985 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:42:26,950 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:42:26] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:42:26,983 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:42:26] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:42:35,479 - config - ERROR - Exception Occured Raising Error : near ",": syntax error
-2026-02-20 15:42:35,481 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:42:35] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:43:19,277 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:43:19,429 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:43:19,948 - config - INFO - Application started
-2026-02-20 15:43:19,994 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:43:20,001 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:43:25,829 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:43:25] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:43:25,855 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:43:25] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:43:35,302 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:43:35] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 15:43:35,320 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:43:35] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-20 15:43:35,323 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:43:35] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-20 15:43:35,359 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:43:35] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=mZhjDyHLOxwnTLO1ZA0k HTTP/1.1" 200 -
-2026-02-20 15:43:35,377 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:43:35] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2026-02-20 15:43:53,176 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:43:53,230 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:43:53,425 - config - INFO - Application started
-2026-02-20 15:43:53,440 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:43:53,443 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:43:56,620 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:43:56] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:43:56,641 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:43:56] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:44:05,714 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:44:05] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-20 15:44:05,733 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:44:05] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-20 15:44:05,736 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:44:05] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-20 15:44:05,756 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:44:05] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=UVu3GBBQj2KGWldJwV64 HTTP/1.1" 200 -
-2026-02-20 15:44:05,769 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:44:05] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2026-02-20 15:44:43,683 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:44:43,737 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:44:43,952 - config - INFO - Application started
-2026-02-20 15:44:43,966 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:44:43,969 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:44:47,757 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:44:47] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:44:47,784 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:44:47] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:45:00,443 - config - ERROR - Exception Occured Raising Error : near ",": syntax error
-2026-02-20 15:45:00,445 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:45:00] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:46:17,416 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/QueryBuilder.py', reloading
-2026-02-20 15:46:17,564 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:46:17,821 - config - INFO - Application started
-2026-02-20 15:46:17,838 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:46:17,841 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:46:22,519 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:46:22] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:46:22,546 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:46:22] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:46:39,190 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:46:39] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:46:42,909 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:46:42] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:46:42,928 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:46:42] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:46:58,368 - config - ERROR - Exception Occured Raising Error : near ",": syntax error
-2026-02-20 15:46:58,369 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:46:58] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:47:56,300 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/QueryBuilder.py', reloading
-2026-02-20 15:47:56,389 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:47:56,580 - config - INFO - Application started
-2026-02-20 15:47:56,595 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:47:56,598 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:48:01,535 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:48:01] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:48:01,561 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:48:01] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:48:13,441 - config - ERROR - Exception Occured Raising Error : near ",": syntax error
-2026-02-20 15:48:13,443 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:48:13] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:48:48,835 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-20 15:48:48,990 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:48:49,528 - config - INFO - Application started
-2026-02-20 15:48:49,574 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:48:49,581 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:49:11,713 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/QueryBuilder.py', reloading
-2026-02-20 15:49:11,833 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:49:12,077 - config - INFO - Application started
-2026-02-20 15:49:12,096 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:49:12,099 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:49:17,593 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:49:17] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:49:17,622 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:49:17] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:49:32,712 - config - ERROR - Exception Occured Raising Error : near "['name', 'email', 'password_hash', 'role']": syntax error
-2026-02-20 15:49:32,714 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:49:32] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:50:09,369 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:50:09,415 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:50:09,633 - config - INFO - Application started
-2026-02-20 15:50:09,654 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:50:09,657 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:50:14,649 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:50:14] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:50:14,675 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:50:14] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:50:22,358 - config - ERROR - Exception Occured Raising Error : near "['name', 'email', 'password_hash', 'role']": syntax error
-2026-02-20 15:50:22,361 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:50:22] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:50:44,834 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:50:44,965 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:50:45,516 - config - INFO - Application started
-2026-02-20 15:50:45,565 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:50:45,572 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:50:59,656 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:50:59,706 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:50:59,906 - config - INFO - Application started
-2026-02-20 15:50:59,921 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:50:59,923 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:51:03,362 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:51:03] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:51:03,390 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:51:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:51:27,117 - config - ERROR - Exception Occured Raising Error : near "['name', 'email', 'password_hash', 'role']": syntax error
-2026-02-20 15:51:27,118 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:51:27] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:52:25,330 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-20 15:52:25,484 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:52:26,015 - config - INFO - Application started
-2026-02-20 15:52:26,062 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:52:26,069 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:52:43,165 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/Executor.py', reloading
-2026-02-20 15:52:43,283 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:52:43,811 - config - INFO - Application started
-2026-02-20 15:52:43,857 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:52:43,864 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:52:49,357 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:52:49] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:52:49,386 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:52:49] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:53:01,169 - config - ERROR - Exception Occured Raising Error : near "['name', 'email', 'password_hash', 'role']": syntax error
-2026-02-20 15:53:01,172 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:53:01] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:53:58,227 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-20 15:53:58,373 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:53:58,904 - config - INFO - Application started
-2026-02-20 15:53:58,951 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:53:58,958 - werkzeug - INFO -  * Debugger PIN: 109-213-383
-2026-02-20 15:54:04,756 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:54:04] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:54:04,786 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:54:04] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:54:14,021 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:54:14] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:55:32,094 - config - INFO - Application started
-2026-02-20 15:55:32,115 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:55:32,115 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:55:32,116 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:55:32,290 - config - INFO - Application started
-2026-02-20 15:55:32,304 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:55:32,307 - werkzeug - INFO -  * Debugger PIN: 429-738-024
-2026-02-20 15:55:34,836 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:55:34] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:55:34,861 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:55:34] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:55:44,158 - config - ERROR - Exception Occured Raising Error : UNIQUE constraint failed: user.email
-2026-02-20 15:55:44,160 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:55:44] "POST /register/student HTTP/1.1" 200 -
-2026-02-20 15:56:06,435 - config - INFO - Application started
-2026-02-20 15:56:06,456 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-20 15:56:06,456 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-20 15:56:06,457 - werkzeug - INFO -  * Restarting with stat
-2026-02-20 15:56:06,632 - config - INFO - Application started
-2026-02-20 15:56:06,646 - werkzeug - WARNING -  * Debugger is active!
-2026-02-20 15:56:06,649 - werkzeug - INFO -  * Debugger PIN: 429-738-024
-2026-02-20 15:56:16,450 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:56:16] "GET /register/student HTTP/1.1" 200 -
-2026-02-20 15:56:16,473 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:56:16] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-20 15:56:28,628 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:56:28] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 15:44:21,585 - config - INFO - Application started
-2026-02-21 15:44:21,605 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-21 15:44:21,605 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-21 15:44:21,605 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 15:44:21,742 - config - INFO - Application started
-2026-02-21 15:44:21,754 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 15:44:21,764 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 15:45:10,559 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:10] "GET / HTTP/1.1" 200 -
-2026-02-21 15:45:31,821 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:31] "[32mGET /register HTTP/1.1[0m" 308 -
-2026-02-21 15:45:31,835 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:31] "GET /register/ HTTP/1.1" 200 -
-2026-02-21 15:45:36,298 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:36] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 15:45:36,337 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:36] "GET /static/css/form-styles.css HTTP/1.1" 200 -
-2026-02-21 15:45:58,323 - config - ERROR - Exception Occured Raising Error : UNIQUE constraint failed: user.email
-2026-02-21 15:45:58,324 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:58] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 15:46:22,214 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:46:22] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 15:46:22,245 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:46:22] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 15:46:43,054 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:46:43] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 17:17:53,479 - config - INFO - Application started
-2026-02-21 17:17:53,488 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-21 17:17:53,488 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-21 17:17:53,489 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:17:53,581 - config - INFO - Application started
-2026-02-21 17:17:53,589 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:17:53,591 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:18:13,974 - config - ERROR - Exception Occured with Registration : name 'columns' is not defined
-2026-02-21 17:18:13,974 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:18:13] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 17:18:20,447 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:18:20] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:18:20,481 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:18:20] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:18:36,768 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-21 17:18:36,803 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:18:36,894 - config - INFO - Application started
-2026-02-21 17:18:36,902 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:18:36,904 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:18:43,318 - config - INFO - Application started
-2026-02-21 17:18:43,328 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-21 17:18:43,328 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-21 17:18:43,328 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:18:43,417 - config - INFO - Application started
-2026-02-21 17:18:43,426 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:18:43,427 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:18:45,356 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:18:45] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:18:45,384 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:18:45] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:19:04,979 - config - ERROR - Exception Occured with Registration : 'User' object has no attribute 'columns'
-2026-02-21 17:19:04,979 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:04] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 17:19:14,561 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-21 17:19:14,588 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:19:14,678 - config - INFO - Application started
-2026-02-21 17:19:14,686 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:19:14,688 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:19:29,767 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-21 17:19:29,801 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:19:29,895 - config - INFO - Application started
-2026-02-21 17:19:29,904 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:19:29,906 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:19:34,159 - config - INFO - Application started
-2026-02-21 17:19:34,169 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-21 17:19:34,169 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-21 17:19:34,169 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:19:34,260 - config - INFO - Application started
-2026-02-21 17:19:34,268 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:19:34,270 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:19:37,007 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:37] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-21 17:19:37,042 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:37] "GET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-2026-02-21 17:19:37,045 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:37] "GET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-2026-02-21 17:19:37,055 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:37] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-2026-02-21 17:19:37,067 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:37] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=QyO3IWONeAdy104jBnIf HTTP/1.1" 200 -
-2026-02-21 17:19:45,315 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-21 17:19:45,344 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:19:45,437 - config - INFO - Application started
-2026-02-21 17:19:45,445 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:19:45,447 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:19:52,281 - config - INFO - Application started
-2026-02-21 17:19:52,291 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-21 17:19:52,291 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-21 17:19:52,291 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:19:52,382 - config - INFO - Application started
-2026-02-21 17:19:52,390 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:19:52,392 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:19:55,625 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:55] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:19:55,657 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:55] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:20:05,886 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:05] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
-2026-02-21 17:20:05,923 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:05] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-02-21 17:20:05,924 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:05] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-02-21 17:20:05,942 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:05] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=6vxLbaPhotnGTl0x5pLa HTTP/1.1" 200 -
-2026-02-21 17:20:23,521 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-21 17:20:23,550 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:20:23,641 - config - INFO - Application started
-2026-02-21 17:20:23,649 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:20:23,651 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:20:26,892 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:26] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:20:26,921 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:26] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:20:37,517 - config - ERROR - Exception Occured Raising Error : Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
-2026-02-21 17:20:37,517 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:37] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 17:20:41,779 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:41] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:20:41,804 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:41] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:21:05,459 - config - ERROR - Exception Occured with Registration : User Already Exists
-2026-02-21 17:21:05,459 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:05] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 17:21:50,690 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:50] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:21:50,720 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:50] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:21:53,712 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:21:53,737 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:21:53,927 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:21:53,951 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:25:53,938 - config - INFO - Application started
-2026-02-21 17:25:53,960 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-21 17:25:53,960 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-21 17:25:53,960 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:25:54,055 - config - INFO - Application started
-2026-02-21 17:25:54,075 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:25:54,077 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:25:58,935 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:25:58] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:25:58,971 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:25:58] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:26:12,840 - config - ERROR - Exception Occured with Registration : 'tuple' object does not support item assignment
-2026-02-21 17:26:12,841 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:26:12] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 17:27:07,466 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-21 17:27:07,499 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:27:07,590 - config - INFO - Application started
-2026-02-21 17:27:07,610 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:27:07,612 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:27:13,442 - config - ERROR - Exception Occured with Registration : 'tuple' object does not support item assignment
-2026-02-21 17:27:13,442 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:13] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 17:27:15,826 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:15] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:27:15,852 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:15] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:27:26,430 - config - ERROR - Exception Occured with Registration : 'tuple' object does not support item assignment
-2026-02-21 17:27:26,431 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:26] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 17:27:35,756 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
-2026-02-21 17:27:35,785 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:27:35,881 - config - INFO - Application started
-2026-02-21 17:27:35,901 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:27:35,903 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:27:37,917 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
-2026-02-21 17:27:37,947 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:27:38,043 - config - INFO - Application started
-2026-02-21 17:27:38,063 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:27:38,065 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:27:44,429 - config - INFO - Application started
-2026-02-21 17:27:44,451 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-21 17:27:44,451 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-02-21 17:27:44,451 - werkzeug - INFO -  * Restarting with stat
-2026-02-21 17:27:44,539 - config - INFO - Application started
-2026-02-21 17:27:44,559 - werkzeug - WARNING -  * Debugger is active!
-2026-02-21 17:27:44,561 - werkzeug - INFO -  * Debugger PIN: 472-719-186
-2026-02-21 17:27:48,357 - config - ERROR - Exception Occured Raising Error : Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
-2026-02-21 17:27:48,357 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:48] "POST /register/student HTTP/1.1" 200 -
-2026-02-21 17:27:51,141 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:51] "GET /register/student HTTP/1.1" 200 -
-2026-02-21 17:27:51,171 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:27:51] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-02-21 17:28:00,912 - config - ERROR - Exception Occured Raising Error : Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
-2026-02-21 17:28:00,912 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:28:00] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 21:44:43,727 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 21:44:43,728 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 21:44:43,900 - config - INFO - Application started
+2026-02-21 21:44:43,936 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 21:44:43,939 - werkzeug - INFO -  * Debugger PIN: 616-395-324
+2026-02-21 21:44:46,951 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:44:46] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 21:44:46,993 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:44:46] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 21:44:57,689 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:44:57] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 21:45:13,102 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-21 21:45:13,180 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 21:45:13,404 - config - INFO - Application started
+2026-02-21 21:45:13,445 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 21:45:13,448 - werkzeug - INFO -  * Debugger PIN: 616-395-324
+2026-02-21 21:45:24,135 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:45:24] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 21:45:24,184 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:45:24] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 21:45:35,834 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:45:35] "POST /register/student HTTP/1.1" 200 -

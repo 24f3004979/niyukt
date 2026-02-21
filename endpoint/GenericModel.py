@@ -7,6 +7,7 @@ import time
 from endpoint.Executor import *
 from config import *
 
+
 class GenericModel:
     """
     executor_queue, table_name
@@ -21,9 +22,18 @@ class GenericModel:
         '''
         query = self.qb.insertion()
         try:
-            print(f"Geneic model for executor : {query} and {values}")
             executor(query, values)
-            return 1
+            return True
         except Exception as e:
-            log.info(f"Exception Occured with {e}")
-            return 0 
+            log.error(f"Error : {e}")
+            raise Exception(f'Error Occured with : {e}') from e
+        
+
+    def edit(self, edit_information, anchor_information):
+        '''
+        Anchor information : [(id,1222)] / Having multiple anchors
+        edit_information ; which_colum = what value ?
+        '''
+        pass # To build next
+
+

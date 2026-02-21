@@ -25,6 +25,7 @@ def executor(query, data):
 
         # Making Executions
         try:
+            print(f"Executing Query : {query} with data : {data}")
             cursor.execute(query, data)
             connection.commit()  # Making Final Commit
         except Exception as e:

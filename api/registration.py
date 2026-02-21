@@ -1,5 +1,5 @@
 from flask import Blueprint, request, render_template
-from model.user import *
+from model.student import *
 from auth.login import *
 
 
@@ -22,17 +22,13 @@ def student_register():
         email = data.get("email")
         selection = data.get("branch-selection")
         resume = data.get("resume")
-        
+      
         # Data preprocessing - Resume compression required here for uploads
 
         information = (name, password, email, selection, resume)
-
-        # USER registration
-        user = User()
+        student = Student()
         try:
-            user.register(information)
-            return "Your Registration is Completed, happy loging in:)"
+            student.activate(information)
+            return "Welcome to niyukt login now :)"
         except Exception as e:
-            log.error(f"Exception Occured with Registration : {e}")
-            return f"Registration failed with {e}"
-
+            return f"Failing With {e}"
