@@ -518,3 +518,111 @@
 2026-02-20 15:56:16,450 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:56:16] "GET /register/student HTTP/1.1" 200 -
 2026-02-20 15:56:16,473 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:56:16] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
 2026-02-20 15:56:28,628 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2026 15:56:28] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 15:44:21,585 - config - INFO - Application started
+2026-02-21 15:44:21,605 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 15:44:21,605 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 15:44:21,605 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 15:44:21,742 - config - INFO - Application started
+2026-02-21 15:44:21,754 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 15:44:21,764 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 15:45:10,559 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:10] "GET / HTTP/1.1" 200 -
+2026-02-21 15:45:31,821 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:31] "[32mGET /register HTTP/1.1[0m" 308 -
+2026-02-21 15:45:31,835 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:31] "GET /register/ HTTP/1.1" 200 -
+2026-02-21 15:45:36,298 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:36] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 15:45:36,337 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:36] "GET /static/css/form-styles.css HTTP/1.1" 200 -
+2026-02-21 15:45:58,323 - config - ERROR - Exception Occured Raising Error : UNIQUE constraint failed: user.email
+2026-02-21 15:45:58,324 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:45:58] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 15:46:22,214 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:46:22] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 15:46:22,245 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:46:22] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 15:46:43,054 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 15:46:43] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 17:17:53,479 - config - INFO - Application started
+2026-02-21 17:17:53,488 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 17:17:53,488 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 17:17:53,489 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:17:53,581 - config - INFO - Application started
+2026-02-21 17:17:53,589 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:17:53,591 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:18:13,974 - config - ERROR - Exception Occured with Registration : name 'columns' is not defined
+2026-02-21 17:18:13,974 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:18:13] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 17:18:20,447 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:18:20] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:18:20,481 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:18:20] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:18:36,768 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-21 17:18:36,803 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:18:36,894 - config - INFO - Application started
+2026-02-21 17:18:36,902 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:18:36,904 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:18:43,318 - config - INFO - Application started
+2026-02-21 17:18:43,328 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 17:18:43,328 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 17:18:43,328 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:18:43,417 - config - INFO - Application started
+2026-02-21 17:18:43,426 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:18:43,427 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:18:45,356 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:18:45] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:18:45,384 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:18:45] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:19:04,979 - config - ERROR - Exception Occured with Registration : 'User' object has no attribute 'columns'
+2026-02-21 17:19:04,979 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:04] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 17:19:14,561 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-21 17:19:14,588 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:19:14,678 - config - INFO - Application started
+2026-02-21 17:19:14,686 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:19:14,688 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:19:29,767 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-21 17:19:29,801 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:19:29,895 - config - INFO - Application started
+2026-02-21 17:19:29,904 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:19:29,906 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:19:34,159 - config - INFO - Application started
+2026-02-21 17:19:34,169 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 17:19:34,169 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 17:19:34,169 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:19:34,260 - config - INFO - Application started
+2026-02-21 17:19:34,268 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:19:34,270 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:19:37,007 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:37] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
+2026-02-21 17:19:37,042 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:37] "GET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-21 17:19:37,045 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:37] "GET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-21 17:19:37,055 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:37] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-21 17:19:37,067 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:37] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=QyO3IWONeAdy104jBnIf HTTP/1.1" 200 -
+2026-02-21 17:19:45,315 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-21 17:19:45,344 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:19:45,437 - config - INFO - Application started
+2026-02-21 17:19:45,445 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:19:45,447 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:19:52,281 - config - INFO - Application started
+2026-02-21 17:19:52,291 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-21 17:19:52,291 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-21 17:19:52,291 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:19:52,382 - config - INFO - Application started
+2026-02-21 17:19:52,390 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:19:52,392 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:19:55,625 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:55] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:19:55,657 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:19:55] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:20:05,886 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:05] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
+2026-02-21 17:20:05,923 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:05] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-21 17:20:05,924 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:05] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-21 17:20:05,942 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:05] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=6vxLbaPhotnGTl0x5pLa HTTP/1.1" 200 -
+2026-02-21 17:20:23,521 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-21 17:20:23,550 - werkzeug - INFO -  * Restarting with stat
+2026-02-21 17:20:23,641 - config - INFO - Application started
+2026-02-21 17:20:23,649 - werkzeug - WARNING -  * Debugger is active!
+2026-02-21 17:20:23,651 - werkzeug - INFO -  * Debugger PIN: 472-719-186
+2026-02-21 17:20:26,892 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:26] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:20:26,921 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:26] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:20:37,517 - config - ERROR - Exception Occured Raising Error : Incorrect number of bindings supplied. The current statement uses 4, and there are 5 supplied.
+2026-02-21 17:20:37,517 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:37] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 17:20:41,779 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:41] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:20:41,804 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:20:41] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:21:05,459 - config - ERROR - Exception Occured with Registration : User Already Exists
+2026-02-21 17:21:05,459 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:05] "POST /register/student HTTP/1.1" 200 -
+2026-02-21 17:21:50,690 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:50] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:21:50,720 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:50] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:21:53,712 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:21:53,737 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-21 17:21:53,927 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "GET /register/student HTTP/1.1" 200 -
+2026-02-21 17:21:53,951 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 17:21:53] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -

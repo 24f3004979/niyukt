@@ -13,31 +13,25 @@ def login_page():
 def student_register():
     if request.method == 'GET':
         return render_template("register_student.html")
+
     elif request.method == 'POST':
         data = request.form
-        user_name = data.get("name")
+        name = data.get("name")
         password = data.get("password")
         email = data.get("email")
         selection = data.get("branch-selection")
         resume = data.get("resume")
-
-        # Check Existence
-        if exists(user_name):
-            return "User exists"
-        else:
-            print(f"User not FOund with name : {user_name}")
-
-            user = User()
-            values = tuple([user_name, email, password, "student"])
-            print(f"Values for the DB insert functions : values")
-            user.db.insert(values)
-
-            # Checking Creation
-            creation_request = exists(user_name)
-            if creation_request:
-                return "You are Registered"
-            else:
-                print(f"creation Request {creation_request}")
-                return "Something went wrong"
-            
         
+        # Data preprocessing
+
+        information = (name, password, email, selection, resume)
+
+        # USER registration
+        user = User()
+        try:
+            user.register(information)
+            return "Your Registration is Completed, happy loging in:)"
+        except Exception as e:
+            log.error(f"Exception Occured with Registration : {e}")
+            return f"Registration failed with {e}"
+
