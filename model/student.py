@@ -23,7 +23,7 @@ class Student(User):
 
         try:
             print(f"USER INFORMATION : {user_information}")
-            self.register(user_information)
+            self.register(user_information) # Raising Core error
             print(f"User information sent form student completed :)")
         except Exception as e:
             log.error(f"Exception at student registration with {e}")

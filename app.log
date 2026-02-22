@@ -86,3 +86,15 @@
 2026-02-21 21:45:24,135 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:45:24] "GET /register/student HTTP/1.1" 200 -
 2026-02-21 21:45:24,184 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:45:24] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
 2026-02-21 21:45:35,834 - werkzeug - INFO - 127.0.0.1 - - [21/Feb/2026 21:45:35] "POST /register/student HTTP/1.1" 200 -
+2026-02-22 17:35:48,644 - config - INFO - Application started
+2026-02-22 17:35:48,689 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 17:35:48,689 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-22 17:35:48,689 - werkzeug - INFO -  * Restarting with stat
+2026-02-22 17:35:48,830 - config - INFO - Application started
+2026-02-22 17:35:48,859 - werkzeug - WARNING -  * Debugger is active!
+2026-02-22 17:35:48,869 - werkzeug - INFO -  * Debugger PIN: 320-264-515
+2026-02-22 17:35:59,816 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2026 17:35:59] "GET /register/student HTTP/1.1" 200 -
+2026-02-22 17:35:59,853 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2026 17:35:59] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-22 17:35:59,874 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2026 17:35:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-22 17:36:12,274 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2026 17:36:12] "POST /register/student HTTP/1.1" 200 -
