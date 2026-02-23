@@ -33,6 +33,7 @@ Checks for validity of data flow for final Executions
             cursor = connection.cursor()
             try:
                 cursor.execute(query, data)
+                connection.commit()  # :P
                 log.info(f"Execute of Generic Model Executed with {query} and data {data}")
             except Exception as e:
                 log.error(f"Generic Model failed for query : {query} with data : {data}")
@@ -59,7 +60,7 @@ Checks for validity of data flow for final Executions
             return False
 
         try:
-            data = tuple(values.values()) # dict values
+            data = tuple(values[col] for col in self.columns) # insertion order flexible
             self.execute(insertion_query, data)
             log.info(f"Insert Executed with {insertion_query} with data : {values}")
             return True

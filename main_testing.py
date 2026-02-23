@@ -8,6 +8,5 @@ values = {
         "name" : "Madhavamamama",
         "email" : "mad@vbn",
         "password_hash" : "1212",
-        "role" : "student"
         } 
 user.insert(values)
