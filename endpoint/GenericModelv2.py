@@ -11,10 +11,12 @@ Working and features
 '''
 import sqlite3 as sql
 import os
+from endpoint.QueryBuilder import *
 from config import *
+from endpoint.repo import *
 
 # Loading Path for sql operations
-path = os.getenv("PATH")
+path = '/home/madhav/Projects/niyukt/endpoint/db/niyukt.db'
 
 class GenericModel:
     def __init__(self, table_name, columns):
@@ -25,7 +27,7 @@ class GenericModel:
 
     def execute(self, query, data):
         '''
-        Checks for validity of data flow for final Executions
+Checks for validity of data flow for final Executions
         '''
         with sql.connect(path) as connection:
             cursor = connection.cursor()
@@ -34,7 +36,7 @@ class GenericModel:
                 log.info(f"Execute of Generic Model Executed with {query} and data {data}")
             except Exception as e:
                 log.error(f"Generic Model failed for query : {query} with data : {data}")
-raise Exception("Invalid Query or DB failed for executoin")
+                raise Exception("Invalid Query or DB failed for executoin")
 
     def insert(self, values):
         '''
@@ -57,7 +59,8 @@ raise Exception("Invalid Query or DB failed for executoin")
             return False
 
         try:
-            self.execute(insertion_query, values)
+            data = tuple(values.values()) # dict values
+            self.execute(insertion_query, data)
             log.info(f"Insert Executed with {insertion_query} with data : {values}")
             return True
         except Exception as e:

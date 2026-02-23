@@ -121,3 +121,20 @@
 2026-02-23 17:27:34,451 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 17:27:34] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
 2026-02-23 17:27:34,463 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 17:27:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2026-02-23 17:29:55,506 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 17:29:55] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 18:21:57,639 - config - INFO - Application started
+2026-02-23 18:24:28,535 - config - INFO - Application started
+2026-02-23 18:28:01,611 - config - INFO - Application started
+2026-02-23 18:29:23,131 - config - INFO - Application started
+2026-02-23 18:29:23,152 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 18:29:23,153 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 18:29:23,153 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 18:29:23,241 - config - INFO - Application started
+2026-02-23 18:29:23,261 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 18:29:23,263 - werkzeug - INFO -  * Debugger PIN: 128-582-328
+2026-02-23 18:29:28,861 - config - INFO - Application started
+2026-02-23 18:30:43,871 - config - INFO - Application started
+2026-02-23 18:31:26,593 - config - INFO - Application started
+2026-02-23 18:32:52,816 - config - INFO - Application started
+2026-02-23 18:32:52,817 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('Madhavamamama', 'mad@vbn', '1212', 'student')
+2026-02-23 18:32:52,819 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'Madhavamamama', 'email': 'mad@vbn', 'password_hash': '1212', 'role': 'student'}
