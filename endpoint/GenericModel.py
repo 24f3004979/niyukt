@@ -54,13 +54,9 @@ Checks for validity of data flow for final Executions
 
         insertion_query = self.build_query.insertion()
         # Checking for existence of given information
-        name = values["name"]  # hardcoding for simplicity 
-        if self.repo.exists(name):  # Embeded for names for now
-            log.warning("Terminating insert at Generic Model due to existing data found")
-            return False
-
         try:
             data = tuple(values[col] for col in self.columns) # insertion order flexible
+            log.info(f"Data Before Insertion : {data} with query : {insertion_query}")
             self.execute(insertion_query, data)
             log.info(f"Insert Executed with {insertion_query} with data : {values}")
             return True

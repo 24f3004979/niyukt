@@ -1,12 +1,27 @@
-from endpoint.GenericModelv2 import *
+from model.student import *
 
-columns = "name,email,password_hash,role".split(",")
-columns = tuple(columns)
-user = GenericModel("user", columns)
+# Payload
+name = "Randomrandom123"
+email = "email@random123randomshabd"
+password = "1234"
+selection = "random branch is being selected"
+resume = "Resume for the random student"
 
-values = {
-        "name" : "Madhavamamama",
-        "email" : "mad@vbn",
-        "password_hash" : "1212",
-        } 
-user.insert(values)
+
+
+
+information = {
+                "user":{
+                    "name" : name,
+                    "password_hash" : password,
+                    "email" : email,
+                    "role" : "student"
+                    },
+                "student": {
+                    "branch" : selection,
+                    "resume" : resume
+                    }
+                }
+
+student = Student()
+student.activate(information)

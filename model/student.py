@@ -32,7 +32,7 @@ class Student(User):
             id = self.db.repo.search(anchor_information, "id")
 
             # Student information with id being at last but faith
-            student_information["id"] = id
+            student_information["student_id"] = id
             print(f"student information : {student_information}")
             self.student.insert(student_information) # Making student update
             print(f"Student creation successfull")
