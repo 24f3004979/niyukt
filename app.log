@@ -1,2 +1,348 @@
 2026-02-23 18:35:55,207 - config - INFO - Application started
 2026-02-23 18:35:55,207 - config - WARNING - Terminating Due to Invalid Data type passed for insertion
+2026-02-23 21:24:24,281 - config - INFO - Application started
+2026-02-23 21:24:24,312 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 21:24:24,313 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 21:24:24,313 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:24:24,447 - config - INFO - Application started
+2026-02-23 21:24:24,476 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:24:24,479 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:24:29,946 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:24:29] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:24:29,981 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:24:29] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:25:08,698 - config - ERROR - Exception Occured Raising Error : Binding 1 has no name, but you supplied a dictionary (which has only names).
+2026-02-23 21:25:08,698 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:25:08,698 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:25:08] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:27:07,862 - config - INFO - Application started
+2026-02-23 21:27:07,892 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 21:27:07,892 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 21:27:07,893 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:27:08,030 - config - INFO - Application started
+2026-02-23 21:27:08,060 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:27:08,062 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:27:13,045 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:27:13] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:27:13,067 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:27:13] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:27:23,732 - config - INFO - Loading information for creation : {'user': {'name': 'Indi', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$y1mLcc65974XYuzd21vrfQ$PeeXCebPt2YWv/v0J9f6qAzmYYc4x+AHFs5W+83gW7U', 'email': 'madhavprapanna@gmail.com'}, 'student': {'branch': 'Data Science', 'resume': 'jhjgh'}}
+2026-02-23 21:27:23,733 - config - ERROR - Exception Occured Raising Error : Binding 1 has no name, but you supplied a dictionary (which has only names).
+2026-02-23 21:27:23,733 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:27:23,733 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:27:23] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:30:45,611 - config - INFO - Application started
+2026-02-23 21:30:45,642 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 21:30:45,642 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 21:30:45,642 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:30:45,776 - config - INFO - Application started
+2026-02-23 21:30:45,805 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:30:45,807 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:30:49,207 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:30:49] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:30:49,229 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:30:49] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:31:00,140 - config - INFO - Loading information for creation : {'user': {'name': 'ma', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$FaK0du6dM6Z07j1nbK11Lg$bH0nJPhxLotTAVGeKvWsGGsPFRPZVf/C4o3PgxbLOuw', 'email': 'madhavprapanna@gmail.com'}, 'student': {'branch': 'Data Science', 'resume': '1423432'}}
+2026-02-23 21:31:00,140 - config - ERROR - Exception Occured Raising Error : Binding 1 has no name, but you supplied a dictionary (which has only names).
+2026-02-23 21:31:00,141 - config - ERROR - Exception at Student Creation : name 'db' is not defined
+2026-02-23 21:31:00,141 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:31:00] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:33:04,051 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-23 21:33:04,089 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:33:04,228 - config - INFO - Application started
+2026-02-23 21:33:04,258 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:33:04,262 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:33:07,272 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-23 21:33:07,308 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:33:07,447 - config - INFO - Application started
+2026-02-23 21:33:07,478 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:33:07,480 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:33:11,495 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-23 21:33:11,527 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:33:11,658 - config - INFO - Application started
+2026-02-23 21:33:11,687 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:33:11,690 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:33:15,704 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-23 21:33:15,736 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:33:15,861 - config - INFO - Application started
+2026-02-23 21:33:15,889 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:33:15,891 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:33:18,905 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/GenericModel.py', reloading
+2026-02-23 21:33:18,942 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:33:19,080 - config - INFO - Application started
+2026-02-23 21:33:19,111 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:33:19,114 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:33:23,128 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-23 21:33:23,163 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:33:23,304 - config - INFO - Application started
+2026-02-23 21:33:23,334 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:33:23,336 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:33:38,333 - config - INFO - Application started
+2026-02-23 21:33:38,363 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 21:33:38,363 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 21:33:38,364 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:33:38,499 - config - INFO - Application started
+2026-02-23 21:33:38,528 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:33:38,530 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:33:41,914 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:33:41] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:33:41,936 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:33:41] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:33:50,359 - config - INFO - Loading information for creation : {'user': {'name': 'i', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$F4LwXsvZu3euldL6fw8BIA$A7FtSlQ0Y+c0c6yMfPs/WKDlaWM7PykiwgjQD0nkqJc', 'email': 'm@a.a'}, 'student': {'branch': 'Data Science', 'resume': 'efvfev'}}
+2026-02-23 21:33:50,360 - config - ERROR - Exception Occured Raising Error : Binding 1 has no name, but you supplied a dictionary (which has only names).
+2026-02-23 21:33:50,360 - config - ERROR - Exception at Student Creation : name 'db' is not defined
+2026-02-23 21:33:50,360 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:33:50] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:35:00,370 - config - INFO - Application started
+2026-02-23 21:35:00,403 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 21:35:00,403 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 21:35:00,403 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:35:00,538 - config - INFO - Application started
+2026-02-23 21:35:00,567 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:35:00,569 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:35:04,397 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:35:04] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:35:04,418 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:35:04] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:35:17,049 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav rimalalaasdfds', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$vreW8l7r3ZvzPqdUak2JMQ$xUfbaUFiqo7+XTjP0KlwknrrubyFovhMXYX+KroLTqo', 'email': 'mail@mail'}, 'student': {'branch': 'Data Science', 'resume': 'wrfrgrrgr'}}
+2026-02-23 21:35:17,050 - config - ERROR - Exception Occured Raising Error : Binding 1 has no name, but you supplied a dictionary (which has only names).
+2026-02-23 21:35:17,050 - config - ERROR - Exception at Student Creation : name 'db' is not defined
+2026-02-23 21:35:17,050 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:35:17] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:35:48,657 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-23 21:35:48,690 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:35:48,823 - config - INFO - Application started
+2026-02-23 21:35:48,852 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:35:48,854 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:35:51,867 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-23 21:35:51,897 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:35:51,993 - config - INFO - Application started
+2026-02-23 21:35:52,011 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:35:52,013 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:35:55,999 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:35:55] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:35:56,021 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:35:56] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:36:23,570 - config - INFO - Loading information for creation : {'user': {'name': 'New Student 1234', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$FqLUujem1Lo3hlDq/Z+z9g$O8kl1nmY0u+6P/IOoxgLroOuNein3ejgjiTcLg4BHng', 'email': 'm@a.angleone'}, 'student': {'branch': 'Data Science', 'resume': 'Bhai kaam krja please :P'}}
+2026-02-23 21:36:23,570 - config - ERROR - Exception Occured Raising Error : Binding 1 has no name, but you supplied a dictionary (which has only names).
+2026-02-23 21:36:23,570 - config - ERROR - Exception at Student Creation : 'GenericModel' object has no attribute 'repo'
+2026-02-23 21:36:23,571 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:36:23] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:36:59,129 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/GenericModel.py', reloading
+2026-02-23 21:36:59,167 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:36:59,303 - config - INFO - Application started
+2026-02-23 21:36:59,331 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:36:59,334 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:37:01,343 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/GenericModel.py', reloading
+2026-02-23 21:37:01,379 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:37:01,519 - config - INFO - Application started
+2026-02-23 21:37:01,549 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:37:01,551 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:37:02,560 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/GenericModel.py', reloading
+2026-02-23 21:37:02,594 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:37:02,730 - config - INFO - Application started
+2026-02-23 21:37:02,760 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:37:02,762 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:37:03,769 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/GenericModel.py', reloading
+2026-02-23 21:37:03,800 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:37:03,927 - config - INFO - Application started
+2026-02-23 21:37:03,957 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:37:03,960 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:37:05,969 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-23 21:37:05,990 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:37:06,077 - config - INFO - Application started
+2026-02-23 21:37:06,096 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:37:06,097 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:37:09,152 - config - INFO - Loading information for creation : {'user': {'name': 'New Student 1234', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$rHWuNUbIGSNEyHmP8R4DAA$FqmueM0Vt1f6pkH//sSF9TERErgmAUGM9W1vAL3qX3o', 'email': 'm@a.angleone'}, 'student': {'branch': 'Data Science', 'resume': 'Bhai kaam krja please :P'}}
+2026-02-23 21:37:09,152 - config - ERROR - Exception Occured Raising Error : Binding 1 has no name, but you supplied a dictionary (which has only names).
+2026-02-23 21:37:09,152 - config - ERROR - Exception at Student Creation : 'GenericModel' object has no attribute 'repo'
+2026-02-23 21:37:09,153 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:37:09] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:39:37,595 - config - INFO - Application started
+2026-02-23 21:39:37,626 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 21:39:37,626 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 21:39:37,627 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:39:37,761 - config - INFO - Application started
+2026-02-23 21:39:37,790 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:39:37,792 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:39:41,614 - config - INFO - Loading information for creation : {'user': {'name': 'New Student 1234', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$7N27tzaGUGrNOcd4rxViDA$laTEJCa1+1Amz/RalIKej0S5uq828FJQZnaow04X3+4', 'email': 'm@a.angleone'}, 'student': {'branch': 'Data Science', 'resume': 'Bhai kaam krja please :P'}}
+2026-02-23 21:39:41,614 - config - WARNING - Terminating Due to Invalid Data type passed for insertion
+2026-02-23 21:39:41,614 - config - ERROR - Exception at Student Creation : 'Repo' object has no attribute 'seach'
+2026-02-23 21:39:41,615 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:39:41] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:39:55,829 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-23 21:39:55,867 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:39:56,001 - config - INFO - Application started
+2026-02-23 21:39:56,019 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:39:56,021 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:39:58,907 - config - INFO - Loading information for creation : {'user': {'name': 'New Student 1234', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$snYuhfCe834v5ZzTmnPuHQ$K8XbkICbjr5YC6fKpqpDYagRZoHJVRfdeOZggRA3LTY', 'email': 'm@a.angleone'}, 'student': {'branch': 'Data Science', 'resume': 'Bhai kaam krja please :P'}}
+2026-02-23 21:39:58,907 - config - WARNING - Terminating Due to Invalid Data type passed for insertion
+2026-02-23 21:39:58,907 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:39:58,908 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:39:58] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:40:27,077 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-23 21:40:27,115 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:40:27,253 - config - INFO - Application started
+2026-02-23 21:40:27,283 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:40:27,286 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:40:30,712 - config - INFO - Loading information for creation : {'user': {'name': 'New Student 1234', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$LaVUyrmXUup9zznnvFdKaQ$CYKcnwI8nvkZh7GKL1acjBk2/A+Pz51z/SxQg+wjCco', 'email': 'm@a.angleone'}, 'student': {'branch': 'Data Science', 'resume': 'Bhai kaam krja please :P'}}
+2026-02-23 21:40:30,712 - config - WARNING - Terminating Due to Invalid Data type passed for insertion
+2026-02-23 21:40:30,713 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:40:30,713 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:40:30] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:41:33,408 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-23 21:41:33,439 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:41:33,562 - config - INFO - Application started
+2026-02-23 21:41:33,588 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:41:33,590 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:41:39,750 - config - INFO - Loading information for creation : {'user': {'name': 'New Student 1234', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$jTHmHMP4nzNGqFUqhRCCcA$d/revbBJ107FMeWJi8sEQpnnc0eL2zAydSjtnvPxOWU', 'email': 'm@a.angleone'}, 'student': {'branch': 'Data Science', 'resume': 'Bhai kaam krja please :P'}}
+2026-02-23 21:41:39,750 - config - WARNING - Terminating Due to Invalid Data type passed for insertion
+2026-02-23 21:41:39,751 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:41:39,751 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:41:39] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:41:44,427 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:41:44] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:41:44,449 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:41:44] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:41:52,103 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$YKyVUkoJoXTOubfW2hvDmA$+C2ElbqWy4WvDdIaC8APqa1DmPhExZdHSjUzUnmjlQw', 'email': 'madhavprapanna@gmail.com'}, 'student': {'branch': 'Data Science', 'resume': '1212'}}
+2026-02-23 21:41:52,103 - config - WARNING - Terminating Due to Invalid Data type passed for insertion
+2026-02-23 21:41:52,104 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:41:52,104 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:41:52] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:43:46,826 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-23 21:43:46,848 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:43:46,934 - config - INFO - Application started
+2026-02-23 21:43:46,953 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:43:46,954 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:43:51,262 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$jxFirNW6l5ISIkTo/X8vRQ$tVtULobGRmjX8ZZAlbTmvESIByLdQPbK9yUeEZsmfjk', 'email': 'madhavprapanna@gmail.com', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': '1212'}}
+2026-02-23 21:43:51,263 - config - WARNING - Terminating insert at Generic Model due to existing data found
+2026-02-23 21:43:51,263 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:43:51,264 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:43:51] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:44:00,981 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-23 21:44:01,015 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:44:01,147 - config - INFO - Application started
+2026-02-23 21:44:01,176 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:44:01,179 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:44:10,907 - config - INFO - Application started
+2026-02-23 21:44:10,940 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 21:44:10,940 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 21:44:10,941 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:44:11,081 - config - INFO - Application started
+2026-02-23 21:44:11,107 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:44:11,109 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:44:13,988 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:44:13] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:44:14,009 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:44:14] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:44:23,068 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav rimalalaadas', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$+x/D+H/vvRfiHCNkjFFK6Q$a46+Le3x0FHbnhIgWYfcGeA/Ma9f1ZJdNRWN/+XIIg8', 'email': 'm@a.angleoneadsd', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'asdas'}}
+2026-02-23 21:44:23,077 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('Madhav rimalalaadas', 'm@a.angleoneadsd', '$argon2id$v=19$m=65536,t=3,p=4$+x/D+H/vvRfiHCNkjFFK6Q$a46+Le3x0FHbnhIgWYfcGeA/Ma9f1ZJdNRWN/+XIIg8', 'student')
+2026-02-23 21:44:23,077 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'Madhav rimalalaadas', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$+x/D+H/vvRfiHCNkjFFK6Q$a46+Le3x0FHbnhIgWYfcGeA/Ma9f1ZJdNRWN/+XIIg8', 'email': 'm@a.angleoneadsd', 'role': 'student'}
+2026-02-23 21:44:23,077 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:44:23,078 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:44:23] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:46:49,396 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-23 21:46:49,432 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:46:49,574 - config - INFO - Application started
+2026-02-23 21:46:49,602 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:46:49,605 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:46:59,128 - config - INFO - Application started
+2026-02-23 21:46:59,159 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 21:46:59,159 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 21:46:59,160 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:46:59,295 - config - INFO - Application started
+2026-02-23 21:46:59,324 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:46:59,326 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:47:03,290 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav rimalalaadas', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$0jrH+B/jvHdu7f2/F2LMeQ$m7je23W4MpsYQXthmMarhFcWpGxWwAiK2ZABtZK7Y1s', 'email': 'm@a.angleoneadsd', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'asdas'}}
+2026-02-23 21:47:03,290 - config - WARNING - Terminating insert at Generic Model due to existing data found
+2026-02-23 21:47:03,291 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:47:03,291 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:47:03] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:47:05,220 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:47:05] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:47:05,242 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:47:05] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:47:17,404 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav rimalalaafrefrr', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$NIYwJoRQas35X8uZk1Lq/Q$GasvxgrfeUKTdkKgkMZlqnbP12uckv0aAYF9IICHhZc', 'email': 'mail@mail43ef34re', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'frffr3r3g3r3fdwsfwr'}}
+2026-02-23 21:47:17,413 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('Madhav rimalalaafrefrr', 'mail@mail43ef34re', '$argon2id$v=19$m=65536,t=3,p=4$NIYwJoRQas35X8uZk1Lq/Q$GasvxgrfeUKTdkKgkMZlqnbP12uckv0aAYF9IICHhZc', 'student')
+2026-02-23 21:47:17,413 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'Madhav rimalalaafrefrr', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$NIYwJoRQas35X8uZk1Lq/Q$GasvxgrfeUKTdkKgkMZlqnbP12uckv0aAYF9IICHhZc', 'email': 'mail@mail43ef34re', 'role': 'student'}
+2026-02-23 21:47:17,413 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:47:17,413 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:47:17] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:48:38,504 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-23 21:48:38,538 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:48:38,676 - config - INFO - Application started
+2026-02-23 21:48:38,705 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:48:38,707 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:54:12,589 - config - INFO - Application started
+2026-02-23 21:54:12,620 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 21:54:12,620 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 21:54:12,621 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:54:12,763 - config - INFO - Application started
+2026-02-23 21:54:12,797 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:54:12,801 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:54:16,009 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:54:16] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:54:16,031 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:54:16] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:54:37,819 - config - INFO - Loading information for creation : {'user': {'name': 'New Uer with new thing', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$sDbGOOccw7h3DgFg7J3TOg$Ka6DYUv5NAwx3ouVGHTvU0FtbjQ39rkKiIsyXRpPbXE', 'email': 'new@nwqw.com', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': '1212'}}
+2026-02-23 21:54:37,827 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('New Uer with new thing', 'new@nwqw.com', '$argon2id$v=19$m=65536,t=3,p=4$sDbGOOccw7h3DgFg7J3TOg$Ka6DYUv5NAwx3ouVGHTvU0FtbjQ39rkKiIsyXRpPbXE', 'student')
+2026-02-23 21:54:37,828 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'New Uer with new thing', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$sDbGOOccw7h3DgFg7J3TOg$Ka6DYUv5NAwx3ouVGHTvU0FtbjQ39rkKiIsyXRpPbXE', 'email': 'new@nwqw.com', 'role': 'student'}
+2026-02-23 21:54:37,828 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:54:37,829 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:54:37] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 21:59:24,099 - config - INFO - Application started
+2026-02-23 21:59:24,130 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 21:59:24,130 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 21:59:24,130 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 21:59:24,265 - config - INFO - Application started
+2026-02-23 21:59:24,294 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 21:59:24,296 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 21:59:27,278 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:59:27] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 21:59:27,308 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:59:27] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 21:59:58,517 - config - INFO - Loading information for creation : {'user': {'name': 'Himanshuvbn', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$5TyH0Lr3HmNszTlHKKXUmg$nq4QnTPEawAEgRrfIb1Ifj2D5pyBOxf2TPk7bZwPRcc', 'email': 'himanshu@codeshashtra.com', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'Reumse is my suskuprize'}}
+2026-02-23 21:59:58,526 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('Himanshuvbn', 'himanshu@codeshashtra.com', '$argon2id$v=19$m=65536,t=3,p=4$5TyH0Lr3HmNszTlHKKXUmg$nq4QnTPEawAEgRrfIb1Ifj2D5pyBOxf2TPk7bZwPRcc', 'student')
+2026-02-23 21:59:58,526 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'Himanshuvbn', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$5TyH0Lr3HmNszTlHKKXUmg$nq4QnTPEawAEgRrfIb1Ifj2D5pyBOxf2TPk7bZwPRcc', 'email': 'himanshu@codeshashtra.com', 'role': 'student'}
+2026-02-23 21:59:58,527 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 21:59:58,527 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 21:59:58] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 22:02:11,497 - config - INFO - Application started
+2026-02-23 22:02:11,529 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 22:02:11,529 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 22:02:11,530 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 22:02:11,667 - config - INFO - Application started
+2026-02-23 22:02:11,696 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 22:02:11,699 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 22:02:15,723 - config - INFO - Loading information for creation : {'user': {'name': 'Himanshuvbn', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$Tsm5957z/h8jpDSmNAYgxA$5mSZHnE8/1TX8WT11Sxgn/XD211Ve+uJDhVabcf1dqE', 'email': 'himanshu@codeshashtra.com', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'Reumse is my suskuprize'}}
+2026-02-23 22:02:15,724 - config - WARNING - Terminating insert at Generic Model due to existing data found
+2026-02-23 22:02:15,724 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 22:02:15,725 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 22:02:15] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 22:02:17,742 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 22:02:17] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 22:02:17,765 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 22:02:17] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 22:02:33,304 - config - INFO - Loading information for creation : {'user': {'name': 'Fail', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$N0ZoTUkppbSWEiLk/P8/Bw$jjUrQMCDf6xZ5hIhMhtxlXm+eHWp/PeTJGXDfjynGwE', 'email': 'fail@dail', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': '12121'}}
+2026-02-23 22:02:33,312 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('Fail', 'fail@dail', '$argon2id$v=19$m=65536,t=3,p=4$N0ZoTUkppbSWEiLk/P8/Bw$jjUrQMCDf6xZ5hIhMhtxlXm+eHWp/PeTJGXDfjynGwE', 'student')
+2026-02-23 22:02:33,312 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'Fail', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$N0ZoTUkppbSWEiLk/P8/Bw$jjUrQMCDf6xZ5hIhMhtxlXm+eHWp/PeTJGXDfjynGwE', 'email': 'fail@dail', 'role': 'student'}
+2026-02-23 22:02:33,312 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 22:02:33,313 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 22:02:33] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 22:05:25,043 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/GenericModel.py', reloading
+2026-02-23 22:05:25,077 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 22:05:25,202 - config - INFO - Application started
+2026-02-23 22:05:25,230 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 22:05:25,233 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 22:11:09,825 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/GenericModel.py', reloading
+2026-02-23 22:11:09,861 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 22:11:10,001 - config - INFO - Application started
+2026-02-23 22:11:10,033 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 22:11:10,036 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 22:11:17,807 - config - INFO - Application started
+2026-02-23 22:11:17,838 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 22:11:17,839 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 22:11:17,839 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 22:11:17,975 - config - INFO - Application started
+2026-02-23 22:11:18,005 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 22:11:18,008 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 22:12:25,337 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-23 22:12:25,501 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 22:12:26,026 - config - INFO - Application started
+2026-02-23 22:12:26,150 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 22:12:26,158 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 22:12:35,625 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 22:12:35] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 22:12:35,679 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 22:12:35] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 22:12:47,320 - config - INFO - Loading information for creation : {'user': {'name': 'fwf', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$XmsthTCGkBLCmPP+n/Pe2w$VoUw3Rn5WdkluOW2HzUyuvpWpeSG5y23KPVLYbn3lxU', 'email': 'mail@mailfsfds', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'fsdfsd'}}
+2026-02-23 22:12:47,329 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('fwf', 'mail@mailfsfds', '$argon2id$v=19$m=65536,t=3,p=4$XmsthTCGkBLCmPP+n/Pe2w$VoUw3Rn5WdkluOW2HzUyuvpWpeSG5y23KPVLYbn3lxU', 'student')
+2026-02-23 22:12:47,329 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'fwf', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$XmsthTCGkBLCmPP+n/Pe2w$VoUw3Rn5WdkluOW2HzUyuvpWpeSG5y23KPVLYbn3lxU', 'email': 'mail@mailfsfds', 'role': 'student'}
+2026-02-23 22:12:47,329 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 22:12:47,329 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 22:12:47] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 22:16:36,273 - config - INFO - Application started
+2026-02-23 22:16:36,295 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 22:16:36,295 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 22:16:36,295 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 22:16:36,390 - config - INFO - Application started
+2026-02-23 22:16:36,412 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 22:16:36,414 - werkzeug - INFO -  * Debugger PIN: 125-327-955
+2026-02-23 22:16:39,660 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 22:16:39] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 22:16:39,675 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 22:16:39] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 22:16:48,459 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav rimalalaaewwedfew', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$t1ZKqfXeu9f631vLWWuNEQ$jFfOAre60655tUupyDb3q3S70rE2CSgF8/EtuVlZrgg', 'email': 'wefwf@ffds', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'dsfdsf'}}
+2026-02-23 22:16:48,466 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('Madhav rimalalaaewwedfew', 'wefwf@ffds', '$argon2id$v=19$m=65536,t=3,p=4$t1ZKqfXeu9f631vLWWuNEQ$jFfOAre60655tUupyDb3q3S70rE2CSgF8/EtuVlZrgg', 'student')
+2026-02-23 22:16:48,467 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'Madhav rimalalaaewwedfew', 'password_hash': '$argon2id$v=19$m=65536,t=3,p=4$t1ZKqfXeu9f631vLWWuNEQ$jFfOAre60655tUupyDb3q3S70rE2CSgF8/EtuVlZrgg', 'email': 'wefwf@ffds', 'role': 'student'}
+2026-02-23 22:16:48,467 - config - ERROR - Exception at Student Creation : 'name'
+2026-02-23 22:16:48,467 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 22:16:48] "POST /register/student HTTP/1.1" 200 -
+2026-02-23 22:18:00,881 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/GenericModel.py', reloading
+2026-02-23 22:18:00,912 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 22:18:01,003 - config - INFO - Application started
+2026-02-23 22:18:01,023 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 22:18:01,025 - werkzeug - INFO -  * Debugger PIN: 125-327-955

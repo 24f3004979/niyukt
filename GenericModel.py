@@ -34,7 +34,7 @@ Checks for validity of data flow for final Executions
             try:
                 cursor.execute(query, data)
                 connection.commit()  # :P
-                log.info(f"Execute of Generic Model Executed with {query} and data {data}")
+                log.info(f"execute | GenericModle Data -> Query :: {query} \n Data:: {data}")
             except Exception as e:
                 log.error(f"Generic Model failed for query : {query} with data : {data}")
                 raise Exception("Invalid Query or DB failed for executoin")
@@ -53,18 +53,19 @@ Checks for validity of data flow for final Executions
             return False
 
         insertion_query = self.build_query.insertion()
-        # Checking for existence of given information
-        name = values["name"]  # hardcoding for simplicity 
-        if self.repo.exists(name):  # Embeded for names for now
-            log.warning("Terminating insert at Generic Model due to existing data found")
-            return False
-
+        # Existence Check is depricated -> Unique constrainsts would fail for it :)
         try:
             data = tuple(values[col] for col in self.columns) # insertion order flexible
+            print(f"Final Data : {data}")
             self.execute(insertion_query, data)
-            log.info(f"Insert Executed with {insertion_query} with data : {values}")
+            log.info(f"Insert Executed with {insertion_query} with data : {data}")
             return True
         except Exception as e:
             log.error(f"Failed at insert of Generic Model with {e}")
             return False 
+
+    def update(self, update_information, anchor_information):
+        '''
+        Making Update to the anchored entry '''
+        pass # TODO : TARGET ***
 

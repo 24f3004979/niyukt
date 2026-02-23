@@ -10,39 +10,33 @@ class Student(User):
     def __init__(self):
         super().__init__()
         self.student_data = tuple("student_id,resume,branch".split(','))
-        self.student_db = GenericModel("student", self.student_data)
+        self.student = GenericModel("student", self.student_data)
         
     def activate(self, information):
         '''
-        Initiate user [handle errors]
-        setup for student table information
+        information -> user:{user_info_dict}, student:{student_info}
+        Student Account activation flow
+        create user -> Make student table update
         '''
-        user_information = list(information[:3])
-        user_information.append("student")
-        user_information = tuple(user_information)
-
+        log.info(f"Loading information for creation : {information}")
+        user_information = information["user"]
+        student_information = information["student"]
         try:
-            print(f"USER INFORMATION : {user_information}")
-            self.register(user_information) # Raising Core error
-            print(f"User information sent form student completed :)")
-        except Exception as e:
-            log.error(f"Exception at student registration with {e}")
-            raise Exception(f"Error Making student {e}")
+            self.db.insert(user_information)
 
-        # Making Student Table update  requires student ID
-        name = information[0]
-        id = get_id(name)
-        print(f"Fetched student id : {id}")
-        student_info = []
-        student_info.append(id)
-        student_info.extend(information[3:])
-        student_info = tuple(student_info)
+            print(f"user creation success full")
+            # Creating entries for student 
+            name = user_information["name"]  # Dict Way is must
+            print(f"Name : {name}")
+            anchor_information = ("name", name)
+            id = self.db.repo.search(anchor_information, "id")
 
-        print(f"Student Information : {student_info}")
-        
-        try:
-            print(f"Student Information : {student_info}")
-            self.student_db.insert(student_info)
+            # Student information with id being at last but faith
+            student_information["id"] = id
+            print(f"student information : {student_information}")
+            self.student.insert(student_information) # Making student update
+            print(f"Student creation successfull")
         except Exception as e:
-            raise Exception(f"Student Information is Not uploaded with {e}")
+            log.error(f"Exception at Student Creation : {e}")
+            raise Exception(f"Student Creation Failed with {e}")
 

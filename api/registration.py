@@ -22,10 +22,20 @@ def student_register():  # Working student registration flow tested :)
         email = data.get("email")
         selection = data.get("branch-selection")
         resume = data.get("resume")
-      
-        # Data preprocessing - Resume compression required here for uploads
 
-        information = (name, password, email, selection, resume)
+        # Payload
+        information = {
+                "user":{
+                    "name" : name,
+                    "password_hash" : password,
+                    "email" : email,
+                    "role" : "student"
+                    },
+                "student": {
+                    "branch" : selection,
+                    "resume" : resume
+                    }
+                }
         student = Student()
         try:
             student.activate(information)
