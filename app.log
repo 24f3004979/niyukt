@@ -98,3 +98,26 @@
 2026-02-22 17:35:59,853 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2026 17:35:59] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
 2026-02-22 17:35:59,874 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2026 17:35:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2026-02-22 17:36:12,274 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2026 17:36:12] "POST /register/student HTTP/1.1" 200 -
+2026-02-22 17:41:39,103 - config - INFO - Application started
+2026-02-22 17:41:39,133 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 17:41:39,133 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-22 17:41:39,134 - werkzeug - INFO -  * Restarting with stat
+2026-02-22 17:41:39,266 - config - INFO - Application started
+2026-02-22 17:41:39,295 - werkzeug - WARNING -  * Debugger is active!
+2026-02-22 17:41:39,298 - werkzeug - INFO -  * Debugger PIN: 929-301-318
+2026-02-22 17:41:47,654 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2026 17:41:47] "GET /register/student HTTP/1.1" 200 -
+2026-02-22 17:41:47,688 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2026 17:41:47] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-22 17:41:53,813 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2026 17:41:53] "GET / HTTP/1.1" 200 -
+2026-02-23 17:27:30,955 - config - INFO - Application started
+2026-02-23 17:27:30,987 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 17:27:30,987 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 17:27:30,988 - werkzeug - INFO -  * Restarting with stat
+2026-02-23 17:27:31,078 - config - INFO - Application started
+2026-02-23 17:27:31,099 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 17:27:31,107 - werkzeug - INFO -  * Debugger PIN: 128-582-328
+2026-02-23 17:27:34,428 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 17:27:34] "GET /register/student HTTP/1.1" 200 -
+2026-02-23 17:27:34,451 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 17:27:34] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-23 17:27:34,463 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 17:27:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-23 17:29:55,506 - werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 17:29:55] "POST /register/student HTTP/1.1" 200 -

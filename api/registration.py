@@ -11,7 +11,7 @@ def login_page():
     return "Making Login Page"
 
 @register.route("/student" , methods=['POST', 'GET'])
-def student_register():
+def student_register():  # Working student registration flow tested :)
     if request.method == 'GET':
         return render_template("register_student.html")
 
