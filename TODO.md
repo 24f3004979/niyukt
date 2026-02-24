@@ -15,3 +15,7 @@ Targets
     3. Redirect Logins into relevent pages for dashboard
 
 
+
+IMPLEMENTATION Targets
+1. login page | Making login for all and registration nav for student and company 
+2. Making redirectioins for all login credentials 

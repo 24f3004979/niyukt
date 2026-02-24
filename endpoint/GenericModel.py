@@ -36,7 +36,7 @@ Checks for validity of data flow for final Executions
                 connection.commit()  # :P
                 log.info(f"Execute of Generic Model Executed with {query} and data {data}")
             except Exception as e:
-                log.error(f"Generic Model failed for query : {query} with data : {data}")
+                log.error(f"Generic Model failed for query : {query} with data : {data} Reason : {e}")
                 raise Exception("Invalid Query or DB failed for executoin")
 
     def insert(self, values):
@@ -53,6 +53,7 @@ Checks for validity of data flow for final Executions
             return False
 
         insertion_query = self.build_query.insertion()
+        print(f"Insertion query : {insertion_query}")
         # Checking for existence of given information
         try:
             data = tuple(values[col] for col in self.columns) # insertion order flexible

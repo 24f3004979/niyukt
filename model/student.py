@@ -23,8 +23,11 @@ class Student(User):
         student_information = information["student"]
         try:
             info = self.initiate_user(user_information)
+            if (len(info) > 1)  and (type(info) == tuple):
+                student_information["student_id"] = info[0]
+            else:
+                raise Exception("Something went wrong with student activation")
 
-            student_information["student_id"] = info[0]
             self.student.insert(student_information)
         except Exception as e:
             log.error(f"Exception at Student Creation : {e}")

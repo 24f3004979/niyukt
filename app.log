@@ -1,44 +1,282 @@
-2026-02-24 07:07:52,243 - config - INFO - Application started
-2026-02-24 07:07:52,258 - config - INFO - Loading information : {'user': {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}, 'company': {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
-2026-02-24 07:07:52,258 - config - INFO - Data Before Insertion : ('RandomCompany', 'email@r23randomshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
-2026-02-24 07:07:52,271 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('RandomCompany', 'email@r23randomshabd', '1234', 'company')
-2026-02-24 07:07:52,271 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}
-2026-02-24 07:07:52,271 - config - INFO - Creation Request Initation Output : (32, 'RandomCompany', 'email@r23randomshabd', '1234', 'company', 'active')
-2026-02-24 07:07:52,271 - config - WARNING - Terminating Due to Invalid Data type passed for insertion
-2026-02-24 07:09:48,031 - config - INFO - Application started
-2026-02-24 07:09:48,047 - config - INFO - Loading information : {'user': {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}, 'company': {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
-2026-02-24 07:09:48,047 - config - INFO - Data Before Insertion : ('RandomCompany', 'email@r23randomshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
-2026-02-24 07:09:48,048 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : ('RandomCompany', 'email@r23randomshabd', '1234', 'company')
-2026-02-24 07:09:48,048 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
-2026-02-24 07:09:48,048 - config - INFO - Creation Request Initation Output : (32, 'RandomCompany', 'email@r23randomshabd', '1234', 'company', 'active')
-2026-02-24 07:09:48,048 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student', 'company_id': 32} for table company
-2026-02-24 07:11:53,294 - config - INFO - Application started
-2026-02-24 07:11:53,310 - config - INFO - Loading information : {'user': {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}, 'company': {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
-2026-02-24 07:11:53,310 - config - INFO - Data Before Insertion : ('RandomCompany', 'email@r23randomshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
-2026-02-24 07:11:53,310 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : ('RandomCompany', 'email@r23randomshabd', '1234', 'company')
-2026-02-24 07:11:53,310 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
-2026-02-24 07:11:53,311 - config - INFO - Creation Request Initation Output : (32, 'RandomCompany', 'email@r23randomshabd', '1234', 'company', 'active')
-2026-02-24 07:11:53,311 - config - ERROR - Failed Company Initiation with : name 'columns' is not defined
-2026-02-24 07:12:15,885 - config - INFO - Application started
-2026-02-24 07:12:15,901 - config - INFO - Loading information : {'user': {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}, 'company': {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
-2026-02-24 07:12:15,901 - config - INFO - Data Before Insertion : ('RandomCompany', 'email@r23randomshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
-2026-02-24 07:12:15,901 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : ('RandomCompany', 'email@r23randomshabd', '1234', 'company')
-2026-02-24 07:12:15,901 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
-2026-02-24 07:12:15,901 - config - INFO - Creation Request Initation Output : (32, 'RandomCompany', 'email@r23randomshabd', '1234', 'company', 'active')
-2026-02-24 07:12:15,901 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student', 'company_id': 32} for table company with columns : ('c', 'o', 'm', 'p', 'a', 'n', 'y', '_', 'i', 'd', ',', 'd', 'i', 's', 'c', 'r', 'i', 'p', 't', 'i', 'o', 'n', ',', 'c', 'o', 'n', 't', 'a', 'c', 't', '_', 'd', 'e', 't', 'a', 'i', 'l', 's')
-2026-02-24 07:13:14,552 - config - INFO - Application started
-2026-02-24 07:13:14,567 - config - INFO - Loading information : {'user': {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}, 'company': {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
-2026-02-24 07:13:14,567 - config - INFO - Data Before Insertion : ('RandomCompany', 'email@r23randomshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
-2026-02-24 07:13:14,568 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : ('RandomCompany', 'email@r23randomshabd', '1234', 'company')
-2026-02-24 07:13:14,568 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
-2026-02-24 07:13:14,568 - config - INFO - Creation Request Initation Output : (32, 'RandomCompany', 'email@r23randomshabd', '1234', 'company', 'active')
-2026-02-24 07:13:14,568 - config - ERROR - Failed at insert of Generic Model with 'discription'
-2026-02-24 07:14:31,706 - config - INFO - Application started
-2026-02-24 07:14:31,722 - config - INFO - Loading information : {'user': {'name': 'RandomCpany', 'password_hash': '1234', 'email': 'email@r23ranmshabd', 'role': 'company'}, 'company': {'discription': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
-2026-02-24 07:14:31,722 - config - INFO - Data Before Insertion : ('RandomCpany', 'email@r23ranmshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
-2026-02-24 07:14:31,735 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('RandomCpany', 'email@r23ranmshabd', '1234', 'company')
-2026-02-24 07:14:31,735 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'RandomCpany', 'password_hash': '1234', 'email': 'email@r23ranmshabd', 'role': 'company'}
-2026-02-24 07:14:31,735 - config - INFO - Creation Request Initation Output : (33, 'RandomCpany', 'email@r23ranmshabd', '1234', 'company', 'active')
-2026-02-24 07:14:31,735 - config - INFO - Data Before Insertion : (33, 'random branch is being selected', 'Resume for the random student') with query : insert into company('company_id', 'discription', 'contact_details') values(?,?,?)
-2026-02-24 07:14:31,746 - config - INFO - Execute of Generic Model Executed with insert into company('company_id', 'discription', 'contact_details') values(?,?,?) and data (33, 'random branch is being selected', 'Resume for the random student')
-2026-02-24 07:14:31,746 - config - INFO - Insert Executed with insert into company('company_id', 'discription', 'contact_details') values(?,?,?) with data : {'discription': 'random branch is being selected', 'contact_details': 'Resume for the random student', 'company_id': 33}
+2026-02-24 22:59:39,068 - config - INFO - Application started
+2026-02-24 22:59:39,100 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-24 22:59:39,101 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-24 22:59:39,101 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 22:59:39,269 - config - INFO - Application started
+2026-02-24 22:59:39,304 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 22:59:39,306 - werkzeug - INFO -  * Debugger PIN: 525-187-738
+2026-02-24 22:59:41,867 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav', 'email': 'madhavprapann@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$Zsx5jzGm9D5nzPk/51yrFQ$SmQhf/fKe9qAYzh4RNqiqti416a52VUGtVpD65isAdA', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': '1212'}}
+2026-02-24 22:59:41,867 - config - INFO - Data Before Insertion : ('Madhav', 'madhavprapann@gmail.com', '$argon2id$v=19$m=65536,t=3,p=4$Zsx5jzGm9D5nzPk/51yrFQ$SmQhf/fKe9qAYzh4RNqiqti416a52VUGtVpD65isAdA', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 22:59:41,868 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhav', 'madhavprapann@gmail.com', '$argon2id$v=19$m=65536,t=3,p=4$Zsx5jzGm9D5nzPk/51yrFQ$SmQhf/fKe9qAYzh4RNqiqti416a52VUGtVpD65isAdA', 'student')
+2026-02-24 22:59:41,868 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 22:59:41,868 - config - ERROR - User Creation Failed | reason : name 'inserion_query' is not defined
+2026-02-24 22:59:41,868 - config - ERROR - Exception at Student Creation : User creation Failed
+2026-02-24 22:59:41,868 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 22:59:41] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 22:59:45,452 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 22:59:45] "GET /register/student HTTP/1.1" 200 -
+2026-02-24 22:59:45,496 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 22:59:45] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 22:59:55,339 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$cc65V6r1HmPMeQ/hPIcQYg$/r9mKzE8Lg2EKeijoEIban+13vaFDIgsAcohOQRgLUs', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': '1212'}}
+2026-02-24 22:59:55,340 - config - INFO - Data Before Insertion : ('Madhav', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$cc65V6r1HmPMeQ/hPIcQYg$/r9mKzE8Lg2EKeijoEIban+13vaFDIgsAcohOQRgLUs', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 22:59:55,342 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('Madhav', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$cc65V6r1HmPMeQ/hPIcQYg$/r9mKzE8Lg2EKeijoEIban+13vaFDIgsAcohOQRgLUs', 'student')
+2026-02-24 22:59:55,342 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'Madhav', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$cc65V6r1HmPMeQ/hPIcQYg$/r9mKzE8Lg2EKeijoEIban+13vaFDIgsAcohOQRgLUs', 'role': 'student'}
+2026-02-24 22:59:55,343 - config - ERROR - User Creation Failed | reason : name 'inserion_query' is not defined
+2026-02-24 22:59:55,343 - config - ERROR - Exception at Student Creation : User creation Failed
+2026-02-24 22:59:55,343 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 22:59:55] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:02:30,626 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/GenericModel.py', reloading
+2026-02-24 23:02:30,662 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:02:30,796 - config - INFO - Application started
+2026-02-24 23:02:30,826 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:02:30,829 - werkzeug - INFO -  * Debugger PIN: 525-187-738
+2026-02-24 23:02:38,647 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$fs95T0lJ6f3f21vrXQvhfA$4ZkGBmTVbaVGU3e2MKcq7ESNPqz26JC0n8f9iChmkH0', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': '1212'}}
+2026-02-24 23:02:38,647 - config - INFO - Data Before Insertion : ('Madhav', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$fs95T0lJ6f3f21vrXQvhfA$4ZkGBmTVbaVGU3e2MKcq7ESNPqz26JC0n8f9iChmkH0', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:02:38,647 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhav', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$fs95T0lJ6f3f21vrXQvhfA$4ZkGBmTVbaVGU3e2MKcq7ESNPqz26JC0n8f9iChmkH0', 'student')
+2026-02-24 23:02:38,647 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:02:38,647 - config - ERROR - User Creation Failed | reason : name 'inserion_query' is not defined
+2026-02-24 23:02:38,647 - config - ERROR - Exception at Student Creation : User creation Failed
+2026-02-24 23:02:38,648 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:02:38] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:02:42,222 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:02:42] "GET /register/student HTTP/1.1" 200 -
+2026-02-24 23:02:42,265 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:02:42] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 23:02:52,142 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$3fsf4/wfYwxhDCEEwJgzxg$Qzm2WfzOpT3pY7NBI9/3agb2wqDEZ9BFPeg2GHrVJ6M', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'qewqrwq'}}
+2026-02-24 23:02:52,143 - config - INFO - Data Before Insertion : ('Madhav', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$3fsf4/wfYwxhDCEEwJgzxg$Qzm2WfzOpT3pY7NBI9/3agb2wqDEZ9BFPeg2GHrVJ6M', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:02:52,143 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhav', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$3fsf4/wfYwxhDCEEwJgzxg$Qzm2WfzOpT3pY7NBI9/3agb2wqDEZ9BFPeg2GHrVJ6M', 'student')
+2026-02-24 23:02:52,143 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:02:52,143 - config - ERROR - User Creation Failed | reason : name 'inserion_query' is not defined
+2026-02-24 23:02:52,143 - config - ERROR - Exception at Student Creation : User creation Failed
+2026-02-24 23:02:52,143 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:02:52] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:04:19,006 - config - INFO - Application started
+2026-02-24 23:04:19,038 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-24 23:04:19,038 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-24 23:04:19,038 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:04:19,169 - config - INFO - Application started
+2026-02-24 23:04:19,197 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:04:19,200 - werkzeug - INFO -  * Debugger PIN: 293-911-737
+2026-02-24 23:04:22,323 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:04:22] "GET /register/student HTTP/1.1" 200 -
+2026-02-24 23:04:22,376 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:04:22] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 23:04:30,447 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$+J/T2hsj5BzjPGfMmdM6Bw$EwWWPoWtx9Cj3HD3WmZSVTzaTQOw/+PrlvNcbmjq7pI', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': '1212'}}
+2026-02-24 23:04:30,447 - config - INFO - Data Before Insertion : ('Madhav', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$+J/T2hsj5BzjPGfMmdM6Bw$EwWWPoWtx9Cj3HD3WmZSVTzaTQOw/+PrlvNcbmjq7pI', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:04:30,448 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhav', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$+J/T2hsj5BzjPGfMmdM6Bw$EwWWPoWtx9Cj3HD3WmZSVTzaTQOw/+PrlvNcbmjq7pI', 'student')
+2026-02-24 23:04:30,448 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:04:30,448 - config - ERROR - User Creation Failed | reason : name 'inserion_query' is not defined
+2026-02-24 23:04:30,448 - config - ERROR - Exception at Student Creation : User creation Failed
+2026-02-24 23:04:30,448 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:04:30] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:06:30,815 - config - INFO - Application started
+2026-02-24 23:06:30,848 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-24 23:06:30,848 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-24 23:06:30,849 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:06:30,985 - config - INFO - Application started
+2026-02-24 23:06:31,015 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:06:31,017 - werkzeug - INFO -  * Debugger PIN: 293-911-737
+2026-02-24 23:06:34,430 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:06:34] "GET /register/student HTTP/1.1" 200 -
+2026-02-24 23:06:34,480 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:06:34] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 23:06:42,997 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav Rimal from vbn', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$aO3de8/5/1+Lca41prR2Lg$3ysMS3ynJOHiHlcxaST7EuqFxoR2c1MXB3/bAQ/qKHQ', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'onjn'}}
+2026-02-24 23:06:42,997 - config - INFO - Data Before Insertion : ('Madhav Rimal from vbn', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$aO3de8/5/1+Lca41prR2Lg$3ysMS3ynJOHiHlcxaST7EuqFxoR2c1MXB3/bAQ/qKHQ', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:06:42,998 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhav Rimal from vbn', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$aO3de8/5/1+Lca41prR2Lg$3ysMS3ynJOHiHlcxaST7EuqFxoR2c1MXB3/bAQ/qKHQ', 'student')
+2026-02-24 23:06:42,999 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:06:42,999 - config - INFO - Creation Request Initation Output : False
+2026-02-24 23:06:42,999 - config - ERROR - Exception at Student Creation : 'bool' object is not subscriptable
+2026-02-24 23:06:42,999 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:06:42] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:09:37,546 - config - INFO - Application started
+2026-02-24 23:09:37,579 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-24 23:09:37,579 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-24 23:09:37,579 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:09:37,716 - config - INFO - Application started
+2026-02-24 23:09:37,745 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:09:37,748 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:09:40,814 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:09:40] "GET /register/student HTTP/1.1" 200 -
+2026-02-24 23:09:40,856 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:09:40] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 23:09:51,428 - config - INFO - Loading information for creation : {'user': {'name': 'Madhavam', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$w5jT2hujlFKqtRailFIKoQ$UHxuEO33u4j08A9NPrv+XoA2rabZqh1XzY+TMAdzStY', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'jnono'}}
+2026-02-24 23:09:51,428 - config - INFO - Data Before Insertion : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$w5jT2hujlFKqtRailFIKoQ$UHxuEO33u4j08A9NPrv+XoA2rabZqh1XzY+TMAdzStY', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:09:51,429 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$w5jT2hujlFKqtRailFIKoQ$UHxuEO33u4j08A9NPrv+XoA2rabZqh1XzY+TMAdzStY', 'student') Reason : UNIQUE constraint failed: user.email
+2026-02-24 23:09:51,429 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:09:51,429 - config - INFO - Creation Request Initation Output : False
+2026-02-24 23:09:51,429 - config - ERROR - Exception at Student Creation : 'bool' object is not subscriptable
+2026-02-24 23:09:51,429 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:09:51] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:10:24,962 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:10:24] "GET /register/student HTTP/1.1" 200 -
+2026-02-24 23:10:25,010 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:10:25] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 23:12:15,035 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-24 23:12:15,069 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:12:15,196 - config - INFO - Application started
+2026-02-24 23:12:15,223 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:12:15,226 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:12:25,249 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-24 23:12:25,282 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:12:25,407 - config - INFO - Application started
+2026-02-24 23:12:25,434 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:12:25,436 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:12:38,984 - config - INFO - Loading information for creation : {'user': {'name': 'Madhavam', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$o5Rybi2FMAag1BojxJhTSg$22vouFThwOVuWFMcFjoC2q5GX5vLlJ0KdcsmMBRG6Rs', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'm k kjnkn'}}
+2026-02-24 23:12:38,984 - config - INFO - Data Before Insertion : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$o5Rybi2FMAag1BojxJhTSg$22vouFThwOVuWFMcFjoC2q5GX5vLlJ0KdcsmMBRG6Rs', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:12:38,985 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$o5Rybi2FMAag1BojxJhTSg$22vouFThwOVuWFMcFjoC2q5GX5vLlJ0KdcsmMBRG6Rs', 'student') Reason : UNIQUE constraint failed: user.email
+2026-02-24 23:12:38,985 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:12:38,985 - config - INFO - Creation Request Initation Output : False
+2026-02-24 23:12:38,985 - config - ERROR - Exception at Student Creation : 'bool' object is not subscriptable
+2026-02-24 23:12:38,985 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:12:38] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:12:48,479 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-24 23:12:48,513 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:12:48,649 - config - INFO - Application started
+2026-02-24 23:12:48,679 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:12:48,681 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:13:06,718 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-24 23:13:06,749 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:13:06,889 - config - INFO - Application started
+2026-02-24 23:13:06,920 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:13:06,923 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:13:25,263 - config - INFO - Application started
+2026-02-24 23:13:25,296 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-24 23:13:25,296 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-24 23:13:25,297 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:13:25,437 - config - INFO - Application started
+2026-02-24 23:13:25,467 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:13:25,470 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:13:29,219 - config - INFO - Loading information for creation : {'user': {'name': 'Madhavam', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$3JvTWuvdOwdgzJnT+r835g$GjnJTn9fx5EzIUTZA9ie3q5z5MFR+C9/4w5Ku6Xt+Lc', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'm k kjnkn'}}
+2026-02-24 23:13:29,219 - config - INFO - Data Before Insertion : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$3JvTWuvdOwdgzJnT+r835g$GjnJTn9fx5EzIUTZA9ie3q5z5MFR+C9/4w5Ku6Xt+Lc', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:13:29,220 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$3JvTWuvdOwdgzJnT+r835g$GjnJTn9fx5EzIUTZA9ie3q5z5MFR+C9/4w5Ku6Xt+Lc', 'student') Reason : UNIQUE constraint failed: user.email
+2026-02-24 23:13:29,220 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:13:29,220 - config - INFO - Creation Request Initation Output : False
+2026-02-24 23:13:29,220 - config - ERROR - Exception at Student Creation : 'bool' object is not subscriptable
+2026-02-24 23:13:29,220 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:13:29] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:13:31,406 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:13:31] "GET /register/student HTTP/1.1" 200 -
+2026-02-24 23:13:31,445 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:13:31] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 23:13:42,148 - config - INFO - Loading information for creation : {'user': {'name': 'Madhavam', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$xrg3hrC29t5bK8WYE6J0Lg$alSf37j+7uGsXPYyxD8J2YT+Ysnu21iQIReMX0aeWXs', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'jrnjgrnggr33'}}
+2026-02-24 23:13:42,148 - config - INFO - Data Before Insertion : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$xrg3hrC29t5bK8WYE6J0Lg$alSf37j+7uGsXPYyxD8J2YT+Ysnu21iQIReMX0aeWXs', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:13:42,149 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$xrg3hrC29t5bK8WYE6J0Lg$alSf37j+7uGsXPYyxD8J2YT+Ysnu21iQIReMX0aeWXs', 'student') Reason : UNIQUE constraint failed: user.email
+2026-02-24 23:13:42,149 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:13:42,149 - config - INFO - Creation Request Initation Output : False
+2026-02-24 23:13:42,149 - config - ERROR - Exception at Student Creation : 'bool' object is not subscriptable
+2026-02-24 23:13:42,150 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:13:42] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:17:34,910 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-24 23:17:34,944 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:17:35,072 - config - INFO - Application started
+2026-02-24 23:17:35,099 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:17:35,101 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:17:38,853 - config - INFO - Loading information for creation : {'user': {'name': 'Madhavam', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$6d2713rPWcu5V6rV+h9jjA$A3FSRqkKU7UCVtMWU6zdNCM/W6O+ZN16yiIiwGCgzvQ', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'jrnjgrnggr33'}}
+2026-02-24 23:17:38,853 - config - INFO - Data Before Insertion : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$6d2713rPWcu5V6rV+h9jjA$A3FSRqkKU7UCVtMWU6zdNCM/W6O+ZN16yiIiwGCgzvQ', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:17:38,854 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$6d2713rPWcu5V6rV+h9jjA$A3FSRqkKU7UCVtMWU6zdNCM/W6O+ZN16yiIiwGCgzvQ', 'student') Reason : UNIQUE constraint failed: user.email
+2026-02-24 23:17:38,854 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:17:38,854 - config - INFO - Creation Request Initation Output : False
+2026-02-24 23:17:38,854 - config - ERROR - Exception at Student Creation : object of type 'bool' has no len()
+2026-02-24 23:17:38,854 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:17:38] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:18:09,164 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-24 23:18:09,197 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:18:09,287 - config - INFO - Application started
+2026-02-24 23:18:09,306 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:18:09,308 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:18:11,647 - config - INFO - Loading information for creation : {'user': {'name': 'Madhavam', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$7n2vVao1Rqj1PkeI8Z5zDg$edBLIfM0P+P4B4FS2GOgWa7p8gSMNd4Unb0koaufrXg', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'jrnjgrnggr33'}}
+2026-02-24 23:18:11,647 - config - INFO - Data Before Insertion : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$7n2vVao1Rqj1PkeI8Z5zDg$edBLIfM0P+P4B4FS2GOgWa7p8gSMNd4Unb0koaufrXg', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:18:11,648 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$7n2vVao1Rqj1PkeI8Z5zDg$edBLIfM0P+P4B4FS2GOgWa7p8gSMNd4Unb0koaufrXg', 'student') Reason : UNIQUE constraint failed: user.email
+2026-02-24 23:18:11,648 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:18:11,648 - config - INFO - Creation Request Initation Output : False
+2026-02-24 23:18:11,649 - config - ERROR - Exception at Student Creation : object of type 'bool' has no len()
+2026-02-24 23:18:11,649 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:18:11] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:18:14,994 - config - INFO - Loading information for creation : {'user': {'name': 'Madhavam', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$i1HKGUMoBWDMGQNASAlBaA$I/APfRDhWWVLlWGxeJjoT9QpE/+mHfMeUJasu96CACQ', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'jrnjgrnggr33'}}
+2026-02-24 23:18:14,994 - config - INFO - Data Before Insertion : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$i1HKGUMoBWDMGQNASAlBaA$I/APfRDhWWVLlWGxeJjoT9QpE/+mHfMeUJasu96CACQ', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:18:14,995 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$i1HKGUMoBWDMGQNASAlBaA$I/APfRDhWWVLlWGxeJjoT9QpE/+mHfMeUJasu96CACQ', 'student') Reason : UNIQUE constraint failed: user.email
+2026-02-24 23:18:14,995 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:18:14,995 - config - INFO - Creation Request Initation Output : False
+2026-02-24 23:18:14,995 - config - ERROR - Exception at Student Creation : object of type 'bool' has no len()
+2026-02-24 23:18:14,995 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:18:14] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:19:23,445 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-24 23:19:23,503 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:19:23,648 - config - INFO - Application started
+2026-02-24 23:19:23,676 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:19:23,678 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:19:24,871 - config - INFO - Loading information for creation : {'user': {'name': 'Madhavam', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$GKM0JoQw5vyfE0IIYWxNKQ$IKOIvjZz7xKV9mNgAH7UCEgvoHlFE6Z6d56yeU0NtUE', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'jrnjgrnggr33'}}
+2026-02-24 23:19:24,871 - config - INFO - Data Before Insertion : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$GKM0JoQw5vyfE0IIYWxNKQ$IKOIvjZz7xKV9mNgAH7UCEgvoHlFE6Z6d56yeU0NtUE', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:19:24,872 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$GKM0JoQw5vyfE0IIYWxNKQ$IKOIvjZz7xKV9mNgAH7UCEgvoHlFE6Z6d56yeU0NtUE', 'student') Reason : UNIQUE constraint failed: user.email
+2026-02-24 23:19:24,872 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:19:24,872 - config - INFO - Creation Request Initation Output : False
+2026-02-24 23:19:24,872 - config - ERROR - Exception at Student Creation : object of type 'bool' has no len()
+2026-02-24 23:19:24,872 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:19:24] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:19:28,234 - config - INFO - Loading information for creation : {'user': {'name': 'Madhavam', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$ktKa8x6jFIKQcg4h5FzrnQ$YUGWFhfQAinoAqI2tnPHlcNZ0WkN/ou/AljTJ3k+r70', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'jrnjgrnggr33'}}
+2026-02-24 23:19:28,234 - config - INFO - Data Before Insertion : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$ktKa8x6jFIKQcg4h5FzrnQ$YUGWFhfQAinoAqI2tnPHlcNZ0WkN/ou/AljTJ3k+r70', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:19:28,234 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Madhavam', 'mad@mad', '$argon2id$v=19$m=65536,t=3,p=4$ktKa8x6jFIKQcg4h5FzrnQ$YUGWFhfQAinoAqI2tnPHlcNZ0WkN/ou/AljTJ3k+r70', 'student') Reason : UNIQUE constraint failed: user.email
+2026-02-24 23:19:28,234 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 23:19:28,234 - config - INFO - Creation Request Initation Output : False
+2026-02-24 23:19:28,234 - config - ERROR - Exception at Student Creation : object of type 'bool' has no len()
+2026-02-24 23:19:28,235 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:19:28] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:19:37,706 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-24 23:19:37,740 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:19:37,866 - config - INFO - Application started
+2026-02-24 23:19:37,894 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:19:37,897 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:19:43,665 - config - INFO - Application started
+2026-02-24 23:19:43,697 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-24 23:19:43,697 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-24 23:19:43,698 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:19:43,835 - config - INFO - Application started
+2026-02-24 23:19:43,864 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:19:43,866 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:19:46,684 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:19:46] "GET /register/student HTTP/1.1" 200 -
+2026-02-24 23:19:46,730 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:19:46] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 23:20:00,571 - config - INFO - Loading information for creation : {'user': {'name': 'Madhav Rimal', 'email': 'mad@mad1212', 'password': '$argon2id$v=19$m=65536,t=3,p=4$gtC61xpDiNG6V4pxLkXonQ$DaTF8Cu2oV5/D+2nhJMDPAr9hS7T6u14oBlDQSZEIe0', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'ew feno'}}
+2026-02-24 23:20:00,571 - config - INFO - Data Before Insertion : ('Madhav Rimal', 'mad@mad1212', '$argon2id$v=19$m=65536,t=3,p=4$gtC61xpDiNG6V4pxLkXonQ$DaTF8Cu2oV5/D+2nhJMDPAr9hS7T6u14oBlDQSZEIe0', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-24 23:20:00,575 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('Madhav Rimal', 'mad@mad1212', '$argon2id$v=19$m=65536,t=3,p=4$gtC61xpDiNG6V4pxLkXonQ$DaTF8Cu2oV5/D+2nhJMDPAr9hS7T6u14oBlDQSZEIe0', 'student')
+2026-02-24 23:20:00,576 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'Madhav Rimal', 'email': 'mad@mad1212', 'password': '$argon2id$v=19$m=65536,t=3,p=4$gtC61xpDiNG6V4pxLkXonQ$DaTF8Cu2oV5/D+2nhJMDPAr9hS7T6u14oBlDQSZEIe0', 'role': 'student'}
+2026-02-24 23:20:00,576 - config - INFO - Creation Request Initation Output : (5, 'Madhav Rimal', 'mad@mad1212', '$argon2id$v=19$m=65536,t=3,p=4$gtC61xpDiNG6V4pxLkXonQ$DaTF8Cu2oV5/D+2nhJMDPAr9hS7T6u14oBlDQSZEIe0', 'student', 'deactivated')
+2026-02-24 23:20:00,576 - config - INFO - Data Before Insertion : (5, 'ew feno', 'Data Science') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
+2026-02-24 23:20:00,578 - config - INFO - Execute of Generic Model Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) and data (5, 'ew feno', 'Data Science')
+2026-02-24 23:20:00,578 - config - INFO - Insert Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'ew feno', 'student_id': 5}
+2026-02-24 23:20:00,579 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:20:00] "POST /register/student HTTP/1.1" 200 -
+2026-02-24 23:20:59,535 - config - INFO - Application started
+2026-02-24 23:20:59,567 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-24 23:20:59,567 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-24 23:20:59,567 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:20:59,700 - config - INFO - Application started
+2026-02-24 23:20:59,730 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:20:59,732 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:21:05,671 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:21:05] "GET /register/login HTTP/1.1" 200 -
+2026-02-24 23:21:05,741 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:21:05] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 23:21:14,303 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:21:14] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-02-24 23:21:14,368 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:21:14] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-24 23:21:14,368 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:21:14] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-24 23:21:14,401 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:21:14] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=9J7d1RaXBiDTenVIfYvS HTTP/1.1" 200 -
+2026-02-24 23:22:01,845 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-24 23:22:01,881 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:22:02,007 - config - INFO - Application started
+2026-02-24 23:22:02,034 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:22:02,036 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:22:06,050 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-24 23:22:06,083 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:22:06,183 - config - INFO - Application started
+2026-02-24 23:22:06,202 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:22:06,204 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:22:07,732 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:22:07] "POST /register/login HTTP/1.1" 200 -
+2026-02-24 23:22:17,439 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:22:17] "GET /register/login HTTP/1.1" 200 -
+2026-02-24 23:22:17,486 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:22:17] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 23:22:24,507 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:22:24] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-02-24 23:22:24,559 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:22:24] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-24 23:22:24,560 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:22:24] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-24 23:22:24,606 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:22:24] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=5h1kKjWlEhevPHDbDuR2 HTTP/1.1" 200 -
+2026-02-24 23:23:07,315 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-24 23:23:07,349 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:23:07,490 - config - INFO - Application started
+2026-02-24 23:23:07,518 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:23:07,521 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:23:09,869 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:09] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-02-24 23:23:09,922 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:09] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-24 23:23:09,923 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:09] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-24 23:23:09,949 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:09] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=zIuSHtlwNg7yAVJY0JdR HTTP/1.1" 200 -
+2026-02-24 23:23:11,360 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:11] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-02-24 23:23:11,393 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:11] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-24 23:23:11,394 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:11] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-24 23:23:11,414 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:11] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=zIuSHtlwNg7yAVJY0JdR HTTP/1.1[0m" 304 -
+2026-02-24 23:23:49,600 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-24 23:23:49,665 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:23:49,800 - config - INFO - Application started
+2026-02-24 23:23:49,822 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:23:49,824 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:23:50,867 - config - INFO - User not found with : {'name': 'Madhava a a a a', 'password': 'ondonsdoff'}
+2026-02-24 23:23:50,868 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:50] "POST /register/login HTTP/1.1" 200 -
+2026-02-24 23:23:54,087 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:54] "GET /register/login HTTP/1.1" 200 -
+2026-02-24 23:23:54,131 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:23:54] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-24 23:24:02,861 - werkzeug - INFO - 127.0.0.1 - - [24/Feb/2026 23:24:02] "POST /register/login HTTP/1.1" 200 -
+2026-02-24 23:24:10,864 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-24 23:24:10,898 - werkzeug - INFO -  * Restarting with stat
+2026-02-24 23:24:11,027 - config - INFO - Application started
+2026-02-24 23:24:11,055 - werkzeug - WARNING -  * Debugger is active!
+2026-02-24 23:24:11,057 - werkzeug - INFO -  * Debugger PIN: 110-345-933

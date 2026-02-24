@@ -5,30 +5,41 @@ from auth.login import *
 
 register = Blueprint('/registration', __name__, url_prefix="/register")
 
-# Registration Routing
 @register.route("/")
+def root():
+    return "Register root"
+
+# Registration Routing
+@register.route("/login", methods=['GET','POST'])
 def login_page():
-    return "Making Login Page"
+    if request.method == "GET":
+        return render_template("login.html")
+    elif request.method == "POST":
+        data = request.form
+        user_name = data["name"]
+        password = data["password"]
+        # Making Authentication logic with login api
+        information = {"name":user_name, "password":password}
+
+        result = authenticate_user(information) # 1 - authenticated , 2- password wrong , 0 - user not found
+        if result == 1:
+            return "User Verified"
+        elif result == 2:
+            return "Incorrect Password"
+        else:
+            return "User Not found"
 
 @register.route("/student" , methods=['POST', 'GET'])
 def student_register():  # Working student registration flow tested :)
     if request.method == 'GET':
         return render_template("register_student.html")
-
-# Helper function
-def extract_information(data):
-    requirements = "name,email,password".split(",")
-    fetched = {}
-    for i in requirements:
-        fetched[i] = data.get(i) # fetched information
-    print(f"Information fetched : {fetched}")
-    return fetched
-
     elif request.method == 'POST':
         data = request.form
 
         info = extract_information(data)
         info["role"] = "student"
+        # password hash
+        info["password"] = hash_password(info["password"])
 
         selection = data.get("branch-selection")
         resume = data.get("resume")
@@ -69,6 +80,12 @@ def register_company():
                     "contact_details" : contact_details
                     }
                 }
-        # Making Company object
 
+def extract_information(data):
+    requirements = "name,email,password".split(",")
+    fetched = {}
+    for i in requirements:
+        fetched[i] = data.get(i) # fetched information
+    print(f"Information fetched : {fetched}")
+    return fetched
 

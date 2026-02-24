@@ -13,7 +13,7 @@ class User:
     2. Making lookup loading from the DB
     """
     def __init__(self):
-        columns = 'name,email,password_hash,role'.split(",")
+        columns = 'name,email,password,role'.split(",")
         self.columns = tuple(columns)
         self.db = GenericModel("user", self.columns)
 
@@ -30,3 +30,22 @@ class User:
         except Exception as e:
             log.error(f"User Creation Failed | reason : {e}")
             raise Exception("User creation Failed")
+
+# Authenticate user
+def authenticate_user(information):
+    user = User()
+    anchor_information = ("name", information["name"])
+    req = "name,password"
+    info = user.db.repo.search(anchor_information, req)
+    if (type(info) == tuple) and (len(info) == 2):
+        password = info[1]
+        plain_pass = information["password"]
+        result = authentication(password, plain_pass)
+        if result:
+            return 1
+        else:
+            return 2
+        
+    else:
+        log.info(f"User not found with : {information}")
+        return 0
