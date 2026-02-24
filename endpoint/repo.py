@@ -32,6 +32,6 @@ class Repo:
             fetch = cursor.fetchone()  # Getin one Entry
             print(f"Fetch Result : {fetch}")
             if fetch:
-                return fetch[0]
+                return fetch
             else:
                 return False

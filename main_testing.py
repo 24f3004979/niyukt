@@ -1,8 +1,8 @@
-from model.student import *
+from model.company import *
 
 # Payload
-name = "Randomrandom123"
-email = "email@random123randomshabd"
+name = "RandomCpany"
+email = "email@r23ranmshabd"
 password = "1234"
 selection = "random branch is being selected"
 resume = "Resume for the random student"
@@ -15,13 +15,13 @@ information = {
                     "name" : name,
                     "password_hash" : password,
                     "email" : email,
-                    "role" : "student"
+                    "role" : "company"
                     },
-                "student": {
-                    "branch" : selection,
-                    "resume" : resume
+                "company": {
+                    "discription" : selection,
+                    "contact_details" : resume
                     }
                 }
 
-student = Student()
-student.activate(information)
+c = Company()
+c.initiate(information)

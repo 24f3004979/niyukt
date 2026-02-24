@@ -22,20 +22,10 @@ class Student(User):
         user_information = information["user"]
         student_information = information["student"]
         try:
-            self.db.insert(user_information)
+            info = self.initiate_user(user_information)
 
-            print(f"user creation success full")
-            # Creating entries for student 
-            name = user_information["name"]  # Dict Way is must
-            print(f"Name : {name}")
-            anchor_information = ("name", name)
-            id = self.db.repo.search(anchor_information, "id")
-
-            # Student information with id being at last but faith
-            student_information["student_id"] = id
-            print(f"student information : {student_information}")
-            self.student.insert(student_information) # Making student update
-            print(f"Student creation successfull")
+            student_information["student_id"] = info[0]
+            self.student.insert(student_information)
         except Exception as e:
             log.error(f"Exception at Student Creation : {e}")
             raise Exception(f"Student Creation Failed with {e}")

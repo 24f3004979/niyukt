@@ -49,7 +49,7 @@ Checks for validity of data flow for final Executions
         Values : Dictionary with columns as their keys
         '''
         if len(values) != len(self.columns):
-            log.warning("Terminating Due to Invalid Data type passed for insertion")
+            log.warning(f"Terminating Due to Invalid Data type passed for insertion Information : {values} for table {self.table} with columns : {self.columns}")
             return False
 
         insertion_query = self.build_query.insertion()

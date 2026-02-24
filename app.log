@@ -1,31 +1,44 @@
-2026-02-23 22:53:54,505 - config - INFO - Application started
-2026-02-23 22:53:54,536 - config - INFO - Loading information for creation : {'user': {'name': 'Random1', 'password_hash': '1234', 'email': 'email@random', 'role': 'student'}, 'student': {'branch': 'random branch is being selected', 'resume': 'Resume for the random student'}}
-2026-02-23 22:53:54,537 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : ('Random1', 'email@random', '1234', 'student')
-2026-02-23 22:53:54,537 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
-2026-02-23 22:53:54,537 - config - ERROR - Failed at insert of Generic Model with 'student_id'
-2026-02-23 22:55:17,618 - config - INFO - Application started
-2026-02-23 22:55:17,649 - config - INFO - Loading information for creation : {'user': {'name': 'Random1', 'password_hash': '1234', 'email': 'email@random', 'role': 'student'}, 'student': {'branch': 'random branch is being selected', 'resume': 'Resume for the random student'}}
-2026-02-23 22:55:17,650 - config - ERROR - Failed at insert of Generic Model with name 'query' is not defined
-2026-02-23 22:55:17,650 - config - ERROR - Failed at insert of Generic Model with 'student_id'
-2026-02-23 22:56:18,041 - config - INFO - Application started
-2026-02-23 22:56:18,072 - config - INFO - Loading information for creation : {'user': {'name': 'Random123', 'password_hash': '1234', 'email': 'email@random123', 'role': 'student'}, 'student': {'branch': 'random branch is being selected', 'resume': 'Resume for the random student'}}
-2026-02-23 22:56:18,073 - config - INFO - Data Before Insertion : ('Random123', 'email@random123', '1234', 'student') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
-2026-02-23 22:56:18,081 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('Random123', 'email@random123', '1234', 'student')
-2026-02-23 22:56:18,081 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'Random123', 'password_hash': '1234', 'email': 'email@random123', 'role': 'student'}
-2026-02-23 22:56:18,082 - config - ERROR - Failed at insert of Generic Model with 'student_id'
-2026-02-23 22:57:43,958 - config - INFO - Application started
-2026-02-23 22:57:43,990 - config - INFO - Loading information for creation : {'user': {'name': 'Random123', 'password_hash': '1234', 'email': 'email@random123', 'role': 'student'}, 'student': {'branch': 'random branch is being selected', 'resume': 'Resume for the random student'}}
-2026-02-23 22:57:43,990 - config - INFO - Data Before Insertion : ('Random123', 'email@random123', '1234', 'student') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
-2026-02-23 22:57:43,991 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : ('Random123', 'email@random123', '1234', 'student')
-2026-02-23 22:57:43,991 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
-2026-02-23 22:57:43,992 - config - INFO - Data Before Insertion : (29, 'Resume for the random student', 'random branch is being selected') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
-2026-02-23 22:57:44,005 - config - INFO - Execute of Generic Model Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) and data (29, 'Resume for the random student', 'random branch is being selected')
-2026-02-23 22:57:44,005 - config - INFO - Insert Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'random branch is being selected', 'resume': 'Resume for the random student', 'student_id': 29}
-2026-02-23 22:58:07,608 - config - INFO - Application started
-2026-02-23 22:58:07,640 - config - INFO - Loading information for creation : {'user': {'name': 'Randomrandom123', 'password_hash': '1234', 'email': 'email@random123randomshabd', 'role': 'student'}, 'student': {'branch': 'random branch is being selected', 'resume': 'Resume for the random student'}}
-2026-02-23 22:58:07,640 - config - INFO - Data Before Insertion : ('Randomrandom123', 'email@random123randomshabd', '1234', 'student') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
-2026-02-23 22:58:07,691 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('Randomrandom123', 'email@random123randomshabd', '1234', 'student')
-2026-02-23 22:58:07,691 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'Randomrandom123', 'password_hash': '1234', 'email': 'email@random123randomshabd', 'role': 'student'}
-2026-02-23 22:58:07,693 - config - INFO - Data Before Insertion : (30, 'Resume for the random student', 'random branch is being selected') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
-2026-02-23 22:58:07,704 - config - INFO - Execute of Generic Model Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) and data (30, 'Resume for the random student', 'random branch is being selected')
-2026-02-23 22:58:07,704 - config - INFO - Insert Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'random branch is being selected', 'resume': 'Resume for the random student', 'student_id': 30}
+2026-02-24 07:07:52,243 - config - INFO - Application started
+2026-02-24 07:07:52,258 - config - INFO - Loading information : {'user': {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}, 'company': {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
+2026-02-24 07:07:52,258 - config - INFO - Data Before Insertion : ('RandomCompany', 'email@r23randomshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
+2026-02-24 07:07:52,271 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('RandomCompany', 'email@r23randomshabd', '1234', 'company')
+2026-02-24 07:07:52,271 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}
+2026-02-24 07:07:52,271 - config - INFO - Creation Request Initation Output : (32, 'RandomCompany', 'email@r23randomshabd', '1234', 'company', 'active')
+2026-02-24 07:07:52,271 - config - WARNING - Terminating Due to Invalid Data type passed for insertion
+2026-02-24 07:09:48,031 - config - INFO - Application started
+2026-02-24 07:09:48,047 - config - INFO - Loading information : {'user': {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}, 'company': {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
+2026-02-24 07:09:48,047 - config - INFO - Data Before Insertion : ('RandomCompany', 'email@r23randomshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
+2026-02-24 07:09:48,048 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : ('RandomCompany', 'email@r23randomshabd', '1234', 'company')
+2026-02-24 07:09:48,048 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 07:09:48,048 - config - INFO - Creation Request Initation Output : (32, 'RandomCompany', 'email@r23randomshabd', '1234', 'company', 'active')
+2026-02-24 07:09:48,048 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student', 'company_id': 32} for table company
+2026-02-24 07:11:53,294 - config - INFO - Application started
+2026-02-24 07:11:53,310 - config - INFO - Loading information : {'user': {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}, 'company': {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
+2026-02-24 07:11:53,310 - config - INFO - Data Before Insertion : ('RandomCompany', 'email@r23randomshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
+2026-02-24 07:11:53,310 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : ('RandomCompany', 'email@r23randomshabd', '1234', 'company')
+2026-02-24 07:11:53,310 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 07:11:53,311 - config - INFO - Creation Request Initation Output : (32, 'RandomCompany', 'email@r23randomshabd', '1234', 'company', 'active')
+2026-02-24 07:11:53,311 - config - ERROR - Failed Company Initiation with : name 'columns' is not defined
+2026-02-24 07:12:15,885 - config - INFO - Application started
+2026-02-24 07:12:15,901 - config - INFO - Loading information : {'user': {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}, 'company': {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
+2026-02-24 07:12:15,901 - config - INFO - Data Before Insertion : ('RandomCompany', 'email@r23randomshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
+2026-02-24 07:12:15,901 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : ('RandomCompany', 'email@r23randomshabd', '1234', 'company')
+2026-02-24 07:12:15,901 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 07:12:15,901 - config - INFO - Creation Request Initation Output : (32, 'RandomCompany', 'email@r23randomshabd', '1234', 'company', 'active')
+2026-02-24 07:12:15,901 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student', 'company_id': 32} for table company with columns : ('c', 'o', 'm', 'p', 'a', 'n', 'y', '_', 'i', 'd', ',', 'd', 'i', 's', 'c', 'r', 'i', 'p', 't', 'i', 'o', 'n', ',', 'c', 'o', 'n', 't', 'a', 'c', 't', '_', 'd', 'e', 't', 'a', 'i', 'l', 's')
+2026-02-24 07:13:14,552 - config - INFO - Application started
+2026-02-24 07:13:14,567 - config - INFO - Loading information : {'user': {'name': 'RandomCompany', 'password_hash': '1234', 'email': 'email@r23randomshabd', 'role': 'company'}, 'company': {'description': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
+2026-02-24 07:13:14,567 - config - INFO - Data Before Insertion : ('RandomCompany', 'email@r23randomshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
+2026-02-24 07:13:14,568 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : ('RandomCompany', 'email@r23randomshabd', '1234', 'company')
+2026-02-24 07:13:14,568 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-24 07:13:14,568 - config - INFO - Creation Request Initation Output : (32, 'RandomCompany', 'email@r23randomshabd', '1234', 'company', 'active')
+2026-02-24 07:13:14,568 - config - ERROR - Failed at insert of Generic Model with 'discription'
+2026-02-24 07:14:31,706 - config - INFO - Application started
+2026-02-24 07:14:31,722 - config - INFO - Loading information : {'user': {'name': 'RandomCpany', 'password_hash': '1234', 'email': 'email@r23ranmshabd', 'role': 'company'}, 'company': {'discription': 'random branch is being selected', 'contact_details': 'Resume for the random student'}}
+2026-02-24 07:14:31,722 - config - INFO - Data Before Insertion : ('RandomCpany', 'email@r23ranmshabd', '1234', 'company') with query : insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?)
+2026-02-24 07:14:31,735 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) and data ('RandomCpany', 'email@r23ranmshabd', '1234', 'company')
+2026-02-24 07:14:31,735 - config - INFO - Insert Executed with insert into user('name', 'email', 'password_hash', 'role') values(?,?,?,?) with data : {'name': 'RandomCpany', 'password_hash': '1234', 'email': 'email@r23ranmshabd', 'role': 'company'}
+2026-02-24 07:14:31,735 - config - INFO - Creation Request Initation Output : (33, 'RandomCpany', 'email@r23ranmshabd', '1234', 'company', 'active')
+2026-02-24 07:14:31,735 - config - INFO - Data Before Insertion : (33, 'random branch is being selected', 'Resume for the random student') with query : insert into company('company_id', 'discription', 'contact_details') values(?,?,?)
+2026-02-24 07:14:31,746 - config - INFO - Execute of Generic Model Executed with insert into company('company_id', 'discription', 'contact_details') values(?,?,?) and data (33, 'random branch is being selected', 'Resume for the random student')
+2026-02-24 07:14:31,746 - config - INFO - Insert Executed with insert into company('company_id', 'discription', 'contact_details') values(?,?,?) with data : {'discription': 'random branch is being selected', 'contact_details': 'Resume for the random student', 'company_id': 33}

@@ -16,3 +16,17 @@ class User:
         columns = 'name,email,password_hash,role'.split(",")
         self.columns = tuple(columns)
         self.db = GenericModel("user", self.columns)
+
+    def initiate_user(self, information):
+        '''
+        Initiates User with given information and returns initiated data dictionary with id for further operations
+        '''
+        try:
+            self.db.insert(information)
+            anchor_information = ("name", information["name"])
+            fetched_info = self.db.repo.search(anchor_information, "*")
+            log.info(f"Creation Request Initation Output : {fetched_info}")
+            return fetched_info # Fetched information
+        except Exception as e:
+            log.error(f"User Creation Failed | reason : {e}")
+            raise Exception("User creation Failed")
