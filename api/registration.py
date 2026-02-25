@@ -1,5 +1,6 @@
 from flask import Blueprint, request, render_template
 from model.student import *
+from model.company import *
 from auth.login import *
 
 
@@ -80,6 +81,14 @@ def register_company():
                     "contact_details" : contact_details
                     }
                 }
+        print(f'Company information : {information}')
+
+        company = Company()
+        company.initiate(information) # root for bugs 
+        # TODO Final Check sums for the company registration is left for completion
+        '''
+        With company registration working we can move for making fetch based admin dashboards and other systems :)
+        '''
 
 def extract_information(data):
     requirements = "name,email,password".split(",")

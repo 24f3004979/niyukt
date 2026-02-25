@@ -9,7 +9,6 @@ resume = "Resume for the random student"
 
 
 
-
 information = {
                 "user":{
                     "name" : name,

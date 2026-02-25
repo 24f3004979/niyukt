@@ -280,3 +280,82 @@
 2026-02-24 23:24:11,027 - config - INFO - Application started
 2026-02-24 23:24:11,055 - werkzeug - WARNING -  * Debugger is active!
 2026-02-24 23:24:11,057 - werkzeug - INFO -  * Debugger PIN: 110-345-933
+2026-02-24 23:24:53,140 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-24 23:24:53,179 - werkzeug - INFO -  * Restarting with stat
+2026-02-25 16:55:14,688 - config - INFO - Application started
+2026-02-25 16:55:14,726 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-25 16:55:14,726 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-25 16:55:14,727 - werkzeug - INFO -  * Restarting with stat
+2026-02-25 16:55:14,809 - config - INFO - Application started
+2026-02-25 16:55:14,827 - werkzeug - WARNING -  * Debugger is active!
+2026-02-25 16:55:14,836 - werkzeug - INFO -  * Debugger PIN: 131-168-351
+2026-02-25 16:55:35,926 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 16:55:35] "GET / HTTP/1.1" 200 -
+2026-02-25 16:55:35,971 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 16:55:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 16:55:53,073 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 16:55:53] "GET /register/student HTTP/1.1" 200 -
+2026-02-25 16:55:53,104 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 16:55:53] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-25 16:56:21,736 - config - INFO - Loading information for creation : {'user': {'name': 'Madhavi Rimal', 'email': 'madhavirimal@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$3ft/r5VSynmPMeZ87/1/7w$LbESX4l+oHqdMjnflsa2u2A2aev1SxyOBFYgMJmqsFg', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'Dummy resume'}}
+2026-02-25 16:56:21,736 - config - INFO - Data Before Insertion : ('Madhavi Rimal', 'madhavirimal@gmail.com', '$argon2id$v=19$m=65536,t=3,p=4$3ft/r5VSynmPMeZ87/1/7w$LbESX4l+oHqdMjnflsa2u2A2aev1SxyOBFYgMJmqsFg', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-25 16:56:21,740 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('Madhavi Rimal', 'madhavirimal@gmail.com', '$argon2id$v=19$m=65536,t=3,p=4$3ft/r5VSynmPMeZ87/1/7w$LbESX4l+oHqdMjnflsa2u2A2aev1SxyOBFYgMJmqsFg', 'student')
+2026-02-25 16:56:21,740 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'Madhavi Rimal', 'email': 'madhavirimal@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$3ft/r5VSynmPMeZ87/1/7w$LbESX4l+oHqdMjnflsa2u2A2aev1SxyOBFYgMJmqsFg', 'role': 'student'}
+2026-02-25 16:56:21,741 - config - INFO - Creation Request Initation Output : (6, 'Madhavi Rimal', 'madhavirimal@gmail.com', '$argon2id$v=19$m=65536,t=3,p=4$3ft/r5VSynmPMeZ87/1/7w$LbESX4l+oHqdMjnflsa2u2A2aev1SxyOBFYgMJmqsFg', 'student', 'deactivated')
+2026-02-25 16:56:21,741 - config - INFO - Data Before Insertion : (6, 'Dummy resume', 'Data Science') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
+2026-02-25 16:56:21,744 - config - INFO - Execute of Generic Model Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) and data (6, 'Dummy resume', 'Data Science')
+2026-02-25 16:56:21,744 - config - INFO - Insert Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'Dummy resume', 'student_id': 6}
+2026-02-25 16:56:21,745 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 16:56:21] "POST /register/student HTTP/1.1" 200 -
+2026-02-25 16:56:29,770 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 16:56:29] "GET /register/login HTTP/1.1" 200 -
+2026-02-25 16:56:29,794 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 16:56:29] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-25 16:56:38,559 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 16:56:38] "POST /register/login HTTP/1.1" 200 -
+2026-02-25 22:52:01,454 - config - INFO - Application started
+2026-02-25 22:52:01,486 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-25 22:52:01,486 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-25 22:52:01,487 - werkzeug - INFO -  * Restarting with stat
+2026-02-25 22:52:01,621 - config - INFO - Application started
+2026-02-25 22:52:01,652 - werkzeug - WARNING -  * Debugger is active!
+2026-02-25 22:52:01,654 - werkzeug - INFO -  * Debugger PIN: 427-896-396
+2026-02-25 23:12:29,226 - config - INFO - Application started
+2026-02-25 23:12:29,258 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-25 23:12:29,259 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-25 23:12:29,259 - werkzeug - INFO -  * Restarting with stat
+2026-02-25 23:12:29,392 - config - INFO - Application started
+2026-02-25 23:12:29,422 - werkzeug - WARNING -  * Debugger is active!
+2026-02-25 23:12:29,424 - werkzeug - INFO -  * Debugger PIN: 135-325-549
+2026-02-25 23:13:23,753 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:13:23] "GET / HTTP/1.1" 200 -
+2026-02-25 23:13:23,790 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:13:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 23:13:29,668 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:13:29] "GET /register/student HTTP/1.1" 200 -
+2026-02-25 23:13:29,700 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:13:29] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-25 23:13:50,669 - config - INFO - Loading information for creation : {'user': {'name': 'New student', 'email': 'newstudent@gmai.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$6l2LcY7R+r+XEoLQem+N8Q$bA64xmYmW/Fmw7PPDxpJhLRUsVJ9elzDpy9acf+Hdvg', 'role': 'student'}, 'student': {'branch': 'Data Science', 'resume': 'My Resume'}}
+2026-02-25 23:13:50,669 - config - INFO - Data Before Insertion : ('New student', 'newstudent@gmai.com', '$argon2id$v=19$m=65536,t=3,p=4$6l2LcY7R+r+XEoLQem+N8Q$bA64xmYmW/Fmw7PPDxpJhLRUsVJ9elzDpy9acf+Hdvg', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-25 23:13:50,678 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('New student', 'newstudent@gmai.com', '$argon2id$v=19$m=65536,t=3,p=4$6l2LcY7R+r+XEoLQem+N8Q$bA64xmYmW/Fmw7PPDxpJhLRUsVJ9elzDpy9acf+Hdvg', 'student')
+2026-02-25 23:13:50,678 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'New student', 'email': 'newstudent@gmai.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$6l2LcY7R+r+XEoLQem+N8Q$bA64xmYmW/Fmw7PPDxpJhLRUsVJ9elzDpy9acf+Hdvg', 'role': 'student'}
+2026-02-25 23:13:50,678 - config - INFO - Creation Request Initation Output : (7, 'New student', 'newstudent@gmai.com', '$argon2id$v=19$m=65536,t=3,p=4$6l2LcY7R+r+XEoLQem+N8Q$bA64xmYmW/Fmw7PPDxpJhLRUsVJ9elzDpy9acf+Hdvg', 'student', 'deactivated')
+2026-02-25 23:13:50,679 - config - INFO - Data Before Insertion : (7, 'My Resume', 'Data Science') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
+2026-02-25 23:13:50,686 - config - INFO - Execute of Generic Model Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) and data (7, 'My Resume', 'Data Science')
+2026-02-25 23:13:50,686 - config - INFO - Insert Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'My Resume', 'student_id': 7}
+2026-02-25 23:13:50,686 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:13:50] "POST /register/student HTTP/1.1" 200 -
+2026-02-25 23:13:57,439 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:13:57] "GET /register/login HTTP/1.1" 200 -
+2026-02-25 23:13:57,448 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:13:57] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-25 23:14:06,111 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:14:06] "POST /register/login HTTP/1.1" 200 -
+2026-02-25 23:14:53,139 - config - INFO - Application started
+2026-02-25 23:14:53,172 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-25 23:14:53,172 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-25 23:14:53,173 - werkzeug - INFO -  * Restarting with stat
+2026-02-25 23:14:53,308 - config - INFO - Application started
+2026-02-25 23:14:53,339 - werkzeug - WARNING -  * Debugger is active!
+2026-02-25 23:14:53,342 - werkzeug - INFO -  * Debugger PIN: 135-325-549
+2026-02-25 23:14:59,484 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:14:59] "[33mGET /register/register HTTP/1.1[0m" 404 -
+2026-02-25 23:15:03,911 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:15:03] "GET /register/student HTTP/1.1" 200 -
+2026-02-25 23:15:03,923 - werkzeug - INFO - 127.0.0.1 - - [25/Feb/2026 23:15:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-25 23:23:24,290 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-25 23:23:24,322 - werkzeug - INFO -  * Restarting with stat
+2026-02-25 23:23:24,453 - config - INFO - Application started
+2026-02-25 23:23:24,481 - werkzeug - WARNING -  * Debugger is active!
+2026-02-25 23:23:24,484 - werkzeug - INFO -  * Debugger PIN: 135-325-549
+2026-02-25 23:25:59,783 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-25 23:25:59,827 - werkzeug - INFO -  * Restarting with stat
+2026-02-25 23:25:59,961 - config - INFO - Application started
+2026-02-25 23:25:59,993 - werkzeug - WARNING -  * Debugger is active!
+2026-02-25 23:25:59,996 - werkzeug - INFO -  * Debugger PIN: 135-325-549
