@@ -4,7 +4,7 @@ PRAGMA foreign_keys = ON;
 CREATE TABLE user (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
 
-    name TEXT NOT NULL,
+    name TEXT NOT NULL UNIQUE,
     email TEXT NOT NULL UNIQUE,
     password TEXT NOT NULL,
 
@@ -16,7 +16,7 @@ CREATE TABLE user (
 -- Company
 CREATE TABLE company (
     company_id INTEGER PRIMARY KEY,
-    discription TEXT NOT NULL
+    description TEXT NOT NULL,
 
     FOREIGN KEY(company_id) REFERENCES user(id) ON DELETE CASCADE
 );

@@ -26,7 +26,11 @@ class User:
             anchor_information = ("name", information["name"])
             fetched_info = self.db.repo.search(anchor_information, "*")
             log.info(f"Creation Request Initation Output : {fetched_info}")
-            return fetched_info # Fetched information
+            if fetched_info:
+                return fetched_info 
+            else:
+                return False
+
         except Exception as e:
             log.error(f"User Creation Failed | reason : {e}")
             raise Exception("User creation Failed")

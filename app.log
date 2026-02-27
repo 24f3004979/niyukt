@@ -359,3 +359,375 @@
 2026-02-25 23:25:59,961 - config - INFO - Application started
 2026-02-25 23:25:59,993 - werkzeug - WARNING -  * Debugger is active!
 2026-02-25 23:25:59,996 - werkzeug - INFO -  * Debugger PIN: 135-325-549
+2026-02-27 18:44:03,712 - config - INFO - Application started
+2026-02-27 18:44:03,746 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 18:44:03,746 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 18:44:03,747 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 18:44:03,836 - config - INFO - Application started
+2026-02-27 18:44:03,855 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 18:44:03,867 - werkzeug - INFO -  * Debugger PIN: 840-179-001
+2026-02-27 18:44:11,523 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:44:11] "GET /register/student HTTP/1.1" 200 -
+2026-02-27 18:44:11,548 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:44:11] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 18:44:11,559 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:44:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-27 18:44:20,525 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:44:20] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 18:44:20,539 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:44:20] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 18:45:04,655 - config - INFO - Loading information for creation : {'user': {'name': 'Google', 'email': 'google.@google.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$6b03JsT4HyMkJIQwpvR+Lw$WpU69iONHL0DflMfXd7n7aEoIyRbTwptLznkDNRuUWk', 'role': 'student'}, 'student': {'branch': None, 'resume': None}}
+2026-02-27 18:45:04,655 - config - INFO - Data Before Insertion : ('Google', 'google.@google.com', '$argon2id$v=19$m=65536,t=3,p=4$6b03JsT4HyMkJIQwpvR+Lw$WpU69iONHL0DflMfXd7n7aEoIyRbTwptLznkDNRuUWk', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 18:45:04,658 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('Google', 'google.@google.com', '$argon2id$v=19$m=65536,t=3,p=4$6b03JsT4HyMkJIQwpvR+Lw$WpU69iONHL0DflMfXd7n7aEoIyRbTwptLznkDNRuUWk', 'student')
+2026-02-27 18:45:04,659 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'Google', 'email': 'google.@google.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$6b03JsT4HyMkJIQwpvR+Lw$WpU69iONHL0DflMfXd7n7aEoIyRbTwptLznkDNRuUWk', 'role': 'student'}
+2026-02-27 18:45:04,659 - config - INFO - Creation Request Initation Output : (8, 'Google', 'google.@google.com', '$argon2id$v=19$m=65536,t=3,p=4$6b03JsT4HyMkJIQwpvR+Lw$WpU69iONHL0DflMfXd7n7aEoIyRbTwptLznkDNRuUWk', 'student', 'deactivated')
+2026-02-27 18:45:04,659 - config - INFO - Data Before Insertion : (8, None, None) with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
+2026-02-27 18:45:04,661 - config - INFO - Execute of Generic Model Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) and data (8, None, None)
+2026-02-27 18:45:04,661 - config - INFO - Insert Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': None, 'resume': None, 'student_id': 8}
+2026-02-27 18:45:04,661 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:45:04] "POST /register/student HTTP/1.1" 200 -
+2026-02-27 18:50:20,514 - config - INFO - Application started
+2026-02-27 18:50:20,536 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 18:50:20,536 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 18:50:20,536 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 18:50:20,625 - config - INFO - Application started
+2026-02-27 18:50:20,645 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 18:50:20,646 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 18:50:31,599 - config - INFO - Loading information for creation : {'user': {'name': 'Google', 'email': 'google.@google.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$KsVYK4UQwrh3TqlVKiWEsA$ECsLCPCj1RPBD7Bik794cEx93uB5Xo85QGPiEa/bW0g', 'role': 'student'}, 'student': {'branch': None, 'resume': None}}
+2026-02-27 18:50:31,599 - config - INFO - Data Before Insertion : ('Google', 'google.@google.com', '$argon2id$v=19$m=65536,t=3,p=4$KsVYK4UQwrh3TqlVKiWEsA$ECsLCPCj1RPBD7Bik794cEx93uB5Xo85QGPiEa/bW0g', 'student') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 18:50:31,600 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('Google', 'google.@google.com', '$argon2id$v=19$m=65536,t=3,p=4$KsVYK4UQwrh3TqlVKiWEsA$ECsLCPCj1RPBD7Bik794cEx93uB5Xo85QGPiEa/bW0g', 'student') Reason : UNIQUE constraint failed: user.email
+2026-02-27 18:50:31,600 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-27 18:50:31,600 - config - INFO - Creation Request Initation Output : (8, 'Google', 'google.@google.com', '$argon2id$v=19$m=65536,t=3,p=4$6b03JsT4HyMkJIQwpvR+Lw$WpU69iONHL0DflMfXd7n7aEoIyRbTwptLznkDNRuUWk', 'student', 'deactivated')
+2026-02-27 18:50:31,600 - config - INFO - Data Before Insertion : (8, None, None) with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
+2026-02-27 18:50:31,600 - config - ERROR - Generic Model failed for query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : (8, None, None) Reason : UNIQUE constraint failed: student.student_id
+2026-02-27 18:50:31,600 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-27 18:50:31,601 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:50:31] "POST /register/student HTTP/1.1" 200 -
+2026-02-27 18:50:37,906 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:50:37] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 18:50:37,923 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:50:37] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 18:51:14,808 - config - INFO - Loading information : {'user': {'name': 'GoogleCloud', 'email': 'cloud.google@gogle.com', 'password': '1234', 'role': 'company'}, 'company': {'discription': 'We are one in cloud', 'contact_details': None}}
+2026-02-27 18:51:14,808 - config - INFO - Data Before Insertion : ('GoogleCloud', 'cloud.google@gogle.com', '1234', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 18:51:14,811 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('GoogleCloud', 'cloud.google@gogle.com', '1234', 'company')
+2026-02-27 18:51:14,811 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'GoogleCloud', 'email': 'cloud.google@gogle.com', 'password': '1234', 'role': 'company'}
+2026-02-27 18:51:14,811 - config - INFO - Creation Request Initation Output : (9, 'GoogleCloud', 'cloud.google@gogle.com', '1234', 'company', 'deactivated')
+2026-02-27 18:51:14,812 - config - INFO - Data Before Insertion : (9, 'We are one in cloud', None) with query : insert into company('company_id', 'discription', 'contact_details') values(?,?,?)
+2026-02-27 18:51:14,812 - config - ERROR - Generic Model failed for query : insert into company('company_id', 'discription', 'contact_details') values(?,?,?) with data : (9, 'We are one in cloud', None) Reason : NOT NULL constraint failed: company.contact_details
+2026-02-27 18:51:14,812 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-27 18:51:14,817 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:51:14] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-02-27 18:51:14,829 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:51:14] "GET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-27 18:51:14,830 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:51:14] "GET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-27 18:51:14,838 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:51:14] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=tOcnpV7Uh7ckgTD5y90D HTTP/1.1" 200 -
+2026-02-27 18:51:14,849 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:51:14] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-27 18:52:24,830 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-27 18:52:24,858 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 18:52:24,947 - config - INFO - Application started
+2026-02-27 18:52:24,968 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 18:52:24,970 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 18:52:41,997 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-27 18:52:42,024 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 18:52:42,117 - config - INFO - Application started
+2026-02-27 18:52:42,138 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 18:52:42,140 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 18:52:50,149 - config - INFO - Application started
+2026-02-27 18:52:50,171 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 18:52:50,171 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 18:52:50,171 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 18:52:50,260 - config - INFO - Application started
+2026-02-27 18:52:50,280 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 18:52:50,281 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 18:52:53,632 - config - INFO - Loading information : {'user': {'name': 'GoogleCloud', 'email': 'cloud.google@gogle.com', 'password': '1234', 'role': 'company'}, 'company': {'discription': 'We are one in cloud', 'contact_details': None}}
+2026-02-27 18:52:53,632 - config - INFO - Data Before Insertion : ('GoogleCloud', 'cloud.google@gogle.com', '1234', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 18:52:53,633 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : ('GoogleCloud', 'cloud.google@gogle.com', '1234', 'company') Reason : UNIQUE constraint failed: user.email
+2026-02-27 18:52:53,633 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-27 18:52:53,633 - config - INFO - Creation Request Initation Output : (9, 'GoogleCloud', 'cloud.google@gogle.com', '1234', 'company', 'deactivated')
+2026-02-27 18:52:53,633 - config - INFO - Data Before Insertion : (9, 'We are one in cloud', None) with query : insert into company('company_id', 'discription', 'contact_details') values(?,?,?)
+2026-02-27 18:52:53,633 - config - ERROR - Generic Model failed for query : insert into company('company_id', 'discription', 'contact_details') values(?,?,?) with data : (9, 'We are one in cloud', None) Reason : NOT NULL constraint failed: company.contact_details
+2026-02-27 18:52:53,633 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-27 18:52:53,633 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:52:53] "POST /register/company HTTP/1.1" 200 -
+2026-02-27 18:54:06,392 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/company.py', reloading
+2026-02-27 18:54:06,420 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 18:54:06,509 - config - INFO - Application started
+2026-02-27 18:54:06,530 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 18:54:06,532 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 18:57:30,682 - config - INFO - Application started
+2026-02-27 18:57:30,704 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 18:57:30,704 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 18:57:30,704 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 18:57:30,793 - config - INFO - Application started
+2026-02-27 18:57:30,814 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 18:57:30,816 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 18:57:39,061 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:57:39] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 18:57:39,074 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:57:39] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 18:58:02,185 - config - INFO - Loading information : {'user': {'name': 'Microsoft', 'email': 'micro@window.com', 'password': '1234', 'role': 'company'}, 'company': {'discription': 'We lead computers', 'contact_details': None}}
+2026-02-27 18:58:02,185 - config - INFO - Data Before Insertion : ('Microsoft', 'micro@window.com', '1234', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 18:58:02,188 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('Microsoft', 'micro@window.com', '1234', 'company')
+2026-02-27 18:58:02,188 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'Microsoft', 'email': 'micro@window.com', 'password': '1234', 'role': 'company'}
+2026-02-27 18:58:02,188 - config - INFO - Creation Request Initation Output : (1, 'Microsoft', 'micro@window.com', '1234', 'company', 'deactivated')
+2026-02-27 18:58:02,188 - config - INFO - Data Before Insertion : (1, 'We lead computers', None) with query : insert into company('company_id', 'discription', 'contact_details') values(?,?,?)
+2026-02-27 18:58:02,189 - config - ERROR - Generic Model failed for query : insert into company('company_id', 'discription', 'contact_details') values(?,?,?) with data : (1, 'We lead computers', None) Reason : table company has no column named discription
+2026-02-27 18:58:02,189 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-27 18:58:02,189 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:58:02] "POST /register/company HTTP/1.1" 200 -
+2026-02-27 18:59:21,979 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-27 18:59:22,006 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 18:59:22,097 - config - INFO - Application started
+2026-02-27 18:59:22,118 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 18:59:22,119 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 18:59:23,125 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-27 18:59:23,151 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 18:59:23,244 - config - INFO - Application started
+2026-02-27 18:59:23,265 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 18:59:23,267 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 18:59:33,251 - config - INFO - Application started
+2026-02-27 18:59:33,273 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 18:59:33,274 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 18:59:33,274 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 18:59:33,362 - config - INFO - Application started
+2026-02-27 18:59:33,382 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 18:59:33,384 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 18:59:37,120 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:59:37] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 18:59:37,132 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 18:59:37] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:00:04,796 - config - INFO - Loading information : {'user': {'name': 'Boat', 'email': 'nav@nav.com', 'password': '1234', 'role': 'company'}, 'company': {'description': 'We are the boat fro floating', 'contact_details': None}}
+2026-02-27 19:00:04,796 - config - INFO - Data Before Insertion : ('Boat', 'nav@nav.com', '1234', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 19:00:04,799 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('Boat', 'nav@nav.com', '1234', 'company')
+2026-02-27 19:00:04,799 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'Boat', 'email': 'nav@nav.com', 'password': '1234', 'role': 'company'}
+2026-02-27 19:00:04,799 - config - INFO - Creation Request Initation Output : (2, 'Boat', 'nav@nav.com', '1234', 'company', 'deactivated')
+2026-02-27 19:00:04,799 - config - ERROR - Failed at insert of Generic Model with 'discription'
+2026-02-27 19:00:04,800 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:00:04] "POST /register/company HTTP/1.1" 200 -
+2026-02-27 19:00:59,515 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-27 19:00:59,544 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:00:59,635 - config - INFO - Application started
+2026-02-27 19:00:59,655 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:00:59,657 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 19:01:50,745 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/company.py', reloading
+2026-02-27 19:01:50,783 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:01:50,921 - config - INFO - Application started
+2026-02-27 19:01:50,952 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:01:50,955 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 19:02:13,151 - config - INFO - Application started
+2026-02-27 19:02:13,184 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:02:13,184 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:02:13,185 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:02:13,322 - config - INFO - Application started
+2026-02-27 19:02:13,358 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:02:13,360 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 19:02:19,486 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:02:19] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 19:02:19,506 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:02:19] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:02:41,052 - config - INFO - Loading information : {'user': {'name': 'Venom', 'email': 'venom@zhar.com', 'password': '1234', 'role': 'company'}, 'company': {'description': None, 'contact_details': None}}
+2026-02-27 19:02:41,052 - config - INFO - Data Before Insertion : ('Venom', 'venom@zhar.com', '1234', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 19:02:41,055 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('Venom', 'venom@zhar.com', '1234', 'company')
+2026-02-27 19:02:41,055 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'Venom', 'email': 'venom@zhar.com', 'password': '1234', 'role': 'company'}
+2026-02-27 19:02:41,057 - config - INFO - Creation Request Initation Output : (3, 'Venom', 'venom@zhar.com', '1234', 'company', 'deactivated')
+2026-02-27 19:02:41,057 - config - ERROR - Failed at insert of Generic Model with 'discription'
+2026-02-27 19:02:41,057 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:02:41] "POST /register/company HTTP/1.1" 200 -
+2026-02-27 19:05:42,138 - config - INFO - Application started
+2026-02-27 19:05:42,160 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:05:42,160 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:05:42,160 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:05:42,248 - config - INFO - Application started
+2026-02-27 19:05:42,268 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:05:42,270 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 19:05:46,051 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:05:46] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 19:05:46,066 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:05:46] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:06:03,581 - config - INFO - Loading information : {'user': {'name': 'Accer', 'email': 'accer@accer.com', 'password': '1234', 'role': 'company'}, 'company': {'description': None, 'contact_details': None}}
+2026-02-27 19:06:03,581 - config - INFO - Data Before Insertion : ('Accer', 'accer@accer.com', '1234', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 19:06:03,618 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('Accer', 'accer@accer.com', '1234', 'company')
+2026-02-27 19:06:03,618 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'Accer', 'email': 'accer@accer.com', 'password': '1234', 'role': 'company'}
+2026-02-27 19:06:03,618 - config - INFO - Creation Request Initation Output : (4, 'Accer', 'accer@accer.com', '1234', 'company', 'deactivated')
+2026-02-27 19:06:03,618 - config - INFO - Data Before Insertion : (4, None, None) with query : insert into company('company_id', 'description', 'contact_details') values(?,?,?)
+2026-02-27 19:06:03,619 - config - ERROR - Generic Model failed for query : insert into company('company_id', 'description', 'contact_details') values(?,?,?) with data : (4, None, None) Reason : table company has no column named contact_details
+2026-02-27 19:06:03,619 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-27 19:06:03,619 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:06:03] "POST /register/company HTTP/1.1" 200 -
+2026-02-27 19:09:00,108 - config - INFO - Application started
+2026-02-27 19:09:00,130 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:09:00,130 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:09:00,130 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:09:00,219 - config - INFO - Application started
+2026-02-27 19:09:00,239 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:09:00,240 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 19:09:03,876 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:09:03] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 19:09:03,892 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:09:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:09:24,434 - config - INFO - Loading information : {'user': {'name': 'Ubuntu ', 'email': 'ubuntu@ubuntu.com', 'password': '1234', 'role': 'company'}, 'company': {'description': None, 'contact_details': None}}
+2026-02-27 19:09:24,434 - config - INFO - Data Before Insertion : ('Ubuntu ', 'ubuntu@ubuntu.com', '1234', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 19:09:24,436 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('Ubuntu ', 'ubuntu@ubuntu.com', '1234', 'company')
+2026-02-27 19:09:24,437 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'Ubuntu ', 'email': 'ubuntu@ubuntu.com', 'password': '1234', 'role': 'company'}
+2026-02-27 19:09:24,437 - config - INFO - Creation Request Initation Output : (5, 'Ubuntu ', 'ubuntu@ubuntu.com', '1234', 'company', 'deactivated')
+2026-02-27 19:09:24,437 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'description': None, 'contact_details': None, 'company_id': 5} for table company with columns : ('company_id', 'description')
+2026-02-27 19:09:24,438 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:09:24] "POST /register/company HTTP/1.1" 200 -
+2026-02-27 19:11:55,022 - config - INFO - Application started
+2026-02-27 19:11:55,045 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:11:55,045 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:11:55,045 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:11:55,132 - config - INFO - Application started
+2026-02-27 19:11:55,153 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:11:55,154 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 19:11:58,112 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:11:58] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 19:11:58,125 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:11:58] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:12:26,342 - config - INFO - Loading information : {'user': {'name': 'name', 'email': 'email@gmail.com', 'password': '1234', 'role': 'company'}, 'company': {'description': None, 'contact_details': None}}
+2026-02-27 19:12:26,342 - config - INFO - Data Before Insertion : ('name', 'email@gmail.com', '1234', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 19:12:26,344 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('name', 'email@gmail.com', '1234', 'company')
+2026-02-27 19:12:26,344 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'name', 'email': 'email@gmail.com', 'password': '1234', 'role': 'company'}
+2026-02-27 19:12:26,344 - config - INFO - Creation Request Initation Output : (6, 'name', 'email@gmail.com', '1234', 'company', 'deactivated')
+2026-02-27 19:12:26,344 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'description': None, 'contact_details': None, 'company_id': 6} for table company with columns : ('company_id', 'description')
+2026-02-27 19:12:26,345 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:12:26] "POST /register/company HTTP/1.1" 200 -
+2026-02-27 19:15:22,347 - config - INFO - Application started
+2026-02-27 19:15:22,369 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:15:22,369 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:15:22,369 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:15:22,456 - config - INFO - Application started
+2026-02-27 19:15:22,477 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:15:22,478 - werkzeug - INFO -  * Debugger PIN: 778-126-242
+2026-02-27 19:20:32,128 - config - INFO - Application started
+2026-02-27 19:20:32,150 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:20:32,150 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:20:32,150 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:20:32,238 - config - INFO - Application started
+2026-02-27 19:20:32,258 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:20:32,259 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:20:37,766 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:20:37] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 19:20:37,781 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:20:37] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:20:55,442 - config - INFO - Loading information : {'user': {'name': 'openai', 'email': 'ai@ai.com', 'password': '1234', 'role': 'company'}, 'company': {'description': None}}
+2026-02-27 19:20:55,442 - config - INFO - Data Before Insertion : ('openai', 'ai@ai.com', '1234', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 19:20:55,445 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('openai', 'ai@ai.com', '1234', 'company')
+2026-02-27 19:20:55,445 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'openai', 'email': 'ai@ai.com', 'password': '1234', 'role': 'company'}
+2026-02-27 19:20:55,445 - config - INFO - Creation Request Initation Output : (7, 'openai', 'ai@ai.com', '1234', 'company', 'deactivated')
+2026-02-27 19:20:55,446 - config - INFO - Data Before Insertion : (7, None) with query : insert into company('company_id', 'description') values(?,?)
+2026-02-27 19:20:55,446 - config - ERROR - Generic Model failed for query : insert into company('company_id', 'description') values(?,?) with data : (7, None) Reason : NOT NULL constraint failed: company.description
+2026-02-27 19:20:55,446 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-27 19:20:55,446 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:20:55] "POST /register/company HTTP/1.1" 200 -
+2026-02-27 19:23:24,696 - config - INFO - Application started
+2026-02-27 19:23:24,718 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:23:24,718 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:23:24,719 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:23:24,807 - config - INFO - Application started
+2026-02-27 19:23:24,827 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:23:24,829 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:23:27,697 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:23:27] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 19:23:27,710 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:23:27] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:23:48,557 - config - INFO - Company information for initiation :::: {'user': {'name': 'yt', 'email': 'yt@yt.com', 'password': '1234', 'role': 'company'}, 'company': {'description': 'yt '}}
+2026-02-27 19:23:48,557 - config - INFO - Loading information : {'user': {'name': 'yt', 'email': 'yt@yt.com', 'password': '1234', 'role': 'company'}, 'company': {'description': 'yt '}}
+2026-02-27 19:23:48,558 - config - INFO - Data Before Insertion : ('yt', 'yt@yt.com', '1234', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 19:23:48,560 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('yt', 'yt@yt.com', '1234', 'company')
+2026-02-27 19:23:48,560 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'yt', 'email': 'yt@yt.com', 'password': '1234', 'role': 'company'}
+2026-02-27 19:23:48,561 - config - INFO - Creation Request Initation Output : (8, 'yt', 'yt@yt.com', '1234', 'company', 'deactivated')
+2026-02-27 19:23:48,561 - config - INFO - Data Before Insertion : (8, 'yt ') with query : insert into company('company_id', 'description') values(?,?)
+2026-02-27 19:23:48,563 - config - INFO - Execute of Generic Model Executed with insert into company('company_id', 'description') values(?,?) and data (8, 'yt ')
+2026-02-27 19:23:48,563 - config - INFO - Insert Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'yt ', 'company_id': 8}
+2026-02-27 19:23:48,563 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:23:48] "POST /register/company HTTP/1.1" 200 -
+2026-02-27 19:24:17,584 - config - INFO - Application started
+2026-02-27 19:24:17,606 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:24:17,606 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:24:17,606 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:24:17,697 - config - INFO - Application started
+2026-02-27 19:24:17,716 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:24:17,718 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:24:22,490 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:24:22] "GET /register/login HTTP/1.1" 200 -
+2026-02-27 19:24:22,507 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:24:22] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:24:30,547 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:24:30] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-02-27 19:24:30,561 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:24:30] "GET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-27 19:24:30,562 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:24:30] "GET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-27 19:24:30,573 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:24:30] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=hdt4PNfd04CViUO0j0OV HTTP/1.1" 200 -
+2026-02-27 19:24:30,579 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:24:30] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-27 19:24:59,370 - werkzeug - INFO -  * To enable the debugger you need to enter the security pin:
+2026-02-27 19:24:59,370 - werkzeug - INFO -  * Debugger pin code: 618-387-994
+2026-02-27 19:24:59,370 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:24:59] "GET /register/login?__debugger__=yes&cmd=printpin&s=hdt4PNfd04CViUO0j0OV HTTP/1.1" 200 -
+2026-02-27 19:28:07,147 - config - INFO - Application started
+2026-02-27 19:28:07,169 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:28:07,169 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:28:07,169 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:28:07,260 - config - INFO - Application started
+2026-02-27 19:28:07,280 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:28:07,282 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:28:13,499 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:28:13] "GET /register/company HTTP/1.1" 200 -
+2026-02-27 19:28:13,520 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:28:13] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:28:37,517 - config - INFO - Company information for initiation :::: {'user': {'name': 'bing', 'email': 'bing@bing.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$sXaOcQ4BgPCec85Za80Z4w$Lq0ld3/hcMWbunR1vClyxWR0JkTrWsmxrWXDScrkL1o', 'role': 'company'}, 'company': {'description': 'description'}}
+2026-02-27 19:28:37,518 - config - INFO - Loading information : {'user': {'name': 'bing', 'email': 'bing@bing.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$sXaOcQ4BgPCec85Za80Z4w$Lq0ld3/hcMWbunR1vClyxWR0JkTrWsmxrWXDScrkL1o', 'role': 'company'}, 'company': {'description': 'description'}}
+2026-02-27 19:28:37,518 - config - INFO - Data Before Insertion : ('bing', 'bing@bing.com', '$argon2id$v=19$m=65536,t=3,p=4$sXaOcQ4BgPCec85Za80Z4w$Lq0ld3/hcMWbunR1vClyxWR0JkTrWsmxrWXDScrkL1o', 'company') with query : insert into user('name', 'email', 'password', 'role') values(?,?,?,?)
+2026-02-27 19:28:37,519 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) and data ('bing', 'bing@bing.com', '$argon2id$v=19$m=65536,t=3,p=4$sXaOcQ4BgPCec85Za80Z4w$Lq0ld3/hcMWbunR1vClyxWR0JkTrWsmxrWXDScrkL1o', 'company')
+2026-02-27 19:28:37,519 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role') values(?,?,?,?) with data : {'name': 'bing', 'email': 'bing@bing.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$sXaOcQ4BgPCec85Za80Z4w$Lq0ld3/hcMWbunR1vClyxWR0JkTrWsmxrWXDScrkL1o', 'role': 'company'}
+2026-02-27 19:28:37,520 - config - INFO - Creation Request Initation Output : (9, 'bing', 'bing@bing.com', '$argon2id$v=19$m=65536,t=3,p=4$sXaOcQ4BgPCec85Za80Z4w$Lq0ld3/hcMWbunR1vClyxWR0JkTrWsmxrWXDScrkL1o', 'company', 'deactivated')
+2026-02-27 19:28:37,520 - config - INFO - Data Before Insertion : (9, 'description') with query : insert into company('company_id', 'description') values(?,?)
+2026-02-27 19:28:37,521 - config - INFO - Execute of Generic Model Executed with insert into company('company_id', 'description') values(?,?) and data (9, 'description')
+2026-02-27 19:28:37,521 - config - INFO - Insert Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'description', 'company_id': 9}
+2026-02-27 19:28:37,521 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:28:37] "POST /register/company HTTP/1.1" 200 -
+2026-02-27 19:28:55,247 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:28:55] "GET /register/login HTTP/1.1" 200 -
+2026-02-27 19:28:55,258 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:28:55] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:29:01,735 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:29:01] "POST /register/login HTTP/1.1" 200 -
+2026-02-27 19:34:43,171 - config - INFO - Application started
+2026-02-27 19:34:43,192 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:34:43,193 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:34:43,193 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:34:43,281 - config - INFO - Application started
+2026-02-27 19:34:43,302 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:34:43,303 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:34:48,989 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:34:48] "GET /register/student HTTP/1.1" 200 -
+2026-02-27 19:34:49,011 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:34:49] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:35:17,351 - config - INFO - Loading information for creation : {'user': {'name': 'newiam', 'email': 'im@im.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$sra29p4TAqDUuvdeK6XUmg$Pxv7XHdah97FM/t11q/lZwUgFLtTfjmnJIlNfSPcMKk', 'role': 'student', 'status': 'active'}, 'student': {'branch': 'Data Science', 'resume': 'i am goat'}}
+2026-02-27 19:35:17,352 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'name': 'newiam', 'email': 'im@im.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$sra29p4TAqDUuvdeK6XUmg$Pxv7XHdah97FM/t11q/lZwUgFLtTfjmnJIlNfSPcMKk', 'role': 'student', 'status': 'active'} for table user with columns : ('name', 'email', 'password', 'role')
+2026-02-27 19:35:17,352 - config - INFO - Creation Request Initation Output : False
+2026-02-27 19:35:17,352 - config - ERROR - Exception at Student Creation : object of type 'bool' has no len()
+2026-02-27 19:35:17,352 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:35:17] "POST /register/student HTTP/1.1" 200 -
+2026-02-27 19:37:36,553 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-27 19:37:36,583 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:37:36,674 - config - INFO - Application started
+2026-02-27 19:37:36,694 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:37:36,696 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:37:39,704 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-27 19:37:39,730 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:37:39,820 - config - INFO - Application started
+2026-02-27 19:37:39,840 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:37:39,842 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:38:03,882 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-27 19:38:03,908 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:38:03,998 - config - INFO - Application started
+2026-02-27 19:38:04,019 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:38:04,021 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:38:08,755 - config - INFO - Loading information for creation : {'user': {'name': 'newiam', 'email': 'im@im.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$DAHgHON8752ztlYqhbA2Bg$0Vaxa7DxnqaZsLHBuCm8K1bfu7p6QVJAzHa4sN0pOVY', 'role': 'student', 'status': 'active'}, 'student': {'branch': 'Data Science', 'resume': 'i am goat'}}
+2026-02-27 19:38:08,755 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'name': 'newiam', 'email': 'im@im.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$DAHgHON8752ztlYqhbA2Bg$0Vaxa7DxnqaZsLHBuCm8K1bfu7p6QVJAzHa4sN0pOVY', 'role': 'student', 'status': 'active'} for table user with columns : ('name', 'email', 'password', 'role')
+2026-02-27 19:38:08,755 - config - INFO - Creation Request Initation Output : False
+2026-02-27 19:38:08,755 - config - ERROR - Exception at Student Creation : Something went wrong with student activation
+2026-02-27 19:38:08,756 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:38:08] "POST /register/student HTTP/1.1" 200 -
+2026-02-27 19:38:14,142 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:38:14] "GET /register/student HTTP/1.1" 200 -
+2026-02-27 19:38:14,154 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:38:14] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:38:27,546 - config - INFO - Loading information for creation : {'user': {'name': 'std', 'email': 'std@sdy', 'password': '$argon2id$v=19$m=65536,t=3,p=4$cA6h9L5XypnzPqc0JqRUyg$zqtqLFKBoLSp/QaVAHRya/CVwWmOXuKcgyp72Xi3JKU', 'role': 'student', 'status': 'active'}, 'student': {'branch': 'Data Science', 'resume': 'vferv'}}
+2026-02-27 19:38:27,547 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'name': 'std', 'email': 'std@sdy', 'password': '$argon2id$v=19$m=65536,t=3,p=4$cA6h9L5XypnzPqc0JqRUyg$zqtqLFKBoLSp/QaVAHRya/CVwWmOXuKcgyp72Xi3JKU', 'role': 'student', 'status': 'active'} for table user with columns : ('name', 'email', 'password', 'role')
+2026-02-27 19:38:27,547 - config - INFO - Creation Request Initation Output : False
+2026-02-27 19:38:27,547 - config - ERROR - Exception at Student Creation : Something went wrong with student activation
+2026-02-27 19:38:27,547 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:38:27] "POST /register/student HTTP/1.1" 200 -
+2026-02-27 19:38:41,078 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-27 19:38:41,111 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:38:41,205 - config - INFO - Application started
+2026-02-27 19:38:41,227 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:38:41,228 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:40:17,370 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-27 19:40:17,397 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:40:17,485 - config - INFO - Application started
+2026-02-27 19:40:17,505 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:40:17,507 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:41:28,195 - config - INFO - Application started
+2026-02-27 19:41:28,217 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-27 19:41:28,217 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 19:41:28,217 - werkzeug - INFO -  * Restarting with stat
+2026-02-27 19:41:28,305 - config - INFO - Application started
+2026-02-27 19:41:28,325 - werkzeug - WARNING -  * Debugger is active!
+2026-02-27 19:41:28,327 - werkzeug - INFO -  * Debugger PIN: 618-387-994
+2026-02-27 19:41:32,127 - config - INFO - Loading information for creation : {'user': {'name': 'std', 'email': 'std@sdy', 'password': '$argon2id$v=19$m=65536,t=3,p=4$gzDGeO+d8z7HOAcAIAQAAA$uN8qvsr3Wd4aTDRN6A1HbpUL/Oca8HqhEcppeWrIGH8', 'role': 'student', 'status': 'active'}, 'student': {'branch': 'Data Science', 'resume': 'vferv'}}
+2026-02-27 19:41:32,127 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'name': 'std', 'email': 'std@sdy', 'password': '$argon2id$v=19$m=65536,t=3,p=4$gzDGeO+d8z7HOAcAIAQAAA$uN8qvsr3Wd4aTDRN6A1HbpUL/Oca8HqhEcppeWrIGH8', 'role': 'student', 'status': 'active'} for table user with columns : ('name', 'email', 'password', 'role')
+2026-02-27 19:41:32,128 - config - INFO - Creation Request Initation Output : False
+2026-02-27 19:41:32,128 - config - ERROR - Exception at Student Creation : Something went wrong with student activation
+2026-02-27 19:41:32,128 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:41:32] "POST /register/student HTTP/1.1" 200 -
+2026-02-27 19:41:34,315 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:41:34] "GET /register/student HTTP/1.1" 200 -
+2026-02-27 19:41:34,326 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:41:34] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-27 19:41:45,960 - config - INFO - Loading information for creation : {'user': {'name': 'stud', 'email': 'm@a.a', 'password': '$argon2id$v=19$m=65536,t=3,p=4$CKG0FmIsBeCc816rFaI05g$cRvVE3sSXTdSUKdyV3LBtnwZaESgwP+Z0VK9fHbHJEs', 'role': 'student', 'status': 'active'}, 'student': {'branch': 'Data Science', 'resume': '1221ffevv'}}
+2026-02-27 19:41:45,960 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'name': 'stud', 'email': 'm@a.a', 'password': '$argon2id$v=19$m=65536,t=3,p=4$CKG0FmIsBeCc816rFaI05g$cRvVE3sSXTdSUKdyV3LBtnwZaESgwP+Z0VK9fHbHJEs', 'role': 'student', 'status': 'active'} for table user with columns : ('name', 'email', 'password', 'role')
+2026-02-27 19:41:45,961 - config - INFO - Creation Request Initation Output : False
+2026-02-27 19:41:45,961 - config - ERROR - Exception at Student Creation : Something went wrong with student activation
+2026-02-27 19:41:45,961 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:41:45] "POST /register/student HTTP/1.1" 200 -

@@ -1,4 +1,5 @@
 from flask import Blueprint, request, render_template
+from model.user import *
 from model.student import *
 from model.company import *
 from auth.login import *
@@ -39,8 +40,8 @@ def student_register():  # Working student registration flow tested :)
 
         info = extract_information(data)
         info["role"] = "student"
+        info["status"] = "active"
         # password hash
-        info["password"] = hash_password(info["password"])
 
         selection = data.get("branch-selection")
         resume = data.get("resume")
@@ -70,21 +71,22 @@ def register_company():
         info = extract_information(data)
         info["role"] = "company"
 
-        description = data.get("discription")
-        contact_details = data.get("contact_details")
-
+        description = data.get("description")
         # company information
         information = {
                 "user" : info,
                 "company": {
-                    "discription" : description,
-                    "contact_details" : contact_details
+                    "description" : description
                     }
                 }
-        print(f'Company information : {information}')
+        log.info(f'Company information for initiation :::: {information}')
 
         company = Company()
-        company.initiate(information) # root for bugs 
+        if company.initiate(information):
+            return "Initiate is working checkout db :)_"
+        else:
+            return "Need to fix company register flow"
+
         # TODO Final Check sums for the company registration is left for completion
         '''
         With company registration working we can move for making fetch based admin dashboards and other systems :)
@@ -96,5 +98,6 @@ def extract_information(data):
     for i in requirements:
         fetched[i] = data.get(i) # fetched information
     print(f"Information fetched : {fetched}")
+    fetched["password"] = hash_password(fetched['password'])
     return fetched
 
