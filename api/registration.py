@@ -17,6 +17,9 @@ def login_page():
     if request.method == "GET":
         return render_template("login.html")
     elif request.method == "POST":
+        print(f"Data Type of form : {request.form}")
+        for i in request.form:
+            print(f"Traversing information : {i}")
         data = request.form
         user_name = data["name"]
         password = data["password"]
@@ -70,6 +73,7 @@ def register_company():
         data = request.form
         info = extract_information(data)
         info["role"] = "company"
+        info["status"] = "deactivated"
 
         description = data.get("description")
         # company information
@@ -83,7 +87,7 @@ def register_company():
 
         company = Company()
         if company.initiate(information):
-            return "Initiate is working checkout db :)_"
+            return "credentials correct but admin approval required :)"
         else:
             return "Need to fix company register flow"
 

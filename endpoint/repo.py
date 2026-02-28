@@ -31,7 +31,7 @@ class Repo:
             cursor.execute(query, (anchor_information[1], ))
             fetch = cursor.fetchone()  # Getin one Entry
             print(f"Fetch Result : {fetch}")
-            if fetch:
+            if fetch != None:
                 return fetch
             else:
                 return False

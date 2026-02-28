@@ -34,10 +34,10 @@ Checks for validity of data flow for final Executions
             try:
                 cursor.execute(query, data)
                 connection.commit()  # :P
-                log.info(f"Execute of Generic Model Executed with {query} and data {data}")
             except Exception as e:
+                connection.rollback()
                 log.error(f"Generic Model failed for query : {query} with data : {data} Reason : {e}")
-                raise Exception("Invalid Query or DB failed for executoin")
+                raise Exception("Invalid Responses passed for Data-Base ")
 
     def insert(self, values):
         '''
@@ -48,19 +48,21 @@ Checks for validity of data flow for final Executions
 
         Values : Dictionary with columns as their keys
         '''
+        # TODO UPgrade Generic Model for searching DB with given information to execute the creation
+        print(f"Termination conditions : {values, self.columns}")
         if len(values) != len(self.columns):
             log.warning(f"Terminating Due to Invalid Data type passed for insertion Information : {values} for table {self.table} with columns : {self.columns}")
             return False
 
         insertion_query = self.build_query.insertion()
-        print(f"Insertion query : {insertion_query}")
         # Checking for existence of given information
         try:
             data = tuple(values[col] for col in self.columns) # insertion order flexible
             log.info(f"Data Before Insertion : {data} with query : {insertion_query}")
             self.execute(insertion_query, data)
-            log.info(f"Insert Executed with {insertion_query} with data : {values}")
+            log.info(f"Insertion Executed with {insertion_query} with data : {values}")
             return True
+
         except Exception as e:
             log.error(f"Failed at insert of Generic Model with {e}")
             return False 

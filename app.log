@@ -731,3 +731,175 @@
 2026-02-27 19:41:45,961 - config - INFO - Creation Request Initation Output : False
 2026-02-27 19:41:45,961 - config - ERROR - Exception at Student Creation : Something went wrong with student activation
 2026-02-27 19:41:45,961 - werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 19:41:45] "POST /register/student HTTP/1.1" 200 -
+2026-02-28 15:12:14,563 - config - INFO - Application started
+2026-02-28 15:12:14,600 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-28 15:12:14,600 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-28 15:12:14,601 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:12:14,688 - config - INFO - Application started
+2026-02-28 15:12:14,708 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:12:14,718 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:12:22,744 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:12:22] "GET /register/student HTTP/1.1" 200 -
+2026-02-28 15:12:22,769 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:12:22] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-28 15:12:22,786 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:12:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-28 15:12:40,485 - config - INFO - Loading information for creation : {'user': {'name': 'New Student', 'email': 'mad@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$Tan1fs9Za+39H8N4r9XaWw$mexzYEcKp6wktv9RH7y9vr6wQrBifdmI+Whfdsfx+FY', 'role': 'student', 'status': 'active'}, 'student': {'branch': 'Data Science', 'resume': 'I am resume'}}
+2026-02-28 15:12:40,485 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'name': 'New Student', 'email': 'mad@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$Tan1fs9Za+39H8N4r9XaWw$mexzYEcKp6wktv9RH7y9vr6wQrBifdmI+Whfdsfx+FY', 'role': 'student', 'status': 'active'} for table user with columns : ('name', 'email', 'password', 'role')
+2026-02-28 15:12:40,486 - config - INFO - Creation Request Initation Output : False
+2026-02-28 15:12:40,486 - config - ERROR - Exception at Student Creation : Something went wrong with student activation
+2026-02-28 15:12:40,486 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:12:40] "POST /register/student HTTP/1.1" 200 -
+2026-02-28 15:19:58,388 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/repo.py', reloading
+2026-02-28 15:19:58,416 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:19:58,505 - config - INFO - Application started
+2026-02-28 15:19:58,527 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:19:58,529 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:21:20,647 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-28 15:21:20,672 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:21:20,765 - config - INFO - Application started
+2026-02-28 15:21:20,786 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:21:20,788 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:21:27,378 - config - INFO - Loading information for creation : {'user': {'name': 'New Student', 'email': 'mad@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$LOXcu/d+TykFwPifc+59Tw$wnb0gwKS5EvhPwfIlkGYgCvX0d/ko66a6htDes1rtfc', 'role': 'student', 'status': 'active'}, 'student': {'branch': 'Data Science', 'resume': 'I am resume'}}
+2026-02-28 15:21:27,379 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'name': 'New Student', 'email': 'mad@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$LOXcu/d+TykFwPifc+59Tw$wnb0gwKS5EvhPwfIlkGYgCvX0d/ko66a6htDes1rtfc', 'role': 'student', 'status': 'active'} for table user with columns : ('name', 'email', 'password', 'role')
+2026-02-28 15:21:27,379 - config - INFO - Creation Request Initation Output : False
+2026-02-28 15:21:27,379 - config - ERROR - Exception at Student Creation : Something went wrong with student activation
+2026-02-28 15:21:27,380 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:21:27] "POST /register/student HTTP/1.1" 200 -
+2026-02-28 15:22:16,873 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/GenericModel.py', reloading
+2026-02-28 15:22:16,900 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:22:16,992 - config - INFO - Application started
+2026-02-28 15:22:17,012 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:22:17,014 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:22:20,345 - config - INFO - Loading information for creation : {'user': {'name': 'New Student', 'email': 'mad@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$YSylVGrN2XtPSWnNmZOytg$pEaIXeZakklUq60rCGjACirp8a0CM6lZCtH8Xe+sOpU', 'role': 'student', 'status': 'active'}, 'student': {'branch': 'Data Science', 'resume': 'I am resume'}}
+2026-02-28 15:22:20,345 - config - WARNING - Terminating Due to Invalid Data type passed for insertion Information : {'name': 'New Student', 'email': 'mad@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$YSylVGrN2XtPSWnNmZOytg$pEaIXeZakklUq60rCGjACirp8a0CM6lZCtH8Xe+sOpU', 'role': 'student', 'status': 'active'} for table user with columns : ('name', 'email', 'password', 'role')
+2026-02-28 15:22:20,345 - config - INFO - Creation Request Initation Output : False
+2026-02-28 15:22:20,345 - config - ERROR - Exception at Student Creation : Something went wrong with student activation
+2026-02-28 15:22:20,346 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:22:20] "POST /register/student HTTP/1.1" 200 -
+2026-02-28 15:23:24,117 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-28 15:23:24,151 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:23:24,244 - config - INFO - Application started
+2026-02-28 15:23:24,264 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:23:24,266 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:24:14,341 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-28 15:24:14,367 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:24:14,457 - config - INFO - Application started
+2026-02-28 15:24:14,481 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:24:14,483 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:24:17,804 - config - INFO - Loading information for creation : {'user': {'name': 'New Student', 'email': 'mad@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$VsoZw7h3jvE+J+Qc47w3pg$AayA9IV81kjbuDcLlQyuLM8s+yy3I9b2Vr7BiFle6kg', 'role': 'student', 'status': 'active'}, 'student': {'branch': 'Data Science', 'resume': 'I am resume'}}
+2026-02-28 15:24:17,804 - config - INFO - Data Before Insertion : ('New Student', 'mad@mail.com', '$argon2id$v=19$m=65536,t=3,p=4$VsoZw7h3jvE+J+Qc47w3pg$AayA9IV81kjbuDcLlQyuLM8s+yy3I9b2Vr7BiFle6kg', 'student', 'active') with query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)
+2026-02-28 15:24:17,809 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) and data ('New Student', 'mad@mail.com', '$argon2id$v=19$m=65536,t=3,p=4$VsoZw7h3jvE+J+Qc47w3pg$AayA9IV81kjbuDcLlQyuLM8s+yy3I9b2Vr7BiFle6kg', 'student', 'active')
+2026-02-28 15:24:17,809 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'New Student', 'email': 'mad@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$VsoZw7h3jvE+J+Qc47w3pg$AayA9IV81kjbuDcLlQyuLM8s+yy3I9b2Vr7BiFle6kg', 'role': 'student', 'status': 'active'}
+2026-02-28 15:24:17,809 - config - INFO - Creation Request Initation Output : (1, 'New Student', 'mad@mail.com', '$argon2id$v=19$m=65536,t=3,p=4$VsoZw7h3jvE+J+Qc47w3pg$AayA9IV81kjbuDcLlQyuLM8s+yy3I9b2Vr7BiFle6kg', 'student', 'active')
+2026-02-28 15:24:17,809 - config - INFO - Data Before Insertion : (1, 'I am resume', 'Data Science') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
+2026-02-28 15:24:17,812 - config - INFO - Execute of Generic Model Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) and data (1, 'I am resume', 'Data Science')
+2026-02-28 15:24:17,812 - config - INFO - Insert Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'I am resume', 'student_id': 1}
+2026-02-28 15:24:17,812 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:24:17] "POST /register/student HTTP/1.1" 200 -
+2026-02-28 15:24:22,978 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:24:22] "GET /register/login HTTP/1.1" 200 -
+2026-02-28 15:24:22,995 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:24:22] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-28 15:24:30,619 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:24:30] "POST /register/login HTTP/1.1" 200 -
+2026-02-28 15:24:34,799 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:24:34] "GET /register/student HTTP/1.1" 200 -
+2026-02-28 15:24:34,810 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:24:34] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-28 15:25:06,262 - config - INFO - Loading information for creation : {'user': {'name': 'thor', 'email': 'thor@thorcom', 'password': '$argon2id$v=19$m=65536,t=3,p=4$8l7LOQeg9N57793bu/feew$6VeTDsxshVt5s2UD+6xl1vdFkoEiatY0X+NyEL2d/1w', 'role': 'student', 'status': 'active'}, 'student': {'branch': 'Data Science', 'resume': 'thor ko padhao'}}
+2026-02-28 15:25:06,262 - config - INFO - Data Before Insertion : ('thor', 'thor@thorcom', '$argon2id$v=19$m=65536,t=3,p=4$8l7LOQeg9N57793bu/feew$6VeTDsxshVt5s2UD+6xl1vdFkoEiatY0X+NyEL2d/1w', 'student', 'active') with query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)
+2026-02-28 15:25:06,264 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) and data ('thor', 'thor@thorcom', '$argon2id$v=19$m=65536,t=3,p=4$8l7LOQeg9N57793bu/feew$6VeTDsxshVt5s2UD+6xl1vdFkoEiatY0X+NyEL2d/1w', 'student', 'active')
+2026-02-28 15:25:06,264 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'thor', 'email': 'thor@thorcom', 'password': '$argon2id$v=19$m=65536,t=3,p=4$8l7LOQeg9N57793bu/feew$6VeTDsxshVt5s2UD+6xl1vdFkoEiatY0X+NyEL2d/1w', 'role': 'student', 'status': 'active'}
+2026-02-28 15:25:06,264 - config - INFO - Creation Request Initation Output : (2, 'thor', 'thor@thorcom', '$argon2id$v=19$m=65536,t=3,p=4$8l7LOQeg9N57793bu/feew$6VeTDsxshVt5s2UD+6xl1vdFkoEiatY0X+NyEL2d/1w', 'student', 'active')
+2026-02-28 15:25:06,264 - config - INFO - Data Before Insertion : (2, 'thor ko padhao', 'Data Science') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
+2026-02-28 15:25:06,266 - config - INFO - Execute of Generic Model Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) and data (2, 'thor ko padhao', 'Data Science')
+2026-02-28 15:25:06,266 - config - INFO - Insert Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'thor ko padhao', 'student_id': 2}
+2026-02-28 15:25:06,266 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:06] "POST /register/student HTTP/1.1" 200 -
+2026-02-28 15:25:10,646 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:10] "GET /register/login HTTP/1.1" 200 -
+2026-02-28 15:25:10,656 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:10] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-28 15:25:18,693 - config - INFO - User not found with : {'name': 'thora', 'password': '1234'}
+2026-02-28 15:25:18,693 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:18] "POST /register/login HTTP/1.1" 200 -
+2026-02-28 15:25:23,928 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:23] "GET /register/login HTTP/1.1" 200 -
+2026-02-28 15:25:23,942 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:23] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-28 15:25:31,548 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:31] "POST /register/login HTTP/1.1" 200 -
+2026-02-28 15:25:35,732 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:35] "GET /register/login HTTP/1.1" 200 -
+2026-02-28 15:25:35,752 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:35] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-28 15:25:41,086 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:41] "POST /register/login HTTP/1.1" 200 -
+2026-02-28 15:25:44,867 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:44] "GET /register/company HTTP/1.1" 200 -
+2026-02-28 15:25:44,877 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:25:44] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-28 15:26:09,858 - config - INFO - Company information for initiation :::: {'user': {'name': 'stark', 'email': 'stark@iam.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$cU5pzTlHSOldS6nVek9JCQ$4wQusWEYRWDUDSuEVOVX8CVqoFBOzgWsM1VDqb2N4MY', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'I am iron man'}}
+2026-02-28 15:26:09,858 - config - INFO - Loading information : {'user': {'name': 'stark', 'email': 'stark@iam.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$cU5pzTlHSOldS6nVek9JCQ$4wQusWEYRWDUDSuEVOVX8CVqoFBOzgWsM1VDqb2N4MY', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'I am iron man'}}
+2026-02-28 15:26:09,858 - config - INFO - Data Before Insertion : ('stark', 'stark@iam.com', '$argon2id$v=19$m=65536,t=3,p=4$cU5pzTlHSOldS6nVek9JCQ$4wQusWEYRWDUDSuEVOVX8CVqoFBOzgWsM1VDqb2N4MY', 'company', 'deactivated') with query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)
+2026-02-28 15:26:09,860 - config - INFO - Execute of Generic Model Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) and data ('stark', 'stark@iam.com', '$argon2id$v=19$m=65536,t=3,p=4$cU5pzTlHSOldS6nVek9JCQ$4wQusWEYRWDUDSuEVOVX8CVqoFBOzgWsM1VDqb2N4MY', 'company', 'deactivated')
+2026-02-28 15:26:09,860 - config - INFO - Insert Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'stark', 'email': 'stark@iam.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$cU5pzTlHSOldS6nVek9JCQ$4wQusWEYRWDUDSuEVOVX8CVqoFBOzgWsM1VDqb2N4MY', 'role': 'company', 'status': 'deactivated'}
+2026-02-28 15:26:09,861 - config - INFO - Creation Request Initation Output : (3, 'stark', 'stark@iam.com', '$argon2id$v=19$m=65536,t=3,p=4$cU5pzTlHSOldS6nVek9JCQ$4wQusWEYRWDUDSuEVOVX8CVqoFBOzgWsM1VDqb2N4MY', 'company', 'deactivated')
+2026-02-28 15:26:09,861 - config - INFO - Data Before Insertion : (3, 'I am iron man') with query : insert into company('company_id', 'description') values(?,?)
+2026-02-28 15:26:09,862 - config - INFO - Execute of Generic Model Executed with insert into company('company_id', 'description') values(?,?) and data (3, 'I am iron man')
+2026-02-28 15:26:09,863 - config - INFO - Insert Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'I am iron man', 'company_id': 3}
+2026-02-28 15:26:09,863 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:26:09] "POST /register/company HTTP/1.1" 200 -
+2026-02-28 15:27:30,774 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-28 15:27:30,801 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:27:30,890 - config - INFO - Application started
+2026-02-28 15:27:30,910 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:27:30,912 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:28:06,967 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-28 15:28:06,988 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:28:07,070 - config - INFO - Application started
+2026-02-28 15:28:07,090 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:28:07,092 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:28:09,337 - config - INFO - Company information for initiation :::: {'user': {'name': 'stark', 'email': 'stark@iam.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$IuT8vzcmBGCsFSIkZCzlXA$sfvWgpwIrUeRkFeEdKX9FVCqeLsFnHtr5aHPpwXaKJI', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'I am iron man'}}
+2026-02-28 15:28:09,338 - config - INFO - Loading information : {'user': {'name': 'stark', 'email': 'stark@iam.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$IuT8vzcmBGCsFSIkZCzlXA$sfvWgpwIrUeRkFeEdKX9FVCqeLsFnHtr5aHPpwXaKJI', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'I am iron man'}}
+2026-02-28 15:28:09,338 - config - INFO - Data Before Insertion : ('stark', 'stark@iam.com', '$argon2id$v=19$m=65536,t=3,p=4$IuT8vzcmBGCsFSIkZCzlXA$sfvWgpwIrUeRkFeEdKX9FVCqeLsFnHtr5aHPpwXaKJI', 'company', 'deactivated') with query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)
+2026-02-28 15:28:09,338 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : ('stark', 'stark@iam.com', '$argon2id$v=19$m=65536,t=3,p=4$IuT8vzcmBGCsFSIkZCzlXA$sfvWgpwIrUeRkFeEdKX9FVCqeLsFnHtr5aHPpwXaKJI', 'company', 'deactivated') Reason : UNIQUE constraint failed: user.email
+2026-02-28 15:28:09,338 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-28 15:28:09,339 - config - INFO - Creation Request Initation Output : (3, 'stark', 'stark@iam.com', '$argon2id$v=19$m=65536,t=3,p=4$cU5pzTlHSOldS6nVek9JCQ$4wQusWEYRWDUDSuEVOVX8CVqoFBOzgWsM1VDqb2N4MY', 'company', 'deactivated')
+2026-02-28 15:28:09,339 - config - INFO - Data Before Insertion : (3, 'I am iron man') with query : insert into company('company_id', 'description') values(?,?)
+2026-02-28 15:28:09,339 - config - ERROR - Generic Model failed for query : insert into company('company_id', 'description') values(?,?) with data : (3, 'I am iron man') Reason : UNIQUE constraint failed: company.company_id
+2026-02-28 15:28:09,339 - config - ERROR - Failed at insert of Generic Model with Invalid Query or DB failed for executoin
+2026-02-28 15:28:09,339 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:28:09] "POST /register/company HTTP/1.1" 200 -
+2026-02-28 15:32:22,464 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-28 15:32:22,492 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:32:22,584 - config - INFO - Application started
+2026-02-28 15:32:22,605 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:32:22,607 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:32:32,919 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:32:32] "GET /register/login HTTP/1.1" 200 -
+2026-02-28 15:32:32,937 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:32:32] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-28 15:32:41,593 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:32:41] "POST /register/login HTTP/1.1" 200 -
+2026-02-28 15:34:53,827 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-02-28 15:34:53,855 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:34:53,947 - config - INFO - Application started
+2026-02-28 15:34:53,967 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:34:53,969 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:35:00,765 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:35:00] "GET /register/login HTTP/1.1" 200 -
+2026-02-28 15:35:00,779 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:35:00] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-02-28 15:35:08,984 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2026 15:35:08] "POST /register/login HTTP/1.1" 200 -
+2026-02-28 15:41:30,540 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/GenericModel.py', reloading
+2026-02-28 15:41:30,566 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:41:30,657 - config - INFO - Application started
+2026-02-28 15:41:30,677 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:41:30,679 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:42:37,777 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/GenericModel.py', reloading
+2026-02-28 15:42:37,804 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:42:37,893 - config - INFO - Application started
+2026-02-28 15:42:37,913 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:42:37,915 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:43:38,004 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/GenericModel.py', reloading
+2026-02-28 15:43:38,031 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:43:38,121 - config - INFO - Application started
+2026-02-28 15:43:38,142 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:43:38,143 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:47:07,439 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-28 15:47:07,464 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:47:07,553 - config - INFO - Application started
+2026-02-28 15:47:07,573 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:47:07,575 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:47:48,635 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-28 15:47:48,661 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:47:48,751 - config - INFO - Application started
+2026-02-28 15:47:48,771 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:47:48,773 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:49:58,959 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/GenericModel.py', reloading
+2026-02-28 15:49:58,985 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:49:59,074 - config - INFO - Application started
+2026-02-28 15:49:59,094 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:49:59,096 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:51:26,223 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/student.py', reloading
+2026-02-28 15:51:26,249 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:51:26,337 - config - INFO - Application started
+2026-02-28 15:51:26,358 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:51:26,360 - werkzeug - INFO -  * Debugger PIN: 242-100-004
+2026-02-28 15:51:55,404 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-02-28 15:51:55,429 - werkzeug - INFO -  * Restarting with stat
+2026-02-28 15:51:55,520 - config - INFO - Application started
+2026-02-28 15:51:55,541 - werkzeug - WARNING -  * Debugger is active!
+2026-02-28 15:51:55,542 - werkzeug - INFO -  * Debugger PIN: 242-100-004

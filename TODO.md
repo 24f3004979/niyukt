@@ -14,8 +14,14 @@ Targets
     2. Admin Login and company registration Approval
     3. Redirect Logins into relevent pages for dashboard
 
-
+Issue
+  + Maing pipeline is failing due to issues with data flow
 
 IMPLEMENTATION Targets
 1. login page | Making login for all and registration nav for student and company 
 2. Making redirectioins for all login credentials 
+
+---- Improvements ------
++ Handle request with ease : Request extraction module required
++ Make defined output / input flow for the meta models and base models
++ Include Unique constrained failed based roll back and loockups with fetch requests

@@ -13,16 +13,19 @@ class User:
     2. Making lookup loading from the DB
     """
     def __init__(self):
-        columns = 'name,email,password,role'.split(",")
+        columns = 'name,email,password,role,status'.split(",")
         self.columns = tuple(columns)
         self.db = GenericModel("user", self.columns)
 
     def initiate_user(self, information):
         '''
-        Initiates User with given information and returns initiated data dictionary with id for further operations
+        Initiating User with given information
+        Checking with exists or not --> Initiate one with given information
         '''
+        # TODO Not requried Generic Model can handle creation with given column information
         try:
-            self.db.insert(information)
+            insert_working = self.db.insert(information)
+            print(f"Insert part working : {insert_working}")
             anchor_information = ("name", information["name"])
             fetched_info = self.db.repo.search(anchor_information, "*")
             log.info(f"Creation Request Initation Output : {fetched_info}")
