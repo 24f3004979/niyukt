@@ -22,7 +22,7 @@ class Repo:
             print(f"Search Result {search}")
             return False
         
-    def search(self, anchor_information, required="*"):
+    def fetch(self, anchor_information, required="*"):
         query = f'select {required} from {self.table} where {anchor_information[0]} = ?'
 
         # Fetch from DB 
@@ -31,7 +31,7 @@ class Repo:
             cursor.execute(query, (anchor_information[1], ))
             fetch = cursor.fetchone()  # Getin one Entry
             print(f"Fetch Result : {fetch}")
-            if fetch != None:
+            if fetch:
                 return fetch
             else:
                 return False

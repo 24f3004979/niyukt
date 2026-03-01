@@ -1,8 +1,8 @@
-from model.company import *
+from model.user import *
 
 # Payload
-name = "RandomCpany"
-email = "email@r23ranmshabd"
+name = "Iroot"
+email = "emil@j23ranmshabd"
 password = "1234"
 selection = "random branch is being selected"
 resume = "Resume for the random student"
@@ -12,9 +12,10 @@ resume = "Resume for the random student"
 information = {
                 "user":{
                     "name" : name,
-                    "password_hash" : password,
+                    "password" : password,
                     "email" : email,
-                    "role" : "company"
+                    "role" : "company",
+                    "status" : "active"
                     },
                 "company": {
                     "discription" : selection,
@@ -22,5 +23,8 @@ information = {
                     }
                 }
 
-c = Company()
-c.initiate(information)
+user_information  = information["user"]
+
+u = User()
+user_created = u.initiate_user(user_information)
+print(f'User initiation output : {user_created}')

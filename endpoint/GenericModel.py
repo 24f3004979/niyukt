@@ -19,6 +19,9 @@ from endpoint.repo import *
 path = '/home/madhav/Projects/niyukt/endpoint/db/niyukt.db'
 
 class GenericModel:
+    '''
+    Input Parameter needs type validations for input flow
+    '''
     def __init__(self, table_name, columns):
         self.columns = columns
         self.table = table_name
@@ -65,7 +68,7 @@ Checks for validity of data flow for final Executions
 
         except Exception as e:
             log.error(f"Failed at insert of Generic Model with {e}")
-            return False 
+            raise Exception(f"Insertion Not working with {e}")
 
     def update(self, update_information, anchor_information):
         '''

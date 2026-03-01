@@ -2,6 +2,14 @@ from endpoint.GenericModel import *
 from endpoint.repo import *
 from auth.login import *
 
+
+# FIX : make Working end to end reliable generic model working model and abstract models to work with
+'''
+IMprove Log and data flow for user and generic model for making this app usable-
+And developable in future extent
+Write tests for the given code to validate on the go with test suit about the project working
+'''
+
 class User:
     """
     User Functions
@@ -11,6 +19,7 @@ class User:
     Features to implement
     1. sync : For making db sync for the information dictionary
     2. Making lookup loading from the DB
+    Making User as Data Model but class would be required for the further expansion for the code logic
     """
     def __init__(self):
         columns = 'name,email,password,role,status'.split(",")
@@ -24,19 +33,18 @@ class User:
         '''
         # TODO Not requried Generic Model can handle creation with given column information
         try:
-            insert_working = self.db.insert(information)
-            print(f"Insert part working : {insert_working}")
-            anchor_information = ("name", information["name"])
-            fetched_info = self.db.repo.search(anchor_information, "*")
-            log.info(f"Creation Request Initation Output : {fetched_info}")
-            if fetched_info:
-                return fetched_info 
-            else:
-                return False
-
+            if self.db.insert(information):
+                k = list(information.keys())[0]
+                anchor_information = (k, information[k])
+                id = self.db.repo.fetch(anchor_information, "id")
+                if id:
+                    return id
+                else:
+                    return False
         except Exception as e:
             log.error(f"User Creation Failed | reason : {e}")
-            raise Exception("User creation Failed")
+            print(f"user Failed to load with : {e}")
+            raise Exception(f"User creation Failed with reason : {e}")
 
 # Authenticate user
 def authenticate_user(information):

@@ -28,3 +28,9 @@ TODO :
 
 ## -- Design Update --
 Generic Model --> Query builder request --> Executor[write] / fetch handle for fetch requests
+
+Generic Model
+    1. insert
+     Inserting given information
+        Upon sucess returning information about initiation fetched from DB
+    2. Update : Under development
