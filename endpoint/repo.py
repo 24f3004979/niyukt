@@ -14,7 +14,7 @@ class Repo:
     def exists(self, name):
         '''Making Existence check with search api of repo'''
         anchor_information = ("name", name)
-        search = self.search(anchor_information, "name")
+        search = self.fetch(anchor_information, "name")
         if search:
             print(f"Search Results : {search}")
             return True

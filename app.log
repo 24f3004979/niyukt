@@ -971,3 +971,8 @@
 2026-03-01 23:08:30,285 - config - INFO - Application started
 2026-03-01 23:08:30,307 - config - INFO - Data Before Insertion : ('Iroot', 'emil@j23ranmshabd', '1234', 'company', 'active') with query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)
 2026-03-01 23:08:30,352 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'Iroot', 'password': '1234', 'email': 'emil@j23ranmshabd', 'role': 'company', 'status': 'active'}
+2026-03-01 23:35:22,430 - config - INFO - Application started
+2026-03-01 23:36:43,026 - config - INFO - Application started
+2026-03-01 23:37:17,668 - config - INFO - Application started
+2026-03-01 23:38:39,298 - config - INFO - Application started
+2026-03-01 23:39:26,377 - config - INFO - Application started

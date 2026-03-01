@@ -1,10 +1,10 @@
-from model.user import *
+from model.studentv2 import *
 
 # Payload
-name = "Iroot"
+name = "Iroo"
 email = "emil@j23ranmshabd"
 password = "1234"
-selection = "random branch is being selected"
+selection = "Selectioon Branch"
 resume = "Resume for the random student"
 
 
@@ -14,17 +14,19 @@ information = {
                     "name" : name,
                     "password" : password,
                     "email" : email,
-                    "role" : "company",
+                    "role" : "student",
                     "status" : "active"
                     },
-                "company": {
-                    "discription" : selection,
-                    "contact_details" : resume
+                "student": {
+                    "resume" : resume,
+                    "branch" : selection
                     }
                 }
 
 user_information  = information["user"]
 
-u = User()
-user_created = u.initiate_user(user_information)
-print(f'User initiation output : {user_created}')
+student = Student()
+
+a = student.activate(information)
+print(f"Activation output for student : {a}")
+

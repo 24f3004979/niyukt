@@ -46,7 +46,7 @@ class User:
             print(f"user Failed to load with : {e}")
             raise Exception(f"User creation Failed with reason : {e}")
 
-# Authenticate user
+# user authentication Helper function
 def authenticate_user(information):
     user = User()
     anchor_information = ("name", information["name"])
