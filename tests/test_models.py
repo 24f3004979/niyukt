@@ -2,6 +2,7 @@
 Testing Whole Model Pipeline with Strict Data flow and Checks
 '''
 from model.userv2 import *
+from model.studentv2 import *
 import random
 import pytest
 from endpoint.GenericModel import *
@@ -32,11 +33,38 @@ def test_user_model():
     u = User()
     user, mail = mock_user()
     values = {
-        "name":user,
+        "name": user,
         "email" : mail,
         "password" : "123",
         "status" : "active",
         "role" : "student"
     }
-    working = type(u.initiate(values)) == int 
-    assert working is True
+    with pytest.raises(UserNotCreated):
+        working = u.initiate(values)
+        assert working is True
+
+def test_student_model():
+    s = Student()
+    user, mail = mock_user()
+    values = {
+        "name": user,
+        "email" : mail,
+        "password" : "123",
+        "status" : "active",
+        "role" : "student"
+    }
+
+    # Student Information
+    student_info = {
+        "resume" : "Dummy Resume",
+        "branch" : "Dummy branch"
+    }
+
+    information = {
+        "user" : values,
+        "student" : student_info
+    }
+    
+    with pytest.raises(UserExists):
+        assert s.activate(information) is True
+
