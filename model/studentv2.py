@@ -4,7 +4,7 @@ Student Model
 2. Requesting user for loging the student entity
 3. Updating student table with resume and branch information
 '''
-from .user import *
+from .userv2 import *
 
 class Student():
     '''
@@ -14,7 +14,6 @@ class Student():
     3. further functions wit students to add ...
     '''
     def __init__(self):
-        super().__init__()
         self.user = User()
         std_columns = tuple("student_id,resume,branch".split(","))
         self.studentdb = GenericModel("student", std_columns)
@@ -30,9 +29,10 @@ class Student():
         student_information = information["student"]
 
         if self.user.db.repo.exists(user_information["name"]):
-            return False # User Exists
+            raise UserExists("User Exists with given Credentials")
 
         id = self.user.initiate(user_information)
+        print(f"Id fetched as : {id}")
         if id:
             student_information["student_id"] = id
             try:
@@ -40,11 +40,22 @@ class Student():
                     return True # Activation Success full
             except Exception as e:
                 log.error(f"Failed with {e}")
-                raise Exception(f"Failed with student Activation with {e}")
+                raise ActivationFailed(f"Activation Failed with : {e}")
 
 
-            
+class ActivationFailed(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+        self.message = message
+    def __str__(self):
+        return f"Student Activation Failed with : {self.message}"
 
+class UserExists(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+        self.message = message
+    def __str__(self):
+        return f"User Exists : {self.message}"
         
 
 

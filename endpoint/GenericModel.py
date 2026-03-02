@@ -40,7 +40,9 @@ Checks for validity of data flow for final Executions
             except Exception as e:
                 connection.rollback()
                 log.error(f"Generic Model failed for query : {query} with data : {data} Reason : {e}")
-                raise Exception("Invalid Responses passed for Data-Base ")
+                information = (query, data)
+                raise ExecutionFailed(f"Generic Model Failed with {e}", information=information)
+
 
     def insert(self, values):
         '''
@@ -52,7 +54,6 @@ Checks for validity of data flow for final Executions
         Values : Dictionary with columns as their keys
         '''
         # TODO UPgrade Generic Model for searching DB with given information to execute the creation
-        print(f"Termination conditions : {values, self.columns}")
         if len(values) != len(self.columns):
             log.warning(f"Terminating Due to Invalid Data type passed for insertion Information : {values} for table {self.table} with columns : {self.columns}")
             return False
@@ -61,10 +62,14 @@ Checks for validity of data flow for final Executions
         # Checking for existence of given information
         try:
             data = tuple(values[col] for col in self.columns) # insertion order flexible
-            log.info(f"Data Before Insertion : {data} with query : {insertion_query}")
             self.execute(insertion_query, data)
             log.info(f"Insertion Executed with {insertion_query} with data : {values}")
             return True
+
+        except ExecutionFailed as e:
+            log.error(f'Execution Failed at Generic Model : Information > Query : {insertion_query} with data : {data}')
+            raise e  # Raising Custom Exception to User
+
 
         except Exception as e:
             log.error(f"Failed at insert of Generic Model with {e}")
@@ -74,4 +79,13 @@ Checks for validity of data flow for final Executions
         '''
         Making Update to the anchored entry '''
         pass # TODO : TARGET ***
+
+
+class ExecutionFailed(Exception):
+    def __init__(self, message, information):
+        super().__init__(message)
+        self.message = message
+        self.information = information
+    def __str__(self):
+        return f"DB Execution Failed with {self.message} Information : {self.information}"
 

@@ -30,7 +30,10 @@ class Repo:
             cursor = connection.cursor()
             cursor.execute(query, (anchor_information[1], ))
             fetch = cursor.fetchone()  # Getin one Entry
-            print(f"Fetch Result : {fetch}")
+            # Comprehensive fetch analysis
+            print(f"Fetch requirements filter : {required.split(",")}")
+            if (len(required.split(",")) == 1) and (fetch != None):
+                return fetch[0]
             if fetch:
                 return fetch
             else:

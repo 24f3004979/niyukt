@@ -1,8 +1,8 @@
 from model.studentv2 import *
 
 # Payload
-name = "Iroo"
-email = "emil@j23ranmshabd"
+name = "NewUser30"
+email = "NewEmail40@email.com"
 password = "1234"
 selection = "Selectioon Branch"
 resume = "Resume for the random student"
