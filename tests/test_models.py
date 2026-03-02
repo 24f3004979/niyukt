@@ -1,11 +1,12 @@
 '''
 Testing Whole Model Pipeline with Strict Data flow and Checks
 '''
-from model.userv2 import *
-from model.studentv2 import *
+from model.user import *
+from model.student import *
 import random
 import pytest
 from endpoint.GenericModel import *
+from auth.login import *
 
 def mock_user():
     i = random.randint(-1000,1000)
@@ -49,7 +50,7 @@ def test_student_model():
     values = {
         "name": user,
         "email" : mail,
-        "password" : "123",
+        "password" : hash_password("123"),
         "status" : "active",
         "role" : "student"
     }

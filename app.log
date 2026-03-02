@@ -1,93 +1,132 @@
-2026-03-02 08:42:56,772 - config - INFO - Application started
-2026-03-02 08:42:56,792 - config - INFO - Data Before Insertion : ('NewIam', 'emil@j23ranmshabd', '1234', 'student', 'active') with query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)
-2026-03-02 08:42:56,793 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : ('NewIam', 'emil@j23ranmshabd', '1234', 'student', 'active') Reason : UNIQUE constraint failed: user.email
-2026-03-02 08:42:56,793 - config - ERROR - Failed at insert of Generic Model with Invalid Responses passed for Data-Base 
-2026-03-02 08:42:56,793 - config - ERROR - User Creation Failed | reason : Insertion Not working with Invalid Responses passed for Data-Base 
-2026-03-02 08:44:03,560 - config - INFO - Application started
-2026-03-02 08:44:03,581 - config - INFO - Data Before Insertion : ('NewIam', 'eml@j23ranmshabd', '1234', 'student', 'active') with query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)
-2026-03-02 08:44:03,624 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewIam', 'password': '1234', 'email': 'eml@j23ranmshabd', 'role': 'student', 'status': 'active'}
-2026-03-02 08:44:03,624 - config - INFO - Data Before Insertion : ((7,), 'Resume for the random student', 'Selectioon Branch') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
-2026-03-02 08:44:03,625 - config - ERROR - Generic Model failed for query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((7,), 'Resume for the random student', 'Selectioon Branch') Reason : Error binding parameter 1: type 'tuple' is not supported
-2026-03-02 08:44:03,625 - config - ERROR - Failed at insert of Generic Model with Invalid Responses passed for Data-Base 
-2026-03-02 08:44:03,625 - config - ERROR - Failed with Insertion Not working with Invalid Responses passed for Data-Base 
-2026-03-02 08:46:37,207 - config - INFO - Application started
-2026-03-02 08:47:55,953 - config - INFO - Application started
-2026-03-02 08:49:59,313 - config - INFO - Application started
-2026-03-02 08:52:00,832 - config - INFO - Application started
-2026-03-02 08:52:36,498 - config - INFO - Application started
-2026-03-02 08:52:36,520 - config - INFO - Data Before Insertion : ('NewUser1', 'NewEmail@email.com', '1234', 'student', 'active') with query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)
-2026-03-02 08:52:36,564 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser1', 'password': '1234', 'email': 'NewEmail@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 08:52:36,565 - config - INFO - Data Before Insertion : (8, 'Resume for the random student', 'Selectioon Branch') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
-2026-03-02 08:52:36,568 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'resume': 'Resume for the random student', 'branch': 'Selectioon Branch', 'student_id': 8}
-2026-03-02 09:05:58,203 - config - INFO - Application started
-2026-03-02 09:09:02,158 - config - INFO - Application started
-2026-03-02 09:09:58,265 - config - INFO - Application started
-2026-03-02 09:09:58,288 - config - INFO - Data Before Insertion : ('NewUser2', 'NewEmail1@email.com', '1234', 'student', 'active') with query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)
-2026-03-02 09:09:58,331 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser2', 'password': '1234', 'email': 'NewEmail1@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:09:58,332 - config - INFO - Data Before Insertion : (9, 'Resume for the random student', 'Selectioon Branch') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
-2026-03-02 09:09:58,336 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'resume': 'Resume for the random student', 'branch': 'Selectioon Branch', 'student_id': 9}
-2026-03-02 09:20:24,137 - config - INFO - Application started
-2026-03-02 09:20:24,159 - config - INFO - Data Before Insertion : ('NewUser3', 'NewEmail3@email.com', '1234', 'student', 'active') with query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)
-2026-03-02 09:20:24,161 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser3', 'password': '1234', 'email': 'NewEmail3@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:20:24,161 - config - INFO - Data Before Insertion : (10, 'Resume for the random student', 'Selectioon Branch') with query : insert into student('student_id', 'resume', 'branch') values(?,?,?)
-2026-03-02 09:20:24,162 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'resume': 'Resume for the random student', 'branch': 'Selectioon Branch', 'student_id': 10}
-2026-03-02 09:23:45,084 - config - INFO - Application started
-2026-03-02 09:27:23,074 - config - INFO - Application started
-2026-03-02 09:37:22,271 - config - INFO - Application started
-2026-03-02 09:37:22,298 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser4', 'password': '1234', 'email': 'NewEmail4@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:37:22,299 - config - ERROR - Generic Model failed for query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((11,), 'Resume for the random student', 'Selectioon Branch') Reason : Error binding parameter 1: type 'tuple' is not supported
-2026-03-02 09:37:22,299 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((11,), 'Resume for the random student', 'Selectioon Branch')
-2026-03-02 09:37:22,299 - config - ERROR - Failed with DB Execution Failed with Generic Model Failed with Error binding parameter 1: type 'tuple' is not supported Information : ("insert into student('student_id', 'resume', 'branch') values(?,?,?)", ((11,), 'Resume for the random student', 'Selectioon Branch'))
-2026-03-02 09:37:34,431 - config - INFO - Application started
-2026-03-02 09:38:44,217 - config - INFO - Application started
-2026-03-02 09:38:44,277 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser5', 'password': '1234', 'email': 'NewEmail5@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:38:44,277 - config - ERROR - Generic Model failed for query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((12,), 'Resume for the random student', 'Selectioon Branch') Reason : Error binding parameter 1: type 'tuple' is not supported
-2026-03-02 09:38:44,277 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((12,), 'Resume for the random student', 'Selectioon Branch')
-2026-03-02 09:38:44,277 - config - ERROR - Failed with DB Execution Failed with Generic Model Failed with Error binding parameter 1: type 'tuple' is not supported Information : ("insert into student('student_id', 'resume', 'branch') values(?,?,?)", ((12,), 'Resume for the random student', 'Selectioon Branch'))
-2026-03-02 09:40:33,855 - config - INFO - Application started
-2026-03-02 09:40:33,874 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser6', 'password': '1234', 'email': 'NewEmail6@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:40:33,875 - config - ERROR - Generic Model failed for query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((13,), 'Resume for the random student', 'Selectioon Branch') Reason : Error binding parameter 1: type 'tuple' is not supported
-2026-03-02 09:40:33,875 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((13,), 'Resume for the random student', 'Selectioon Branch')
-2026-03-02 09:40:33,875 - config - ERROR - Failed with DB Execution Failed with Generic Model Failed with Error binding parameter 1: type 'tuple' is not supported Information : ("insert into student('student_id', 'resume', 'branch') values(?,?,?)", ((13,), 'Resume for the random student', 'Selectioon Branch'))
-2026-03-02 09:42:07,062 - config - INFO - Application started
-2026-03-02 09:43:02,952 - config - INFO - Application started
-2026-03-02 09:43:02,996 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser7', 'password': '1234', 'email': 'NewEmail7@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:43:02,997 - config - ERROR - Generic Model failed for query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((14,), 'Resume for the random student', 'Selectioon Branch') Reason : Error binding parameter 1: type 'tuple' is not supported
-2026-03-02 09:43:02,997 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((14,), 'Resume for the random student', 'Selectioon Branch')
-2026-03-02 09:43:02,997 - config - ERROR - Failed with DB Execution Failed with Generic Model Failed with Error binding parameter 1: type 'tuple' is not supported Information : ("insert into student('student_id', 'resume', 'branch') values(?,?,?)", ((14,), 'Resume for the random student', 'Selectioon Branch'))
-2026-03-02 09:46:13,548 - config - INFO - Application started
-2026-03-02 09:46:13,567 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser97', 'password': '1234', 'email': 'NewEmail8@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:46:13,568 - config - ERROR - Generic Model failed for query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((15,), 'Resume for the random student', 'Selectioon Branch') Reason : Error binding parameter 1: type 'tuple' is not supported
-2026-03-02 09:46:13,568 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((15,), 'Resume for the random student', 'Selectioon Branch')
-2026-03-02 09:46:13,568 - config - ERROR - Failed with DB Execution Failed with Generic Model Failed with Error binding parameter 1: type 'tuple' is not supported Information : ("insert into student('student_id', 'resume', 'branch') values(?,?,?)", ((15,), 'Resume for the random student', 'Selectioon Branch'))
-2026-03-02 09:48:02,538 - config - INFO - Application started
-2026-03-02 09:48:02,557 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser20', 'password': '1234', 'email': 'NewEmail20@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:48:02,557 - config - ERROR - Generic Model failed for query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((16,), 'Resume for the random student', 'Selectioon Branch') Reason : Error binding parameter 1: type 'tuple' is not supported
-2026-03-02 09:48:02,557 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : ((16,), 'Resume for the random student', 'Selectioon Branch')
-2026-03-02 09:48:02,557 - config - ERROR - Failed with DB Execution Failed with Generic Model Failed with Error binding parameter 1: type 'tuple' is not supported Information : ("insert into student('student_id', 'resume', 'branch') values(?,?,?)", ((16,), 'Resume for the random student', 'Selectioon Branch'))
-2026-03-02 09:49:00,424 - config - INFO - Application started
-2026-03-02 09:49:44,420 - config - INFO - Application started
-2026-03-02 09:54:23,746 - config - INFO - Application started
-2026-03-02 09:54:23,766 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser24', 'password': '1234', 'email': 'NewEmail24@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:54:23,768 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'resume': 'Resume for the random student', 'branch': 'Selectioon Branch', 'student_id': 17}
-2026-03-02 09:55:06,115 - config - INFO - Application started
-2026-03-02 09:55:21,945 - config - INFO - Application started
-2026-03-02 09:55:22,005 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser25', 'password': '1234', 'email': 'NewEmail34@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:55:22,008 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'resume': 'Resume for the random student', 'branch': 'Selectioon Branch', 'student_id': 18}
-2026-03-02 09:57:31,548 - config - INFO - Application started
-2026-03-02 09:57:31,564 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : ('NewUser28', 'NewEmail33@email.com', None, 'student', 'active') Reason : NOT NULL constraint failed: user.password
-2026-03-02 09:57:31,564 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : ('NewUser28', 'NewEmail33@email.com', None, 'student', 'active')
-2026-03-02 09:58:24,551 - config - INFO - Application started
-2026-03-02 09:58:24,567 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : ('NewUser28', 'NewEmail33@email.com', None, 'student', 'active') Reason : NOT NULL constraint failed: user.password
-2026-03-02 09:58:24,567 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : ('NewUser28', 'NewEmail33@email.com', None, 'student', 'active')
-2026-03-02 09:58:24,568 - config - ERROR - User Creation Failed | reason : DB Execution Failed with Generic Model Failed with NOT NULL constraint failed: user.password Information : ("insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)", ('NewUser28', 'NewEmail33@email.com', None, 'student', 'active'))
-2026-03-02 09:58:37,003 - config - INFO - Application started
-2026-03-02 09:58:37,019 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : ('NewUser28', 'NewEmail33@email.com', None, 'student', 'active') Reason : NOT NULL constraint failed: user.password
-2026-03-02 09:58:37,019 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : ('NewUser28', 'NewEmail33@email.com', None, 'student', 'active')
-2026-03-02 09:58:37,019 - config - ERROR - User Creation Failed | reason : DB Execution Failed with Generic Model Failed with NOT NULL constraint failed: user.password Information : ("insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?)", ('NewUser28', 'NewEmail33@email.com', None, 'student', 'active'))
-2026-03-02 09:59:19,542 - config - INFO - Application started
-2026-03-02 09:59:19,565 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser28', 'password': '1234', 'email': 'NewEmail33@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 09:59:19,573 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'resume': 'Resume for the random student', 'branch': 'Selectioon Branch', 'student_id': 19}
-2026-03-02 10:00:09,511 - config - INFO - Application started
-2026-03-02 10:00:09,537 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'NewUser30', 'password': '1234', 'email': 'NewEmail40@email.com', 'role': 'student', 'status': 'active'}
-2026-03-02 10:00:09,544 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'resume': 'Resume for the random student', 'branch': 'Selectioon Branch', 'student_id': 20}
+2026-03-02 14:04:09,010 - config - INFO - Application started
+2026-03-02 14:04:09,026 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-02 14:04:09,026 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-02 14:04:15,034 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:04:15] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:04:15,044 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:04:15] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:04:15,057 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:04:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:04:18,492 - config - INFO - anchor information : ('name', 'rgr')
+2026-03-02 14:04:18,493 - app - ERROR - Exception on /register/login [POST]
+Traceback (most recent call last):
+  File "/home/madhav/Projects/niyukt/.venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madhav/Projects/niyukt/.venv/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madhav/Projects/niyukt/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madhav/Projects/niyukt/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madhav/Projects/niyukt/api/registrationv2.py", line 45, in login_page
+    if user_repo.exists(anchor_information):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madhav/Projects/niyukt/endpoint/repo.py", line 17, in exists
+    search = self.fetch(anchor_information, "name")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madhav/Projects/niyukt/endpoint/repo.py", line 31, in fetch
+    cursor.execute(query, (anchor_information[1], ))
+sqlite3.ProgrammingError: Error binding parameter 1: type 'tuple' is not supported
+2026-03-02 14:04:18,493 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:04:18] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-03-02 14:04:18,506 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:04:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:06:23,685 - config - INFO - Application started
+2026-03-02 14:06:23,708 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-02 14:06:23,708 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-02 14:06:23,708 - werkzeug - INFO -  * Restarting with stat
+2026-03-02 14:06:23,808 - config - INFO - Application started
+2026-03-02 14:06:23,830 - werkzeug - WARNING -  * Debugger is active!
+2026-03-02 14:06:23,832 - werkzeug - INFO -  * Debugger PIN: 138-018-863
+2026-03-02 14:06:28,583 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:28] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:06:28,593 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:28] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:06:28,624 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:06:33,559 - config - INFO - anchor information : ('name', 'jngr4j')
+2026-03-02 14:06:33,560 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:33] "POST /register/login HTTP/1.1" 200 -
+2026-03-02 14:06:33,572 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:06:40,227 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:40] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:06:40,235 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:40] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:06:40,244 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:06:53,768 - config - INFO - anchor information : ('name', 'user790')
+2026-03-02 14:06:53,814 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:53] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-03-02 14:06:53,824 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:53] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-02 14:06:53,824 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:53] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-02 14:06:53,836 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:53] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=uG243b3UJBWRvFQ1crVA HTTP/1.1" 200 -
+2026-03-02 14:08:15,005 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/tests/test_models.py', reloading
+2026-03-02 14:08:15,035 - werkzeug - INFO -  * Restarting with stat
+2026-03-02 14:08:15,125 - config - INFO - Application started
+2026-03-02 14:08:15,146 - werkzeug - WARNING -  * Debugger is active!
+2026-03-02 14:08:15,148 - werkzeug - INFO -  * Debugger PIN: 138-018-863
+2026-03-02 14:09:12,191 - config - INFO - Application started
+2026-03-02 14:09:12,214 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-02 14:09:12,214 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-02 14:09:12,214 - werkzeug - INFO -  * Restarting with stat
+2026-03-02 14:09:12,303 - config - INFO - Application started
+2026-03-02 14:09:12,324 - werkzeug - WARNING -  * Debugger is active!
+2026-03-02 14:09:12,326 - werkzeug - INFO -  * Debugger PIN: 138-018-863
+2026-03-02 14:09:17,219 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:17] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:09:17,256 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:17] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:09:17,269 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:09:28,317 - config - INFO - anchor information : ('name', 'user89')
+2026-03-02 14:09:28,377 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:28] "POST /register/login HTTP/1.1" 200 -
+2026-03-02 14:09:28,392 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:09:34,495 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:34] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:09:34,504 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:34] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:09:34,517 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:09:43,053 - config - INFO - anchor information : ('name', 'user89')
+2026-03-02 14:09:43,113 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:43] "POST /register/login HTTP/1.1" 200 -
+2026-03-02 14:09:43,127 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:10:09,483 - config - INFO - Application started
+2026-03-02 14:10:09,505 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-02 14:10:09,505 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-02 14:10:09,505 - werkzeug - INFO -  * Restarting with stat
+2026-03-02 14:10:09,596 - config - INFO - Application started
+2026-03-02 14:10:09,617 - werkzeug - WARNING -  * Debugger is active!
+2026-03-02 14:10:09,619 - werkzeug - INFO -  * Debugger PIN: 138-018-863
+2026-03-02 14:10:14,419 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:14] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:10:14,433 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:14] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:10:14,444 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:10:20,651 - config - INFO - anchor information : ('name', 'ngreg')
+2026-03-02 14:10:20,652 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:20] "POST /register/login HTTP/1.1" 200 -
+2026-03-02 14:10:20,667 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:10:25,373 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:25] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:10:25,382 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:25] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:10:25,388 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:10:36,001 - config - INFO - anchor information : ('name', '123')
+2026-03-02 14:10:36,001 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:36] "POST /register/login HTTP/1.1" 200 -
+2026-03-02 14:10:36,014 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-02 14:17:40,904 - config - INFO - Application started
+2026-03-02 14:18:03,335 - config - INFO - Application started
+2026-03-02 14:18:03,358 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-02 14:18:03,358 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-02 14:18:03,358 - werkzeug - INFO -  * Restarting with stat
+2026-03-02 14:18:03,449 - config - INFO - Application started
+2026-03-02 14:18:03,470 - werkzeug - WARNING -  * Debugger is active!
+2026-03-02 14:18:03,472 - werkzeug - INFO -  * Debugger PIN: 138-018-863
+2026-03-02 14:18:11,965 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:11] "GET / HTTP/1.1" 200 -
+2026-03-02 14:18:20,981 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:20] "GET /register/ HTTP/1.1" 200 -
+2026-03-02 14:18:26,317 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:26] "GET /register/student HTTP/1.1" 200 -
+2026-03-02 14:18:26,346 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:26] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:18:43,346 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'Madhav rimal', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$V8rZW+v9////37sXglDKeQ$VI3g+ZzZyPGrNdYKNkaQzQQm4JKfzG1l7WgGBprbK30', 'role': 'student', 'status': 'active'}
+2026-03-02 14:18:43,348 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'I am Goat i am madhav', 'student_id': 93}
+2026-03-02 14:18:43,348 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:43] "POST /register/student HTTP/1.1" 200 -
+2026-03-02 14:18:51,189 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:51] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:18:51,225 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:51] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:19:02,693 - config - INFO - anchor information : ('name', 'Madhav rimal')
+2026-03-02 14:19:02,760 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:02] "POST /register/login HTTP/1.1" 200 -
+2026-03-02 14:19:09,261 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:09] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:19:09,283 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:09] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:19:15,373 - config - INFO - anchor information : ('name', 'Madhav')
+2026-03-02 14:19:15,374 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:15] "POST /register/login HTTP/1.1" 200 -
+2026-03-02 14:19:19,746 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:19] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:19:19,767 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:19] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:19:26,708 - config - INFO - anchor information : ('name', 'Madhav rimal')
+2026-03-02 14:19:26,781 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:26] "POST /register/login HTTP/1.1" 200 -
+2026-03-02 14:19:30,232 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:30] "GET /register/login HTTP/1.1" 200 -
+2026-03-02 14:19:30,252 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:30] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-02 14:19:37,789 - config - INFO - anchor information : ('name', 'Madhav rimal')
+2026-03-02 14:19:37,861 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:37] "POST /register/login HTTP/1.1" 200 -

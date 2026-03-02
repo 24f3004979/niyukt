@@ -3,23 +3,13 @@ from endpoint.repo import *
 from auth.login import *
 
 
-# FIX : make Working end to end reliable generic model working model and abstract models to work with
-'''
-IMprove Log and data flow for user and generic model for making this app usable-
-And developable in future extent
-Write tests for the given code to validate on the go with test suit about the project working
-'''
-
 class User:
     """
-    User Functions
-    -> Making usefull lockups and loading data from generic for dashboards with filters
-
-    +++  Upgrading features are yet to discover for user model to do 
-    Features to implement
-    1. sync : For making db sync for the information dictionary
-    2. Making lookup loading from the DB
-    Making User as Data Model but class would be required for the further expansion for the code logic
+    Handeling User Information
+    - Initiate User
+    - Admin control tools
+    - Information fetch routes
+    - verification tools
     """
     def __init__(self):
         columns = 'name,email,password,role,status'.split(",")
@@ -27,21 +17,19 @@ class User:
         self.db = GenericModel("user", self.columns)
 
     def initiate(self, information):
-        '''
-        Initiating User with given information
-        Checking with exists or not --> Initiate one with given information
-        '''
-        # TODO Not requried Generic Model can handle creation with given column information
         try:
             if self.db.insert(information):
                 k = list(information.keys())[0]
                 anchor_information = (k, information[k])
-                id = self.db.repo.fetch(anchor_information, "id")[0]
-                print(f"Id Fetced output : {id}")
+                id = self.db.repo.fetch(anchor_information, "id")
+                print(f"Fetched Id Output : {id}")
                 if id:
                     return id
                 else:
-                    return False
+                    raise UserNotCreated("Used Not initiated as fetch failed :)")
+
+        except UserNotCreated as E:
+            raise E
         except Exception as e:
             log.error(f"User Creation Failed | reason : {e}")
             print(f"user Failed to load with : {e}")
@@ -65,3 +53,10 @@ def authenticate_user(information):
     else:
         log.info(f"User not found with : {information}")
         return 0
+
+class UserNotCreated(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+        self.m = message
+    def __str__(self):
+        return f"User Creation Pipeline is failing with Unexpected Flow Info : {self.m}"

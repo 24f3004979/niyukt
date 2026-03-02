@@ -1,3 +1,4 @@
+
 '''
 Student Model
 1. Making student registration hadle with using user Model
@@ -6,7 +7,7 @@ Student Model
 '''
 from .user import *
 
-class Student(User):
+class Student():
     '''
     Features
     1. Initiating student user with given information
@@ -14,30 +15,47 @@ class Student(User):
     3. further functions wit students to add ...
     '''
     def __init__(self):
-        super().__init__()
-        self.student_data = tuple("student_id,resume,branch".split(','))
-        self.student = GenericModel("student", self.student_data)
+        self.user = User()
+        std_columns = tuple("student_id,resume,branch".split(","))
+        self.studentdb = GenericModel("student", std_columns)
         
     def activate(self, information):
         '''
-        information -> user:{user_info_dict}, student:{student_info}
-        Student Account activation flow
-        create user -> Make student table update
-
-        Student Requries flow for initiation due to user requirements but user wont need it can use generic model rather it would be used for fetching other information and user level interactions
+        Activation Flow 
+        Check Student Exists
+        initiate new user
+        fail with ease
         '''
-        log.info(f"Loading information for creation : {information}")
         user_information = information["user"]
         student_information = information["student"]
-        try:
-            info = self.initiate_user(user_information)
-            if info:
-                student_information["student_id"] = info[0]
-            else:
-                raise Exception("Something went wrong with student activation")
 
-            self.student.insert(student_information)
-        except Exception as e:
-            log.error(f"Exception at Student Creation : {e}")
-            raise Exception(f"Student Creation Failed with {e}")
+        if self.user.db.repo.exists(user_information["name"]):
+            raise UserExists("User Exists with given Credentials")
+
+        id = self.user.initiate(user_information)
+        print(f"Id fetched as : {id}")
+        if id:
+            student_information["student_id"] = id
+            try:
+                if self.studentdb.insert(student_information):
+                    return True # Activation Success full
+            except Exception as e:
+                log.error(f"Failed with {e}")
+                raise ActivationFailed(f"Activation Failed with : {e}")
+
+
+class ActivationFailed(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+        self.message = message
+    def __str__(self):
+        return f"Student Activation Failed with : {self.message}"
+
+class UserExists(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+        self.message = message
+    def __str__(self):
+        return f"User Exists : {self.message}"
+        
 
