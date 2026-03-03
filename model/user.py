@@ -53,7 +53,7 @@ class UserExists(Exception):
         super().__init__()
         self.information  = information
     def __str__(self):
-        return f"User Exists with name : {self.information["name"]}"
+        return f"User Exists with name "
 
 class CoreExecutionFailed(Exception):
     def __init__(self, message):

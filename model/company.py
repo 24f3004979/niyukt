@@ -1,28 +1,36 @@
 from .user import *
 from config import *
 
-class Company(User):
+'''
+Making good Error handle units with grace failiors
+'''
+
+class Company():
     def __init__(self):
-        super().__init__()
-        self.company_data = tuple("company_id,description".split(","))
-        self.company = GenericModel("company", self.company_data)
+        company_data = ("company_id", "description")
+        self.db = GenericModel("company", company_data)
+        self.user = User()
 
     def initiate(self, information):
-        log.info(f"Loading information : {information}")
-        print("*" * 100)
-        print(f"Debug information : {self.company_data}")
-
+        '''
+        Initiation flow
+        check exists 
+        create with gracing for both table update
+        '''
         user_information = information["user"]
+        # Making Company Initiation deactivated by deafault
+        user_information["status"] = "deactivated"
         company_information = information["company"]
 
         try:
-            info = self.initiate_user(user_information)
-            company_information["company_id"] = info[0]
-            print(f"Company Information for initiation : {company_information}")
-            if self.company.insert(company_information):
-                print(f"Now we might have company insertion working :)")
-
-            return True
+            id = self.user.insert(user_information)
+            company_information["company_id"] = id
+            if self.db.insert(company_information):
+                return True
+            else:
+                raise Exception(f"Company Insertion failed")
+        except UserExists as e:
+            raise UserExists("User Exsists with given information")
         except Exception as e:
-            log.error(f"Failed Company Initiation with : {e}")
-            raise Exception("Failed User creation")
+            raise Exception(f"Company initation Failed with {e}")
+

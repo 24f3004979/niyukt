@@ -196,3 +196,372 @@
 2026-03-03 17:08:23,575 - config - INFO - anchor information : ('name', 'Indi')
 2026-03-03 17:08:23,575 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Indi'), failed
 2026-03-03 17:08:23,576 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 17:08:23] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 20:19:35,455 - config - INFO - Application started
+2026-03-03 20:19:35,489 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-03 20:19:35,489 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 20:19:35,489 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:19:35,624 - config - INFO - Application started
+2026-03-03 20:19:35,654 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:19:35,657 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:20:24,467 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:20:24] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 20:20:24,499 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:20:24] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:20:47,299 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google ', 'email': 'google@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$xbh3Tsl57x2jVCol5JxTyg$EXbQBgT2seT02C/Pukd4XDQBzWOiVQmCLt6pAyLqupw', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'We are googler'}}
+2026-03-03 20:20:47,300 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Google '), failed
+2026-03-03 20:20:47,302 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Google ', 'email': 'google@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$xbh3Tsl57x2jVCol5JxTyg$EXbQBgT2seT02C/Pukd4XDQBzWOiVQmCLt6pAyLqupw', 'role': 'company', 'status': 'deactivated'}
+2026-03-03 20:20:47,305 - config - INFO - Insertion Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'We are googler', 'company_id': 13}
+2026-03-03 20:20:47,305 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:20:47] "POST /register/company HTTP/1.1" 200 -
+2026-03-03 20:21:59,296 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:21:59] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 20:21:59,315 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:21:59] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:22:15,429 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google ', 'email': 'mail@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$uVdKKSXk/J+TkjKGcG7NmQ$DpN69xN2wFtl3UVPrSoZnx2QRxiwvZnoNAWtQxm4lyA', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'about'}}
+2026-03-03 20:22:15,429 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google ')
+2026-03-03 20:22:15,433 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:22:15] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 20:22:15,450 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:22:15] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:22:15,451 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:22:15] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:22:15,467 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:22:15] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=F8nZVWNSLG8Q21Zk6LPf HTTP/1.1" 200 -
+2026-03-03 20:22:15,483 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:22:15] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:23:08,038 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-03 20:23:08,072 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:23:08,192 - config - INFO - Application started
+2026-03-03 20:23:08,218 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:23:08,221 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:23:12,236 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-03 20:23:12,275 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:23:12,392 - config - INFO - Application started
+2026-03-03 20:23:12,411 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:23:12,413 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:23:14,536 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google ', 'email': 'mail@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$kVKq9d5ba8157907ZwzhvA$ZyTmwlX19NBXvV9B7DQbm3BJKa1j9UDdn2qjZlquVCY', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'about'}}
+2026-03-03 20:23:14,537 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google ')
+2026-03-03 20:23:14,540 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:23:14] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 20:23:14,564 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:23:14] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:23:14,565 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:23:14] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:23:14,576 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:23:14] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=h9SLnIvnxwhcSZpor0Wl HTTP/1.1" 200 -
+2026-03-03 20:23:14,587 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:23:14] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:23:17,025 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:23:17] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 20:23:17,046 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:23:17] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:23:33,302 - config - INFO - Company information for initiation :::: {'user': {'name': 'Microsoft', 'email': 'm@a.a', 'password': '$argon2id$v=19$m=65536,t=3,p=4$N4awtnaO8X6vde59T8lZaw$/1ArOTHf2/mrPbyCkD38bC/rRW5GEAVa2ZxV8Pu1Fxg', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'I am goat'}}
+2026-03-03 20:23:33,302 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Microsoft'), failed
+2026-03-03 20:23:33,305 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Microsoft', 'email': 'm@a.a', 'password': '$argon2id$v=19$m=65536,t=3,p=4$N4awtnaO8X6vde59T8lZaw$/1ArOTHf2/mrPbyCkD38bC/rRW5GEAVa2ZxV8Pu1Fxg', 'role': 'company', 'status': 'deactivated'}
+2026-03-03 20:23:33,308 - config - INFO - Insertion Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'I am goat', 'company_id': 14}
+2026-03-03 20:23:33,308 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:23:33] "POST /register/company HTTP/1.1" 200 -
+2026-03-03 20:25:38,686 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-03 20:25:38,725 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:25:38,856 - config - INFO - Application started
+2026-03-03 20:25:38,886 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:25:38,888 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:25:54,925 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/company.py', reloading
+2026-03-03 20:25:54,960 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:25:55,094 - config - INFO - Application started
+2026-03-03 20:25:55,125 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:25:55,128 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:25:57,138 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/company.py', reloading
+2026-03-03 20:25:57,174 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:25:57,308 - config - INFO - Application started
+2026-03-03 20:25:57,339 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:25:57,341 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:26:08,994 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:26:08] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 20:26:09,017 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:26:09] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:26:15,700 - config - INFO - anchor information : ('name', 'Google')
+2026-03-03 20:26:15,701 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Google'), failed
+2026-03-03 20:26:15,701 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:26:15] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 20:26:32,019 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:26:32] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 20:26:32,038 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:26:32] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:26:39,299 - config - INFO - anchor information : ('name', 'Google')
+2026-03-03 20:26:39,300 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Google'), failed
+2026-03-03 20:26:39,300 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:26:39] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 20:26:50,335 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:26:50] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 20:26:50,354 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:26:50] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:27:19,812 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'google@gmail.outloock.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$aO2dU+pdyznH+N87Z6w1xg$GhFtkWLL4US6KM0jEifOcvsYxyE8+Bous4b3vNL79RQ', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'We are goating microsoft'}}
+2026-03-03 20:27:19,813 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Google'), failed
+2026-03-03 20:27:19,815 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Google', 'email': 'google@gmail.outloock.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$aO2dU+pdyznH+N87Z6w1xg$GhFtkWLL4US6KM0jEifOcvsYxyE8+Bous4b3vNL79RQ', 'role': 'company', 'status': 'deactivated'}
+2026-03-03 20:27:19,818 - config - INFO - Insertion Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'We are goating microsoft', 'company_id': 15}
+2026-03-03 20:27:19,818 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:27:19] "POST /register/company HTTP/1.1" 200 -
+2026-03-03 20:27:40,964 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:27:40] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 20:27:40,984 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:27:40] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:27:47,754 - config - INFO - anchor information : ('name', 'Google')
+2026-03-03 20:27:47,755 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 20:27:47,841 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:27:47] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 20:28:06,545 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:06] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 20:28:06,562 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:06] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:28:16,376 - config - INFO - anchor information : ('name', 'Googlalala')
+2026-03-03 20:28:16,376 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Googlalala'), failed
+2026-03-03 20:28:16,377 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:16] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 20:28:18,582 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:18] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 20:28:18,602 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:18] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:28:26,794 - config - INFO - anchor information : ('name', 'Google')
+2026-03-03 20:28:26,795 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 20:28:26,873 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:26] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 20:28:30,101 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:30] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 20:28:34,467 - config - INFO - anchor information : ('name', 'Google')
+2026-03-03 20:28:34,495 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 20:28:34,573 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:34] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 20:28:40,878 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:40] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 20:28:40,898 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:40] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:28:59,240 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'mail@mail43ef34re', 'password': '$argon2id$v=19$m=65536,t=3,p=4$0/p/j3FubU3J2RsjJMSY0w$HAYdJW0vFKsDOEAu28e8ep1UmXocPM1N6TVbrmIrMPg', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'i am am'}}
+2026-03-03 20:28:59,241 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 20:28:59,244 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:59] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 20:28:59,264 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:59] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:28:59,264 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:59] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:28:59,279 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:59] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=alPnuHuXOeqLFWD6IHs6 HTTP/1.1" 200 -
+2026-03-03 20:28:59,288 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:28:59] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:30:23,676 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:30:23] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 20:30:23,696 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:30:23] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:30:38,022 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Madhav Rimal'), failed
+2026-03-03 20:30:38,024 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Madhav Rimal', 'email': 'madhavprapanna@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$C2FMCYEQgnDOOSeEUOp9rw$MQJTZZ/1te3YVsXDVufwz+ZVMjjtNSuh7mEyLsVAYfo', 'role': 'student', 'status': 'active'}
+2026-03-03 20:30:38,027 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'I am goat', 'student_id': 16}
+2026-03-03 20:30:38,027 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:30:38] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 20:30:46,737 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:30:46] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 20:30:46,753 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:30:46] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:31:18,090 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-03 20:31:18,090 - config - INFO - Terminating student creation with user exists
+2026-03-03 20:31:18,092 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:18] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
+2026-03-03 20:31:18,108 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:18] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:31:18,108 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:18] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:31:18,119 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:18] "GET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=alPnuHuXOeqLFWD6IHs6 HTTP/1.1" 200 -
+2026-03-03 20:31:18,124 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:18] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:31:37,486 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:37] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 20:31:37,501 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:37] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:31:50,935 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-03 20:31:50,935 - config - INFO - Terminating student creation with user exists
+2026-03-03 20:31:50,938 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:50] "[35m[1mPOST /register/student HTTP/1.1[0m" 500 -
+2026-03-03 20:31:50,951 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:50] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:31:50,952 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:50] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:31:50,961 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:50] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png&s=alPnuHuXOeqLFWD6IHs6 HTTP/1.1[0m" 304 -
+2026-03-03 20:31:50,970 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:31:50] "[36mGET /register/student?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:33:38,147 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-03-03 20:33:38,179 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:33:38,268 - config - INFO - Application started
+2026-03-03 20:33:38,289 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:33:38,290 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:33:41,368 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-03 20:33:41,368 - config - INFO - Terminating student creation with user exists
+2026-03-03 20:33:41,368 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:33:41] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 20:33:54,462 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:33:54] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 20:33:54,478 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:33:54] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 20:34:09,277 - config - INFO - Company information for initiation :::: {'user': {'name': 'Madhav Rimal', 'email': 'madhavprapanna@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$zZmzNiak9L7X2vu/l3IOwQ$HDdEsyP7j+s17dWQSab+ZFQLm2i7bMx8/641YK0ErDk', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'i m '}}
+2026-03-03 20:34:09,277 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-03 20:34:09,280 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:34:09] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 20:34:09,293 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:34:09] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:34:09,294 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:34:09] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:34:09,302 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:34:09] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=oaIJI7UHSxjfJIPie4Bd HTTP/1.1" 200 -
+2026-03-03 20:34:09,307 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:34:09] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:36:50,322 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/company.py', reloading
+2026-03-03 20:36:50,355 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:36:50,446 - config - INFO - Application started
+2026-03-03 20:36:50,466 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:36:50,468 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:36:54,273 - config - INFO - Company information for initiation :::: {'user': {'name': 'Madhav Rimal', 'email': 'madhavprapanna@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$G2MMgfBe6723di5FCGGMEQ$8F2L4R6Oxw304hpfc5QEoDZ/RhFGh3yz3E2rYfypqxE', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'i m '}}
+2026-03-03 20:36:54,274 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-03 20:36:54,277 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:36:54] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 20:36:54,291 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:36:54] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:36:54,291 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:36:54] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:36:54,299 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:36:54] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=kxsVi2cpsYmBueEuN0XN HTTP/1.1" 200 -
+2026-03-03 20:36:54,305 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:36:54] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:36:58,837 - config - INFO - Company information for initiation :::: {'user': {'name': 'Madhav Rimal', 'email': 'madhavprapanna@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$qZVSSumdMwZgrHXOGQOAsA$Y94PbbbPejiQt54fS1vrwnieO3NpZ8VWdqJVnRElTXk', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'i m '}}
+2026-03-03 20:36:58,838 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-03 20:36:58,840 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:36:58] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 20:36:58,852 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:36:58] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:36:58,852 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:36:58] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:36:58,860 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:36:58] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=kxsVi2cpsYmBueEuN0XN HTTP/1.1[0m" 304 -
+2026-03-03 20:36:58,867 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:36:58] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:38:02,871 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/company.py', reloading
+2026-03-03 20:38:02,901 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:38:02,991 - config - INFO - Application started
+2026-03-03 20:38:03,012 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:38:03,013 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:38:05,873 - config - INFO - Company information for initiation :::: {'user': {'name': 'Madhav Rimal', 'email': 'madhavprapanna@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$1Po/B+Ac43zvHcP4/39PqQ$JwvvuIrHcvphiGPcIBAjplwLMfEt98SEpJgkLxgUI1E', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'i m '}}
+2026-03-03 20:38:05,873 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-03 20:38:05,877 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:38:05] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 20:38:05,890 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:38:05] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:38:05,893 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:38:05] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:38:05,900 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:38:05] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=ztSF5WfKGbk7JBGagpK6 HTTP/1.1" 200 -
+2026-03-03 20:38:05,907 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:38:05] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:38:29,146 - config - INFO - Application started
+2026-03-03 20:38:43,827 - config - INFO - Application started
+2026-03-03 20:39:20,045 - config - INFO - Application started
+2026-03-03 20:39:39,933 - config - INFO - Application started
+2026-03-03 20:40:11,679 - config - INFO - Application started
+2026-03-03 20:40:50,161 - config - INFO - Application started
+2026-03-03 20:42:01,062 - config - INFO - Application started
+2026-03-03 20:42:01,083 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-03 20:42:01,083 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 20:42:01,083 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:42:01,173 - config - INFO - Application started
+2026-03-03 20:42:01,193 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:42:01,195 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:42:07,992 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:42:07] "GET / HTTP/1.1" 200 -
+2026-03-03 20:42:08,018 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:42:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-03 20:42:15,249 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:42:15] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 20:42:15,262 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:42:15] "GET /static/css/form-styles.css HTTP/1.1" 200 -
+2026-03-03 20:42:26,456 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'm@a.a', 'password': '$argon2id$v=19$m=65536,t=3,p=4$G8MYYyzlnJMSAqBUak3pXQ$4UpBy1dDhN3ZF/7qfw3zu7PT/JRHkIKi+9hQ0E4KiKs', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'Iam '}}
+2026-03-03 20:42:26,457 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 20:42:26,460 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:42:26] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 20:42:26,474 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:42:26] "GET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-03 20:42:26,474 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:42:26] "GET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-03 20:42:26,492 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:42:26] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=yHaeaLvnBV2cLl2XwSa1 HTTP/1.1" 200 -
+2026-03-03 20:42:26,500 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:42:26] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-03 20:43:07,557 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-03 20:43:07,585 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:43:07,673 - config - INFO - Application started
+2026-03-03 20:43:07,693 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:43:07,695 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:43:16,738 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-03 20:43:16,765 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:43:16,855 - config - INFO - Application started
+2026-03-03 20:43:16,876 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:43:16,877 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 20:43:20,421 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'm@a.a', 'password': '$argon2id$v=19$m=65536,t=3,p=4$K4VQSglhLAXg3JsTwnhPCQ$JiyqxvT/02xAVa0gKVLrAJvKehkJHCqOWy50ubjHdQY', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'Iam '}}
+2026-03-03 20:43:20,422 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 20:43:20,425 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:43:20] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 20:43:20,439 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:43:20] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:43:20,439 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:43:20] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:43:20,449 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:43:20] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=RQmYwpGXkKFMPNt9pukO HTTP/1.1" 200 -
+2026-03-03 20:43:20,456 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:43:20] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:43:26,269 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'm@a.a', 'password': '$argon2id$v=19$m=65536,t=3,p=4$W0tJibGWUkqJ8Z7zXkvpPQ$ZBRJapjVfaZMaYcFPuLUldIk8xGPeeFF24DgRg7pAV0', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'Iam '}}
+2026-03-03 20:43:26,270 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 20:43:26,272 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:43:26] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 20:43:26,285 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:43:26] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 20:43:26,285 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:43:26] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 20:43:26,292 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:43:26] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=RQmYwpGXkKFMPNt9pukO HTTP/1.1[0m" 304 -
+2026-03-03 20:43:26,297 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 20:43:26] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 20:43:36,999 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-03 20:43:37,032 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 20:43:37,121 - config - INFO - Application started
+2026-03-03 20:43:37,141 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 20:43:37,143 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 21:25:59,062 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'm@a.a', 'password': '$argon2id$v=19$m=65536,t=3,p=4$lvK+FyLE+J9zjlFKKSUEwA$O0FhGsVqCyMBbk7NGW0gbvl7uDPL0LjkGH596jzM2tY', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'Iam '}}
+2026-03-03 21:25:59,062 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 21:25:59,066 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:25:59] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 21:25:59,077 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:25:59] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 21:25:59,080 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:25:59] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 21:25:59,088 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:25:59] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=AicV35M2m0SDR73ThjlV HTTP/1.1" 200 -
+2026-03-03 21:25:59,094 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:25:59] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 21:26:52,031 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/run.py', reloading
+2026-03-03 21:26:52,061 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 21:26:52,153 - config - INFO - Application started
+2026-03-03 21:26:52,174 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 21:26:52,176 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 21:26:54,245 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'm@a.a', 'password': '$argon2id$v=19$m=65536,t=3,p=4$LMXYu7fWunfO2VuLMca49w$NEodko5JWm+HsKTsHk67mABaQWt/E4/x8BO+HfheLU8', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'Iam '}}
+2026-03-03 21:26:54,246 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 21:26:54,246 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:26:54] "POST /register/company HTTP/1.1" 200 -
+2026-03-03 21:27:05,725 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:27:05] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 21:27:05,737 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:27:05] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:27:26,806 - config - INFO - Company information for initiation :::: {'user': {'name': 'Microsoft', 'email': 'm@a.angleone', 'password': '$argon2id$v=19$m=65536,t=3,p=4$eG/NOScEoNQaA8DYe681Rg$tuU2JnNrdA3cRLi8l7nGNgNZfemCRXbw97LsnxSSF8c', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'I am great microsoft'}}
+2026-03-03 21:27:26,807 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Microsoft')
+2026-03-03 21:27:26,807 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:27:26] "POST /register/company HTTP/1.1" 200 -
+2026-03-03 21:28:15,401 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:28:15] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 21:28:15,415 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:28:15] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:28:43,749 - config - INFO - Company information for initiation :::: {'user': {'name': 'Microsoft', 'email': 'm@a.angleonefd', 'password': '$argon2id$v=19$m=65536,t=3,p=4$VuqdkxIi5HzPGYNQqrXWOg$pHFiJc9t84018CR7CExKtpAbdWUmHn1vNQZXnWJ3y9s', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'I am i ma'}}
+2026-03-03 21:28:43,749 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Microsoft')
+2026-03-03 21:28:43,749 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:28:43] "POST /register/company HTTP/1.1" 200 -
+2026-03-03 21:29:48,761 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:29:48] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 21:29:48,777 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:29:48] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:29:56,929 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:29:56] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-03-03 21:29:56,942 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:29:56] "GET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-03 21:29:56,945 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:29:56] "GET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-03 21:29:56,956 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:29:56] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=23TpSAOj6a5Rn3NdJJcm HTTP/1.1" 200 -
+2026-03-03 21:29:56,961 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:29:56] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-03 21:30:54,511 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-03 21:30:54,540 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 21:30:54,631 - config - INFO - Application started
+2026-03-03 21:30:54,651 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 21:30:54,653 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 21:35:32,985 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:35:32] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-03-03 21:35:33,001 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:35:33] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 21:35:33,004 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:35:33] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 21:35:33,013 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:35:33] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=FP9n92FDSdfLiqc7tKlW HTTP/1.1" 200 -
+2026-03-03 21:35:33,019 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:35:33] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 21:35:40,196 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/run.py', reloading
+2026-03-03 21:35:40,229 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 21:35:40,318 - config - INFO - Application started
+2026-03-03 21:35:40,338 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 21:35:40,340 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 21:36:10,494 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/run.py', reloading
+2026-03-03 21:36:10,523 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 21:36:10,617 - config - INFO - Application started
+2026-03-03 21:36:10,637 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 21:36:10,639 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 21:36:16,494 - config - INFO - anchor information : ('name', 'Microsoft')
+2026-03-03 21:36:16,494 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Microsoft')
+2026-03-03 21:36:16,591 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:16] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 21:36:22,677 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:22] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 21:36:22,690 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:22] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:36:31,561 - config - INFO - anchor information : ('name', 'Microsoft')
+2026-03-03 21:36:31,562 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Microsoft')
+2026-03-03 21:36:31,635 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:31] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 21:36:33,823 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:33] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 21:36:33,836 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:33] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:36:40,149 - config - INFO - anchor information : ('name', 'Microsoft')
+2026-03-03 21:36:40,149 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Microsoft')
+2026-03-03 21:36:40,217 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:40] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 21:36:42,804 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:42] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 21:36:54,731 - config - INFO - anchor information : ('name', 'Google')
+2026-03-03 21:36:54,732 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 21:36:54,804 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:54] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 21:36:59,368 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:59] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 21:36:59,382 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:36:59] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:37:08,046 - config - INFO - anchor information : ('name', 'Google')
+2026-03-03 21:37:08,047 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 21:37:08,121 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:37:08] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 21:37:19,253 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:37:19] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 21:37:19,265 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:37:19] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:38:05,779 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Prashant'), failed
+2026-03-03 21:38:05,781 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Prashant', 'email': 'prince@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$OEeoNYaQUipFKEUIgTBmrA$hQ5FwF75mnvo0Whd5oV77GGUjSgFEpG8C5BdgAOw4Os', 'role': 'student', 'status': 'active'}
+2026-03-03 21:38:05,784 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'Skills : html, css, python\r\n\r\nProject : Website, app, satelite', 'student_id': 17}
+2026-03-03 21:38:05,784 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:38:05] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 21:38:31,596 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:38:31] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 21:38:31,613 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:38:31] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:38:43,435 - config - INFO - anchor information : ('name', 'Prashant')
+2026-03-03 21:38:43,437 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Prashant')
+2026-03-03 21:38:43,510 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:38:43] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 21:38:46,018 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:38:46] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 21:38:46,030 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:38:46] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:38:55,086 - config - INFO - anchor information : ('name', 'Prashant')
+2026-03-03 21:38:55,086 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Prashant')
+2026-03-03 21:38:55,154 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:38:55] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 21:39:02,251 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:39:02] "GET /register/login HTTP/1.1" 200 -
+2026-03-03 21:39:13,843 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:39:13] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 21:39:13,854 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:39:13] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:39:33,698 - config - INFO - Company information for initiation :::: {'user': {'name': 'Boat', 'email': 'nav@navi.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$jNFay3kPAeB8rzUG4FxrTQ$Ab1MYstf3QzDDaFGzFkioXDSWKaJrAG5TPEvX+AGEOY', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'I am great'}}
+2026-03-03 21:39:33,699 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Boat'), failed
+2026-03-03 21:39:33,701 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Boat', 'email': 'nav@navi.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$jNFay3kPAeB8rzUG4FxrTQ$Ab1MYstf3QzDDaFGzFkioXDSWKaJrAG5TPEvX+AGEOY', 'role': 'company', 'status': 'deactivated'}
+2026-03-03 21:39:33,702 - config - INFO - Insertion Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'I am great', 'company_id': 18}
+2026-03-03 21:39:33,703 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:39:33] "POST /register/company HTTP/1.1" 200 -
+2026-03-03 21:40:33,014 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:40:33] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 21:40:40,707 - config - INFO - Company information for initiation :::: {'user': {'name': 'Boat', 'email': 'nav@navi.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$GYPQundOybkXAmBMqVVKSQ$wpfmneeyaiKJU1gtpP/Z9oO2xBK1IDLLnrXsBHzON7M', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'I am great'}}
+2026-03-03 21:40:40,708 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Boat')
+2026-03-03 21:40:40,711 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:40:40] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 21:40:40,726 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:40:40] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 21:40:40,727 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:40:40] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 21:40:40,737 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:40:40] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=Qi4J56raDEtrKwKIv5Bj HTTP/1.1" 200 -
+2026-03-03 21:40:40,744 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:40:40] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 21:45:08,480 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-03 21:45:08,512 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 21:45:48,124 - config - INFO - Application started
+2026-03-03 21:45:48,145 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-03 21:45:48,145 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 21:45:48,146 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 21:45:48,235 - config - INFO - Application started
+2026-03-03 21:45:48,255 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 21:45:48,257 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 21:45:56,575 - config - INFO - Company information for initiation :::: {'user': {'name': 'Boat', 'email': 'nav@navi.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$ZoxxrrXWOoeQ8l6rFeKc8w$Zvya+qcqirQxjSXKP/evAVwwcuAE7qO2j2d66P0txoA', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'I am great'}}
+2026-03-03 21:45:56,576 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Boat')
+2026-03-03 21:45:56,576 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:45:56] "POST /register/company HTTP/1.1" 200 -
+2026-03-03 21:45:59,658 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:45:59] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 21:45:59,675 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:45:59] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:46:11,316 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'mail@mail', 'password': '$argon2id$v=19$m=65536,t=3,p=4$bi3FeE9pjTGGEGJsjfG+1w$r/b4JjlPVedPouK1evtdtn1p7zsYZaqcCoelHTG8noI', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'klvvne'}}
+2026-03-03 21:46:11,316 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-03-03 21:46:11,316 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:46:11] "POST /register/company HTTP/1.1" 200 -
+2026-03-03 21:46:14,006 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:46:14] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 21:46:14,020 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:46:14] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 21:46:23,762 - config - INFO - Company information for initiation :::: {'user': {'name': 'Accer', 'email': 'mail@mail43ef34re', 'password': '$argon2id$v=19$m=65536,t=3,p=4$W4tRau39n3OOESKkFIIw5g$S5fhan9NZvgDiCvUQeZ6wYWXGWqcIe+/TVYGFwzmlIQ', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'ffds'}}
+2026-03-03 21:46:23,762 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Accer'), failed
+2026-03-03 21:46:23,765 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Accer', 'email': 'mail@mail43ef34re', 'password': '$argon2id$v=19$m=65536,t=3,p=4$W4tRau39n3OOESKkFIIw5g$S5fhan9NZvgDiCvUQeZ6wYWXGWqcIe+/TVYGFwzmlIQ', 'role': 'company', 'status': 'deactivated'}
+2026-03-03 21:46:23,767 - config - INFO - Insertion Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'ffds', 'company_id': 19}
+2026-03-03 21:46:23,767 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:46:23] "POST /register/company HTTP/1.1" 200 -
+2026-03-03 21:46:54,588 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:46:54] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 21:47:04,177 - config - INFO - Company information for initiation :::: {'user': {'name': 'Accer', 'email': 'mail@mail43ef34re', 'password': '$argon2id$v=19$m=65536,t=3,p=4$L2WM0drb+//fG8N4zzmntA$AsdjVRBn14F+kPkeaKMZk1g0iZ2wvmKLShvRSXdxdJA', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'ffds'}}
+2026-03-03 21:47:04,178 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Accer')
+2026-03-03 21:47:04,178 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:47:04] "POST /register/company HTTP/1.1" 200 -

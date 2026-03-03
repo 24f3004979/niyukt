@@ -3,36 +3,61 @@ from model.user import *
 from model.student import *
 from model.company import *
 from auth.login import *
+from endpoint.repo import *
+from config import *
 
 
 register = Blueprint('/registration', __name__, url_prefix="/register")
 
 @register.route("/")
 def root():
-    return "Register root"
+    return "Register root: Navigations and Linking registration routes"
 
 # Registration Routing
 @register.route("/login", methods=['GET','POST'])
 def login_page():
+    '''
+    Making User Centric redirections for given information
+    Procedure
+        Fetch information about user
+            anchor : Name -> information match 
+        Verify with authentication pipeline
+
+        Login user and redirect for relevent pages
+    '''
     if request.method == "GET":
         return render_template("login.html")
-    elif request.method == "POST":
-        print(f"Data Type of form : {request.form}")
-        for i in request.form:
-            print(f"Traversing information : {i}")
-        data = request.form
-        user_name = data["name"]
-        password = data["password"]
-        # Making Authentication logic with login api
-        information = {"name":user_name, "password":password}
 
-        result = authenticate_user(information) # 1 - authenticated , 2- password wrong , 0 - user not found
-        if result == 1:
-            return "User Verified"
-        elif result == 2:
-            return "Incorrect Password"
+    elif request.method == "POST":
+        data = request.form
+        user_repo = Repo("user")
+
+        # User information
+        login_information = {
+            "name" : data.get("name"),
+            "password" : data.get("password")
+        }
+
+        anchor_information = ("name", login_information["name"])
+        log.info(f"anchor information : {anchor_information}")
+
+        # Extract Information from Request
+        if user_repo.exists(login_information["name"]):
+
+            db_fetched = user_repo.fetch(anchor_information, "name,password,role")
+            stored_hash = db_fetched[1]
+            password = login_information["password"]
+
+            if authentication(stored_hash, password):
+                role = db_fetched[2]
+                return f"""
+                <h1 color="green"> User Verified </h1>
+                User Dash Board : {role}"""
+            else:
+                return "Wrong password"
         else:
-            return "User Not found"
+            return "User Doesnt Exist | Create Account please :) "
+
 
 @register.route("/student" , methods=['POST', 'GET'])
 def student_register():  # Working student registration flow tested :)
@@ -60,11 +85,9 @@ def student_register():  # Working student registration flow tested :)
         student = Student()
         try:
             if student.activate(information):
-                return "Welcome to niyukt login now :)"
+                return "Student Registered : Wellcome to niyukt"
             else:
-                return "Error Occured during Registration"
-        except UserExists as e:
-            return "User Exists with given username"
+                return "Student Registration Failed"
         except Exception as e:
             return f"Failing With {e}"
 
@@ -88,24 +111,25 @@ def register_company():
                     }
                 }
         log.info(f'Company information for initiation :::: {information}')
-
         company = Company()
-        if company.initiate(information):
-            return "credentials correct but admin approval required :)"
-        else:
-            return "Need to fix company register flow"
 
-        # TODO Final Check sums for the company registration is left for completion
-        '''
-        With company registration working we can move for making fetch based admin dashboards and other systems :)
-        '''
+        try:
+            if company.initiate(information):
+                return f"Company Registered : Admin Aproval required"
+            else:
+                return "Company Registration Failed"
+        except UserExists as e:
+            return f"User Exsists"
+        except Exception as e:
+            return "Company Registration failed : Error"
 
+
+        
 def extract_information(data):
     requirements = "name,email,password".split(",")
     fetched = {}
     for i in requirements:
         fetched[i] = data.get(i) # fetched information
-    print(f"Information fetched : {fetched}")
     fetched["password"] = hash_password(fetched['password'])
     return fetched
 

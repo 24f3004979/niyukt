@@ -1,6 +1,5 @@
 from flask import Flask, render_template
-from api.registrationv2 import register
-from config import *
+from api.registration import register
 
 app = Flask(__name__)
 
@@ -14,5 +13,5 @@ def launch():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=8080)
 
