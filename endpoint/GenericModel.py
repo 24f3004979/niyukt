@@ -37,6 +37,7 @@ Checks for validity of data flow for final Executions
             try:
                 cursor.execute(query, data)
                 connection.commit()  # :P
+                return True
             except Exception as e:
                 connection.rollback()
                 log.error(f"Generic Model failed for query : {query} with data : {data} Reason : {e}")
@@ -62,13 +63,16 @@ Checks for validity of data flow for final Executions
         # Checking for existence of given information
         try:
             data = tuple(values[col] for col in self.columns) # insertion order flexible
-            self.execute(insertion_query, data)
-            log.info(f"Insertion Executed with {insertion_query} with data : {values}")
-            return True
+            if self.execute(insertion_query, data):
+                log.info(f"Insertion Executed with {insertion_query} with data : {values}")
+                return True
+            else:
+                raise ExecutionFailed("Generic Model- Executor failed")
+
 
         except ExecutionFailed as e:
             log.error(f'Execution Failed at Generic Model : Information > Query : {insertion_query} with data : {data}')
-            raise e  # Raising Custom Exception to User
+            raise Exception("Core Execution Function Failed")
 
 
         except Exception as e:
@@ -88,4 +92,3 @@ class ExecutionFailed(Exception):
         self.information = information
     def __str__(self):
         return f"DB Execution Failed with {self.message} Information : {self.information}"
-

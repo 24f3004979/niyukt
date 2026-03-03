@@ -1,132 +1,103 @@
-2026-03-02 14:04:09,010 - config - INFO - Application started
-2026-03-02 14:04:09,026 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-03-03 15:39:34,782 - config - INFO - Application started
+2026-03-03 15:39:34,803 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-03-02 14:04:09,026 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-03-02 14:04:15,034 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:04:15] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:04:15,044 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:04:15] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:04:15,057 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:04:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:04:18,492 - config - INFO - anchor information : ('name', 'rgr')
-2026-03-02 14:04:18,493 - app - ERROR - Exception on /register/login [POST]
-Traceback (most recent call last):
-  File "/home/madhav/Projects/niyukt/.venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/madhav/Projects/niyukt/.venv/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/madhav/Projects/niyukt/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/madhav/Projects/niyukt/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/madhav/Projects/niyukt/api/registrationv2.py", line 45, in login_page
-    if user_repo.exists(anchor_information):
-       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/madhav/Projects/niyukt/endpoint/repo.py", line 17, in exists
-    search = self.fetch(anchor_information, "name")
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/madhav/Projects/niyukt/endpoint/repo.py", line 31, in fetch
-    cursor.execute(query, (anchor_information[1], ))
-sqlite3.ProgrammingError: Error binding parameter 1: type 'tuple' is not supported
-2026-03-02 14:04:18,493 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:04:18] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
-2026-03-02 14:04:18,506 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:04:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:06:23,685 - config - INFO - Application started
-2026-03-02 14:06:23,708 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-03-03 15:39:34,804 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 15:39:34,804 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 15:39:34,891 - config - INFO - Application started
+2026-03-03 15:39:34,911 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 15:39:34,913 - werkzeug - INFO -  * Debugger PIN: 117-713-551
+2026-03-03 15:39:39,014 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:39:39] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 15:39:39,028 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:39:39] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 15:39:57,085 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:39:57] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 15:41:52,834 - config - INFO - Application started
+2026-03-03 15:41:52,857 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-03-02 14:06:23,708 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-03-02 14:06:23,708 - werkzeug - INFO -  * Restarting with stat
-2026-03-02 14:06:23,808 - config - INFO - Application started
-2026-03-02 14:06:23,830 - werkzeug - WARNING -  * Debugger is active!
-2026-03-02 14:06:23,832 - werkzeug - INFO -  * Debugger PIN: 138-018-863
-2026-03-02 14:06:28,583 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:28] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:06:28,593 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:28] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:06:28,624 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:06:33,559 - config - INFO - anchor information : ('name', 'jngr4j')
-2026-03-02 14:06:33,560 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:33] "POST /register/login HTTP/1.1" 200 -
-2026-03-02 14:06:33,572 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:06:40,227 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:40] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:06:40,235 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:40] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:06:40,244 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:06:53,768 - config - INFO - anchor information : ('name', 'user790')
-2026-03-02 14:06:53,814 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:53] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
-2026-03-02 14:06:53,824 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:53] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2026-03-02 14:06:53,824 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:53] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2026-03-02 14:06:53,836 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:06:53] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=uG243b3UJBWRvFQ1crVA HTTP/1.1" 200 -
-2026-03-02 14:08:15,005 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/tests/test_models.py', reloading
-2026-03-02 14:08:15,035 - werkzeug - INFO -  * Restarting with stat
-2026-03-02 14:08:15,125 - config - INFO - Application started
-2026-03-02 14:08:15,146 - werkzeug - WARNING -  * Debugger is active!
-2026-03-02 14:08:15,148 - werkzeug - INFO -  * Debugger PIN: 138-018-863
-2026-03-02 14:09:12,191 - config - INFO - Application started
-2026-03-02 14:09:12,214 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-03-03 15:41:52,857 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 15:41:52,857 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 15:41:52,946 - config - INFO - Application started
+2026-03-03 15:41:52,967 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 15:41:52,969 - werkzeug - INFO -  * Debugger PIN: 117-713-551
+2026-03-03 15:41:56,163 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:41:56] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 15:41:56,177 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:41:56] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 15:42:12,199 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:42:12] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 15:43:50,150 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/userv2.py', reloading
+2026-03-03 15:43:50,176 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 15:43:50,266 - config - INFO - Application started
+2026-03-03 15:43:50,287 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 15:43:50,289 - werkzeug - INFO -  * Debugger PIN: 117-713-551
+2026-03-03 15:43:54,298 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/userv2.py', reloading
+2026-03-03 15:43:54,320 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 15:43:54,404 - config - INFO - Application started
+2026-03-03 15:43:54,423 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 15:43:54,425 - werkzeug - INFO -  * Debugger PIN: 117-713-551
+2026-03-03 15:43:56,687 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:43:56] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 15:45:31,062 - config - INFO - Application started
+2026-03-03 15:45:31,084 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-03-02 14:09:12,214 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-03-02 14:09:12,214 - werkzeug - INFO -  * Restarting with stat
-2026-03-02 14:09:12,303 - config - INFO - Application started
-2026-03-02 14:09:12,324 - werkzeug - WARNING -  * Debugger is active!
-2026-03-02 14:09:12,326 - werkzeug - INFO -  * Debugger PIN: 138-018-863
-2026-03-02 14:09:17,219 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:17] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:09:17,256 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:17] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:09:17,269 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:09:28,317 - config - INFO - anchor information : ('name', 'user89')
-2026-03-02 14:09:28,377 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:28] "POST /register/login HTTP/1.1" 200 -
-2026-03-02 14:09:28,392 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:09:34,495 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:34] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:09:34,504 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:34] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:09:34,517 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:09:43,053 - config - INFO - anchor information : ('name', 'user89')
-2026-03-02 14:09:43,113 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:43] "POST /register/login HTTP/1.1" 200 -
-2026-03-02 14:09:43,127 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:09:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:10:09,483 - config - INFO - Application started
-2026-03-02 14:10:09,505 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-03-03 15:45:31,084 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 15:45:31,085 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 15:45:31,175 - config - INFO - Application started
+2026-03-03 15:45:31,195 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 15:45:31,197 - werkzeug - INFO -  * Debugger PIN: 117-713-551
+2026-03-03 15:45:33,896 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:45:33] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 15:45:39,580 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:45:39] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 15:45:39,593 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:45:39] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 15:45:52,515 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:45:52] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 15:47:52,721 - config - INFO - Application started
+2026-03-03 15:47:52,743 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-03-02 14:10:09,505 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-03-02 14:10:09,505 - werkzeug - INFO -  * Restarting with stat
-2026-03-02 14:10:09,596 - config - INFO - Application started
-2026-03-02 14:10:09,617 - werkzeug - WARNING -  * Debugger is active!
-2026-03-02 14:10:09,619 - werkzeug - INFO -  * Debugger PIN: 138-018-863
-2026-03-02 14:10:14,419 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:14] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:10:14,433 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:14] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:10:14,444 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:10:20,651 - config - INFO - anchor information : ('name', 'ngreg')
-2026-03-02 14:10:20,652 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:20] "POST /register/login HTTP/1.1" 200 -
-2026-03-02 14:10:20,667 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:10:25,373 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:25] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:10:25,382 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:25] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:10:25,388 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:10:36,001 - config - INFO - anchor information : ('name', '123')
-2026-03-02 14:10:36,001 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:36] "POST /register/login HTTP/1.1" 200 -
-2026-03-02 14:10:36,014 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:10:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-03-02 14:17:40,904 - config - INFO - Application started
-2026-03-02 14:18:03,335 - config - INFO - Application started
-2026-03-02 14:18:03,358 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-03-03 15:47:52,743 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 15:47:52,744 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 15:47:52,831 - config - INFO - Application started
+2026-03-03 15:47:52,851 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 15:47:52,853 - werkzeug - INFO -  * Debugger PIN: 117-713-551
+2026-03-03 15:47:56,543 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:47:56] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 15:47:58,548 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:47:58] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 15:47:58,561 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:47:58] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 15:48:11,950 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:48:11] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 16:04:59,810 - config - INFO - Application started
+2026-03-03 16:04:59,832 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-03-02 14:18:03,358 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2026-03-02 14:18:03,358 - werkzeug - INFO -  * Restarting with stat
-2026-03-02 14:18:03,449 - config - INFO - Application started
-2026-03-02 14:18:03,470 - werkzeug - WARNING -  * Debugger is active!
-2026-03-02 14:18:03,472 - werkzeug - INFO -  * Debugger PIN: 138-018-863
-2026-03-02 14:18:11,965 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:11] "GET / HTTP/1.1" 200 -
-2026-03-02 14:18:20,981 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:20] "GET /register/ HTTP/1.1" 200 -
-2026-03-02 14:18:26,317 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:26] "GET /register/student HTTP/1.1" 200 -
-2026-03-02 14:18:26,346 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:26] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:18:43,346 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'role', 'status') values(?,?,?,?,?) with data : {'name': 'Madhav rimal', 'email': 'mad@mad', 'password': '$argon2id$v=19$m=65536,t=3,p=4$V8rZW+v9////37sXglDKeQ$VI3g+ZzZyPGrNdYKNkaQzQQm4JKfzG1l7WgGBprbK30', 'role': 'student', 'status': 'active'}
-2026-03-02 14:18:43,348 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'I am Goat i am madhav', 'student_id': 93}
-2026-03-02 14:18:43,348 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:43] "POST /register/student HTTP/1.1" 200 -
-2026-03-02 14:18:51,189 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:51] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:18:51,225 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:18:51] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:19:02,693 - config - INFO - anchor information : ('name', 'Madhav rimal')
-2026-03-02 14:19:02,760 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:02] "POST /register/login HTTP/1.1" 200 -
-2026-03-02 14:19:09,261 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:09] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:19:09,283 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:09] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:19:15,373 - config - INFO - anchor information : ('name', 'Madhav')
-2026-03-02 14:19:15,374 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:15] "POST /register/login HTTP/1.1" 200 -
-2026-03-02 14:19:19,746 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:19] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:19:19,767 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:19] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:19:26,708 - config - INFO - anchor information : ('name', 'Madhav rimal')
-2026-03-02 14:19:26,781 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:26] "POST /register/login HTTP/1.1" 200 -
-2026-03-02 14:19:30,232 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:30] "GET /register/login HTTP/1.1" 200 -
-2026-03-02 14:19:30,252 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:30] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
-2026-03-02 14:19:37,789 - config - INFO - anchor information : ('name', 'Madhav rimal')
-2026-03-02 14:19:37,861 - werkzeug - INFO - 127.0.0.1 - - [02/Mar/2026 14:19:37] "POST /register/login HTTP/1.1" 200 -
+2026-03-03 16:04:59,832 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 16:04:59,833 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 16:04:59,924 - config - INFO - Application started
+2026-03-03 16:04:59,945 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 16:04:59,946 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 16:05:10,047 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:05:10] "GET /register/company HTTP/1.1" 200 -
+2026-03-03 16:05:10,061 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:05:10] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 16:05:30,537 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'google@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$gJByzvl/L+W8t/b+P2fsfQ$c5471OQckDnZnEmNhVuX87OXEoph/lnIj24q5/BMm6k', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'We are great'}}
+2026-03-03 16:05:30,537 - config - INFO - Loading information : {'user': {'name': 'Google', 'email': 'google@mail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$gJByzvl/L+W8t/b+P2fsfQ$c5471OQckDnZnEmNhVuX87OXEoph/lnIj24q5/BMm6k', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'We are great'}}
+2026-03-03 16:05:30,537 - config - ERROR - Failed Company Initiation with : 'Company' object has no attribute 'initiate_user'
+2026-03-03 16:05:30,542 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:05:30] "[35m[1mPOST /register/company HTTP/1.1[0m" 500 -
+2026-03-03 16:05:30,556 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:05:30] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-03 16:05:30,557 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:05:30] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-03 16:05:30,570 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:05:30] "GET /register/company?__debugger__=yes&cmd=resource&f=console.png&s=rQpoGehjgW6TO8Vlj2Hq HTTP/1.1" 200 -
+2026-03-03 16:05:30,577 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:05:30] "[36mGET /register/company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-03 16:05:50,605 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:05:50] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 16:05:50,619 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:05:50] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 16:06:02,106 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:06:02] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 16:17:07,928 - config - INFO - Application started
+2026-03-03 16:17:07,961 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-03 16:17:07,961 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 16:17:07,962 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 16:17:08,099 - config - INFO - Application started
+2026-03-03 16:17:08,130 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 16:17:08,133 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 16:17:12,039 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:17:12] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 16:17:12,061 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:17:12] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 16:17:30,230 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:17:30] "POST /register/student HTTP/1.1" 200 -
+2026-03-03 16:56:37,447 - config - INFO - Application started
+2026-03-03 16:56:37,476 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-03 16:56:37,476 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 16:56:37,476 - werkzeug - INFO -  * Restarting with stat
+2026-03-03 16:56:37,610 - config - INFO - Application started
+2026-03-03 16:56:37,640 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 16:56:37,643 - werkzeug - INFO -  * Debugger PIN: 539-921-164
+2026-03-03 16:56:43,664 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:56:43] "GET /register/student HTTP/1.1" 200 -
+2026-03-03 16:56:43,690 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:56:43] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-03 16:57:02,314 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Prashant Shukla '), failed
+2026-03-03 16:57:02,317 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Prashant Shukla ', 'email': 'prashant@nalla.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$TCmFsDZGiFGKkfJ+z7n3/g$iQaKtJz96UY/loYO6KYGZsEJK1obcgg7c+xvF/mD6xI', 'role': 'student', 'status': 'active'}
+2026-03-03 16:57:02,320 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'I am goat', 'student_id': 159}
+2026-03-03 16:57:02,321 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 16:57:02] "POST /register/student HTTP/1.1" 200 -

@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from api.registrationv2 import register
+from config import *
 
 app = Flask(__name__)
 

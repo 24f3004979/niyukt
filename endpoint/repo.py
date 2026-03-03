@@ -3,6 +3,7 @@ Unit for Manging Repositoy Fetch requests
 Handling mass reading and given fetch request for the given function
 '''
 import sqlite3 as sql
+from config import *
 import os
 
 path = '/home/madhav/Projects/niyukt/endpoint/db/niyukt.db'
@@ -16,10 +17,10 @@ class Repo:
         anchor_information = ("name", name)
         search = self.fetch(anchor_information, "name")
         if search:
-            print(f"Search Results : {search}")
+            log.info(f" Fetch-exists : Found Given Informatioin : {anchor_information}")
             return True
         else:
-            print(f"Search Result {search}")
+            log.warning(f" Fetch-exists : Existence Check for given information : {anchor_information}, failed")
             return False
         
     def fetch(self, anchor_information, required="*"):
@@ -33,7 +34,9 @@ class Repo:
             # Comprehensive fetch analysis
             print(f"Fetch requirements filter : {required.split(",")}")
             if (len(required.split(",")) == 1) and (fetch != None):
-                return fetch[0]
+                result = fetch[0]
+                print(f"result : {result}")
+                return result
             if fetch:
                 return fetch
             else:

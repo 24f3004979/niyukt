@@ -6,6 +6,7 @@ Student Model
 3. Updating student table with resume and branch information
 '''
 from .user import *
+from config import *
 
 class Student():
     '''
@@ -17,7 +18,7 @@ class Student():
     def __init__(self):
         self.user = User()
         std_columns = tuple("student_id,resume,branch".split(","))
-        self.studentdb = GenericModel("student", std_columns)
+        self.db = GenericModel("student", std_columns)
         
     def activate(self, information):
         '''
@@ -28,20 +29,20 @@ class Student():
         '''
         user_information = information["user"]
         student_information = information["student"]
+        # Initiate user 
 
-        if self.user.db.repo.exists(user_information["name"]):
-            raise UserExists("User Exists with given Credentials")
-
-        id = self.user.initiate(user_information)
-        print(f"Id fetched as : {id}")
-        if id:
+        user = User()
+        try:
+            id = user.insert(user_information)
             student_information["student_id"] = id
-            try:
-                if self.studentdb.insert(student_information):
-                    return True # Activation Success full
-            except Exception as e:
-                log.error(f"Failed with {e}")
-                raise ActivationFailed(f"Activation Failed with : {e}")
+            self.db.insert(student_information)
+            return True
+
+        except UserExists as e:
+            log.info("Terminating student creation with user exists")
+            return False
+        except Exception as e:
+            raise ActivationFailed(f"Student Activation failed with {e}")
 
 
 class ActivationFailed(Exception):
@@ -50,12 +51,3 @@ class ActivationFailed(Exception):
         self.message = message
     def __str__(self):
         return f"Student Activation Failed with : {self.message}"
-
-class UserExists(Exception):
-    def __init__(self, message):
-        super().__init__(message)
-        self.message = message
-    def __str__(self):
-        return f"User Exists : {self.message}"
-        
-

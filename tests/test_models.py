@@ -28,6 +28,7 @@ def test_generic_model():
         "role" : "student"
     }
     r = g.insert(values)
+    print(f"Testing Generic Model with {values}")
     assert r is True
 
 def test_user_model():
@@ -40,9 +41,10 @@ def test_user_model():
         "status" : "active",
         "role" : "student"
     }
-    with pytest.raises(UserNotCreated):
-        working = u.initiate(values)
-        assert working is True
+    
+    # USER MODEL RETURNS ID OF INITIATED USER ID
+    result = type(u.insert(values)) == int
+    assert result is True
 
 def test_student_model():
     s = Student()
@@ -57,7 +59,7 @@ def test_student_model():
 
     # Student Information
     student_info = {
-        "resume" : "Dummy Resume",
+        "resume" : "Resume",
         "branch" : "Dummy branch"
     }
 
@@ -65,7 +67,5 @@ def test_student_model():
         "user" : values,
         "student" : student_info
     }
-    
-    with pytest.raises(UserExists):
-        assert s.activate(information) is True
+    assert s.activate(information) is True
 

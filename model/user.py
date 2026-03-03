@@ -1,62 +1,63 @@
 from endpoint.GenericModel import *
+from config import *
 from endpoint.repo import *
 from auth.login import *
+from config import *
 
 
 class User:
-    """
-    Handeling User Information
-    - Initiate User
-    - Admin control tools
-    - Information fetch routes
-    - verification tools
-    """
+    '''
+    Handle User information
+    1. initiate
+        cheks for existence -> initiates
+    2. register
+        preprocessing pipeline for user informatioin -> register
+    '''
     def __init__(self):
-        columns = 'name,email,password,role,status'.split(",")
-        self.columns = tuple(columns)
-        self.db = GenericModel("user", self.columns)
+        columns = ("name", "email", "password", "status", "role")
+        self.db = GenericModel("user", columns)
+        self.repo = Repo("user")
 
-    def initiate(self, information):
+    def insert(self, information):
+        '''
+        information : {} with columns : values for specifics
+        Procedure
+        check for existing user -> initiate if failed
+        return id for the initiated student
+        '''
+        key = list(information.keys())[0]
+        anchor_information = (key, information[key])
+
+        if self.repo.exists(information[key]): # Exist Works with just name
+            raise UserExists(information)
+
+        # Initiating User
         try:
-            if self.db.insert(information):
-                k = list(information.keys())[0]
-                anchor_information = (k, information[k])
-                id = self.db.repo.fetch(anchor_information, "id")
-                print(f"Fetched Id Output : {id}")
-                if id:
-                    return id
-                else:
-                    raise UserNotCreated("Used Not initiated as fetch failed :)")
+            self.db.insert(information)
+            print(f'Anchor Information for id fetch : {anchor_information}')
+            id = self.repo.fetch(anchor_information, "id")
+            print(f"Fetched Id : {id}")
+            if id:
+                return id
+            else:
+                raise CoreExecutionFailed("Core Execution Failed as after insertion is is not fetched")
+            
 
-        except UserNotCreated as E:
-            raise E
-        except Exception as e:
-            log.error(f"User Creation Failed | reason : {e}")
-            print(f"user Failed to load with : {e}")
-            raise Exception(f"User creation Failed with reason : {e}")
-
-# user authentication Helper function
-def authenticate_user(information):
-    user = User()
-    anchor_information = ("name", information["name"])
-    req = "name,password"
-    info = user.db.repo.search(anchor_information, req)
-    if (type(info) == tuple) and (len(info) == 2):
-        password = info[1]
-        plain_pass = information["password"]
-        result = authentication(password, plain_pass)
-        if result:
-            return 1
-        else:
-            return 2
+        except ExecutionFailed as e:
+            return Exception(f"Failed Execution at User with {e}")
         
-    else:
-        log.info(f"User not found with : {information}")
-        return 0
 
-class UserNotCreated(Exception):
-    def __init__(self, message):
-        super().__init__(message)
-        self.m = message
+            
+class UserExists(Exception):
+    def __init__(self,information):
+        super().__init__()
+        self.information  = information
     def __str__(self):
-        return f"User Creation Pipeline is failing with Unexpected Flow Info : {self.m}"
+        return f"User Insertion Failed with : {self.information}"
+
+class CoreExecutionFailed(Exception):
+    def __init__(self, message):
+        super().__init__()
+        self.message = message
+    def __str__(self):
+        return f"Exception with core module failior : {self.message}"
