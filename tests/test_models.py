@@ -8,6 +8,8 @@ import pytest
 from endpoint.GenericModel import *
 from auth.login import *
 
+from model.companyv2 import *
+
 def mock_user():
     i = random.randint(-1000,1000)
     user = f"user{i}"
@@ -69,3 +71,23 @@ def test_student_model():
     }
     assert s.activate(information) is True
 
+def test_company():
+    c = Company()
+    user, mail = mock_user()
+    values = {
+        "name": user,
+        "email" : mail,
+        "password" : hash_password("123"),
+        "status" : "active",
+        "role" : "student"
+    }
+
+    company_information = {
+        "description" : "Dummy About company"
+    }
+    info = {
+        "user" : values,
+        "company": company_information
+    }
+
+    assert c.initiate(info) is True

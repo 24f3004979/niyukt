@@ -31,16 +31,18 @@ class Student():
         student_information = information["student"]
         # Initiate user 
 
-        user = User()
+        
         try:
-            id = user.insert(user_information)
+            id = self.user.insert(user_information)
             student_information["student_id"] = id
-            self.db.insert(student_information)
-            return True
+            if self.db.insert(student_information):
+                return True
+            else:
+                raise Exception(f"Activation Failed at student table update")
 
         except UserExists as e:
             log.info("Terminating student creation with user exists")
-            raise e
+            raise UserExists("User Exists with given information")
         except Exception as e:
             raise ActivationFailed(f"Student Activation failed with {e}")
 

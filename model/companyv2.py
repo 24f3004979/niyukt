@@ -8,7 +8,7 @@ Making good Error handle units with grace failiors
 class Company():
     def __init__(self):
         company_data = ("company_id", "description")
-        self.companydb = GenericModel("company", company_data)
+        self.db = GenericModel("company", company_data)
         self.user = User()
 
     def initiate(self, information):
@@ -18,6 +18,19 @@ class Company():
         create with gracing for both table update
         '''
         user_information = information["user"]
+        # Making Company Initiation deactivated by deafault
+        user_information["status"] = "deactivated"
         company_information = information["company"]
 
-        # TODO : Existence Check at user level is must required for failing with grace
+        try:
+            id = self.user.insert(user_information)
+            company_information["company_id"] = id
+            if self.db.insert(company_information):
+                    return True
+            else:
+                    raise Exception(f"Company Insertion failed")
+        except UserExists as e:
+            raise UserExists("User Exsists with given information")
+        except Exception as e:
+            raise Exception(f"Company initation Failed with {e}")
+
