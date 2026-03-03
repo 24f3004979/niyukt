@@ -62,7 +62,9 @@ def student_register():  # Working student registration flow tested :)
             if student.activate(information):
                 return "Welcome to niyukt login now :)"
             else:
-                return "Error During Registration"
+                return "Error Occured during Registration"
+        except UserExists as e:
+            return "User Exists with given username"
         except Exception as e:
             return f"Failing With {e}"
 

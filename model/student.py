@@ -40,7 +40,7 @@ class Student():
 
         except UserExists as e:
             log.info("Terminating student creation with user exists")
-            return False
+            raise e
         except Exception as e:
             raise ActivationFailed(f"Student Activation failed with {e}")
 
