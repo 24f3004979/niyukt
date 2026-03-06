@@ -565,3 +565,19 @@
 2026-03-03 21:47:04,177 - config - INFO - Company information for initiation :::: {'user': {'name': 'Accer', 'email': 'mail@mail43ef34re', 'password': '$argon2id$v=19$m=65536,t=3,p=4$L2WM0drb+//fG8N4zzmntA$AsdjVRBn14F+kPkeaKMZk1g0iZ2wvmKLShvRSXdxdJA', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'ffds'}}
 2026-03-03 21:47:04,178 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Accer')
 2026-03-03 21:47:04,178 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 21:47:04] "POST /register/company HTTP/1.1" 200 -
+2026-03-06 21:55:22,258 - config - INFO - Application started
+2026-03-06 21:55:22,320 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-06 21:55:22,321 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-06 21:55:22,322 - werkzeug - INFO -  * Restarting with stat
+2026-03-06 21:55:22,578 - config - INFO - Application started
+2026-03-06 21:55:22,619 - werkzeug - WARNING -  * Debugger is active!
+2026-03-06 21:55:22,637 - werkzeug - INFO -  * Debugger PIN: 104-558-207
+2026-03-06 21:55:34,055 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 21:55:34] "GET / HTTP/1.1" 200 -
+2026-03-06 21:55:34,154 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 21:55:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-06 21:55:51,970 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 21:55:51] "GET /register/student HTTP/1.1" 200 -
+2026-03-06 21:55:52,078 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 21:55:52] "GET /static/css/form-styles.css HTTP/1.1" 200 -
+2026-03-06 21:56:09,445 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'madhav rimal'), failed
+2026-03-06 21:56:09,448 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'madhav rimal', 'email': 'madhav@ma.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$YCzlHONcay1FiDFmjPFeqw$aOBTIuFoO2PMilulh86hKczoVlFui13z4USncXmTDaY', 'role': 'student', 'status': 'active'}
+2026-03-06 21:56:09,451 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'I ma ', 'student_id': 20}
+2026-03-06 21:56:09,452 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 21:56:09] "POST /register/student HTTP/1.1" 200 -
