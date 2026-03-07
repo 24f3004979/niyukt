@@ -581,3 +581,50 @@
 2026-03-06 21:56:09,448 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'madhav rimal', 'email': 'madhav@ma.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$YCzlHONcay1FiDFmjPFeqw$aOBTIuFoO2PMilulh86hKczoVlFui13z4USncXmTDaY', 'role': 'student', 'status': 'active'}
 2026-03-06 21:56:09,451 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'I ma ', 'student_id': 20}
 2026-03-06 21:56:09,452 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 21:56:09] "POST /register/student HTTP/1.1" 200 -
+2026-03-07 07:29:43,224 - config - INFO - Application started
+2026-03-07 07:29:43,266 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Admin1'), failed
+2026-03-07 07:29:43,267 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : ('Admin1', 'admin@gmail.com', '1234', 'status', 'admin') Reason : CHECK constraint failed: status IN ('active', 'deactivated')
+2026-03-07 07:29:43,267 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : ('Admin1', 'admin@gmail.com', '1234', 'status', 'admin')
+2026-03-07 07:30:31,665 - config - INFO - Application started
+2026-03-07 07:30:31,688 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Admin1'), failed
+2026-03-07 07:30:31,732 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Admin1', 'email': 'admin@gmail.com', 'password': '1234', 'status': 'active', 'role': 'admin'}
+2026-03-07 07:31:05,525 - config - INFO - Application started
+2026-03-07 07:31:05,563 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-07 07:31:05,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 07:31:05,564 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 07:31:05,695 - config - INFO - Application started
+2026-03-07 07:31:05,725 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 07:31:05,739 - werkzeug - INFO -  * Debugger PIN: 661-345-202
+2026-03-07 07:31:21,325 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:21] "GET / HTTP/1.1" 200 -
+2026-03-07 07:31:21,371 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 07:31:29,986 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:29] "[33mGET /login HTTP/1.1[0m" 404 -
+2026-03-07 07:31:30,012 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 07:31:38,852 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:38] "GET /register/login HTTP/1.1" 200 -
+2026-03-07 07:31:38,869 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:38] "GET /static/css/form-styles.css HTTP/1.1" 200 -
+2026-03-07 07:31:38,884 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 07:31:47,510 - config - INFO - anchor information : ('name', 'Admin1')
+2026-03-07 07:31:47,511 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-03-07 07:31:47,522 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:47] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-03-07 07:31:47,538 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:47] "GET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-07 07:31:47,539 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:47] "GET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-07 07:31:47,589 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:47] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=J1mNqS0QXaACujto1z7F HTTP/1.1" 200 -
+2026-03-07 07:31:47,599 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:31:47] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-07 07:33:38,962 - config - INFO - Application started
+2026-03-07 07:33:39,128 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Admin1'), failed
+2026-03-07 07:33:39,131 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Admin1', 'email': 'admin@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$x/j/f08JgbA2ZiylFOKckw$thErvlejZwllcW0gAnT1sB3OG0ZZAhX/sMnWKYQ3Jjk', 'status': 'active', 'role': 'admin'}
+2026-03-07 07:33:50,988 - config - INFO - Application started
+2026-03-07 07:33:51,021 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-07 07:33:51,021 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 07:33:51,021 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 07:33:51,152 - config - INFO - Application started
+2026-03-07 07:33:51,183 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 07:33:51,185 - werkzeug - INFO -  * Debugger PIN: 661-345-202
+2026-03-07 07:33:58,345 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:33:58] "GET /register/login HTTP/1.1" 200 -
+2026-03-07 07:33:58,359 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:33:58] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-07 07:33:58,375 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:33:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 07:34:05,181 - config - INFO - anchor information : ('name', 'Admin1')
+2026-03-07 07:34:05,182 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-03-07 07:34:05,255 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:34:05] "POST /register/login HTTP/1.1" 200 -
+2026-03-07 07:34:05,271 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:34:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
