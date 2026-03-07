@@ -628,3 +628,30 @@
 2026-03-07 07:34:05,182 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
 2026-03-07 07:34:05,255 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:34:05] "POST /register/login HTTP/1.1" 200 -
 2026-03-07 07:34:05,271 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:34:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 07:48:18,310 - config - INFO - Application started
+2026-03-07 07:48:18,343 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-07 07:48:18,343 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 07:48:18,344 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 07:48:18,476 - config - INFO - Application started
+2026-03-07 07:48:18,507 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 07:48:18,509 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 07:48:24,954 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:24] "GET /register/login HTTP/1.1" 200 -
+2026-03-07 07:48:24,970 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:24] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-07 07:48:24,992 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 07:48:31,082 - config - INFO - anchor information : ('name', 'Admin1')
+2026-03-07 07:48:31,083 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-03-07 07:48:31,158 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:31] "POST /register/login HTTP/1.1" 200 -
+2026-03-07 07:48:31,177 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 07:48:34,332 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:34] "GET /register/login HTTP/1.1" 200 -
+2026-03-07 07:48:34,358 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 07:48:40,236 - config - INFO - anchor information : ('name', 'Admin')
+2026-03-07 07:48:40,237 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Admin'), failed
+2026-03-07 07:48:40,237 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:40] "POST /register/login HTTP/1.1" 200 -
+2026-03-07 07:48:40,265 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 07:48:42,802 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:42] "GET /register/login HTTP/1.1" 200 -
+2026-03-07 07:48:42,827 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 07:48:48,089 - config - INFO - anchor information : ('name', 'Admin1')
+2026-03-07 07:48:48,089 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-03-07 07:48:48,163 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:48] "POST /register/login HTTP/1.1" 200 -
+2026-03-07 07:48:48,185 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 07:48:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

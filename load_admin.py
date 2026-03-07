@@ -10,4 +10,6 @@ info = {
         "role" : "admin"
         }
 
+# Admin Loaded for the information
+
 u.insert(info)

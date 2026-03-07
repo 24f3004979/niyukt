@@ -27,9 +27,9 @@ class QueryBuilder:
 
     def edit(self,edit_information, anchor_information):
         col = edit_information[0] # colum to edit
-        query = f"update {self.table} set {col} = ? where {anchor_info[0]} = ?"
+        query = f"update {self.table} set {col} = ? where {anchor_information[0]} = ?"
         data = (edit_information[1], anchor_information[1])
-        return data, query  # Take it for Execution
+        return query, data  # Take it for Execution
 
 
 

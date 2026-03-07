@@ -81,8 +81,26 @@ Checks for validity of data flow for final Executions
 
     def update(self, update_information, anchor_information):
         '''
-        Making Update to the anchored entry '''
-        pass # TODO : TARGET  For making next 
+        Making Update to the anchored entry
+        Check Existence -> Make Edit -> Finalize with True
+        '''
+        query, data  = self.build_query.edit(update_information, anchor_information)
+        print(f"Query : {query, data}")
+        try:
+            if self.execute(query, data):
+                return True  # Success for the Update opreation
+            else:
+                log.error(f"Execution Failed at Generic Model with : {query, data}")
+        except Exception as e:
+            log.error(f"Update information failed with {e}")
+            raise Exception(f"Update Query Failed with {e}")
+
+        
+
+
+
+
+
 
 
 class ExecutionFailed(Exception):

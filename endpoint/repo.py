@@ -1,7 +1,7 @@
 '''
 Unit for Manging Repositoy Fetch requests
 Handling mass reading and given fetch request for the given function
-'''
+''' 
 import sqlite3 as sql
 from config import *
 import os

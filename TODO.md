@@ -25,3 +25,11 @@ IMPLEMENTATION Targets
 + Handle request with ease : Request extraction module required
 + Make defined output / input flow for the meta models and base models
 + Include Unique constrained failed based roll back and loockups with fetch requests
+
+Working : Admin Login
+Things to implement
+  Admin API endpoint for admin dashboard about the application
+
+Make working updating Endpoint
+    Making admin approval mechanism 
+    Making company approval system

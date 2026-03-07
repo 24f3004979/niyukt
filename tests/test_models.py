@@ -8,7 +8,7 @@ import pytest
 from endpoint.GenericModel import *
 from auth.login import *
 
-from model.companyv2 import *
+from model.company import *
 
 def mock_user():
     i = random.randint(-1000,1000)
@@ -29,9 +29,17 @@ def test_generic_model():
         "status" : "active",
         "role" : "student"
     }
-    r = g.insert(values)
-    print(f"Testing Generic Model with {values}")
-    assert r is True
+    insertion_result = g.insert(values)  # Tested insert
+
+    update_info = ("name", "TESLA CO-FOUNDER AND CEO")
+    anchor_info = ("name", user)  # Using same user
+
+    update_result = g.update(update_info, anchor_info)
+
+    generic_test = (insertion_result == True) and (update_result == True)
+    assert generic_test is True
+
+
 
 def test_user_model():
     u = User()
