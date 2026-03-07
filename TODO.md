@@ -1,35 +1,10 @@
-# Targets
-[1] ## Basic Setup
-    1. Working DB triggers and core mechanism for the data flow
-    2. Schema, entity , triggers and views
-    3.Basic Routing Setup for project
+Lists of most critical peices for building
 
-[2] ## Authentication and Role based access
-Targets
-    1. implement student and company registration flow
-        + Working student Pipeline 
-            Needs basic refactor for scalling for other entities
-            - Implement clear data flow and error fallbacks
-            - Generalize with the data flow for all elements
-    2. Admin Login and company registration Approval
-    3. Redirect Logins into relevent pages for dashboard
+1. Making multiple anchor chaining mechanism for Query Builder
+2. Routes are complicating the api endpoints
+    Make central api manager for managing routings and registers
+        making dynamic routing with the user specific pages
+        @app.route("/user", "<int: user_id>")
+        that usr_id could be passed into teh function for loading the given information about that user_id
+3. Making Flow for edit informaiton via the requests tab
 
-Issue
-  + Maing pipeline is failing due to issues with data flow
-
-IMPLEMENTATION Targets
-1. login page | Making login for all and registration nav for student and company 
-2. Making redirectioins for all login credentials 
-
----- Improvements ------
-+ Handle request with ease : Request extraction module required
-+ Make defined output / input flow for the meta models and base models
-+ Include Unique constrained failed based roll back and loockups with fetch requests
-
-Working : Admin Login
-Things to implement
-  Admin API endpoint for admin dashboard about the application
-
-Make working updating Endpoint
-    Making admin approval mechanism 
-    Making company approval system

@@ -4,6 +4,8 @@ from api.admin import admin
 
 app = Flask(__name__)
 
+app.secret_key = "Ironman"
+
 app.register_blueprint(register)
 app.register_blueprint(admin)
 

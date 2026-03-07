@@ -29,7 +29,7 @@ class QueryBuilder:
         col = edit_information[0] # colum to edit
         query = f"update {self.table} set {col} = ? where {anchor_information[0]} = ?"
         data = (edit_information[1], anchor_information[1])
-        return query, data  # Take it for Execution
+        return query, data  # TODO : Extend for mutliple anchor information
 
 
 

@@ -1,4 +1,4 @@
-from flask import Blueprint, request, render_template
+from flask import Blueprint, request, render_template, session, redirect
 from model.user import *
 from model.student import *
 from model.company import *
@@ -50,13 +50,30 @@ def login_page():
 
             if authentication(stored_hash, password):
                 role = db_fetched[2]
-                return f"""
-                <h1 color="green"> User Verified </h1>
-                User Dash Board : {role}"""
+                session["user_name"] = db_fetched[0]
+                return redirect("http://127.0.0.1:8080/register/dashboard")
             else:
                 return "Wrong password"
         else:
             return "User Doesnt Exist | Create Account please :) "
+
+@register.route("/dashboard", methods=["GET"])
+def dashboard():
+    user_repo = Repo("user")
+    user = session.get("user_name")
+
+    anchor_information = ("name", user)
+    fetch = user_repo.fetch(anchor_information, "name")
+
+    if not user:
+        return redirect("/register/login")
+    return f"You are loged in {user}"
+
+@register.route("/logout", methods=["GET"])
+def logout():
+    session.clear()
+    print(f"Loged out user")
+    return redirect("/login")
 
 
 @register.route("/student" , methods=['POST', 'GET'])

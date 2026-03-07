@@ -888,3 +888,150 @@
 2026-03-07 09:20:13,978 - config - INFO - Application started
 2026-03-07 09:20:14,077 - werkzeug - WARNING -  * Debugger is active!
 2026-03-07 09:20:14,083 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 18:40:17,543 - config - INFO - Application started
+2026-03-07 18:40:17,588 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-07 18:40:17,588 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 18:40:17,588 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 18:40:17,771 - config - INFO - Application started
+2026-03-07 18:40:17,818 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 18:40:17,822 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 18:40:43,511 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 18:40:43] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-03-07 18:40:43,519 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 18:40:43] "GET /admin/ HTTP/1.1" 200 -
+2026-03-07 18:40:43,576 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 18:40:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 18:40:47,386 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 18:40:47] "[33mGET /admin/request HTTP/1.1[0m" 404 -
+2026-03-07 18:41:01,690 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 18:41:01] "GET /admin/ HTTP/1.1" 200 -
+2026-03-07 18:41:05,959 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 18:41:05] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-07 18:41:06,010 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 18:41:06] "[33mGET /admin/css/style.css HTTP/1.1[0m" 404 -
+2026-03-07 18:56:26,270 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 18:56:26,361 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 18:56:26,574 - config - INFO - Application started
+2026-03-07 18:56:26,615 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 18:56:26,619 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 18:58:03,222 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 18:58:03,301 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 18:58:03,525 - config - INFO - Application started
+2026-03-07 18:58:03,568 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 18:58:03,572 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 18:58:48,842 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 18:58:48,930 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 18:58:49,165 - config - INFO - Application started
+2026-03-07 18:58:49,206 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 18:58:49,209 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:02:49,428 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:02:49,511 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:02:49,727 - config - INFO - Application started
+2026-03-07 19:02:49,770 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:02:49,773 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:03:02,455 - config - INFO - Application started
+2026-03-07 19:03:02,499 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-07 19:03:02,499 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 19:03:02,500 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:03:02,703 - config - INFO - Application started
+2026-03-07 19:03:02,746 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:03:02,750 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:03:30,444 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:03:30] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-07 19:03:30,489 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:03:30] "[33mGET /admin/css/style.css HTTP/1.1[0m" 404 -
+2026-03-07 19:03:35,112 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:03:35] "GET /admin/ HTTP/1.1" 200 -
+2026-03-07 19:03:44,999 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:03:45,086 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:03:45,304 - config - INFO - Application started
+2026-03-07 19:03:45,360 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:03:45,363 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:03:59,456 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:03:59,532 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:03:59,747 - config - INFO - Application started
+2026-03-07 19:03:59,792 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:03:59,795 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:04:00,776 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:04:00] "GET /admin/ HTTP/1.1" 200 -
+2026-03-07 19:04:20,531 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:04:20] "[33mGET /register/dashboard HTTP/1.1[0m" 404 -
+2026-03-07 19:04:41,062 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:04:41,136 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:04:41,376 - config - INFO - Application started
+2026-03-07 19:04:41,437 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:04:41,441 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:04:42,187 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:04:42] "[33mGET /register/dashboard HTTP/1.1[0m" 404 -
+2026-03-07 19:04:44,322 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:04:44] "[33mGET /register/dashboard HTTP/1.1[0m" 404 -
+2026-03-07 19:04:56,548 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:04:56,623 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:04:56,834 - config - INFO - Application started
+2026-03-07 19:04:56,877 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:04:56,881 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:05:09,964 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:05:10,049 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:05:10,278 - config - INFO - Application started
+2026-03-07 19:05:10,321 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:05:10,324 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:05:11,336 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:05:11,432 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:05:11,662 - config - INFO - Application started
+2026-03-07 19:05:11,700 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:05:11,703 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:05:11,999 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:05:11] "[32mGET /register/dashboard HTTP/1.1[0m" 302 -
+2026-03-07 19:05:12,017 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:05:12] "GET /register/login HTTP/1.1" 200 -
+2026-03-07 19:05:12,068 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:05:12] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-07 19:05:20,374 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-03-07 19:05:20,376 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-07 19:05:20,549 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:05:20] "[35m[1mPOST /register/login HTTP/1.1[0m" 500 -
+2026-03-07 19:05:20,598 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:05:20] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-07 19:05:20,607 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:05:20] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-07 19:05:20,642 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:05:20] "GET /register/login?__debugger__=yes&cmd=resource&f=console.png&s=6SfQUPWGZCYsd6AU2odX HTTP/1.1" 200 -
+2026-03-07 19:05:20,674 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:05:20] "[36mGET /register/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-07 19:06:51,309 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:06:51,399 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:06:51,606 - config - INFO - Application started
+2026-03-07 19:06:51,647 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:06:51,650 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:07:51,977 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/run.py', reloading
+2026-03-07 19:07:52,062 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:07:52,276 - config - INFO - Application started
+2026-03-07 19:07:52,318 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:07:52,321 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:07:59,938 - config - INFO - Application started
+2026-03-07 19:07:59,985 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-07 19:07:59,985 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 19:07:59,986 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:08:00,187 - config - INFO - Application started
+2026-03-07 19:08:00,225 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:08:00,228 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:08:05,167 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-03-07 19:08:05,169 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-07 19:08:05,345 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:08:05] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-07 19:08:05,356 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:08:05] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2026-03-07 19:08:16,843 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:08:16] "[33mGET /register/dashabord HTTP/1.1[0m" 404 -
+2026-03-07 19:08:22,323 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:08:22] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-07 19:08:31,017 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:08:31] "GET /register/company HTTP/1.1" 200 -
+2026-03-07 19:08:31,077 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:08:31] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-07 19:09:12,900 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:09:12] "GET /register/login HTTP/1.1" 200 -
+2026-03-07 19:09:12,957 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:09:12] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-07 19:09:19,375 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-03-07 19:09:19,377 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-07 19:09:19,551 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:09:19] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-07 19:09:19,562 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:09:19] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2026-03-07 19:10:02,979 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:10:03,064 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:10:03,229 - config - INFO - Application started
+2026-03-07 19:10:03,267 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:10:03,270 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:10:03,858 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:03] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2026-03-07 19:10:10,344 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:10] "[33mGET /login HTTP/1.1[0m" 404 -
+2026-03-07 19:10:17,452 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:17] "GET /register/login HTTP/1.1" 200 -
+2026-03-07 19:10:17,505 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:17] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-07 19:10:22,117 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:22] "[33mGET /register/user HTTP/1.1[0m" 404 -
+2026-03-07 19:10:27,400 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:27] "GET /register/student HTTP/1.1" 200 -
+2026-03-07 19:10:27,446 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:27] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-07 19:10:31,003 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:31] "[33mGET /register/register HTTP/1.1[0m" 404 -
+2026-03-07 19:10:36,119 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:36] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-07 19:10:52,564 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:10:52,652 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:10:52,865 - config - INFO - Application started
+2026-03-07 19:10:52,903 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:10:52,906 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:10:57,640 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:57] "GET /register/login HTTP/1.1" 200 -
+2026-03-07 19:10:57,707 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:10:57] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-07 19:11:03,082 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-03-07 19:11:03,083 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-07 19:11:03,245 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:11:03] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-07 19:11:03,254 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:11:03] "GET /register/dashboard HTTP/1.1" 200 -
