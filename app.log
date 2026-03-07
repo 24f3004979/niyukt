@@ -1035,3 +1035,16 @@
 2026-03-07 19:11:03,083 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
 2026-03-07 19:11:03,245 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:11:03] "[32mPOST /register/login HTTP/1.1[0m" 302 -
 2026-03-07 19:11:03,254 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:11:03] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-07 19:13:15,860 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:13:15] "GET /register/login HTTP/1.1" 200 -
+2026-03-07 19:13:15,922 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:13:15] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-07 19:13:22,593 - config - INFO - anchor information : ('name', 'Admin1')
+2026-03-07 19:13:22,594 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-03-07 19:13:22,752 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:13:22] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-07 19:13:22,770 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:13:22] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-07 19:13:53,001 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-07 19:13:53,081 - werkzeug - INFO -  * Restarting with stat
+2026-03-07 19:13:53,307 - config - INFO - Application started
+2026-03-07 19:13:53,349 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 19:13:53,352 - werkzeug - INFO -  * Debugger PIN: 119-147-457
+2026-03-07 19:13:54,560 - config - INFO - User Loged in Admin1
+2026-03-07 19:13:54,561 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 19:13:54] "GET /register/dashboard HTTP/1.1" 200 -

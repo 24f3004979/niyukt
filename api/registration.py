@@ -67,6 +67,7 @@ def dashboard():
 
     if not user:
         return redirect("/register/login")
+    log.info(f"User Loged in {user}")
     return f"You are loged in {user}"
 
 @register.route("/logout", methods=["GET"])
