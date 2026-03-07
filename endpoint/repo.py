@@ -22,9 +22,17 @@ class Repo:
         else:
             log.warning(f" Fetch-exists : Existence Check for given information : {anchor_information}, failed")
             return False
+    # BUG : Requires moduler fetch pipeline with multi anchor query generator
+    def mass_fetch(self, anchor_information, required="*"):
+        query=f'select {required} from {self.table} where {anchor_information[0]} = ?'
+        with sql.connect(path) as connection:
+            cursor = connection.cursor()
+            cursor.execute(query, (anchor_information[1], ))
+            return cursor.fetchall()
         
     def fetch(self, anchor_information, required="*"):
         query = f'select {required} from {self.table} where {anchor_information[0]} = ?'
+        print(f"Fetch query : {query}")
 
         # Fetch from DB 
         with sql.connect(path) as connection:
