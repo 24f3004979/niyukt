@@ -39,7 +39,7 @@ class QueryBuilder:
         base_query = f"select {required_columns} from {self.table} where "
         print(f'Base Query : {base_query}')
 
-        i = 0  # placeholder constraints
+        i = 1  # placeholder constraints
         data = []  # Final Execution data list
         condition_strings = []
         for anchor_elem in anchor_information:
@@ -53,12 +53,3 @@ class QueryBuilder:
 
         print(f"Query : {query} with data \n : {data}")
         return query, data
-
-column = "name,email,password,detail".split(",")
-q = QueryBuilder("user", column)
-
-anchor_information = [("name", "Madhav"), ("password", "11234")]
-required_columns = "name,password"
-q.selection(anchor_information, required_columns)
-
-

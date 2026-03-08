@@ -45,9 +45,8 @@ class User:
 
         except ExecutionFailed as e:
             return Exception(f"Failed Execution at User with {e}")
-        
 
-            
+
 class UserExists(Exception):
     def __init__(self,information):
         super().__init__()

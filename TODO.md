@@ -14,6 +14,11 @@ Lists of most critical peices for building
     Go scrappy just implement it with idiotic logic very very simple way
     
     - Target hit milestone :)
+    + Routes are messed with all cluttered with the registration pipeline
+        Routes are just defining function which would call the underlying given processes not maange the whole workflow for given task
+        Remove whole workflow based pipeline with the routes defining functions
     + Improve on update pipeline and Update Query builder and repo managers
 
+    + Authentication pipeline failing for initating the login check with the login of the user witht the sessions
+    Sessions are persisting for anyone to access the admin data set without login 
 

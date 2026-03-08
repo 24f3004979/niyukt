@@ -44,6 +44,23 @@ Checks for validity of data flow for final Executions
                 information = (query, data)
                 raise ExecutionFailed(f"Generic Model Failed with {e}", information=information)
 
+    def repo_fetch(self, anchor_information, required_columns):
+        query, data = self.build_query.selection(anchor_information, required_columns)
+        with sql.connect(path) as connection:
+            cursor = connection.cursor()
+            try:
+                cursor.execute(query, data)
+                fetched = cursor.fetchall()
+                # Applying cleaning for the company name fetch
+                final_fetch = []
+                # Making cleaning for single element
+                for elem in fetched:
+                    final_fetch.append(elem[0])
+                return final_fetch
+            except Exception as e:
+                raise Exception(f"Core Generic Model fetch failed with : {e}")
+
+
 
     def insert(self, values):
         '''

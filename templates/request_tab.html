@@ -8,13 +8,21 @@
   </head>
   <body>
 
-    <h1> Requests pending </h1>
+    <!-- Have to extend for submitting a form and geting the response -->
+    <form action="/admin/approval" method="POST">
+      <h1> Requests for Approvals </h1>
 
-    <!-- Rendering the requests for approval-->
-    {% for r in requests_list %}
+      <label for="company_names"> Company Names : </label>
+
+      {% for company in requests_list %}
       <hr>
-      {{ r }}
-      <hr>
-    {% endfor %}
+      <!-- Removing the colens for this to substitute -->
+      <label for="{{ company }}"> {{ company }}</label>
+      <input type="radio" id="option" name="{{ company }}" value="{{ company }}">
+
+      {% endfor %}
+
+      <button id="submit-button" type="submit">Approve</button>
+    </form>
   </body>
 </html>

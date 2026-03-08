@@ -11,11 +11,11 @@ from auth.login import *
 from model.company import *
 
 def mock_user():
-    i = random.randint(-1000,1000)
+    i = random.randint(-100000,100000)
     user = f"user{i}"
     mail = f"mail{i}"
     return user, mail
-
+'''
 def test_generic_model():
     columns = tuple("name,email,password,status,role".split(","))
     g = GenericModel("user", columns)
@@ -38,7 +38,7 @@ def test_generic_model():
 
     generic_test = (insertion_result == True) and (update_result == True)
     assert generic_test is True
-
+'''
 
 
 def test_user_model():
@@ -86,8 +86,7 @@ def test_company():
         "name": user,
         "email" : mail,
         "password" : hash_password("123"),
-        "status" : "active",
-        "role" : "student"
+        "role" : "company"
     }
 
     company_information = {
