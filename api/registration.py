@@ -6,6 +6,13 @@ from auth.login import *
 from endpoint.repo import *
 from config import *
 
+# TODO : Mantain Routes organization, Adjust scope of the functions with modularity of the routes file directions and improve upon defining endpoint
+'''
+Introduce dynamic routing with secure access routes for the core application modules
+    + Yet to improve with moduler way for access of routes and information
+    + Login isnt working # BUG : to fix
+'''
+
 
 register = Blueprint('/registration', __name__, url_prefix="/register")
 
@@ -64,11 +71,15 @@ def dashboard():
 
     anchor_information = ("name", user)
     fetch = user_repo.fetch(anchor_information, "name")
+    status = user_repo.fetch(anchor_information, "status")
 
     if not user:
         return redirect("/register/login")
     log.info(f"User Loged in {user}")
-    return f"You are loged in {user}"
+    if status == "active":
+        return f"<h1> Wellcome {user} </h1>"
+    else:
+        return f"<h1> Your account is deactivated by ADMIN : {status} </h1> ACCESS DENIED"
 
 @register.route("/logout", methods=["GET"])
 def logout():

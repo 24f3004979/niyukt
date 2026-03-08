@@ -1439,3 +1439,95 @@
 2026-03-08 16:37:36,000 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:37:36] "GET /admin/requests HTTP/1.1" 200 -
 2026-03-08 16:37:36,010 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:37:36] "[33mGET /admin/css/style.css HTTP/1.1[0m" 404 -
 2026-03-08 16:37:43,059 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:37:43] "POST /admin/approval HTTP/1.1" 200 -
+2026-03-08 16:47:04,479 - config - INFO - Application started
+2026-03-08 16:47:04,502 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-08 16:47:04,502 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-08 16:47:04,502 - werkzeug - INFO -  * Restarting with stat
+2026-03-08 16:47:04,592 - config - INFO - Application started
+2026-03-08 16:47:04,613 - werkzeug - WARNING -  * Debugger is active!
+2026-03-08 16:47:04,615 - werkzeug - INFO -  * Debugger PIN: 482-516-498
+2026-03-08 16:47:05,440 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:47:05] "GET /register/login HTTP/1.1" 200 -
+2026-03-08 16:47:05,452 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:47:05] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-08 16:47:05,478 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:47:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-08 16:47:14,032 - config - INFO - anchor information : ('name', 'Code Shastra')
+2026-03-08 16:47:14,033 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Code Shastra')
+2026-03-08 16:47:14,114 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:47:14] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-08 16:47:14,116 - config - INFO - User Loged in Code Shastra
+2026-03-08 16:47:14,117 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:47:14] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-08 16:49:02,220 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-08 16:49:02,251 - werkzeug - INFO -  * Restarting with stat
+2026-03-08 16:49:02,341 - config - INFO - Application started
+2026-03-08 16:49:02,363 - werkzeug - WARNING -  * Debugger is active!
+2026-03-08 16:49:02,364 - werkzeug - INFO -  * Debugger PIN: 482-516-498
+2026-03-08 16:49:11,418 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/registration.py', reloading
+2026-03-08 16:49:11,442 - werkzeug - INFO -  * Restarting with stat
+2026-03-08 16:49:11,526 - config - INFO - Application started
+2026-03-08 16:49:11,545 - werkzeug - WARNING -  * Debugger is active!
+2026-03-08 16:49:11,547 - werkzeug - INFO -  * Debugger PIN: 482-516-498
+2026-03-08 16:49:12,145 - config - INFO - User Loged in Code Shastra
+2026-03-08 16:49:12,146 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:49:12] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-08 16:49:24,854 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:49:24] "GET /register/login HTTP/1.1" 200 -
+2026-03-08 16:49:24,862 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:49:24] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-08 16:49:35,013 - config - INFO - anchor information : ('name', 'Shripati Tripathi')
+2026-03-08 16:49:35,014 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Shripati Tripathi')
+2026-03-08 16:49:35,089 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:49:35] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-08 16:49:35,091 - config - INFO - User Loged in Shripati Tripathi
+2026-03-08 16:49:35,091 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:49:35] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-08 16:49:41,244 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:49:41] "GET /register/login HTTP/1.1" 200 -
+2026-03-08 16:49:41,252 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:49:41] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-08 16:49:50,763 - config - INFO - anchor information : ('name', 'Shripati tr')
+2026-03-08 16:49:50,764 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Shripati tr'), failed
+2026-03-08 16:49:50,764 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:49:50] "POST /register/login HTTP/1.1" 200 -
+2026-03-08 16:50:04,028 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:50:04] "GET /register/company HTTP/1.1" 200 -
+2026-03-08 16:50:04,035 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:50:04] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-08 16:50:28,589 - config - INFO - Company information for initiation :::: {'user': {'name': 'Sony', 'email': 'sony@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$5RxjDCFkzBkjxPgf41xLqQ$FIl+2Tvvb7OGG4278JfwDBsbNgiWB6ZQbDODQEKFZjA', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'We are headphone'}}
+2026-03-08 16:50:28,589 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Sony'), failed
+2026-03-08 16:50:28,592 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Sony', 'email': 'sony@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$5RxjDCFkzBkjxPgf41xLqQ$FIl+2Tvvb7OGG4278JfwDBsbNgiWB6ZQbDODQEKFZjA', 'role': 'company', 'status': 'deactivated'}
+2026-03-08 16:50:28,594 - config - INFO - Insertion Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'We are headphone', 'company_id': 667}
+2026-03-08 16:50:28,595 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:50:28] "POST /register/company HTTP/1.1" 200 -
+2026-03-08 16:50:36,886 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:50:36] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-08 16:50:36,893 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:50:36] "[33mGET /admin/css/style.css HTTP/1.1[0m" 404 -
+2026-03-08 16:51:07,206 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:51:07] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-08 16:51:07,214 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:51:07] "[33mGET /admin/css/style.css HTTP/1.1[0m" 404 -
+2026-03-08 16:51:18,895 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:51:18] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-08 16:51:18,904 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:51:18] "[33mGET /admin/css/style.css HTTP/1.1[0m" 404 -
+2026-03-08 16:51:24,715 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:51:24] "POST /admin/approval HTTP/1.1" 200 -
+2026-03-08 16:51:35,005 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:51:35] "GET /register/login HTTP/1.1" 200 -
+2026-03-08 16:51:35,012 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:51:35] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-08 16:51:42,557 - config - INFO - anchor information : ('name', 'Sony')
+2026-03-08 16:51:42,558 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Sony')
+2026-03-08 16:51:42,630 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:51:42] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-08 16:51:42,633 - config - INFO - User Loged in Sony
+2026-03-08 16:51:42,633 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:51:42] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-08 16:52:11,929 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:52:11] "GET /register/login HTTP/1.1" 200 -
+2026-03-08 16:52:12,197 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:52:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-08 16:52:21,720 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:52:21] "GET /register/company HTTP/1.1" 200 -
+2026-03-08 16:52:21,739 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:52:21] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-08 16:52:41,974 - config - INFO - Company information for initiation :::: {'user': {'name': 'Brave', 'email': 'brave@brave.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$ytk7h9DamzPGmJOSkjImBA$xBs3f0TciG/Kz4pYUWp6a+aVKY+cuXdaOfEB20M2YE4', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'i am brace'}}
+2026-03-08 16:52:41,974 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Brave'), failed
+2026-03-08 16:52:41,976 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Brave', 'email': 'brave@brave.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$ytk7h9DamzPGmJOSkjImBA$xBs3f0TciG/Kz4pYUWp6a+aVKY+cuXdaOfEB20M2YE4', 'role': 'company', 'status': 'deactivated'}
+2026-03-08 16:52:41,979 - config - INFO - Insertion Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'i am brace', 'company_id': 668}
+2026-03-08 16:52:41,979 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:52:41] "POST /register/company HTTP/1.1" 200 -
+2026-03-08 16:52:50,278 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:52:50] "GET /register/login HTTP/1.1" 200 -
+2026-03-08 16:52:50,294 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:52:50] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-08 16:52:58,167 - config - INFO - anchor information : ('name', 'Brave')
+2026-03-08 16:52:58,168 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Brave')
+2026-03-08 16:52:58,243 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:52:58] "POST /register/login HTTP/1.1" 200 -
+2026-03-08 16:52:59,808 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:52:59] "GET /register/login HTTP/1.1" 200 -
+2026-03-08 16:53:02,660 - config - INFO - anchor information : ('name', 'Brave')
+2026-03-08 16:53:02,660 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Brave')
+2026-03-08 16:53:02,743 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:53:02] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-08 16:53:02,747 - config - INFO - User Loged in Brave
+2026-03-08 16:53:02,747 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:53:02] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-08 16:53:17,391 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:53:17] "[33mGET /admin/requestsq HTTP/1.1[0m" 404 -
+2026-03-08 16:53:26,430 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:53:26] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-08 16:53:26,445 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:53:26] "[33mGET /admin/css/style.css HTTP/1.1[0m" 404 -
+2026-03-08 16:53:29,923 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:53:29] "POST /admin/approval HTTP/1.1" 200 -
+2026-03-08 16:53:39,333 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:53:39] "GET /register/login HTTP/1.1" 200 -
+2026-03-08 16:53:39,349 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:53:39] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-08 16:53:45,919 - config - INFO - anchor information : ('name', 'Brave')
+2026-03-08 16:53:45,920 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Brave')
+2026-03-08 16:53:45,995 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:53:45] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-08 16:53:45,998 - config - INFO - User Loged in Brave
+2026-03-08 16:53:45,999 - werkzeug - INFO - 127.0.0.1 - - [08/Mar/2026 16:53:45] "GET /register/dashboard HTTP/1.1" 200 -
