@@ -32,6 +32,14 @@ def fetch_user():
         resp.append(dicto)
     return resp
 
+@admin.route("/alter-status", methods=["POST"])
+def alterstatus():
+    data = request.get_json()
+    print(f"Printing Fetched information via status alter pipeline")
+    
+    print(data.get("name"))
+    # TODO : Making switching mechanism for user control panel
+    return jsonify({"status" : "success"})
 
 
 @admin.route("/user-panel", methods=["GET", "POST"])

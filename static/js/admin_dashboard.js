@@ -1,4 +1,5 @@
 // Event Listeners
+
 document.getElementById("user-btn").addEventListener("click", loadUsers);
 
 function loadUsers(){
@@ -25,7 +26,7 @@ function renderUsers(users){
     <tr class='table_element'>
     <td> ${user.name} </td>
     <td> ${user.role} </td>
-    <td> <button id="control-btn"> ${user.status} </button> </td>
+    <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.name}"> ${user.status} </button> </td>
     </tr>
 `
   });
@@ -35,4 +36,23 @@ function renderUsers(users){
   content.innerHTML = html;
 }
 
+
+function AlterStatus(element){
+  console.log(element.id);
+
+  const data = {
+    name : element.id,
+    work : "alter" // delete for deleting :)
+  }
+
+  const response = fetch("http://127.0.0.1:8080/admin/alter-status",
+    {
+      method : "POST",
+      headers : {
+        'Content-Type' : 'application/json'  // such critical stuff :
+      },
+      body : JSON.stringify(data)
+    })
+  console.log(response);
+}
 

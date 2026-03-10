@@ -3037,3 +3037,378 @@
 2026-03-10 12:10:48,430 - config - INFO - Application started
 2026-03-10 12:10:48,458 - werkzeug - WARNING -  * Debugger is active!
 2026-03-10 12:10:48,460 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 13:14:58,206 - config - INFO - Application started
+2026-03-10 13:14:58,240 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-10 13:14:58,240 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 13:14:58,240 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 13:14:58,374 - config - INFO - Application started
+2026-03-10 13:14:58,406 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 13:14:58,409 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 13:14:59,648 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:14:59] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:14:59,687 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:14:59] "GET /static/css/admin.css HTTP/1.1" 200 -
+2026-03-10 13:14:59,690 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:14:59] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:14:59,691 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:14:59] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:14:59,691 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:14:59] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:14:59,692 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:14:59] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:15:02,373 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:02] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:15:06,275 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:06] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:15:06,288 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:15:44,504 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:44] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:15:44,529 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:15:44,538 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:44] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:15:44,543 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:44] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:15:44,543 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:44] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:15:44,548 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:44] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:15:44,548 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:44] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:15:46,450 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:15:46] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:16:16,791 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:16] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:16:16,820 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:16:16,829 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:16] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:16:16,836 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:16] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:16:16,838 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:16] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:16:16,840 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:16] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:16:16,841 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:16] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:16:18,347 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:18] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:16:58,158 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:58] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:16:58,183 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:16:58,194 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:58] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:16:58,195 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:58] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:16:58,198 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:58] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:16:58,202 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:58] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:16:58,203 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:16:58] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:17:14,596 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:17:14] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:17:14,617 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:17:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:17:14,623 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:17:14] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:17:14,625 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:17:14] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:17:14,626 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:17:14] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:17:14,634 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:17:14] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:17:14,635 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:17:14] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:17:17,427 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:17:17] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:19:05,718 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:19:05] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:19:05,742 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:19:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:19:05,755 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:19:05] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:19:05,758 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:19:05] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:19:05,761 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:19:05] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:19:05,764 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:19:05] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:19:05,768 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:19:05] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:19:05,769 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:19:05] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 13:20:12,741 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:20:12] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:20:12,764 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:20:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:20:12,778 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:20:12] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:20:12,785 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:20:12] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:20:12,786 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:20:12] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:20:12,790 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:20:12] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:20:12,791 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:20:12] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:20:12,794 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:20:12] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:20:14,691 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:20:14] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:23:33,538 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:23:33] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:23:33,568 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:23:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:23:33,581 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:23:33] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:23:33,583 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:23:33] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:23:33,586 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:23:33] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:23:33,587 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:23:33] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:23:33,587 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:23:33] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:23:33,588 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:23:33] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:23:35,252 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:23:35] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:25:12,797 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:25:12] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:25:12,817 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:25:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:25:12,826 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:25:12] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:25:12,827 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:25:12] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:25:12,829 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:25:12] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:25:12,839 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:25:12] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:25:12,840 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:25:12] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:25:12,845 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:25:12] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:25:14,294 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:25:14] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:26:46,087 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:26:46] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:26:46,110 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:26:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:26:46,123 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:26:46] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:26:46,126 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:26:46] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:26:46,130 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:26:46] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:26:46,133 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:26:46] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 13:26:46,133 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:26:46] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:26:46,134 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:26:46] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:26:47,941 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:26:47] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:27:00,533 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:27:00] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:27:00,554 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:27:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:27:00,562 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:27:00] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:27:00,565 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:27:00] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:27:00,568 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:27:00] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:27:00,573 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:27:00] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 13:27:00,573 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:27:00] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:27:00,574 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:27:00] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:27:02,223 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:27:02] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:32:52,539 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:32:52] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:32:52,559 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:32:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:32:52,562 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:32:52] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:32:52,565 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:32:52] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:32:52,567 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:32:52] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:32:52,574 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:32:52] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:32:52,577 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:32:52] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:32:52,577 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:32:52] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:32:53,908 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:32:53] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:48:09,947 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-10 13:48:09,985 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 13:48:10,141 - config - INFO - Application started
+2026-03-10 13:49:26,835 - config - INFO - Application started
+2026-03-10 13:49:26,868 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-10 13:49:26,868 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 13:49:26,868 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 13:49:27,014 - config - INFO - Application started
+2026-03-10 13:49:27,045 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 13:49:27,047 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 13:49:27,977 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:27] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:49:28,003 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:49:28,025 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:28] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:49:28,029 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:28] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:49:28,029 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:28] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:49:28,031 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:28] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:49:28,034 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:28] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:49:28,034 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:28] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 13:49:29,432 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:29] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:49:47,813 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:47] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:49:47,840 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:47] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:49:47,843 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:47] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:49:47,844 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:47] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:49:47,850 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:47] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:49:47,850 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:47] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:49:47,851 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:47] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 13:49:47,868 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:49:50,202 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:49:50] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:50:50,224 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:50:50] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:50:50,256 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:50:50] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:50:50,257 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:50:50] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:50:50,258 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:50:50] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:50:50,264 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:50:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:50:50,271 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:50:50] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:50:50,272 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:50:50] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:50:50,273 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:50:50] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:50:51,869 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:50:51] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:52:12,340 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:52:12] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:52:12,373 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:52:12] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:52:12,374 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:52:12] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:52:12,375 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:52:12] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:52:12,376 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:52:12] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:52:12,379 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:52:12] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:52:12,379 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:52:12] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:52:12,384 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:52:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:53:02,127 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:02] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:53:02,159 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:02] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:53:02,159 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:02] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:53:02,162 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:02] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:53:02,173 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:53:02,182 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:02] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:53:02,183 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:02] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:53:02,183 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:02] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:53:43,680 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:43] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:53:43,713 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:43] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:53:43,716 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:43] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:53:43,718 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:43] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:53:43,722 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:43] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:53:43,723 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:43] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 13:53:43,723 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:53:43] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 13:54:03,559 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-10 13:54:03,603 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 13:54:03,767 - config - INFO - Application started
+2026-03-10 13:54:03,807 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 13:54:03,810 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 13:54:06,823 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-10 13:54:06,867 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 13:54:07,029 - config - INFO - Application started
+2026-03-10 13:54:07,067 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 13:54:07,070 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 13:54:07,672 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:54:07] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:54:07,693 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:54:07] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:54:07,699 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:54:07] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:54:07,701 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:54:07] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:54:07,702 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:54:07] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:54:07,706 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:54:07] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 13:54:07,707 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:54:07] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 13:54:19,772 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:54:19] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:54:19,786 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:54:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:55:09,408 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:55:09] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:55:09,437 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:55:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:55:09,439 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:55:09] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:55:09,443 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:55:09] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:55:09,444 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:55:09] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:55:09,447 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:55:09] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:55:09,450 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:55:09] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:55:09,450 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:55:09] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 13:56:00,706 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:00] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:56:00,727 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:56:00,740 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:00] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:56:00,741 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:00] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:56:00,742 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:00] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:56:00,754 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:00] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:56:00,755 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:00] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 13:56:00,756 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:00] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:56:10,162 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:10] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:56:10,182 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:56:10,188 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:10] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:56:10,190 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:10] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:56:10,193 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:10] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:56:10,207 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:10] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:56:10,210 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:10] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:56:10,211 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:10] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 13:56:47,619 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:47] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:56:47,646 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:47] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:56:47,649 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:47] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:56:47,651 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:47] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:56:47,655 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:47] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:56:47,655 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:47] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:56:47,656 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:47] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 13:56:47,664 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:56:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:57:39,807 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:57:39] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:57:39,834 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:57:39] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:57:39,836 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:57:39] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:57:39,836 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:57:39] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:57:39,842 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:57:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:57:39,846 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:57:39] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:57:39,849 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:57:39] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:57:39,850 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:57:39] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 13:57:41,824 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:57:41] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:58:20,323 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:58:20] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:58:20,353 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:58:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:58:20,355 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:58:20] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:58:20,368 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:58:20] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:58:20,368 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:58:20] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 13:58:20,369 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:58:20] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:58:20,369 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:58:20] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 13:58:20,370 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:58:20] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:58:21,860 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:58:21] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 13:59:38,214 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:59:38] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 13:59:38,247 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:59:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 13:59:38,249 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:59:38] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 13:59:38,255 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:59:38] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:59:38,259 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:59:38] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:59:38,260 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:59:38] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 13:59:38,261 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:59:38] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-10 13:59:38,262 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 13:59:38] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:00:10,461 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:00:10] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:00:10,489 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:00:10] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:00:10,491 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:00:10] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:00:10,492 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:00:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:00:10,495 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:00:10] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:00:10,500 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:00:10] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:00:10,501 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:00:10] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:00:10,502 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:00:10] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:00:12,258 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:00:12] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 14:23:46,662 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-10 14:23:46,698 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 14:23:46,836 - config - INFO - Application started
+2026-03-10 14:23:46,867 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 14:23:46,870 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 14:23:49,987 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:23:49] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:23:50,011 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:23:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:23:50,031 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:23:50] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:23:50,032 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:23:50] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:23:50,034 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:23:50] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:23:50,034 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:23:50] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:23:50,036 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:23:50] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:23:50,037 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:23:50] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:24:35,237 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:35] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:24:35,267 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:35] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:24:35,268 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:35] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:24:35,271 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:35] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:24:35,273 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:35] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:24:35,274 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:35] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:24:35,276 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:24:35,278 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:35] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:24:59,698 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:59] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:24:59,722 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:59] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:24:59,723 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:59] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:24:59,724 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:59] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:24:59,733 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:59] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:24:59,735 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:24:59,736 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:59] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:24:59,736 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:24:59] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:25:03,043 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:25:03] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 14:25:51,362 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:25:51] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:25:51,383 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:25:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:25:51,391 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:25:51] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:25:51,391 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:25:51] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:25:51,394 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:25:51] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:25:51,394 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:25:51] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:25:51,398 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:25:51] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:25:51,400 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:25:51] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:25:52,620 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:25:52] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 14:26:29,496 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:29] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:26:29,515 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:26:29,525 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:29] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:26:29,525 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:29] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:26:29,526 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:29] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:26:29,533 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:29] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:26:29,534 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:29] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:26:29,535 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:29] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:26:30,865 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:30] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 14:26:59,788 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:59] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:26:59,824 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:59] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:26:59,826 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:59] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:26:59,829 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:59] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:26:59,832 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:59] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:26:59,835 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:26:59,836 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:59] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:26:59,837 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:26:59] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:27:01,581 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:27:01] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 14:27:36,993 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:27:36] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:27:37,024 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:27:37] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:27:37,028 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:27:37] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:27:37,029 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:27:37] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:27:37,030 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:27:37] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:27:37,038 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:27:37] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:27:37,039 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:27:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:27:37,039 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:27:37] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:27:39,002 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:27:39] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 14:28:50,051 - config - INFO - Application started
+2026-03-10 14:28:50,085 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-10 14:28:50,085 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 14:28:50,086 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 14:28:50,229 - config - INFO - Application started
+2026-03-10 14:28:50,261 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 14:28:50,264 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 14:28:51,150 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:28:51] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:28:51,175 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:28:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:28:51,201 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:28:51] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:28:51,203 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:28:51] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:28:51,205 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:28:51] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:28:51,206 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:28:51] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 14:28:51,210 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:28:51] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:28:51,211 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:28:51] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:28:52,930 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:28:52] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 14:31:15,772 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:31:15] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:31:15,793 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:31:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:31:15,800 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:31:15] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:31:15,803 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:31:15] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:31:15,808 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:31:15] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:31:15,810 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:31:15] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:31:15,813 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:31:15] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:31:15,814 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:31:15] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:31:17,025 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:31:17] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 14:31:18,161 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:31:18] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-03-10 14:34:36,890 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-10 14:34:36,924 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 14:34:37,061 - config - INFO - Application started
+2026-03-10 14:34:37,091 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 14:34:37,094 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 14:34:56,133 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-03-10 14:34:56,167 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 14:34:56,302 - config - INFO - Application started
+2026-03-10 14:34:56,331 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 14:34:56,334 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 14:35:59,448 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-10 14:35:59,495 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 14:35:59,638 - config - INFO - Application started
+2026-03-10 14:35:59,670 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 14:35:59,672 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 14:36:02,683 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-10 14:36:02,722 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 14:36:02,866 - config - INFO - Application started
+2026-03-10 14:36:02,899 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 14:36:02,901 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 14:36:03,909 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/user.py', reloading
+2026-03-10 14:36:03,942 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 14:36:04,084 - config - INFO - Application started
+2026-03-10 14:36:04,114 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 14:36:04,117 - werkzeug - INFO -  * Debugger PIN: 262-874-746
