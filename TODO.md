@@ -22,3 +22,13 @@ Lists of most critical peices for building
     + Authentication pipeline failing for initating the login check with the login of the user witht the sessions
     Sessions are persisting for anyone to access the admin data set without login 
 
+------------------------------
+10 march 2026
+
+Targets
+    [] : Initiate Authentication and token based loging mechanism
+    [] : Crafting Admin components render testing  : tested Now scalling is left for other tabs
+    [] : Making simple Js componenets for
+            - User Control Panel
+            - Request Panel for admin
+            - Integrating Panel into Admin dashboard

@@ -46,17 +46,13 @@ Checks for validity of data flow for final Executions
 
     def repo_fetch(self, anchor_information, required_columns):
         query, data = self.build_query.selection(anchor_information, required_columns)
+        print(f"Repo fetch request : {query, data}")
         with sql.connect(path) as connection:
             cursor = connection.cursor()
             try:
                 cursor.execute(query, data)
                 fetched = cursor.fetchall()
-                # Applying cleaning for the company name fetch
-                final_fetch = []
-                # Making cleaning for single element
-                for elem in fetched:
-                    final_fetch.append(elem[0])
-                return final_fetch
+                return fetched
             except Exception as e:
                 raise Exception(f"Core Generic Model fetch failed with : {e}")
 
@@ -111,14 +107,6 @@ Checks for validity of data flow for final Executions
         except Exception as e:
             log.error(f"Update information failed with {e}")
             raise Exception(f"Update Query Failed with {e}")
-
-        
-
-
-
-
-
-
 
 class ExecutionFailed(Exception):
     def __init__(self, message, information):

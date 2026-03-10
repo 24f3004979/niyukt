@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from api.registration import register
-from api.admin import admin
+from api.adminv2 import admin
 
 app = Flask(__name__)
 
@@ -12,8 +12,6 @@ app.register_blueprint(admin)
 @app.route("/")
 def launch():
     return '<h1> Landing Page </h1>'
-
-
 
 
 if __name__ == "__main__":

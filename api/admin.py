@@ -12,7 +12,7 @@ Admin Landing Page
         Accept - given request --> Update given information [ Update required ]
 
 '''
-from flask import Blueprint, request, render_template 
+from flask import Blueprint, request, render_template, jsonify
 from model.user import *
 
 admin = Blueprint('/admin', __name__, url_prefix="/admin")
@@ -20,6 +20,11 @@ admin = Blueprint('/admin', __name__, url_prefix="/admin")
 @admin.route("/")  # BUG : Any one can fetch information about all students :)
 def root():
     return "ADMIN DASHBOARD"
+
+@admin.route("/users", methods="GET")
+def fetch_user():
+    dummy_data = [{"name":"Name1", "role":"student"}, {"name":"Name2", "role": "student"}]
+    return dummy_data
 
 @admin.route("/approval", methods=["POST", "GET"])
 def approvals():
