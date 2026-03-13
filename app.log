@@ -3412,3 +3412,267 @@
 2026-03-10 14:36:04,084 - config - INFO - Application started
 2026-03-10 14:36:04,114 - werkzeug - WARNING -  * Debugger is active!
 2026-03-10 14:36:04,117 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 14:37:45,201 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:45] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:37:45,228 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 14:37:45,246 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:45] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:37:45,246 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:45] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:37:45,248 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:45] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:37:45,250 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:45] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:37:45,252 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:45] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-10 14:37:45,253 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:45] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:37:51,191 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:51] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 14:37:57,650 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:57] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-03-10 14:37:58,873 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:37:58] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-03-10 14:38:04,688 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:04] "[33mGET /login HTTP/1.1[0m" 404 -
+2026-03-10 14:38:12,405 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:12] "GET /register/login HTTP/1.1" 200 -
+2026-03-10 14:38:12,430 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:12] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-10 14:38:17,953 - config - INFO - anchor information : ('name', 'Madhav')
+2026-03-10 14:38:17,954 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Madhav'), failed
+2026-03-10 14:38:17,954 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:17] "POST /register/login HTTP/1.1" 200 -
+2026-03-10 14:38:21,983 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:21] "GET /register/student HTTP/1.1" 200 -
+2026-03-10 14:38:22,007 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:22] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-10 14:38:36,794 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-10 14:38:36,794 - config - INFO - Terminating student creation with user exists
+2026-03-10 14:38:36,794 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:36] "POST /register/student HTTP/1.1" 200 -
+2026-03-10 14:38:39,850 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:39] "GET /register/student HTTP/1.1" 200 -
+2026-03-10 14:38:52,799 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'CodeShastra'), failed
+2026-03-10 14:38:52,801 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'CodeShastra', 'email': '24f3004979@ds.study.iitm.ac.in', 'password': '$argon2id$v=19$m=65536,t=3,p=4$ZUzpPee8F0LIuVcqZWwthQ$ApPGETxPiU5FpHRoDFBYTewR4gLqbgWHHxVwP790qJo', 'role': 'student', 'status': 'active'}
+2026-03-10 14:38:52,804 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'ffdf', 'student_id': 976}
+2026-03-10 14:38:52,804 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:52] "POST /register/student HTTP/1.1" 200 -
+2026-03-10 14:38:59,943 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:59] "GET /register/login HTTP/1.1" 200 -
+2026-03-10 14:38:59,967 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:38:59] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-10 14:39:06,524 - config - INFO - anchor information : ('name', 'CodeShastra')
+2026-03-10 14:39:06,525 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'CodeShastra')
+2026-03-10 14:39:06,610 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:39:06] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-10 14:39:06,614 - config - INFO - User Loged in CodeShastra
+2026-03-10 14:39:06,615 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:39:06] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-10 14:39:12,237 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:39:12] "GET /register/company HTTP/1.1" 200 -
+2026-03-10 14:39:12,259 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:39:12] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-10 14:39:27,053 - config - INFO - Company information for initiation :::: {'user': {'name': 'Madhav Rimal', 'email': '24f3004979@ds.study.iitm.ac.in', 'password': '$argon2id$v=19$m=65536,t=3,p=4$H6MUIsS4974X4vzfu9f6Xw$AiP81gwi8R+3nEvEAJwaaXLpyu8+H6ChuJTPu/8Nt7s', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'im goal'}}
+2026-03-10 14:39:27,054 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-03-10 14:39:27,054 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:39:27] "POST /register/company HTTP/1.1" 200 -
+2026-03-10 14:39:28,814 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:39:28] "GET /register/company HTTP/1.1" 200 -
+2026-03-10 14:39:40,042 - config - INFO - Company information for initiation :::: {'user': {'name': 'Madhaviaiai', 'email': '24f3004979@ds.study.iitm.ac.in', 'password': '$argon2id$v=19$m=65536,t=3,p=4$IKQ0BmBsDaGUstb6/7/3/g$COcp/zkFgizR2TosAS726rkh+xVvBhQ8FqB17/K0lrQ', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'im goal'}}
+2026-03-10 14:39:40,042 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Madhaviaiai'), failed
+2026-03-10 14:39:40,043 - config - ERROR - Generic Model failed for query : insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : ('Madhaviaiai', '24f3004979@ds.study.iitm.ac.in', '$argon2id$v=19$m=65536,t=3,p=4$IKQ0BmBsDaGUstb6/7/3/g$COcp/zkFgizR2TosAS726rkh+xVvBhQ8FqB17/K0lrQ', 'deactivated', 'company') Reason : UNIQUE constraint failed: user.email
+2026-03-10 14:39:40,043 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : ('Madhaviaiai', '24f3004979@ds.study.iitm.ac.in', '$argon2id$v=19$m=65536,t=3,p=4$IKQ0BmBsDaGUstb6/7/3/g$COcp/zkFgizR2TosAS726rkh+xVvBhQ8FqB17/K0lrQ', 'deactivated', 'company')
+2026-03-10 14:39:40,043 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:39:40] "POST /register/company HTTP/1.1" 200 -
+2026-03-10 14:39:42,652 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:39:42] "GET /register/company HTTP/1.1" 200 -
+2026-03-10 14:40:06,936 - config - INFO - Company information for initiation :::: {'user': {'name': 'Madhaviaiai', 'email': 'email@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$X+vdu1cq5TynVMp5j/Heew$NGst+M+am5eGyFrNVD1nKRVt8imjfkIuFP41iFtFYmE', 'role': 'company', 'status': 'deactivated'}, 'company': {'description': 'im goal'}}
+2026-03-10 14:40:06,937 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Madhaviaiai'), failed
+2026-03-10 14:40:06,939 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Madhaviaiai', 'email': 'email@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$X+vdu1cq5TynVMp5j/Heew$NGst+M+am5eGyFrNVD1nKRVt8imjfkIuFP41iFtFYmE', 'role': 'company', 'status': 'deactivated'}
+2026-03-10 14:40:06,941 - config - INFO - Insertion Executed with insert into company('company_id', 'description') values(?,?) with data : {'description': 'im goal', 'company_id': 977}
+2026-03-10 14:40:06,941 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:40:06] "POST /register/company HTTP/1.1" 200 -
+2026-03-10 14:40:13,471 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:40:13] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 14:40:13,492 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:40:13] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 14:40:13,497 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:40:13] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:40:13,501 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:40:13] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:40:13,504 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:40:13] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 14:40:13,505 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:40:13] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 14:40:13,506 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:40:13] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 14:40:16,417 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:40:16] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 14:40:21,035 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 14:40:21] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-03-10 16:26:41,311 - config - INFO - Application started
+2026-03-10 16:26:41,344 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-10 16:26:41,344 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 16:26:41,344 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 16:26:41,478 - config - INFO - Application started
+2026-03-10 16:26:41,510 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 16:26:41,512 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 16:27:01,924 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:27:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 16:27:07,543 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:27:07] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 16:27:07,572 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:27:07] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 16:27:07,579 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:27:07] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 16:27:07,580 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:27:07] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 16:27:07,580 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:27:07] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 16:27:07,581 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:27:07] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 16:27:07,582 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:27:07] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 16:27:42,037 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:27:42] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 16:30:48,655 - config - INFO - Application started
+2026-03-10 16:30:48,689 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-10 16:30:48,689 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 16:30:48,690 - werkzeug - INFO -  * Restarting with stat
+2026-03-10 16:30:48,820 - config - INFO - Application started
+2026-03-10 16:30:48,851 - werkzeug - WARNING -  * Debugger is active!
+2026-03-10 16:30:48,854 - werkzeug - INFO -  * Debugger PIN: 262-874-746
+2026-03-10 16:30:50,096 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:30:50] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 16:30:50,134 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:30:50] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 16:30:50,140 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:30:50] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 16:30:50,142 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:30:50] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 16:30:50,143 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:30:50] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 16:30:50,145 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:30:50] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 16:30:50,146 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:30:50] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 16:30:50,155 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:30:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:30:52,553 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:30:52] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 16:31:02,162 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:02] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-03-10 16:31:03,808 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:03] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-03-10 16:31:06,103 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:06] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-03-10 16:31:08,515 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:08] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-03-10 16:31:25,050 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:25] "GET /register/login HTTP/1.1" 200 -
+2026-03-10 16:31:25,089 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:31:25,093 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:25] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-10 16:31:35,419 - config - INFO - anchor information : ('name', 'Himanshuri')
+2026-03-10 16:31:35,419 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Himanshuri'), failed
+2026-03-10 16:31:35,420 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:35] "POST /register/login HTTP/1.1" 200 -
+2026-03-10 16:31:35,442 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:31:39,658 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:39] "GET /register/student HTTP/1.1" 200 -
+2026-03-10 16:31:39,682 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:31:39,696 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:31:39] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-10 16:32:05,287 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Himanshuri '), failed
+2026-03-10 16:32:05,290 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Himanshuri ', 'email': 'himanshu@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$zRkDYAyBcG6NkTLm/L93bg$QbfSQXst9F3tjiFBXi9zLLvxdQ78+ZBHa3pbsuwBEWs', 'role': 'student', 'status': 'active'}
+2026-03-10 16:32:05,293 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Computer Science', 'resume': 'I am goaT', 'student_id': 1276}
+2026-03-10 16:32:05,293 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:05] "POST /register/student HTTP/1.1" 200 -
+2026-03-10 16:32:05,318 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:32:13,172 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:13] "[33mGET /login HTTP/1.1[0m" 404 -
+2026-03-10 16:32:13,200 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:32:18,715 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:18] "GET /register/login HTTP/1.1" 200 -
+2026-03-10 16:32:18,734 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:32:18,748 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:18] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-10 16:32:27,442 - config - INFO - anchor information : ('name', 'Himanshuri')
+2026-03-10 16:32:27,443 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Himanshuri'), failed
+2026-03-10 16:32:27,443 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:27] "POST /register/login HTTP/1.1" 200 -
+2026-03-10 16:32:27,465 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:32:32,464 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:32] "GET /register/login HTTP/1.1" 200 -
+2026-03-10 16:32:32,489 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:32:32,493 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:32] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-10 16:32:40,816 - config - INFO - anchor information : ('name', 'Himanshuri ')
+2026-03-10 16:32:40,817 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Himanshuri ')
+2026-03-10 16:32:40,902 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:40] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-03-10 16:32:40,907 - config - INFO - User Loged in Himanshuri 
+2026-03-10 16:32:40,907 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:40] "GET /register/dashboard HTTP/1.1" 200 -
+2026-03-10 16:32:40,932 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:32:51,851 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:51] "GET /admin/ HTTP/1.1" 200 -
+2026-03-10 16:32:51,875 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-10 16:32:51,895 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:51] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-10 16:32:51,899 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:51] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-10 16:32:51,900 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:51] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-10 16:32:51,909 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:51] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 16:32:51,912 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:51] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-10 16:32:51,914 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:51] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-10 16:32:53,687 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 16:32:53] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 17:38:10,417 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 17:38:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 18:10:51,396 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 18:10:51] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 18:10:53,798 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 18:10:53] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-03-10 18:19:58,699 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 18:19:58] "GET /admin/users HTTP/1.1" 200 -
+2026-03-13 12:34:20,104 - config - INFO - Application started
+2026-03-13 12:34:20,224 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-13 12:34:20,224 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-13 12:34:20,226 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 12:34:20,740 - config - INFO - Application started
+2026-03-13 12:34:20,828 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 12:34:20,846 - werkzeug - INFO -  * Debugger PIN: 757-066-839
+2026-03-13 12:34:45,224 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:34:45] "GET / HTTP/1.1" 200 -
+2026-03-13 12:34:51,628 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:34:51] "GET /admin/ HTTP/1.1" 200 -
+2026-03-13 12:34:51,741 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:34:51] "GET /static/css/admin.css HTTP/1.1" 200 -
+2026-03-13 12:34:51,745 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:34:51] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-13 12:34:51,749 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:34:51] "GET /static/icons/user.svg HTTP/1.1" 200 -
+2026-03-13 12:34:51,749 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:34:51] "GET /static/js/events.js HTTP/1.1" 200 -
+2026-03-13 12:34:51,755 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:34:51] "GET /static/icons/request.svg HTTP/1.1" 200 -
+2026-03-13 12:34:51,759 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:34:51] "GET /static/icons/Charts.svg HTTP/1.1" 200 -
+2026-03-13 12:34:53,715 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:34:53] "GET /admin/users HTTP/1.1" 200 -
+2026-03-13 12:41:32,581 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/run.py', reloading
+2026-03-13 12:41:32,698 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 12:41:33,129 - config - INFO - Application started
+2026-03-13 12:41:33,221 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 12:41:33,225 - werkzeug - INFO -  * Debugger PIN: 757-066-839
+2026-03-13 12:41:34,246 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/run.py', reloading
+2026-03-13 12:41:34,372 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 12:41:34,793 - config - INFO - Application started
+2026-03-13 12:41:34,905 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 12:41:34,911 - werkzeug - INFO -  * Debugger PIN: 757-066-839
+2026-03-13 12:41:37,470 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:37] "GET /admin/ HTTP/1.1" 200 -
+2026-03-13 12:41:37,608 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:37] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-13 12:41:37,609 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:37] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-13 12:41:37,617 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:37] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-13 12:41:37,619 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:37] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-13 12:41:37,621 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:37] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-13 12:41:37,623 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:37] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-13 12:41:41,086 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:41] "GET / HTTP/1.1" 200 -
+2026-03-13 12:41:41,193 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:41] "GET /static/css/index.css HTTP/1.1" 200 -
+2026-03-13 12:41:41,198 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:41] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:41:41,200 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:41:41] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:42:28,157 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "GET / HTTP/1.1" 200 -
+2026-03-13 12:42:28,248 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "GET /static/css/index.css HTTP/1.1" 200 -
+2026-03-13 12:42:28,262 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:42:28,264 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:42:28,623 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "GET / HTTP/1.1" 200 -
+2026-03-13 12:42:28,707 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-03-13 12:42:28,716 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:42:28,718 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:42:28,881 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "GET / HTTP/1.1" 200 -
+2026-03-13 12:42:28,950 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-03-13 12:42:28,953 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:42:28,956 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:42:28] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:43:45,493 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:45] "GET / HTTP/1.1" 200 -
+2026-03-13 12:43:45,578 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:45] "GET /static/css/index.css HTTP/1.1" 200 -
+2026-03-13 12:43:45,590 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:45] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:43:45,593 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:45] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:43:46,450 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:46] "GET / HTTP/1.1" 200 -
+2026-03-13 12:43:46,506 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:46] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-03-13 12:43:46,509 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:46] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:43:46,511 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:46] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:43:46,645 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:46] "GET / HTTP/1.1" 200 -
+2026-03-13 12:43:46,748 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:46] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-03-13 12:43:46,757 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:46] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:43:46,761 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:46] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:43:47,353 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:47] "GET / HTTP/1.1" 200 -
+2026-03-13 12:43:47,415 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:47] "GET /static/css/index.css HTTP/1.1" 200 -
+2026-03-13 12:43:47,417 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:47] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:43:47,420 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:47] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:43:47,469 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 12:43:48,049 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:48] "GET / HTTP/1.1" 200 -
+2026-03-13 12:43:48,106 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:48] "GET /static/css/index.css HTTP/1.1" 200 -
+2026-03-13 12:43:48,112 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:48] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:43:48,115 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:48] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:43:48,132 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 12:43:48,269 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:48] "GET / HTTP/1.1" 200 -
+2026-03-13 12:43:48,326 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:48] "GET /static/css/index.css HTTP/1.1" 200 -
+2026-03-13 12:43:48,329 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:48] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:43:48,332 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:48] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:43:48,351 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 12:43:59,907 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:59] "GET / HTTP/1.1" 200 -
+2026-03-13 12:43:59,962 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:59] "GET /static/css/index.css HTTP/1.1" 200 -
+2026-03-13 12:43:59,969 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:59] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:43:59,972 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:43:59] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:44:00,178 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:44:00] "GET / HTTP/1.1" 200 -
+2026-03-13 12:44:00,264 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:44:00] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-03-13 12:44:00,275 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:44:00] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:44:00,279 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:44:00] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:44:11,511 - config - INFO - Application started
+2026-03-13 12:44:11,601 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-13 12:44:11,601 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-13 12:44:11,603 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 12:44:12,089 - config - INFO - Application started
+2026-03-13 12:44:12,209 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 12:44:12,215 - werkzeug - INFO -  * Debugger PIN: 757-066-839
+2026-03-13 12:44:12,857 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:44:12] "GET / HTTP/1.1" 200 -
+2026-03-13 12:44:12,919 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:44:12] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-03-13 12:44:12,922 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:44:12] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:44:12,924 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:44:12] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 12:46:06,721 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:46:06] "GET / HTTP/1.1" 200 -
+2026-03-13 12:46:06,835 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:46:06] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-03-13 12:46:06,845 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:46:06] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-03-13 12:46:06,848 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 12:46:06] "[33mGET /ranglaxmi.jpeg HTTP/1.1[0m" 404 -
+2026-03-13 21:32:45,990 - config - INFO - Application started
+2026-03-13 21:32:46,105 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-13 21:32:46,105 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-13 21:32:46,107 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 21:32:46,517 - config - INFO - Application started
+2026-03-13 21:32:46,615 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 21:32:46,630 - werkzeug - INFO -  * Debugger PIN: 118-694-203
+2026-03-13 21:32:55,892 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:32:55] "GET /register/login HTTP/1.1" 200 -
+2026-03-13 21:32:55,971 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:32:55] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-03-13 21:32:56,023 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:32:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 21:33:01,353 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:33:01] "GET /admin/ HTTP/1.1" 200 -
+2026-03-13 21:33:01,398 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:33:01] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-13 21:33:01,412 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:33:01] "GET /static/icons/request.svg HTTP/1.1" 200 -
+2026-03-13 21:33:01,413 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:33:01] "GET /static/icons/user.svg HTTP/1.1" 200 -
+2026-03-13 21:33:01,413 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:33:01] "GET /static/icons/Charts.svg HTTP/1.1" 200 -
+2026-03-13 21:33:01,418 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:33:01] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-13 21:33:01,422 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:33:01] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-13 21:33:07,019 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 21:33:07] "GET /admin/users HTTP/1.1" 200 -

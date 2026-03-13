@@ -11,7 +11,7 @@ app.register_blueprint(admin)
 
 @app.route("/")
 def launch():
-    return '<h1> Landing Page </h1>'
+    return render_template('index.html')
 
 
 if __name__ == "__main__":
