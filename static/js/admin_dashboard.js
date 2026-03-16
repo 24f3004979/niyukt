@@ -37,15 +37,17 @@ function renderUsers(users){
 }
 
 
-function AlterStatus(element){
-  console.log(element.id);
+async function AlterStatus(element){
+  console.log(element.id); // fetching information about the element
+  let current_status = element.textContent;
 
   const data = {
     name : element.id,
+    st : current_status,
     work : "alter" // delete for deleting :)
   }
 
-  const response = fetch("http://127.0.0.1:8080/admin/alter-status",
+  const response = await fetch("http://127.0.0.1:8080/admin/alter-status",
     {
       method : "POST",
       headers : {
@@ -53,6 +55,11 @@ function AlterStatus(element){
       },
       body : JSON.stringify(data)
     })
-  console.log(response);
-}
+  if (!response.ok){
+    console.log("Failed with not ok");
+  }
+
+  const result = await response.json();
+  element.textContent = result.st;
+  }
 

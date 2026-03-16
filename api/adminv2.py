@@ -35,11 +35,25 @@ def fetch_user():
 @admin.route("/alter-status", methods=["POST"])
 def alterstatus():
     data = request.get_json()
-    print(f"Printing Fetched information via status alter pipeline")
-    
-    print(data.get("name"))
-    # TODO : Making switching mechanism for user control panel
-    return jsonify({"status" : "success"})
+    user_name = data.get("name")
+    status = data.get("st").strip()
+
+    print(f"Status for update request : {status}")
+
+    user = User()
+    # Updating DB
+    try:
+        anchor_information = ("name",user_name)
+        update_information = ("status", status)
+
+        user.db.update(update_information, anchor_information)
+        if status == "deactivated":
+            return jsonify({"status":"success", "st":"active"})
+        else:
+            return jsonify({"status":"success", "st":"deactivated"})
+    except Exception as e:
+        print(f"Updating User inforamation failed with {e}")
+        return jsonify("status", "Failed")
 
 
 @admin.route("/user-panel", methods=["GET", "POST"])
