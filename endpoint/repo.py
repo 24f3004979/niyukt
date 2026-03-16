@@ -43,3 +43,15 @@ class Repo:
                 return fetch
             else:
                 return False
+    def fetch_instance(self, required_columns="*"):
+        with sql.connect(path) as connection:
+            cursor = connection.cursor()
+            query = f"select {required_columns} from {self.table}"
+            cursor.execute(query)
+            fetch = cursor.fetchall()
+            if fetch:
+                return fetch
+            else:
+                log.error(f"Repo failed for fetching information instance for giveen table : {self.table}")
+                return False
+        

@@ -131,12 +131,12 @@ def register_company():
         info["role"] = "company"
         info["status"] = "deactivated"
 
-        description = data.get("description")
+        discription = data.get("discription")
         # company information
         information = {
                 "user" : info,
                 "company": {
-                    "description" : description
+                    "discription" : discription
                     }
                 }
         log.info(f'Company information for initiation :::: {information}')

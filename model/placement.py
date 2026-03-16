@@ -32,5 +32,3 @@ class Placement:
         except Exception as e:
             return Exception(f"Exception with initiating placement drive {e}")
 
-
-# have to make simple placement status alteration mechanism such that admin could manage all drives at once

@@ -63,3 +63,43 @@ async function AlterStatus(element){
   element.textContent = result.st;
   }
 
+document.getElementById("requests-btn").addEventListener('click', loaddrives);
+
+async function loaddrives(){
+  const response = await fetch("http://127.0.0.1:8080/admin/requests");
+
+  if (!response.ok){
+    console.log("Failed for drivers fetch")
+  }
+
+  const data = await response.json();
+  console.log(data);
+  renderDrive(data);
+}
+
+function renderDrive(drives){
+  console.log(drives);
+  let content = document.getElementById("main-content");
+  let html = `
+  <div id="drives-control-panel">
+    <h1 style="color : white"> DRIVES </h1>
+      <table>
+        <tr class="head-table">
+          <th> Company Name </th>
+          <th> Job role </th>
+          <th> current stage </th>
+        </tr>
+  `;
+
+  drives.forEach(drive =>{
+    html += `
+    <tr class="table_element">
+      <td> ${drive.company_name } </td>
+      <td> ${drive.job_role} </td>
+      <td> <button class="control-btn" onclick="AlterStatus(this)" id="${drive.company_name}"> ${drive.status} </td>
+    </tr>
+    `
+  });
+  html += "</div> </table>"
+  content.innerHTML = html;
+}

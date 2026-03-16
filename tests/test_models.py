@@ -90,7 +90,7 @@ def test_company():
     }
 
     company_information = {
-        "description" : "Dummy About company"
+        "discription" : "Dummy About company"
     }
     info = {
         "user" : values,

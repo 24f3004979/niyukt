@@ -7,6 +7,7 @@ Features
     + Requests panel for admin for approval and rejection -> history of all admin decissions
 '''
 from flask import Blueprint, request, render_template 
+from model.placement import *
 from model.user import *
 from flask import jsonify
 
@@ -61,11 +62,33 @@ def alterstatus():
         print(f"Updating User inforamation failed with {e}")
         return jsonify("status", "Failed")
 
-@admin.route("/requests")
+@admin.route("/requests", methods=["GET"])
 def requests():
     '''
     Placement Drive Listing
     
+    Fetching information about all of the placement drves from the DB
     '''
-    return "Placement drives requests"
+    print("Running requests fetching endpoint")
+    placement = Placement()
+    user = User()
+    # Make a handle for fetch endpoint for geting all of the given data entity with given column requests
+    listing_information = placement.repo.fetch_instance("id,job_role,description,status") # TODO : Formating is also requied into json way
+    # Simple formating with fetching company name with given id of company
+    print(f"listing information : {listing_information}")
+    final_list = []
+    for row in listing_information:
+        company_id = row[0] # Company id get name
+        anchor_information = ("id", company_id)
+        name = user.db.repo.fetch(anchor_information, "name")
+        print(f"Fetch results : {anchor_information}, {name}")
 
+        payload = {
+            "company_name" : name,
+            "job_role" : row[1],
+            "discription" : row[2],
+            "status" : row[3]
+        }
+        final_list.append(payload)
+
+    return final_list

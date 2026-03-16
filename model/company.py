@@ -7,7 +7,7 @@ Making good Error handle units with grace failiors
 
 class Company():
     def __init__(self):
-        company_data = ("company_id", "description")
+        company_data = ("company_id", "discription")
         self.db = GenericModel("company", company_data)
         self.user = User()
 

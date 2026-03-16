@@ -16,7 +16,7 @@ CREATE TABLE user (
 -- Company
 CREATE TABLE company (
     company_id INTEGER PRIMARY KEY,
-    description TEXT NOT NULL,
+    discription TEXT NOT NULL,
 
     FOREIGN KEY(company_id) REFERENCES user(id) ON DELETE CASCADE
 );
