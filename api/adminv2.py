@@ -16,6 +16,7 @@ admin = Blueprint('/admin', __name__, url_prefix="/admin")
 def root():
     return render_template("admin.html")
 
+# User Panel Control units
 
 @admin.route("/users", methods=["GET"])
 def fetch_user():
@@ -23,6 +24,11 @@ def fetch_user():
     user = User()
     anchor_info = [("role", "company")] # Due to list based fetch
     data = user.db.repo_fetch(anchor_info, required_columns="name,role,status")
+    
+    # Fetch students also
+    anchor_info = [("role", "student")]
+    data += user.db.repo_fetch(anchor_info, required_columns="name,role,status")
+
     resp = []
     for elem in data:
         dicto = {}
@@ -55,18 +61,11 @@ def alterstatus():
         print(f"Updating User inforamation failed with {e}")
         return jsonify("status", "Failed")
 
+@admin.route("/requests")
+def requests():
+    '''
+    Placement Drive Listing
+    
+    '''
+    return "Placement drives requests"
 
-@admin.route("/user-panel", methods=["GET", "POST"])
-def user_control():
-    if request.method == "GET":
-        user_list = [
-            {"name": "Madhav", "role":"student", "status":"active"}
-        ]
-        # Rendering user list with given JS constraints
-        return user_list
-    elif request.method == "POST":
-        data = request.get_json()
-        name = data["name"]  # Making edit to the user-data
-        print(f"name : {name}")
-        status = True
-        return jsonify({"status": status})

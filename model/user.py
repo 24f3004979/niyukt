@@ -2,7 +2,6 @@ from endpoint.GenericModel import *
 from config import *
 from endpoint.repo import *
 from auth.login import *
-from config import *
 
 
 class User:

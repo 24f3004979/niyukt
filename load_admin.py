@@ -1,4 +1,5 @@
 from model.user import *
+from model.placement import *
 from auth.login import *
 
 u = User()
@@ -10,6 +11,22 @@ info = {
         "role" : "admin"
         }
 
-# Admin Loaded for the information
+'''
+Loading Placement drives for admin approval mechaism and admin 
+'''
 
-u.insert(info)
+p = Placement()
+
+job = "Data Scientist"
+
+placement_information = {
+        "company_id" : 1,
+        "job_role" : "Jobing",
+        "description" : "We are finding goat with thousand years of experience"
+}
+
+jobs = "jhadu,pocha,safai,bartan,padhai,dhulai,kamai".split(",")
+for job in jobs:
+        placement_information['job_role'] = job
+        p.insert(placement_information)
+        
