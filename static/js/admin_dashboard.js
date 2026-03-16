@@ -63,6 +63,34 @@ async function AlterStatus(element){
   element.textContent = result.st;
   }
 
+// Alteration Status for the placement drive
+async function AlterDriveStatus(element){
+  console.log(element.id);
+  let current_status = element.textContent;
+  console.log(current_status);
+
+  const data = {
+    company_name : element.id,
+    st : current_staatus,
+    work : "alter" // TODO : making delete option with this
+  }
+
+  const response = await fetch("http://127.0.0.1:8080/admin/alter-drive-status",  // TODO Making alteration for the status
+    {
+      method : "POST",
+      headers : {
+        'Content-Type' : 'application/json'
+      },
+      body: JSON.stringify(data)
+    })
+  if (!response.ok){
+    console.log("Failed response for drive alterations");
+  }
+  
+  console.log(response.json());
+}
+
+
 document.getElementById("requests-btn").addEventListener('click', loaddrives);
 
 async function loaddrives(){
@@ -92,11 +120,12 @@ function renderDrive(drives){
   `;
 
   drives.forEach(drive =>{
+    // TODO : With same pattern make alteration sequence for controlling drives in college
     html += `
     <tr class="table_element">
       <td> ${drive.company_name } </td>
       <td> ${drive.job_role} </td>
-      <td> <button class="control-btn" onclick="AlterStatus(this)" id="${drive.company_name}"> ${drive.status} </td>
+      <td> <button class="drive-ctrl-btn" id="${drive.company_name}" onclick="AlterDriveStatus(this)" id="${drive.company_name}"> ${drive.status} </td>
     </tr>
     `
   });
