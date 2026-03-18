@@ -10,6 +10,7 @@ CREATE TABLE placement_drive (
   deadline DATETIME NOT NULL DEFAULT (DATETIME('now', '+10 days')),
   status NOT NULL DEFAULT 'not_verified'
     CHECK(status in ('verified', 'not_verified', 'open', 'closed')),
+    -- Making open and closed visible at student page | verified and not verified to admin panel
 
   -- constraints
   UNIQUE(company_id, job_role),

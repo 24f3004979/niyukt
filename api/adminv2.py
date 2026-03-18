@@ -85,6 +85,7 @@ def requests():
 
         payload = {
             "company_name" : name,
+            "company_id" : company_id,
             "job_role" : row[1],
             "discription" : row[2],
             "status" : row[3]
@@ -92,3 +93,28 @@ def requests():
         final_list.append(payload)
 
     return final_list
+
+# verification and not verified status togle control endpoint
+@admin.route("/alter-drive-status", methods=["POST"])
+def placement_drive():
+    '''
+    Simple Alteration for the placement drive status
+    '''
+    drives = Placement()
+    data = request.get_json()
+    current_status = data.get("st")
+    id = data.get("company_id")
+    # Chaning status and returning updated version
+    anchor_information = ("company_id", id)
+    if current_status == "not_verified":
+        update_information = ("status", "verified")
+        drives.db.update(update_information, anchor_information)
+        return jsonify({"status":"success", "st":"verified"})
+
+    else:
+        update_information = ("status", "not_verified")
+        drives.db.update(update_information, anchor_information)
+        return jsonify({"status":"success", "st": "not_verified"})
+        
+
+

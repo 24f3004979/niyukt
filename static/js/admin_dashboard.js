@@ -67,11 +67,10 @@ async function AlterStatus(element){
 async function AlterDriveStatus(element){
   console.log(element.id);
   let current_status = element.textContent;
-  console.log(current_status);
 
   const data = {
     company_name : element.id,
-    st : current_staatus,
+    st : current_status,
     work : "alter" // TODO : making delete option with this
   }
 
@@ -86,8 +85,10 @@ async function AlterDriveStatus(element){
   if (!response.ok){
     console.log("Failed response for drive alterations");
   }
-  
-  console.log(response.json());
+  let new_status = await response.json();
+  console.log(`New status update : ${new_status.st}`)
+
+  element.textContent = new_status.st;
 }
 
 
@@ -115,6 +116,7 @@ function renderDrive(drives){
         <tr class="head-table">
           <th> Company Name </th>
           <th> Job role </th>
+          <th> Discription </th>
           <th> current stage </th>
         </tr>
   `;
@@ -125,10 +127,13 @@ function renderDrive(drives){
     <tr class="table_element">
       <td> ${drive.company_name } </td>
       <td> ${drive.job_role} </td>
-      <td> <button class="drive-ctrl-btn" id="${drive.company_name}" onclick="AlterDriveStatus(this)" id="${drive.company_name}"> ${drive.status} </td>
+      <td> ${drive.discription} </td>  <!-- Making simple for now expanding thing in future -->
+      <td> <button class="drive-ctrl-btn" id="${drive.companny_id}" onclick="AlterDriveStatus(this)" id="${drive.company_name}"> ${drive.status} </td>
     </tr>
     `
   });
   html += "</div> </table>"
   content.innerHTML = html;
 }
+
+
