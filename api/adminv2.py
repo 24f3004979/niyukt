@@ -90,6 +90,7 @@ def requests():
             "discription" : row[2],
             "status" : row[3]
         }
+        log.info(f"Payload : {payload}")
         final_list.append(payload)
 
     return final_list
@@ -102,19 +103,24 @@ def placement_drive():
     '''
     drives = Placement()
     data = request.get_json()
-    current_status = data.get("st")
+    current_status = data.get("st").strip()
     id = data.get("company_id")
     # Chaning status and returning updated version
     anchor_information = ("company_id", id)
+    print(f"Initiating alteration sequence for drive status update")
     if current_status == "not_verified":
         update_information = ("status", "verified")
-        drives.db.update(update_information, anchor_information)
-        return jsonify({"status":"success", "st":"verified"})
+        print(f"Update sequence initiation under process INFO : {update_information} with anchor information  : {anchor_information}")
+        if drives.db.update(update_information, anchor_information):
+            print(f"Success with update of the information for the placement drive")
+            return jsonify({"status":"success", "st":"verified"})
+        print(f'Update sequence for placement drive alteration failed with update check logs')
 
     else:
         update_information = ("status", "not_verified")
-        drives.db.update(update_information, anchor_information)
-        return jsonify({"status":"success", "st": "not_verified"})
+        if drives.db.update(update_information, anchor_information):
+            return jsonify({"status":"success", "st": "not_verified"})
+        print(f"Failed with update at Placement alteration sqqence")
         
 
 

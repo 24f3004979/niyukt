@@ -33,4 +33,5 @@ Targets
             - Request Panel for admin
             - Integrating Panel into Admin dashboard
 
+[] Drive alteration status is not working with making ambiguius changes while clicking  verification button
 
