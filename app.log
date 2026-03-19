@@ -409,3 +409,453 @@
 2026-03-19 13:34:22,636 - config - INFO - Payload : {'company_name': 'user-50420', 'company_id': 10, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
 2026-03-19 13:34:22,637 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:34:22] "GET /admin/requests HTTP/1.1" 200 -
 2026-03-19 13:34:33,236 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:34:33] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:38:45,696 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-19 13:38:45,851 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:38:46,282 - config - INFO - Application started
+2026-03-19 13:38:46,411 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:38:46,420 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:38:48,450 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-19 13:38:48,623 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:38:49,076 - config - INFO - Application started
+2026-03-19 13:38:49,178 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:38:49,183 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:39:08,304 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-19 13:39:08,445 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:39:08,883 - config - INFO - Application started
+2026-03-19 13:39:08,976 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:39:08,983 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:39:18,049 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-19 13:39:18,162 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:39:18,592 - config - INFO - Application started
+2026-03-19 13:39:18,686 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:39:18,693 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:39:24,886 - config - INFO - Application started
+2026-03-19 13:39:24,986 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-19 13:39:24,986 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-19 13:39:24,987 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:39:25,443 - config - INFO - Application started
+2026-03-19 13:39:25,503 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:39:25,506 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:39:26,103 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:39:26] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:39:26,146 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:39:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:39:26,192 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:39:26] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:39:26,197 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:39:26] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:39:26,217 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:39:26] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:39:26,221 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:39:26] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:39:26,223 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:39:26] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:39:26,224 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:39:26] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:39:27,525 - config - INFO - Listing information : [(1, 'jhadu', 'We are finding goat with thousand years of experience', 'not_verified'), (2, 'pocha', 'We are finding goat with thousand years of experience', 'not_verified'), (3, 'safai', 'We are finding goat with thousand years of experience', 'not_verified'), (4, 'bartan', 'We are finding goat with thousand years of experience', 'not_verified'), (5, 'padhai', 'We are finding goat with thousand years of experience', 'not_verified'), (6, 'dhulai', 'We are finding goat with thousand years of experience', 'not_verified'), (7, 'kamai', 'We are finding goat with thousand years of experience', 'not_verified'), (8, 'ds', 'important', 'not_verified'), (9, 'ds', 'important', 'not_verified'), (10, 'ds', 'important', 'not_verified')]
+2026-03-19 13:39:27,526 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:39:27,527 - config - INFO - Payload : {'company_name': 'user6650', 'company_id': 2, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:39:27,528 - config - INFO - Payload : {'company_name': 'user82976', 'company_id': 3, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:39:27,529 - config - INFO - Payload : {'company_name': 'user44831', 'company_id': 4, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:39:27,530 - config - INFO - Payload : {'company_name': 'user-76045', 'company_id': 5, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:39:27,531 - config - INFO - Payload : {'company_name': 'user6312', 'company_id': 6, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:39:27,532 - config - INFO - Payload : {'company_name': 'user5669', 'company_id': 7, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:39:27,533 - config - INFO - Payload : {'company_name': 'user31261', 'company_id': 8, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:39:27,535 - config - INFO - Payload : {'company_name': 'user9142', 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:39:27,536 - config - INFO - Payload : {'company_name': 'user-50420', 'company_id': 10, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:39:27,537 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:39:27] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:41:01,476 - config - INFO - Application started
+2026-03-19 13:41:01,613 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-19 13:41:01,613 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-19 13:41:01,616 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:41:02,039 - config - INFO - Application started
+2026-03-19 13:41:02,111 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:41:02,114 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:41:02,650 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:02] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:41:02,692 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:41:02,736 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:02] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:41:02,747 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:02] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:02,749 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:02] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:02,751 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:02] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:41:02,756 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:02] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:41:02,758 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:02] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:04,526 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'not_verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:41:04,527 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': '2026-03-26 13:24:17'}
+2026-03-19 13:41:04,528 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': '2026-03-26 13:24:17'}
+2026-03-19 13:41:04,529 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': '2026-03-26 13:24:17'}
+2026-03-19 13:41:04,530 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': '2026-03-26 13:24:17'}
+2026-03-19 13:41:04,531 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': '2026-03-26 13:24:17'}
+2026-03-19 13:41:04,532 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': '2026-03-26 13:24:17'}
+2026-03-19 13:41:04,533 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': '2026-03-26 13:24:17'}
+2026-03-19 13:41:04,534 - config - INFO - Payload : {'company_name': 'user9142', 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': '2026-03-26 13:27:01'}
+2026-03-19 13:41:04,535 - config - INFO - Payload : {'company_name': 'user-89419', 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': '2026-03-26 13:27:46'}
+2026-03-19 13:41:04,536 - config - INFO - Payload : {'company_name': 'user2801', 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': '2026-03-26 13:27:58'}
+2026-03-19 13:41:04,537 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:04] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:41:19,220 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-19 13:41:19,271 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:41:19,584 - config - INFO - Application started
+2026-03-19 13:41:19,697 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:41:19,701 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:41:19,720 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:19] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:41:19,766 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:41:19,791 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:19] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:19,793 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:19] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:41:19,796 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:19] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:19,810 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:19] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:41:19,814 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:19] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:19,819 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:19] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:41:21,362 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'not_verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:41:21,363 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:21,363 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:21,364 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:21,365 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:21,366 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:21,367 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:21,367 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:21,368 - config - INFO - Payload : {'company_name': 'user9142', 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:21,369 - config - INFO - Payload : {'company_name': 'user-89419', 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:21,370 - config - INFO - Payload : {'company_name': 'user2801', 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:21,371 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:21] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:41:23,532 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:23] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:41:25,314 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:25] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:41:26,111 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:26] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:41:27,208 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:27] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:41:27,257 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:41:27,288 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:27] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:41:27,292 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:27] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:27,295 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:27] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:27,302 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:27] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:27,304 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:27] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:41:27,309 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:27] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:41:29,752 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'not_verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:41:29,753 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:29,754 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:29,755 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:29,756 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:29,756 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:29,757 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:29,758 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:29,759 - config - INFO - Payload : {'company_name': 'user9142', 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:29,761 - config - INFO - Payload : {'company_name': 'user-89419', 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:29,762 - config - INFO - Payload : {'company_name': 'user2801', 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:29,763 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:29] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:41:32,671 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:32] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:41:37,327 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:37] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:41:37,376 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:41:37,382 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:37] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:41:37,392 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:37] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:37,397 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:37] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:37,411 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:37] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:37,434 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:37] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:41:37,435 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:37] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:41:38,851 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'not_verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:41:38,852 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:41:38,853 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:41:38,854 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:41:38,855 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:41:38,855 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:41:38,856 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:41:38,859 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:41:38,860 - config - INFO - Payload : {'company_name': 'user9142', 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:38,861 - config - INFO - Payload : {'company_name': 'user-89419', 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:38,862 - config - INFO - Payload : {'company_name': 'user2801', 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:38,863 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:38] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:41:42,092 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:42] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:41:47,396 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:47] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:41:47,449 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:41:47,479 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:47] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:41:47,485 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:47] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:47,490 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:47] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:47,504 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:47] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:41:47,510 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:47] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:41:47,512 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:47] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:41:48,987 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'not_verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:41:48,989 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:48,990 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:48,991 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:48,992 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:48,993 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:48,995 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:48,996 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:41:48,999 - config - INFO - Payload : {'company_name': 'user9142', 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:49,001 - config - INFO - Payload : {'company_name': 'user-89419', 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:49,003 - config - INFO - Payload : {'company_name': 'user2801', 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:41:49,004 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:49] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:41:57,983 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:41:57] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:42:01,521 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:01] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:42:01,581 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:42:01,611 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:01] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:42:01,616 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:01] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:42:01,617 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:01] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:42:01,631 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:01] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:42:01,638 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:01] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:42:01,642 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:01] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:42:03,184 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:42:03,185 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:42:03,186 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:42:03,187 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:42:03,188 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:42:03,189 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:42:03,189 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:42:03,190 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:42:03,190 - config - INFO - Payload : {'company_name': 'user9142', 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:42:03,191 - config - INFO - Payload : {'company_name': 'user-89419', 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:42:03,191 - config - INFO - Payload : {'company_name': 'user2801', 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:42:03,192 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:03] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:42:08,140 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:08] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:42:09,637 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:09] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:42:09,684 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:42:09,690 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:09] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:42:09,699 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:09] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:42:09,701 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:09] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:42:09,725 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:09] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:42:09,727 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:09] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:42:09,731 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:09] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:42:11,206 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:42:11,207 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:42:11,208 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:42:11,209 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:42:11,209 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:42:11,210 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:42:11,211 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:42:11,211 - config - INFO - Payload : {'company_name': 'user-72118', 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:42:11,212 - config - INFO - Payload : {'company_name': 'user9142', 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:42:11,213 - config - INFO - Payload : {'company_name': 'user-89419', 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:42:11,213 - config - INFO - Payload : {'company_name': 'user2801', 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:42:11,214 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:42:11] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:44:39,812 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-19 13:44:39,969 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:44:40,467 - config - INFO - Application started
+2026-03-19 13:44:40,617 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:44:40,626 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:44:50,693 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-19 13:44:50,802 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:44:51,239 - config - INFO - Application started
+2026-03-19 13:44:51,352 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:44:51,359 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:45:53,717 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-19 13:45:53,863 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:45:54,331 - config - INFO - Application started
+2026-03-19 13:45:54,431 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:45:54,436 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:45:55,250 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:45:55] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:45:55,293 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:45:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:45:55,365 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:45:55] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:45:55,367 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:45:55] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:45:55,374 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:45:55] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:45:55,381 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:45:55] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-19 13:45:55,387 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:45:55] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:45:55,390 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:45:55] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:45:56,608 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:45:56,610 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:45:56,611 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:45:56,612 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:45:56,613 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:45:56,614 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:45:56,615 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:45:56,617 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:45:56,618 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:45:56,619 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:45:56,620 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:45:56,621 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:45:56] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:45:58,129 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:45:58] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:46:00,997 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:00] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:46:01,050 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:46:01,075 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:01] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:46:01,081 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:01] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:01,082 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:01] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:01,104 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:01] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:01,109 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:01] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:46:01,113 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:01] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:46:02,404 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:46:02,405 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:02,406 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:02,406 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:02,407 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:02,408 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:02,409 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:02,409 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:02,413 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:46:02,414 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:46:02,414 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:46:02,415 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:02] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:46:05,997 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:05] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:46:08,806 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:08] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:46:08,855 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:46:08,863 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:08] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:46:08,878 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:08] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:08,879 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:08] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:08,898 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:08] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:08,911 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:08] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:46:08,912 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:08] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:46:10,321 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:46:10,322 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:10,323 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:10,324 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:10,325 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:10,326 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:10,326 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:10,327 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:10,328 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:46:10,329 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:46:10,329 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:46:10,330 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:10] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:46:14,556 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-19 13:46:14,670 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:46:15,124 - config - INFO - Application started
+2026-03-19 13:46:15,242 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:46:15,249 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:46:44,755 - config - INFO - Application started
+2026-03-19 13:46:44,899 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-19 13:46:44,899 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-19 13:46:44,901 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:46:45,298 - config - INFO - Application started
+2026-03-19 13:46:45,352 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:46:45,355 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:46:45,854 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:45] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:46:45,915 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:46:45,976 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:45] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:45,978 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:45] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:45,986 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:45] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:46:45,990 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:45] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:45,995 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:45] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:46:45,998 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:45] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:46:47,254 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:46:47,255 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:47,256 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:47,257 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:47,259 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:47,260 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:47,261 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:47,262 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:47,263 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:46:47,264 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:46:47,266 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:46:47,267 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:47] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:46:48,544 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:48] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:46:50,265 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:50] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:46:50,306 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:46:50,327 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:50] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:46:50,330 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:50] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:50,334 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:50] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:50,375 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:50] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:46:50,376 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:50] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:46:50,385 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:50] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:46:51,837 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:46:51,838 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:51,839 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:51,840 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:51,841 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:51,842 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:51,842 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:51,843 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:46:51,844 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:46:51,845 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:46:51,846 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:46:51,847 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:51] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:46:54,437 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:46:54] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:47:03,361 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:47:03] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:48:00,793 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/adminv2.py', reloading
+2026-03-19 13:48:00,920 - werkzeug - INFO -  * Restarting with stat
+2026-03-19 13:48:01,350 - config - INFO - Application started
+2026-03-19 13:48:01,441 - werkzeug - WARNING -  * Debugger is active!
+2026-03-19 13:48:01,447 - werkzeug - INFO -  * Debugger PIN: 659-477-897
+2026-03-19 13:48:02,457 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:48:02] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:48:02,509 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:48:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:48:02,560 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:48:02] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:48:02,562 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:48:02] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:48:02,564 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:48:02] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:48:02,573 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:48:02] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:48:02,579 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:48:02] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:48:02,581 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:48:02] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:48:03,710 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:48:03,711 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:48:03,712 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:48:03,713 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:48:03,714 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:48:03,715 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:48:03,716 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:48:03,717 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:48:03,718 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:48:03,720 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:48:03,721 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:48:03,722 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:48:03] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:48:05,004 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:48:05] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:49:39,878 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:39] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:49:39,922 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:49:39,941 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:39] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:49:39,948 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:39] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:49:39,953 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:39] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:49:39,989 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:39] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:49:39,990 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:39] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-03-19 13:49:40,011 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:40] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:49:41,212 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:49:41,213 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:41,214 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:41,215 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:41,215 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:41,216 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:41,217 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:41,218 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:41,219 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:49:41,220 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:49:41,221 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:49:41,222 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:41] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:49:42,525 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:42] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:49:53,056 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:53] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:49:53,100 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:49:53,120 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:53] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:49:53,124 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:53] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:49:53,130 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:53] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:49:53,151 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:53] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:49:53,152 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:53] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:49:53,168 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:53] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:49:54,674 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:49:54,675 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:49:54,677 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:54,678 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:54,679 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:54,680 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:54,680 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:54,681 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:49:54,682 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:49:54,684 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:49:54,684 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:49:54,685 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:54] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:49:57,861 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:49:57] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:50:02,240 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:02] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:50:02,306 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:50:02,334 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:02] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:50:02,338 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:02] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:50:02,342 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:02] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:50:02,367 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:02] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:50:02,374 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:02] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:50:02,380 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:02] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:50:03,934 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:50:03,935 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:50:03,936 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:50:03,938 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:50:03,939 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:50:03,940 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:50:03,941 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:50:03,942 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:50:03,942 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:50:03,943 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:50:03,944 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:50:03,945 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:03] "GET /admin/requests HTTP/1.1" 200 -
+2026-03-19 13:50:06,429 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:06] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-03-19 13:50:09,157 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:09] "GET /admin/ HTTP/1.1" 200 -
+2026-03-19 13:50:09,223 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-03-19 13:50:09,250 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:09] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:50:09,255 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:09] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-03-19 13:50:09,256 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:09] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:50:09,300 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:09] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-03-19 13:50:09,303 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:09] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-03-19 13:50:09,312 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:09] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-03-19 13:50:10,630 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'not_verified')]
+2026-03-19 13:50:10,632 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:50:10,633 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:50:10,634 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:50:10,635 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:50:10,636 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:50:10,637 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-03-19 13:50:10,637 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-03-19 13:50:10,638 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-03-19 13:50:10,639 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:50:10,640 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-03-19 13:50:10,641 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2026 13:50:10] "GET /admin/requests HTTP/1.1" 200 -

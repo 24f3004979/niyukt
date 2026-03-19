@@ -69,7 +69,7 @@ async function AlterDriveStatus(element){
   let current_status = element.textContent;
 
   const data = {
-    company_id : element.id,
+    drive_id : element.id,
     st : current_status,
     work : "alter" // TODO : making delete option with this
   }
@@ -128,7 +128,7 @@ function renderDrive(drives){
       <td> ${drive.company_name } </td>
       <td> ${drive.job_role} </td>
       <td> ${drive.discription} </td>  <!-- Making simple for now expanding thing in future -->
-      <td> <button class="drive-ctrl-btn" id="${drive.company_id}" onclick="AlterDriveStatus(this)" > ${drive.status} </td>
+      <td> <button class="drive-ctrl-btn" id="${drive.drive_id}" onclick="AlterDriveStatus(this)" > ${drive.status} </td>
     </tr>
     `
   });

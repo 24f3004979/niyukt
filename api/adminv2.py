@@ -73,22 +73,24 @@ def requests():
     placement = Placement()
     user = User()
     # Make a handle for fetch endpoint for geting all of the given data entity with given column requests
-    listing_information = placement.repo.fetch_instance("id,job_role,description,status") # TODO : Formating is also requied into json way
+    listing_information = placement.repo.fetch_instance("*") # TODO : Formating is also requied into json way
     # Simple formating with fetching company name with given id of company
     print(f"listing information : {listing_information}")
+    log.info(f"Listing information : {listing_information}")
     final_list = []
     for row in listing_information:
-        company_id = row[0] # Company id get name
+        company_id = row[1] # Company id get name
         anchor_information = ("id", company_id)
         name = user.db.repo.fetch(anchor_information, "name")
         print(f"Fetch results : {anchor_information}, {name}")
 
         payload = {
             "company_name" : name,
+            "drive_id" : row[0],
             "company_id" : company_id,
-            "job_role" : row[1],
-            "discription" : row[2],
-            "status" : row[3]
+            "job_role" : row[2],
+            "discription" : row[3],
+            "status" : row[5]
         }
         log.info(f"Payload : {payload}")
         final_list.append(payload)
@@ -104,10 +106,10 @@ def placement_drive():
     drives = Placement()
     data = request.get_json()
     current_status = data.get("st").strip()
-    id = data.get("company_id")
+    id = data.get("drive_id")
     # Chaning status and returning updated version
-    anchor_information = ("company_id", id)
-    print(f"Initiating alteration sequence for drive status update")
+    anchor_information = ("id", id)
+    print(f"Initiating alteration sequence for drive status update : {anchor_information}")
     if current_status == "not_verified":
         update_information = ("status", "verified")
         print(f"Update sequence initiation under process INFO : {update_information} with anchor information  : {anchor_information}")
