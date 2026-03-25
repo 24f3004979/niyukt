@@ -33,5 +33,11 @@ Targets
             - Request Panel for admin
             - Integrating Panel into Admin dashboard
 
-[] Drive alteration status is not working with making ambiguius changes while clicking  verification button
+[] Drive alteration status is not working with making ambiguius changes while clicking  verification button : Working with DB changes
 
+
+------------------------------------------------------------
+25/3/2026
+[] Improve loging for clarity about execution flow about the system
+[] Build basic data insights page for admin pannel
+[] Student dashboard

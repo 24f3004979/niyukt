@@ -47,6 +47,8 @@ async function AlterStatus(element){
     work : "alter" // delete for deleting :)
   }
 
+  console.log(`Sending status for the given elemnt : ${data.st}`)
+
   const response = await fetch("http://127.0.0.1:8080/admin/alter-status",
     {
       method : "POST",
