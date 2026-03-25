@@ -41,3 +41,7 @@ Targets
 [] Improve loging for clarity about execution flow about the system
 [] Build basic data insights page for admin pannel
 [] Student dashboard
+
+-----------------------------------------------
+Making Simple deleting logic is required for admin panel, 
+Include auto delete service of deactivated account after some time

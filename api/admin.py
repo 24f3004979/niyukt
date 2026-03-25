@@ -10,6 +10,8 @@ from flask import Blueprint, request, render_template
 from model.placement import *
 from model.user import *
 from flask import jsonify
+import matplotlib.pyplot as plt
+import numpy as np
 
 admin = Blueprint('/admin', __name__, url_prefix="/admin")
 
@@ -125,4 +127,16 @@ def placement_drive():
         print(f"Failed with update at Placement alteration sqqence")
         
 
+@admin.route("/graphs", methods=["GET"])
+def graphs():
+    '''
+    Data insights dashboard Essentials
+    1. Number of student being placed each month graph
+    2. Number of companies comming for placement, and student they are taking
+
+    Images creation should be handled with other function and into the main loop
+    Making error for main loop thread error
+    '''
+    # Make list of images for loading
+    return jsonify({"image":["/home/madhav/Projects/niyukt/fig1.png"]})
 

@@ -112,7 +112,7 @@ function renderDrive(drives){
   console.log(drives);
   let content = document.getElementById("main-content");
   let html = `
-  <div id="drives-control-panel">
+  <div id="user-control-panel">
     <h1 style="color : white"> DRIVES </h1>
       <table>
         <tr class="head-table">
@@ -138,4 +138,33 @@ function renderDrive(drives){
   content.innerHTML = html;
 }
 
+function renderGraph(images){
+  console.log("Loading Images for the admin panel");
+  console.log(images);
 
+  let content = document.getElementById("main-content")
+  let html = `
+  <h1> Graphs </h1>
+  `
+  // Making image and their heding with this format
+  images.forEach(image =>{
+    html += `<img src="${image}" alt="Not Loading">`
+    console.log(image);
+  });
+  content.innerHTML = html;
+}
+
+// Loading Graphs
+document.getElementById("data-btn").addEventListener('click', loadgraph);
+
+async function loadgraph(){
+  const response = await fetch("http://127.0.0.1:8080/admin/graphs")
+
+  if (!response.ok){
+    console.log("Failed for loading Graphs");
+  }
+  const data = await response.json();
+  console.log("Making Data loading for graphs");
+  console.log(data.image);
+  renderGraph(data.image);
+}
