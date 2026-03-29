@@ -138,5 +138,7 @@ def graphs():
     Making error for main loop thread error
     '''
     # Make list of images for loading
-    return jsonify({"image":["/home/madhav/Projects/niyukt/fig1.png"]})
+    #TODO Images are not being loaded with the main loader
+    print(f"Graphs loading graph function")
+    return jsonify({"image":["/images/fig.png"]})
 

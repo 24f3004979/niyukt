@@ -148,7 +148,9 @@ function renderGraph(images){
   `
   // Making image and their heding with this format
   images.forEach(image =>{
-    html += `<img src="${image}" alt="Not Loading">`
+    html += `<img src="/static/${image}" alt="Not Loading">`
+    console.log('Loading image');
+    // TODO  Load image with loading into the image directory of the given code base
     console.log(image);
   });
   content.innerHTML = html;
