@@ -12,6 +12,7 @@ from model.user import *
 from flask import jsonify
 import matplotlib.pyplot as plt
 import numpy as np
+from endpoint.repo import *
 
 admin = Blueprint('/admin', __name__, url_prefix="/admin")
 
@@ -128,7 +129,7 @@ def placement_drive():
         
 
 @admin.route("/graphs", methods=["GET"])
-def graphs():
+def graphs():  # Addon Feature touched
     '''
     Data insights dashboard Essentials
     1. Number of student being placed each month graph
@@ -138,7 +139,27 @@ def graphs():
     Making error for main loop thread error
     '''
     # Make list of images for loading
-    #TODO Images are not being loaded with the main loader
+    #TODO: Images are not being loaded with the main loader
     print(f"Graphs loading graph function")
     return jsonify({"image":["/images/fig.png"]})
 
+
+# Summary page dashboard showdown api
+@admin.route("/dashboard", methods=["GET"])
+def dashboard():
+    '''
+    Simple Fetch basic static about the dashboard presentations
+    Total
+        company, student, placement drives, job application
+    get count of all of the given entities
+    
+    Repo would fetch count information
+    '''
+    student = Repo("student")
+    company = Repo("company")
+    drives = Repo("placement_drive")
+    application = Repo("application")
+
+    summary_dict = {"student":int(student.count()), "company":company.count(), "drives":drives.count(), "application":application.count()}
+    print(f'Summary Dictionary : {summary_dict}')
+    return summary_dict

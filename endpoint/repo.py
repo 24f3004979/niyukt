@@ -13,6 +13,13 @@ class Repo:
     def __init__(self, table_name):
         self.table = table_name
 
+    def count(self):
+        q = f"select count(*) from {self.table}"
+        with sql.connect(path) as connection:
+            cursor = connection.cursor()
+            cursor.execute(q)
+            fetch = cursor.fetchone()
+            return int(fetch[0])
     def exists(self, name):
         '''Making Existence check with search api of repo'''
         anchor_information = ("name", name)
@@ -55,3 +62,4 @@ class Repo:
                 log.error(f"Repo failed for fetching information instance for giveen table : {self.table}")
                 return False
         
+

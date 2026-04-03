@@ -39,9 +39,38 @@ Targets
 ------------------------------------------------------------
 25/3/2026
 [] Improve loging for clarity about execution flow about the system
-[] Build basic data insights page for admin pannel
-[] Student dashboard
+[] Build basic data insights page for admin pannel  Basic framework is built
+[] Student dashboard Working dashboarding stuff
 
 -----------------------------------------------
 Making Simple deleting logic is required for admin panel, 
 Include auto delete service of deactivated account after some time
+
+------------------------------------------------------------
+Admin Dashboard rendering pipeline
+    + Streamline admin panel rendering | Generalize simple components
+    + making simple loging for the core working components
+    + Making simple authentication pipeline for all of the roles
+
+------------------------------------------------------------
+30/march/2026
+
++ Making Simple data rendering pipeline for admin panel loading
++ data rendering pipeline with respect to data flow into the db
+
+--
+
+# Backend Control panel abstration unit
+    + View units [Fetch units integration units]
+        ~ Active DB integrated unit for fetching information from DB
+        ~ Using Active fetching unit -> Main loop rendering unit
+
+    Flow | fetch data form DB -> Format data for request -> Presentation layer showup
+
+    + Post units [ DB Alteration units for requesting edits]
+        + Delete unit for making delete into the DB
+
+    ---
+# Frontend Unit for data flow
+Making simple data loading flow for processing requests
+    making simple data flow loading flow | Fetching request via backend and processing it for making final DB changes

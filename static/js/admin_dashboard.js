@@ -138,11 +138,21 @@ function renderDrive(drives){
   content.innerHTML = html;
 }
 
+function render_dashboard(data){
+  let content = document.getElementById("main-content");
+  let html = `
+  <h1> Total Summary </h1><br>
+  <p> Company : ${data.company} | Student : ${data.student} | application : ${data.application} | drive : ${data.drives}
+
+  `
+  content.innerHTML = html;
+}
+
 function renderGraph(images){
   console.log("Loading Images for the admin panel");
   console.log(images);
 
-  let content = document.getElementById("main-content")
+  let content = document.getElementById("main-content");
   let html = `
   <h1> Graphs </h1>
   `
@@ -157,7 +167,19 @@ function renderGraph(images){
 }
 
 // Loading Graphs
-document.getElementById("data-btn").addEventListener('click', loadgraph);
+document.getElementById("data-btn").addEventListener('click', loaddashboard);
+
+async function loaddashboard(){
+  const response = await fetch("http://127.0.0.1:8080/admin/dashboard")
+
+  if (!response.ok){
+    console.log("Failed with loading information");
+  }
+  const data = await response.json();
+  console.log("Data loading");
+  // Loading information into the Panel
+  render_dashboard(data);
+}
 
 async function loadgraph(){
   const response = await fetch("http://127.0.0.1:8080/admin/graphs")

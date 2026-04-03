@@ -53,3 +53,4 @@ class QueryBuilder:
 
         print(f"Query : {query} with data \n : {data}")
         return query, data
+
