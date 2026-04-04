@@ -196,6 +196,7 @@ async function loadgraph(){
 // Search Box functionality Making simple searching way for filtering the given changes
 document.getElementById("search-box").addEventListener('input', filterUsers);
 
+// Simple filter function for checking user existense with simpel frontend filter
 function filterUsers(){
   let query = document.getElementById("search-box").value.toLowerCase();
 
@@ -212,3 +213,5 @@ function filterUsers(){
     }
   });
 }
+
+// Final commit for admin dashboard build
