@@ -160,6 +160,6 @@ def dashboard():
     drives = Repo("placement_drive")
     application = Repo("application")
 
-    summary_dict = {"student":int(student.count()), "company":company.count(), "drives":drives.count(), "application":application.count()}
+    summary_dict = {"student":student.count(), "company":company.count(), "drives":drives.count(), "application":application.count()}
     print(f'Summary Dictionary : {summary_dict}')
     return summary_dict

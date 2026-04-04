@@ -13,7 +13,7 @@ function renderUsers(users){
   let html = `
   <div id="user-control-panel">
   <h1 style="color : white"> USERS </h1>
-  <table>
+  <table id="users">
   <tr class="head-table">
   <th> Name </th>
   <th> Role </th>
@@ -24,7 +24,7 @@ function renderUsers(users){
   users.forEach(user =>{
     html += `
     <tr class='table_element'>
-    <td> ${user.name} </td>
+    <td class="name"> ${user.name} </td>
     <td> ${user.role} </td>
     <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.name}"> ${user.status} </button> </td>
     </tr>
@@ -114,7 +114,7 @@ function renderDrive(drives){
   let html = `
   <div id="user-control-panel">
     <h1 style="color : white"> DRIVES </h1>
-      <table>
+      <table id="drives">
         <tr class="head-table">
           <th> Company Name </th>
           <th> Job role </th>
@@ -127,7 +127,7 @@ function renderDrive(drives){
     // TODO : With same pattern make alteration sequence for controlling drives in college
     html += `
     <tr class="table_element">
-      <td> ${drive.company_name } </td>
+      <td id="name"> ${drive.company_name } </td>
       <td> ${drive.job_role} </td>
       <td> ${drive.discription} </td>  <!-- Making simple for now expanding thing in future -->
       <td> <button class="drive-ctrl-btn" id="${drive.drive_id}" onclick="AlterDriveStatus(this)" > ${drive.status} </td>
@@ -191,4 +191,24 @@ async function loadgraph(){
   console.log("Making Data loading for graphs");
   console.log(data.image);
   renderGraph(data.image);
+}
+
+// Search Box functionality Making simple searching way for filtering the given changes
+document.getElementById("search-box").addEventListener('input', filterUsers);
+
+function filterUsers(){
+  let query = document.getElementById("search-box").value.toLowerCase();
+
+  let rows = document.querySelectorAll(".table_element");
+
+  rows.forEach(row => {
+    let name = row.children[0].textContent.toLowerCase();
+    let role = row.children[1].textContent.toLowerCase();
+
+    if(name.includes(query) || role.includes(query)){
+      row.style.display = "";
+    } else {
+      row.style.display = "none";
+    }
+  });
 }
