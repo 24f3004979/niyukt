@@ -8,7 +8,7 @@ Student Model
 from .user import *
 from config import *
 
-class Student():
+class Student:
     '''
     Features
     1. Initiating student user with given information

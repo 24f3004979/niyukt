@@ -74,3 +74,11 @@ Admin Dashboard rendering pipeline
 # Frontend Unit for data flow
 Making simple data loading flow for processing requests
     making simple data flow loading flow | Fetching request via backend and processing it for making final DB changes
+
+-----------------------------------------------------------------------
+Project Summary till : 5th april 2026
+heading for just working have made seviour changes to the usual behaviour 
+  + critical requirement | With making backup of current infra | head for refactor sessions 
+  With Current backup head for refactor of critical componenets with tests cases for ease development
+
+  Current tregectory | Bug report could be seen for making changes to the whole mess

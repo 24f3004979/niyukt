@@ -51,13 +51,17 @@ def login_page():
         # Extract Information from Request
         if user_repo.exists(login_information["name"]):
 
-            db_fetched = user_repo.fetch(anchor_information, "name,password,role")
-            stored_hash = db_fetched[1]
+            db_fetched = user_repo.fetch(anchor_information, "id,name,password,role")
+            stored_hash = db_fetched[2]
             password = login_information["password"]
 
             if authentication(stored_hash, password):
                 role = db_fetched[2]
-                session["user_name"] = db_fetched[0]
+                # DB Fetched informatin inspection for passing information about user login
+                print(f"DB Fetch result during login : {db_fetched}")
+
+                session["id"] = db_fetched[0]
+                session["user_name"] = db_fetched[1]
                 return redirect("http://127.0.0.1:8080/register/dashboard")
             else:
                 return "Wrong password"
@@ -68,6 +72,7 @@ def login_page():
 def dashboard():
     user_repo = Repo("user")
     user = session.get("user_name")
+    print(f"Dashboard fetch output : {user}")
 
     anchor_information = ("name", user)
     fetch = user_repo.fetch(anchor_information, "name")
