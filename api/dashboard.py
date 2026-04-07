@@ -27,7 +27,12 @@ def dashboard():
         if role == "admin":
             print(f"ADMIN LOGED IN ======+  +++++++++++++++++++++++ +----------------")
             return redirect('/admin')
-        return redirect(url_for('/dashboard.user_dashboard', username=fetch))
+        elif role == "company":
+            return redirect("/company")
+        elif role == "student":
+            return redirect("/student")
+        else:
+            return "Crash"
     else:
         return f"<h1> Your account is deactivated by ADMIN : {status} </h1> ACCESS DENIED"
 

@@ -6,6 +6,7 @@ from auth.login import *
 from endpoint.repo import *
 from config import *
 
+
 # TODO : Mantain Routes organization, Adjust scope of the functions with modularity of the routes file directions and improve upon defining endpoint
 '''
 Introduce dynamic routing with secure access routes for the core application modules
