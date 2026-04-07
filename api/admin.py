@@ -6,19 +6,27 @@ Features
         Requesting activation/deactivation of user
     + Requests panel for admin for approval and rejection -> history of all admin decissions
 '''
-from flask import Blueprint, request, render_template 
+from flask import Blueprint, request, render_template, session, redirect
 from model.placement import *
 from model.user import *
 from flask import jsonify
 import matplotlib.pyplot as plt
-import numpy as np
 from endpoint.repo import *
+
 
 admin = Blueprint('/admin', __name__, url_prefix="/admin")
 
 @admin.route("/") 
 def root():
-    return render_template("admin.html")
+    name = session.get('user_name')
+    user_repo = Repo('user')
+    anchor = ('name', name)
+    role = user_repo.fetch(anchor, "role")
+    if role != 'admin':
+        return redirect('/login')
+
+    information = dashboard()
+    return render_template("admin.html", information=information)
 
 # User Panel Control units
 
@@ -145,7 +153,6 @@ def graphs():  # Addon Feature touched
 
 
 # Summary page dashboard showdown api
-@admin.route("/dashboard", methods=["GET"])
 def dashboard():
     '''
     Simple Fetch basic static about the dashboard presentations

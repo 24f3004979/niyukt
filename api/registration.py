@@ -21,6 +21,7 @@ def root():
     return "Register root: Navigations and Linking registration routes"
 
 # Registration Routing
+"""
 @register.route("/login", methods=['GET','POST'])
 def login_page():
     '''
@@ -31,8 +32,8 @@ def login_page():
         Verify with authentication pipeline
 
         Login user and redirect for relevent pages
-    '''
     if request.method == "GET":
+        # Testing new login page
         return render_template("login.html")
 
     elif request.method == "POST":
@@ -67,6 +68,7 @@ def login_page():
                 return "Wrong password"
         else:
             return "User Doesnt Exist | Create Account please :) "
+"""
 
 @register.route("/dashboard", methods=["GET"])
 def dashboard():

@@ -1,6 +1,8 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, session
 from api.registration import register
 from api.admin import admin
+from api.login import login_route
+from api.dashboard import dashboard_route
 
 
 app = Flask(__name__)
@@ -9,6 +11,8 @@ app.secret_key = "Ironman"
 
 app.register_blueprint(register)
 app.register_blueprint(admin)
+app.register_blueprint(login_route)
+app.register_blueprint(dashboard_route)
 
 @app.route("/")
 def launch():
@@ -17,4 +21,5 @@ def launch():
 
 if __name__ == "__main__":
     app.run(debug=True, port=8080)
+    session.clear()
 

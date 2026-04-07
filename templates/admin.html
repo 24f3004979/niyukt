@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ADMIN DASHBOARD</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/admin.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
   </head>
   <body>
   <div id="main-bar">
@@ -23,6 +26,30 @@
   </aside>
 
   <div id="main-content">
+        <h1 class='display-1' style='color:white;'>PORTAL INFORMATION</h1>
+        <table class='table' id="info-box">
+          <tr>
+          <th>Entity</th>
+          <th>Quantity</th>
+          </tr>
+
+          <tr>
+            <td>Student</td>
+            <td>{{ information['student'] }}</td>
+          </tr>
+          <tr>
+            <td>Company</td>
+            <td>{{ information['company']}}</td>
+          </tr>
+
+          <tr>
+            <td>Applications</td>
+            <td>{{ information['application']}}</td>
+          </tr>
+
+
+
+        </table>
   </div>
 
   </section>
