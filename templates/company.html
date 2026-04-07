@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COMPANY DASHBOARD</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/admin.css') }}">
+  </head>
+  <body>
+  <div id="main-bar">
+      <div id="search-bar">
+          <input type="text" id="search-box" placeholder="Search students...">
+      </div>
+  </div>
+
+  <section id="app">
+    <aside id="control-units">
+      <a id="my-drives-btn" title="My Drives"><img class="icon" src="{{ url_for('static', filename='icons/Charts.svg')}}"> </a>
+      <a id="post-drive-btn" title="Post New Drive"><img class="icon" src="{{ url_for('static', filename='icons/request.svg')}}" > </a>
+      <a id="applicants-btn" title="View Applicants"><img class="icon" src="{{ url_for('static', filename='icons/user.svg')}}" > </a>
+    </aside>
+
+    <div id="main-content">
+       <h1>Welcome to the Company Portal</h1>
+    </div>
+  </section>
+
+    <script src="{{ url_for('static', filename='js/company_dashboard.js') }}"></script>
+  </body>
+</html>

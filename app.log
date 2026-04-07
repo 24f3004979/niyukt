@@ -1,3 +1,230 @@
 2026-04-06 17:41:14,833 - config - INFO - Application started
 2026-04-06 17:41:24,679 - config - INFO - Application started
 2026-04-06 17:42:07,316 - config - INFO - Application started
+2026-04-06 17:45:37,591 - config - INFO - Application started
+2026-04-06 17:48:35,672 - config - INFO - Application started
+2026-04-06 17:48:56,974 - config - INFO - Application started
+2026-04-06 17:49:34,685 - config - INFO - Application started
+2026-04-06 17:50:00,083 - config - INFO - Application started
+2026-04-06 17:50:00,124 - config - INFO - Task Loaded for Execution : Task(query='select * from user', data=[], status='pending')
+2026-04-06 17:50:00,126 - config - INFO - Task Status : completed
+2026-04-06 17:53:57,991 - config - INFO - Application started
+2026-04-06 17:53:58,022 - config - INFO - Task Loaded for Execution : Task(query='select * from user', data=[], status='pending')
+2026-04-06 17:53:58,023 - config - INFO - Task Status : completed
+2026-04-06 18:01:22,674 - config - INFO - Application started
+2026-04-06 18:01:43,752 - config - INFO - Application started
+2026-04-06 18:03:11,326 - config - INFO - Application started
+2026-04-06 18:04:19,496 - config - INFO - Application started
+2026-04-06 18:04:52,748 - config - INFO - Application started
+2026-04-06 18:05:11,384 - config - INFO - Application started
+2026-04-06 18:05:29,646 - config - INFO - Application started
+2026-04-06 18:05:50,144 - config - INFO - Application started
+2026-04-06 21:58:58,228 - config - INFO - Application started
+2026-04-06 21:59:32,833 - config - INFO - Application started
+2026-04-06 22:00:22,187 - config - INFO - Application started
+2026-04-06 22:00:22,730 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-06 22:00:22,730 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-06 22:00:22,731 - werkzeug - INFO -  * Restarting with stat
+2026-04-06 22:00:22,923 - config - INFO - Application started
+2026-04-06 22:00:23,495 - werkzeug - WARNING -  * Debugger is active!
+2026-04-06 22:00:23,498 - werkzeug - INFO -  * Debugger PIN: 136-419-295
+2026-04-06 22:00:37,624 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:00:37] "[35m[1mGET /student/dashboard HTTP/1.1[0m" 500 -
+2026-04-06 22:00:37,699 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:00:37] "GET /student/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-04-06 22:00:37,709 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:00:37] "GET /student/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-04-06 22:00:37,795 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:00:37] "GET /student/dashboard?__debugger__=yes&cmd=resource&f=console.png&s=ggnAv2rraTe9Sv89bKxt HTTP/1.1" 200 -
+2026-04-06 22:00:37,831 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:00:37] "GET /student/dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-04-06 22:01:08,246 - config - INFO - Application started
+2026-04-06 22:01:08,793 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-06 22:01:08,794 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-06 22:01:08,794 - werkzeug - INFO -  * Restarting with stat
+2026-04-06 22:01:08,983 - config - INFO - Application started
+2026-04-06 22:01:09,635 - werkzeug - WARNING -  * Debugger is active!
+2026-04-06 22:01:09,638 - werkzeug - INFO -  * Debugger PIN: 136-419-295
+2026-04-06 22:01:10,284 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:10] "[32mGET /student/dashboard HTTP/1.1[0m" 302 -
+2026-04-06 22:01:10,304 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:10] "GET /register/login HTTP/1.1" 200 -
+2026-04-06 22:01:10,370 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:10] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-06 22:01:10,417 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-06 22:01:17,465 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-04-06 22:01:17,467 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-04-06 22:01:17,664 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:17] "[32mPOST /register/login HTTP/1.1[0m" 302 -
+2026-04-06 22:01:17,680 - config - INFO - User Loged in Madhav Rimal
+2026-04-06 22:01:17,681 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:17] "GET /register/dashboard HTTP/1.1" 200 -
+2026-04-06 22:01:26,310 - config - INFO - Listing information : [(1, 1, 'jhadu', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (2, 1, 'pocha', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (3, 1, 'safai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (4, 1, 'bartan', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (5, 1, 'padhai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (6, 1, 'dhulai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'not_verified'), (7, 1, 'kamai', 'We are finding goat with thousand years of experience', '2026-03-26 13:24:17', 'verified'), (8, 9, 'ds', 'important', '2026-03-26 13:27:01', 'verified'), (9, 12, 'ds', 'important', '2026-03-26 13:27:46', 'not_verified'), (10, 15, 'ds', 'important', '2026-03-26 13:27:58', 'verified'), (11, 1, 'scientist', 'we are finding goats', '2026-04-13 11:43:59', 'not_verified'), (12, 43, 'Data scientist', 'We are finding great scintist', '2026-04-15 09:17:46', 'not_verified'), (13, 43, 'Pocha wala ', 'Pocha lagana aata ho ', '2026-04-15 09:30:22', 'verified'), (14, 37, 'SWE', 'Sweper required', '2026-04-15 09:36:40', 'verified')]
+2026-04-06 22:01:26,312 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 1, 'company_id': 1, 'job_role': 'jhadu', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-04-06 22:01:26,313 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 2, 'company_id': 1, 'job_role': 'pocha', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-04-06 22:01:26,314 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 3, 'company_id': 1, 'job_role': 'safai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-04-06 22:01:26,315 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 4, 'company_id': 1, 'job_role': 'bartan', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-04-06 22:01:26,315 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 5, 'company_id': 1, 'job_role': 'padhai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-04-06 22:01:26,316 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 6, 'company_id': 1, 'job_role': 'dhulai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'not_verified'}
+2026-04-06 22:01:26,317 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 7, 'company_id': 1, 'job_role': 'kamai', 'discription': 'We are finding goat with thousand years of experience', 'status': 'verified'}
+2026-04-06 22:01:26,318 - config - INFO - Payload : {'company_name': 'user9142', 'drive_id': 8, 'company_id': 9, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-04-06 22:01:26,319 - config - INFO - Payload : {'company_name': 'user-89419', 'drive_id': 9, 'company_id': 12, 'job_role': 'ds', 'discription': 'important', 'status': 'not_verified'}
+2026-04-06 22:01:26,320 - config - INFO - Payload : {'company_name': 'user2801', 'drive_id': 10, 'company_id': 15, 'job_role': 'ds', 'discription': 'important', 'status': 'verified'}
+2026-04-06 22:01:26,321 - config - INFO - Payload : {'company_name': 'user-72118', 'drive_id': 11, 'company_id': 1, 'job_role': 'scientist', 'discription': 'we are finding goats', 'status': 'not_verified'}
+2026-04-06 22:01:26,322 - config - INFO - Payload : {'company_name': 'Amazon', 'drive_id': 12, 'company_id': 43, 'job_role': 'Data scientist', 'discription': 'We are finding great scintist', 'status': 'not_verified'}
+2026-04-06 22:01:26,322 - config - INFO - Payload : {'company_name': 'Amazon', 'drive_id': 13, 'company_id': 43, 'job_role': 'Pocha wala ', 'discription': 'Pocha lagana aata ho ', 'status': 'verified'}
+2026-04-06 22:01:26,323 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 14, 'company_id': 37, 'job_role': 'SWE', 'discription': 'Sweper required', 'status': 'verified'}
+2026-04-06 22:01:26,324 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:26] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-06 22:01:30,905 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:30] "GET /admin/ HTTP/1.1" 200 -
+2026-04-06 22:01:30,959 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:30] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:01:30,961 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:30] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-06 22:01:30,965 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:30] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:01:30,970 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:30] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-06 22:01:30,971 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:30] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-06 22:01:30,976 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:30] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:01:32,557 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:32] "GET /admin/users HTTP/1.1" 200 -
+2026-04-06 22:01:39,464 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:39] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-04-06 22:01:40,052 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:40] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-04-06 22:01:48,424 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:48] "GET /student/dashboard HTTP/1.1" 200 -
+2026-04-06 22:01:48,472 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:48] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-04-06 22:01:48,480 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:48] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:01:48,483 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:48] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-06 22:01:48,484 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:48] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:01:52,822 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:01:52] "GET /student/api/available-drives HTTP/1.1" 200 -
+2026-04-06 22:02:00,548 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:00] "GET /student/api/available-drives HTTP/1.1" 200 -
+2026-04-06 22:02:02,581 - config - ERROR - Generic Model failed for query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '8', 'applied') Reason : DEADLINE PASSED :)
+2026-04-06 22:02:02,581 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '8', 'applied')
+2026-04-06 22:02:02,581 - config - ERROR - Student 38 application failed: Core Execution Function Failed
+2026-04-06 22:02:02,582 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:02] "[31m[1mPOST /student/api/apply HTTP/1.1[0m" 400 -
+2026-04-06 22:02:05,298 - config - ERROR - Generic Model failed for query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '10', 'applied') Reason : DEADLINE PASSED :)
+2026-04-06 22:02:05,298 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '10', 'applied')
+2026-04-06 22:02:05,298 - config - ERROR - Student 38 application failed: Core Execution Function Failed
+2026-04-06 22:02:05,299 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:05] "[31m[1mPOST /student/api/apply HTTP/1.1[0m" 400 -
+2026-04-06 22:02:07,262 - config - INFO - Insertion Executed with insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : {'student_id': 38, 'drive_id': '13', 'status': 'applied'}
+2026-04-06 22:02:07,263 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:07] "POST /student/api/apply HTTP/1.1" 200 -
+2026-04-06 22:02:12,216 - config - INFO - Insertion Executed with insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : {'student_id': 38, 'drive_id': '14', 'status': 'applied'}
+2026-04-06 22:02:12,217 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:12] "POST /student/api/apply HTTP/1.1" 200 -
+2026-04-06 22:02:14,627 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:14] "GET /student/api/available-drives HTTP/1.1" 200 -
+2026-04-06 22:02:18,505 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:18] "GET /student/api/available-drives HTTP/1.1" 200 -
+2026-04-06 22:02:20,104 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:20] "GET /student/dashboard HTTP/1.1" 200 -
+2026-04-06 22:02:20,154 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:20] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-06 22:02:20,167 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:20] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:02:20,175 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:20] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-06 22:02:20,180 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:20] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:02:22,412 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:22] "GET /student/api/available-drives HTTP/1.1" 200 -
+2026-04-06 22:02:25,094 - config - ERROR - Generic Model failed for query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '10', 'applied') Reason : DEADLINE PASSED :)
+2026-04-06 22:02:25,094 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '10', 'applied')
+2026-04-06 22:02:25,094 - config - ERROR - Student 38 application failed: Core Execution Function Failed
+2026-04-06 22:02:25,095 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:25] "[31m[1mPOST /student/api/apply HTTP/1.1[0m" 400 -
+2026-04-06 22:02:26,302 - config - ERROR - Generic Model failed for query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '13', 'applied') Reason : UNIQUE constraint failed: application.student_id, application.drive_id
+2026-04-06 22:02:26,303 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '13', 'applied')
+2026-04-06 22:02:26,305 - config - ERROR - Student 38 application failed: Core Execution Function Failed
+2026-04-06 22:02:26,305 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:26] "[31m[1mPOST /student/api/apply HTTP/1.1[0m" 400 -
+2026-04-06 22:02:27,340 - config - ERROR - Generic Model failed for query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '14', 'applied') Reason : UNIQUE constraint failed: application.student_id, application.drive_id
+2026-04-06 22:02:27,340 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '14', 'applied')
+2026-04-06 22:02:27,341 - config - ERROR - Student 38 application failed: Core Execution Function Failed
+2026-04-06 22:02:27,341 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:27] "[31m[1mPOST /student/api/apply HTTP/1.1[0m" 400 -
+2026-04-06 22:02:28,526 - config - ERROR - Generic Model failed for query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '8', 'applied') Reason : DEADLINE PASSED :)
+2026-04-06 22:02:28,526 - config - ERROR - Execution Failed at Generic Model : Information > Query : insert into application('student_id', 'drive_id', 'status') values(?,?,?) with data : (38, '8', 'applied')
+2026-04-06 22:02:28,526 - config - ERROR - Student 38 application failed: Core Execution Function Failed
+2026-04-06 22:02:28,527 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:28] "[31m[1mPOST /student/api/apply HTTP/1.1[0m" 400 -
+2026-04-06 22:02:31,851 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:31] "GET /student/dashboard HTTP/1.1" 200 -
+2026-04-06 22:02:31,906 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:31] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-06 22:02:31,920 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:31] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:02:31,928 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:31] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:02:31,929 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:31] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-06 22:02:35,689 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:35] "GET /student/dashboard HTTP/1.1" 200 -
+2026-04-06 22:02:35,770 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:35] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-06 22:02:35,774 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:35] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:02:35,778 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:35] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-06 22:02:35,783 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:35] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-06 22:02:47,138 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:47] "[33mGET /comapny/dashboard HTTP/1.1[0m" 404 -
+2026-04-06 22:02:52,256 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:02:52] "[33mGET /comapny/ HTTP/1.1[0m" 404 -
+2026-04-06 22:03:09,730 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2026 22:03:09] "[33mGET /comapny/dashboard HTTP/1.1[0m" 404 -
+2026-04-06 22:04:51,464 - config - INFO - Application started
+2026-04-06 22:04:52,018 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-06 22:04:52,018 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-06 22:04:52,019 - werkzeug - INFO -  * Restarting with stat
+2026-04-06 22:04:52,209 - config - INFO - Application started
+2026-04-06 22:04:52,770 - werkzeug - WARNING -  * Debugger is active!
+2026-04-06 22:04:52,773 - werkzeug - INFO -  * Debugger PIN: 136-419-295
+2026-04-07 11:41:16,899 - config - INFO - Application started
+2026-04-07 11:41:17,290 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-07 11:41:17,290 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-07 11:41:17,291 - werkzeug - INFO -  * Restarting with stat
+2026-04-07 11:41:17,379 - config - INFO - Application started
+2026-04-07 11:41:17,654 - werkzeug - WARNING -  * Debugger is active!
+2026-04-07 11:41:17,675 - werkzeug - INFO -  * Debugger PIN: 478-507-170
+2026-04-07 11:41:18,498 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:41:18] "GET / HTTP/1.1" 200 -
+2026-04-07 11:41:18,951 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:41:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-07 11:48:40,418 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:48:40] "GET / HTTP/1.1" 200 -
+2026-04-07 11:48:40,435 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:48:40] "[33mGET /home/madhav/Projects/niyukt/niyukt.png HTTP/1.1[0m" 404 -
+2026-04-07 11:48:43,098 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:48:43] "GET / HTTP/1.1" 200 -
+2026-04-07 11:48:43,115 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:48:43] "[33mGET /home/madhav/Projects/niyukt/niyukt.png HTTP/1.1[0m" 404 -
+2026-04-07 11:49:48,689 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:49:48] "GET / HTTP/1.1" 200 -
+2026-04-07 11:49:48,712 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:49:48] "GET /static/images/niyukt.png HTTP/1.1" 200 -
+2026-04-07 11:51:20,823 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:51:20] "GET / HTTP/1.1" 200 -
+2026-04-07 11:51:20,839 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:51:20] "GET /static/images/niyukt.png HTTP/1.1" 200 -
+2026-04-07 11:51:32,078 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:51:32] "GET / HTTP/1.1" 200 -
+2026-04-07 11:51:32,095 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:51:32] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 11:52:20,799 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:52:20] "GET / HTTP/1.1" 200 -
+2026-04-07 11:52:20,812 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:52:20] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 11:53:22,249 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:53:22] "GET / HTTP/1.1" 200 -
+2026-04-07 11:55:09,417 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:55:09] "GET / HTTP/1.1" 200 -
+2026-04-07 11:57:16,256 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 11:57:16] "GET / HTTP/1.1" 200 -
+2026-04-07 12:05:57,653 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:05:57] "GET / HTTP/1.1" 200 -
+2026-04-07 12:05:57,670 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:05:57] "GET /static/images/niyukt.png HTTP/1.1" 200 -
+2026-04-07 12:06:09,478 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:06:09] "GET / HTTP/1.1" 200 -
+2026-04-07 12:06:09,495 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:06:09] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:06:21,008 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:06:21] "GET / HTTP/1.1" 200 -
+2026-04-07 12:06:21,027 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:06:21] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:06:41,960 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:06:41] "GET / HTTP/1.1" 200 -
+2026-04-07 12:06:41,984 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:06:41] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:07:33,123 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:07:33] "GET / HTTP/1.1" 200 -
+2026-04-07 12:07:33,141 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:07:33] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:09:05,926 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:09:05] "GET / HTTP/1.1" 200 -
+2026-04-07 12:09:05,943 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:09:05] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:10:53,873 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:10:53] "GET / HTTP/1.1" 200 -
+2026-04-07 12:10:53,887 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:10:53] "[33mGET /... HTTP/1.1[0m" 404 -
+2026-04-07 12:10:53,888 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:10:53] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:14:52,338 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:14:52] "GET / HTTP/1.1" 200 -
+2026-04-07 12:14:52,355 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:14:52] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:14:52,355 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:14:52] "GET /static/images/cover.png HTTP/1.1" 200 -
+2026-04-07 12:15:20,816 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:15:20] "GET / HTTP/1.1" 200 -
+2026-04-07 12:15:20,835 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:15:20] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:15:20,835 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:15:20] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:15:38,622 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:15:38] "GET / HTTP/1.1" 200 -
+2026-04-07 12:15:38,640 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:15:38] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:15:38,641 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:15:38] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:18:23,861 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:18:23] "GET / HTTP/1.1" 200 -
+2026-04-07 12:18:23,877 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:18:23] "[33mGET /... HTTP/1.1[0m" 404 -
+2026-04-07 12:18:23,878 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:18:23] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:18:23,879 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:18:23] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:25:52,627 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:25:52] "GET / HTTP/1.1" 200 -
+2026-04-07 12:25:52,643 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:25:52] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:25:52,643 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:25:52] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:27:09,377 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:09] "GET / HTTP/1.1" 200 -
+2026-04-07 12:27:09,393 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:09] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:27:09,394 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:09] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:27:25,563 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:25] "GET / HTTP/1.1" 200 -
+2026-04-07 12:27:25,584 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:25] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:27:25,584 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:25] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:27:40,982 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:40] "GET / HTTP/1.1" 200 -
+2026-04-07 12:27:41,001 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:41] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:27:41,001 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:41] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:27:50,219 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:50] "GET / HTTP/1.1" 200 -
+2026-04-07 12:27:50,244 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:50] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:27:50,245 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:27:50] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:28:29,222 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:28:29] "GET / HTTP/1.1" 200 -
+2026-04-07 12:28:29,241 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:28:29] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:28:29,242 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:28:29] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:28:47,489 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:28:47] "GET / HTTP/1.1" 200 -
+2026-04-07 12:28:47,505 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:28:47] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:28:47,505 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:28:47] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:28:59,932 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:28:59] "GET / HTTP/1.1" 200 -
+2026-04-07 12:28:59,949 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:28:59] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:28:59,949 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:28:59] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:29:10,921 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:29:10] "GET / HTTP/1.1" 200 -
+2026-04-07 12:29:10,941 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:29:10] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:29:10,942 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:29:10] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:31:00,060 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:31:00] "GET / HTTP/1.1" 200 -
+2026-04-07 12:31:00,083 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:31:00] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:31:00,083 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:31:00] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:32:05,075 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:32:05] "GET / HTTP/1.1" 200 -
+2026-04-07 12:32:05,096 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:32:05] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-07 12:32:05,098 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:32:05] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-07 12:33:43,000 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2026 12:33:43] "[33mGET /login HTTP/1.1[0m" 404 -

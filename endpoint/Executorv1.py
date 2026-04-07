@@ -7,8 +7,34 @@ from model.data_models import * # Core Data flow design
 
 DB_PATH = os.getenv("DB_PATH")
 
+# Making Simpler version of executor function
+
+def executor(query, data=None, type=None):
+    '''
+    Query : String for Execution with Data if given
+    type if return is required
+    '''
+    with sql.connect(DB_PATH) as connection:
+        cursor = connection.cursor()
+
+        try:
+            if data:
+                cursor.execute(query, data)
+            else:
+                cursor.execute(query)
+            if type=="v":
+                return cursor.fetchall()
+        except Exception as e:
+            raise Exception(f"Central Executor Failed with {e}")
+
 # Making Version for Queue based engine for Testing
 class Executor:
+    '''
+    central Executor
+    When no task
+        Exit loop
+    Auto start thus activation thread would decide the running
+    '''
     def __init__(self):
         self.execution_queue = Queue()
     
