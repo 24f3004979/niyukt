@@ -1640,3 +1640,567 @@
 2026-04-07 21:33:14,361 - config - INFO - Application started
 2026-04-07 21:33:15,041 - werkzeug - WARNING -  * Debugger is active!
 2026-04-07 21:33:15,045 - werkzeug - INFO -  * Debugger PIN: 369-223-971
+2026-04-08 07:21:18,959 - config - INFO - Application started
+2026-04-08 07:21:19,782 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-08 07:21:19,782 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 07:21:19,783 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 07:21:19,958 - config - INFO - Application started
+2026-04-08 07:21:20,474 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 07:21:20,499 - werkzeug - INFO -  * Debugger PIN: 663-575-389
+2026-04-08 07:21:24,624 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:21:24] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 07:21:24,696 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:21:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-08 07:21:28,109 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:21:28] "[35m[1mGET /company/ HTTP/1.1[0m" 500 -
+2026-04-08 07:21:28,162 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:21:28] "[36mGET /company/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 07:21:28,164 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:21:28] "[36mGET /company/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 07:21:28,250 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:21:28] "GET /company/?__debugger__=yes&cmd=resource&f=console.png&s=DocfME6beG7shzQyFjQB HTTP/1.1" 200 -
+2026-04-08 07:21:28,284 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:21:28] "[36mGET /company/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 07:22:01,502 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:22:01] "GET / HTTP/1.1" 200 -
+2026-04-08 07:22:01,566 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:22:01] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-08 07:22:01,567 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:22:01] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-08 07:22:03,875 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:22:03] "GET /login/ HTTP/1.1" 200 -
+2026-04-08 07:22:03,921 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:22:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 07:22:10,085 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-04-08 07:22:10,086 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-04-08 07:22:10,092 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:22:10] "[35m[1mPOST /login/verification HTTP/1.1[0m" 500 -
+2026-04-08 07:22:10,137 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:22:10] "GET /login/verification?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-04-08 07:22:10,139 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:22:10] "GET /login/verification?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-04-08 07:22:10,157 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:22:10] "GET /login/verification?__debugger__=yes&cmd=resource&f=console.png&s=DocfME6beG7shzQyFjQB HTTP/1.1" 200 -
+2026-04-08 07:22:10,172 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:22:10] "GET /login/verification?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-04-08 07:23:21,266 - config - INFO - Application started
+2026-04-08 07:23:21,929 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-08 07:23:21,929 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 07:23:21,930 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 07:23:22,146 - config - INFO - Application started
+2026-04-08 07:23:22,797 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 07:23:22,801 - werkzeug - INFO -  * Debugger PIN: 663-575-389
+2026-04-08 07:23:24,266 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-04-08 07:23:24,268 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-04-08 07:23:24,441 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:24] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-08 07:23:24,456 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:24] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-08 07:23:24,471 - config - INFO - User Loged in Madhav Rimal
+2026-04-08 07:23:24,472 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:24] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-08 07:23:24,483 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:24] "[33mGET /student HTTP/1.1[0m" 404 -
+2026-04-08 07:23:29,699 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:29] "GET /login/ HTTP/1.1" 200 -
+2026-04-08 07:23:29,755 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:29] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 07:23:35,022 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-04-08 07:23:35,023 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-04-08 07:23:35,165 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:35] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-08 07:23:35,178 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:35] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-08 07:23:35,191 - config - INFO - User Loged in Madhav Rimal
+2026-04-08 07:23:35,192 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:35] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-08 07:23:35,202 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:35] "[33mGET /student HTTP/1.1[0m" 404 -
+2026-04-08 07:23:44,286 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:44] "GET / HTTP/1.1" 200 -
+2026-04-08 07:23:44,344 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:44] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-08 07:23:44,348 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:44] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-08 07:23:46,100 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:46] "GET /login/ HTTP/1.1" 200 -
+2026-04-08 07:23:46,144 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:46] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 07:23:52,189 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:52] "GET /register/student HTTP/1.1" 200 -
+2026-04-08 07:23:52,236 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:52] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 07:23:56,366 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:56] "GET /login/ HTTP/1.1" 200 -
+2026-04-08 07:23:56,415 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:23:56] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 07:24:03,187 - config - INFO - anchor information : ('name', 'Google')
+2026-04-08 07:24:03,188 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Google'), failed
+2026-04-08 07:24:03,189 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:03] "POST /login/verification HTTP/1.1" 200 -
+2026-04-08 07:24:17,913 - config - INFO - anchor information : ('name', 'google')
+2026-04-08 07:24:17,914 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'google')
+2026-04-08 07:24:18,097 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-08 07:24:18,112 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-08 07:24:18,134 - config - INFO - User Loged in google
+2026-04-08 07:24:18,135 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-08 07:24:18,154 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-08 07:24:18,178 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "GET /company/ HTTP/1.1" 200 -
+2026-04-08 07:24:18,231 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 07:24:18,232 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 07:24:18,236 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 07:24:18,237 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 07:24:18,240 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-08 07:24:18,241 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:24:18] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 07:26:35,134 - config - INFO - Application started
+2026-04-08 07:26:35,870 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-08 07:26:35,871 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 07:26:35,871 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 07:26:36,032 - config - INFO - Application started
+2026-04-08 07:26:36,815 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 07:26:36,818 - werkzeug - INFO -  * Debugger PIN: 141-344-482
+2026-04-08 07:26:36,842 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:26:36] "GET /company/ HTTP/1.1" 200 -
+2026-04-08 07:26:36,903 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:26:36] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 07:26:36,908 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:26:36] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 07:26:36,910 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:26:36] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 07:26:36,911 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:26:36] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 07:26:36,915 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:26:36] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-08 07:26:36,926 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:26:36] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 07:26:38,187 - config - INFO - Listing information : [(1, 2, 'Data scientist', 'we want good', '2026-04-17 15:52:14', 'not_verified'), (2, 2, 'Senior Data Scientist', 'i dont know', '2026-04-17 15:58:31', 'not_verified'), (3, 2, 'SWE', 'i now', '2026-04-17 15:58:39', 'not_verified')]
+2026-04-08 07:26:38,188 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Data scientist', 'discription': 'we want good', 'status': 'not_verified'}
+2026-04-08 07:26:38,189 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 2, 'company_id': 2, 'job_role': 'Senior Data Scientist', 'discription': 'i dont know', 'status': 'not_verified'}
+2026-04-08 07:26:38,191 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 3, 'company_id': 2, 'job_role': 'SWE', 'discription': 'i now', 'status': 'not_verified'}
+2026-04-08 07:26:38,191 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:26:38] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-08 07:26:41,308 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:26:41] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 07:27:03,961 - config - INFO - Listing information : [(1, 2, 'Data scientist', 'we want good', '2026-04-17 15:52:14', 'not_verified'), (2, 2, 'Senior Data Scientist', 'i dont know', '2026-04-17 15:58:31', 'not_verified'), (3, 2, 'SWE', 'i now', '2026-04-17 15:58:39', 'not_verified')]
+2026-04-08 07:27:03,963 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Data scientist', 'discription': 'we want good', 'status': 'not_verified'}
+2026-04-08 07:27:03,964 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 2, 'company_id': 2, 'job_role': 'Senior Data Scientist', 'discription': 'i dont know', 'status': 'not_verified'}
+2026-04-08 07:27:03,964 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 3, 'company_id': 2, 'job_role': 'SWE', 'discription': 'i now', 'status': 'not_verified'}
+2026-04-08 07:27:03,965 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:03] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-08 07:27:08,607 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:08] "[32mGET /admin/ HTTP/1.1[0m" 302 -
+2026-04-08 07:27:08,636 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:08] "GET /login/ HTTP/1.1" 200 -
+2026-04-08 07:27:08,689 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:08] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 07:27:15,156 - config - INFO - anchor information : ('name', 'Admin1')
+2026-04-08 07:27:15,158 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-04-08 07:27:15,324 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-08 07:27:15,339 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-08 07:27:15,358 - config - INFO - User Loged in Admin1
+2026-04-08 07:27:15,359 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-08 07:27:15,375 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-04-08 07:27:15,407 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "GET /admin/ HTTP/1.1" 200 -
+2026-04-08 07:27:15,454 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 07:27:15,463 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 07:27:15,465 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 07:27:15,468 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 07:27:15,469 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 07:27:15,474 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:15] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-08 07:27:20,789 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:20] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 07:27:23,859 - config - INFO - Listing information : [(1, 2, 'Data scientist', 'we want good', '2026-04-17 15:52:14', 'not_verified'), (2, 2, 'Senior Data Scientist', 'i dont know', '2026-04-17 15:58:31', 'not_verified'), (3, 2, 'SWE', 'i now', '2026-04-17 15:58:39', 'not_verified')]
+2026-04-08 07:27:23,892 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Data scientist', 'discription': 'we want good', 'status': 'not_verified'}
+2026-04-08 07:27:23,894 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 2, 'company_id': 2, 'job_role': 'Senior Data Scientist', 'discription': 'i dont know', 'status': 'not_verified'}
+2026-04-08 07:27:23,895 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 3, 'company_id': 2, 'job_role': 'SWE', 'discription': 'i now', 'status': 'not_verified'}
+2026-04-08 07:27:23,895 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:23] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-08 07:27:30,029 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:30] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-04-08 07:27:32,407 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:32] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-04-08 07:27:33,977 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 07:27:33] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-04-08 14:45:11,584 - config - INFO - Application started
+2026-04-08 14:45:12,679 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-08 14:45:12,679 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 14:45:12,681 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 14:45:13,191 - config - INFO - Application started
+2026-04-08 14:45:14,414 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 14:45:14,418 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 14:45:51,154 - config - INFO - Listing information : [(1, 2, 'Data scientist', 'we want good', '2026-04-17 15:52:14', 'verified'), (2, 2, 'Senior Data Scientist', 'i dont know', '2026-04-17 15:58:31', 'verified'), (3, 2, 'SWE', 'i now', '2026-04-17 15:58:39', 'verified')]
+2026-04-08 14:45:51,156 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Data scientist', 'discription': 'we want good', 'status': 'verified'}
+2026-04-08 14:45:51,159 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 2, 'company_id': 2, 'job_role': 'Senior Data Scientist', 'discription': 'i dont know', 'status': 'verified'}
+2026-04-08 14:45:51,161 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 3, 'company_id': 2, 'job_role': 'SWE', 'discription': 'i now', 'status': 'verified'}
+2026-04-08 14:45:51,163 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:45:51] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-08 14:45:51,300 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:45:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-08 14:45:56,319 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:45:56] "GET / HTTP/1.1" 200 -
+2026-04-08 14:45:56,354 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:45:56] "GET /static/images/niyukt.png HTTP/1.1" 200 -
+2026-04-08 14:45:56,357 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:45:56] "GET /static/images/cover.png HTTP/1.1" 200 -
+2026-04-08 14:46:03,800 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:03] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-04-08 14:46:03,810 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:03] "GET /login/ HTTP/1.1" 200 -
+2026-04-08 14:46:03,826 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 14:46:20,342 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-04-08 14:46:20,343 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-04-08 14:46:20,531 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:20] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-08 14:46:20,541 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:20] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-08 14:46:20,557 - config - INFO - User Loged in Madhav Rimal
+2026-04-08 14:46:20,558 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:20] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-08 14:46:20,568 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:20] "[33mGET /student HTTP/1.1[0m" 404 -
+2026-04-08 14:46:26,472 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:26] "GET /login/ HTTP/1.1" 200 -
+2026-04-08 14:46:26,491 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:26] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 14:46:33,052 - config - INFO - anchor information : ('name', 'google')
+2026-04-08 14:46:33,053 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'google')
+2026-04-08 14:46:33,234 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-08 14:46:33,246 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-08 14:46:33,258 - config - INFO - User Loged in google
+2026-04-08 14:46:33,260 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-08 14:46:33,270 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-08 14:46:33,295 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "GET /company/ HTTP/1.1" 200 -
+2026-04-08 14:46:33,328 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 14:46:33,332 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "GET /static/css/admin.css HTTP/1.1" 200 -
+2026-04-08 14:46:33,334 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 14:46:33,350 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 14:46:33,354 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-04-08 14:46:33,355 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:33] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-08 14:46:42,404 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:42] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 14:46:43,913 - config - INFO - Listing information : [(1, 2, 'Data scientist', 'we want good', '2026-04-17 15:52:14', 'verified'), (2, 2, 'Senior Data Scientist', 'i dont know', '2026-04-17 15:58:31', 'verified'), (3, 2, 'SWE', 'i now', '2026-04-17 15:58:39', 'verified')]
+2026-04-08 14:46:43,914 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Data scientist', 'discription': 'we want good', 'status': 'verified'}
+2026-04-08 14:46:43,915 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 2, 'company_id': 2, 'job_role': 'Senior Data Scientist', 'discription': 'i dont know', 'status': 'verified'}
+2026-04-08 14:46:43,916 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 3, 'company_id': 2, 'job_role': 'SWE', 'discription': 'i now', 'status': 'verified'}
+2026-04-08 14:46:43,916 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:43] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-08 14:46:46,423 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:46] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 14:46:47,316 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:47] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 14:46:48,796 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:48] "GET /company/ HTTP/1.1" 200 -
+2026-04-08 14:46:48,813 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:48] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 14:46:48,816 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:48] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 14:46:48,818 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:48] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 14:46:48,829 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:48] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 14:46:48,831 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:48] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 14:46:48,836 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:46:48] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-08 14:47:58,791 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-08 14:47:59,120 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 14:47:59,557 - config - INFO - Application started
+2026-04-08 14:48:00,859 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 14:48:00,864 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 14:48:16,162 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 14:48:16] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-08 14:53:44,816 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-08 14:53:45,149 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 14:53:45,556 - config - INFO - Application started
+2026-04-08 14:53:46,732 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 14:53:46,740 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 14:54:02,906 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-08 14:54:03,252 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 14:54:03,689 - config - INFO - Application started
+2026-04-08 14:54:05,092 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 14:54:05,097 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 14:59:47,158 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-08 14:59:47,476 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 14:59:47,915 - config - INFO - Application started
+2026-04-08 14:59:49,184 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 14:59:49,190 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 14:59:56,287 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-08 14:59:56,603 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 14:59:57,036 - config - INFO - Application started
+2026-04-08 14:59:58,250 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 14:59:58,257 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 15:00:08,368 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-08 15:00:08,674 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 15:00:09,118 - config - INFO - Application started
+2026-04-08 15:00:10,327 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 15:00:10,331 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 15:00:18,545 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 15:00:18] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 15:01:17,308 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 15:01:17] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 15:01:18,159 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 15:01:18] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 15:01:18,327 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 15:01:18] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 15:01:18,509 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 15:01:18] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 15:01:18,688 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 15:01:18] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 15:03:39,245 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/endpoint/GenericModel.py', reloading
+2026-04-08 15:03:39,576 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 15:03:40,015 - config - INFO - Application started
+2026-04-08 15:03:41,124 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 15:03:41,126 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 15:03:41,409 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 15:03:41] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 15:04:14,619 - config - INFO - Application started
+2026-04-08 15:04:15,827 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-08 15:04:15,827 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 15:04:15,829 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 15:04:16,327 - config - INFO - Application started
+2026-04-08 15:04:17,556 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 15:04:17,564 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 15:04:18,189 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 15:04:18] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 15:06:49,004 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-08 15:06:49,363 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 15:06:49,796 - config - INFO - Application started
+2026-04-08 15:06:50,987 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 15:06:50,993 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 15:06:52,447 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 15:06:52] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 15:07:49,524 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-08 15:07:49,860 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 15:07:50,296 - config - INFO - Application started
+2026-04-08 15:07:51,194 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 15:07:51,197 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 15:07:51,428 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 15:07:51] "GET /company/drives HTTP/1.1" 200 -
+2026-04-08 16:19:36,242 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-08 16:19:36,554 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:19:37,035 - config - INFO - Application started
+2026-04-08 16:19:38,234 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:19:38,242 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:22:24,788 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:22:25,105 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:22:25,482 - config - INFO - Application started
+2026-04-08 16:22:26,054 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:22:26,058 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:22:31,087 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:22:31] "[33mGET /student HTTP/1.1[0m" 404 -
+2026-04-08 16:22:40,192 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:22:40,507 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:22:40,964 - config - INFO - Application started
+2026-04-08 16:22:42,232 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:22:42,238 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:23:19,603 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/run.py', reloading
+2026-04-08 16:23:19,916 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:23:20,361 - config - INFO - Application started
+2026-04-08 16:24:03,599 - config - INFO - Application started
+2026-04-08 16:24:04,981 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-08 16:24:04,982 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 16:24:04,984 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:24:05,253 - config - INFO - Application started
+2026-04-08 16:24:05,989 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:24:05,992 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:24:06,005 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:06] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-08 16:24:06,010 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:06] "[32mGET /student/ HTTP/1.1[0m" 302 -
+2026-04-08 16:24:06,015 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:06] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-04-08 16:24:06,024 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:06] "GET /login/ HTTP/1.1" 200 -
+2026-04-08 16:24:06,044 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:06] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 16:24:13,432 - config - INFO - anchor information : ('name', 'Madhav')
+2026-04-08 16:24:13,434 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Madhav'), failed
+2026-04-08 16:24:13,434 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:13] "POST /login/verification HTTP/1.1" 200 -
+2026-04-08 16:24:17,808 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:17] "GET /register/student HTTP/1.1" 200 -
+2026-04-08 16:24:17,826 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:17] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 16:24:35,738 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Himanshu Rimal'), failed
+2026-04-08 16:24:35,751 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Himanshu Rimal', 'email': 'code@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$CyHkfO+ds/b+H2OMkbJ2Lg$tEoNG9eqAjNEuGiUxhAPBFiG9VOfp69bEr0Q74WFXRc', 'role': 'student', 'status': 'active'}
+2026-04-08 16:24:35,763 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': 'i am good', 'student_id': 4}
+2026-04-08 16:24:35,764 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:35] "POST /register/student HTTP/1.1" 200 -
+2026-04-08 16:24:42,684 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:42] "GET /login/ HTTP/1.1" 200 -
+2026-04-08 16:24:42,703 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:42] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-08 16:24:51,347 - config - INFO - anchor information : ('name', 'Himanshu Rimal')
+2026-04-08 16:24:51,349 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Himanshu Rimal')
+2026-04-08 16:24:51,512 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:51] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-08 16:24:51,521 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:51] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-08 16:24:51,534 - config - INFO - User Loged in Himanshu Rimal
+2026-04-08 16:24:51,535 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:51] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-08 16:24:51,544 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:51] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-08 16:24:51,565 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:51] "[35m[1mGET /student/ HTTP/1.1[0m" 500 -
+2026-04-08 16:24:51,587 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:51] "GET /student/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-04-08 16:24:51,589 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:51] "GET /student/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-04-08 16:24:51,607 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:51] "GET /student/?__debugger__=yes&cmd=resource&f=console.png&s=ROQlU13N5RlpS29WmywU HTTP/1.1" 200 -
+2026-04-08 16:24:51,712 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:24:51] "GET /student/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-04-08 16:25:16,599 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:25:16,867 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:25:17,142 - config - INFO - Application started
+2026-04-08 16:25:17,852 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:25:17,856 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:25:17,879 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:25:17] "[35m[1mGET /student/ HTTP/1.1[0m" 500 -
+2026-04-08 16:25:17,907 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:25:17] "[36mGET /student/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 16:25:17,908 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:25:17] "[36mGET /student/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 16:25:17,935 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:25:17] "GET /student/?__debugger__=yes&cmd=resource&f=console.png&s=Iia6wWUjRdaNkMt6A4nh HTTP/1.1" 200 -
+2026-04-08 16:25:17,962 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:25:17] "[36mGET /student/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 16:25:58,268 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:25:58,569 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:25:58,818 - config - INFO - Application started
+2026-04-08 16:25:59,524 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:25:59,527 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:25:59,548 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:25:59] "GET /student/ HTTP/1.1" 200 -
+2026-04-08 16:25:59,577 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:25:59] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:25:59,577 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:25:59] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:25:59,580 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:25:59] "[33mGET /static/js/student_dashboard.js HTTP/1.1[0m" 404 -
+2026-04-08 16:25:59,582 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:25:59] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 16:27:19,688 - config - INFO - Application started
+2026-04-08 16:27:20,934 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-08 16:27:20,935 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 16:27:20,936 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:27:21,392 - config - INFO - Application started
+2026-04-08 16:27:22,592 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:27:22,596 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:27:36,765 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:27:36,993 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:27:37,219 - config - INFO - Application started
+2026-04-08 16:27:37,936 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:27:37,939 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:27:37,967 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:27:37] "[35m[1mGET /student/ HTTP/1.1[0m" 500 -
+2026-04-08 16:27:37,994 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:27:37] "[36mGET /student/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 16:27:37,995 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:27:37] "[36mGET /student/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 16:27:38,015 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:27:38] "GET /student/?__debugger__=yes&cmd=resource&f=console.png&s=ja48gcXDEcNSaKu1qMzt HTTP/1.1" 200 -
+2026-04-08 16:27:38,036 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:27:38] "[36mGET /student/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 16:28:19,362 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:28:19,707 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:28:20,123 - config - INFO - Application started
+2026-04-08 16:28:20,894 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:28:20,898 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:28:20,916 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:20] "[35m[1mGET /student/ HTTP/1.1[0m" 500 -
+2026-04-08 16:28:20,942 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:20] "[36mGET /student/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 16:28:20,943 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:20] "[36mGET /student/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 16:28:20,961 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:20] "GET /student/?__debugger__=yes&cmd=resource&f=console.png&s=iWmScpxYIE0NXWCwXOhQ HTTP/1.1" 200 -
+2026-04-08 16:28:20,984 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:20] "[36mGET /student/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 16:28:33,030 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:28:33,385 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:28:33,902 - config - INFO - Application started
+2026-04-08 16:28:34,788 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:28:34,791 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:28:34,921 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:34] "GET /student/ HTTP/1.1" 200 -
+2026-04-08 16:28:34,963 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:34] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:28:34,965 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:34] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 16:28:34,967 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:34] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:28:34,971 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:34] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:28:34,974 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:34] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 16:28:34,976 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:28:34] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-08 16:29:29,180 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:29] "GET /student/ HTTP/1.1" 200 -
+2026-04-08 16:29:29,201 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:29] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 16:29:29,204 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:29] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:29:29,209 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:29] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:29:29,220 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:29] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:29:29,221 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:29] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 16:29:29,224 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:29] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-08 16:29:33,408 - config - INFO - Listing information : [(1, 2, 'Data scientist', 'we want good', '2026-04-17 15:52:14', 'verified'), (2, 2, 'Senior Data Scientist', 'i dont know', '2026-04-17 15:58:31', 'verified'), (3, 2, 'SWE', 'i now', '2026-04-17 15:58:39', 'verified')]
+2026-04-08 16:29:33,409 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Data scientist', 'discription': 'we want good', 'status': 'verified'}
+2026-04-08 16:29:33,410 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 2, 'company_id': 2, 'job_role': 'Senior Data Scientist', 'discription': 'i dont know', 'status': 'verified'}
+2026-04-08 16:29:33,410 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 3, 'company_id': 2, 'job_role': 'SWE', 'discription': 'i now', 'status': 'verified'}
+2026-04-08 16:29:33,411 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:33] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-08 16:29:34,711 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:34] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-08 16:29:35,668 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:35] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-08 16:29:36,866 - config - INFO - Listing information : [(1, 2, 'Data scientist', 'we want good', '2026-04-17 15:52:14', 'verified'), (2, 2, 'Senior Data Scientist', 'i dont know', '2026-04-17 15:58:31', 'verified'), (3, 2, 'SWE', 'i now', '2026-04-17 15:58:39', 'verified')]
+2026-04-08 16:29:36,867 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Data scientist', 'discription': 'we want good', 'status': 'verified'}
+2026-04-08 16:29:36,868 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 2, 'company_id': 2, 'job_role': 'Senior Data Scientist', 'discription': 'i dont know', 'status': 'verified'}
+2026-04-08 16:29:36,868 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 3, 'company_id': 2, 'job_role': 'SWE', 'discription': 'i now', 'status': 'verified'}
+2026-04-08 16:29:36,869 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:36] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-08 16:29:37,856 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:37] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 16:29:40,123 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:40] "GET /student/ HTTP/1.1" 200 -
+2026-04-08 16:29:40,143 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:40] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 16:29:40,148 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:40] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:29:40,149 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:40] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:29:40,163 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:40] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:29:40,170 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:40] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-08 16:29:40,172 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:29:40] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 16:30:36,143 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:36] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 16:30:37,102 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:37] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 16:30:37,278 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:37] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 16:30:38,191 - config - INFO - Listing information : [(1, 2, 'Data scientist', 'we want good', '2026-04-17 15:52:14', 'verified'), (2, 2, 'Senior Data Scientist', 'i dont know', '2026-04-17 15:58:31', 'verified'), (3, 2, 'SWE', 'i now', '2026-04-17 15:58:39', 'verified')]
+2026-04-08 16:30:38,191 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Data scientist', 'discription': 'we want good', 'status': 'verified'}
+2026-04-08 16:30:38,192 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 2, 'company_id': 2, 'job_role': 'Senior Data Scientist', 'discription': 'i dont know', 'status': 'verified'}
+2026-04-08 16:30:38,193 - config - INFO - Payload : {'company_name': 'google', 'drive_id': 3, 'company_id': 2, 'job_role': 'SWE', 'discription': 'i now', 'status': 'verified'}
+2026-04-08 16:30:38,194 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:38] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-08 16:30:39,796 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:39] "GET /student/ HTTP/1.1" 200 -
+2026-04-08 16:30:39,805 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:39] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 16:30:39,805 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:39] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:30:39,806 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:39] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:30:39,811 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:39] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:30:39,813 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:39] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 16:30:39,814 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:30:39] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-08 16:36:34,356 - config - INFO - Application started
+2026-04-08 16:36:34,636 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-08 16:36:34,636 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-08 16:36:34,636 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:36:34,724 - config - INFO - Application started
+2026-04-08 16:36:35,001 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:36:35,003 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:36:35,698 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:35] "GET /student/ HTTP/1.1" 200 -
+2026-04-08 16:36:35,719 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:35] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:35,720 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:35] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 16:36:35,723 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:35] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:35,725 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:35] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-04-08 16:36:35,726 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:35] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:45,834 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:45] "GET /student/ HTTP/1.1" 200 -
+2026-04-08 16:36:45,847 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:45] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:45,848 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:45] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 16:36:45,850 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:45] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:45,855 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:45] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:45,855 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:45] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 16:36:47,849 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:47] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 16:36:47,852 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:47] "GET /student/ HTTP/1.1" 200 -
+2026-04-08 16:36:47,859 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:47] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 16:36:47,861 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:47] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:47,864 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:47] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:47,868 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:47] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 16:36:47,869 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:47] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:48,606 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:48] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 16:36:48,612 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:48] "GET /student/ HTTP/1.1" 200 -
+2026-04-08 16:36:48,620 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:48] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 16:36:48,622 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:48] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:48,623 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:48] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:48,629 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:48] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:48,631 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:48] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 16:36:49,406 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:49] "GET /admin/users HTTP/1.1" 200 -
+2026-04-08 16:36:49,409 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:49] "GET /student/ HTTP/1.1" 200 -
+2026-04-08 16:36:49,420 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:49] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-08 16:36:49,422 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:49] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:49,423 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:49] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:49,428 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:49] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-08 16:36:49,429 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:36:49] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-08 16:41:56,367 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:41:56,457 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:41:56,548 - config - INFO - Application started
+2026-04-08 16:41:56,826 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:41:56,828 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:43:47,620 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:43:47,704 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:43:47,794 - config - INFO - Application started
+2026-04-08 16:43:48,074 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:43:48,076 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:47:59,947 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:48:00,025 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:48:00,119 - config - INFO - Application started
+2026-04-08 16:48:00,403 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:48:00,405 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:48:11,759 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:11] "[35m[1mGET /student/drives-listing HTTP/1.1[0m" 500 -
+2026-04-08 16:48:11,772 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:11] "GET /student/drives-listing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-04-08 16:48:11,772 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:11] "GET /student/drives-listing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-04-08 16:48:11,778 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:11] "GET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png&s=81Lvxev4Jqsmkp2gerf2 HTTP/1.1" 200 -
+2026-04-08 16:48:11,788 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:11] "GET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-04-08 16:48:19,536 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:48:19,620 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:48:19,715 - config - INFO - Application started
+2026-04-08 16:48:19,997 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:48:19,999 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:48:20,775 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:20] "[35m[1mGET /student/drives-listing HTTP/1.1[0m" 500 -
+2026-04-08 16:48:20,783 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:20] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 16:48:20,784 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:20] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 16:48:20,793 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:20] "GET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png&s=9gc3Cg4VtqqOzcWYK7QU HTTP/1.1" 200 -
+2026-04-08 16:48:20,801 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:20] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 16:48:21,873 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:21] "[35m[1mGET /student/drives-listing HTTP/1.1[0m" 500 -
+2026-04-08 16:48:21,880 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:21] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 16:48:21,881 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:21] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 16:48:21,891 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:21] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png&s=9gc3Cg4VtqqOzcWYK7QU HTTP/1.1[0m" 304 -
+2026-04-08 16:48:21,899 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:21] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 16:48:22,088 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:22] "[35m[1mGET /student/drives-listing HTTP/1.1[0m" 500 -
+2026-04-08 16:48:22,097 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:22] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 16:48:22,099 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:22] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 16:48:22,106 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:22] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png&s=9gc3Cg4VtqqOzcWYK7QU HTTP/1.1[0m" 304 -
+2026-04-08 16:48:22,113 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:22] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 16:48:52,195 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:48:52,285 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:48:52,378 - config - INFO - Application started
+2026-04-08 16:48:52,655 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:48:52,657 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:48:54,264 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:54] "[35m[1mGET /student/drives-listing HTTP/1.1[0m" 500 -
+2026-04-08 16:48:54,280 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:54] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 16:48:54,281 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:54] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 16:48:54,288 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:54] "GET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png&s=xV1O7BFN7kGlzgMtlT2I HTTP/1.1" 200 -
+2026-04-08 16:48:54,296 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:48:54] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 16:49:10,801 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:49:10,934 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:49:11,030 - config - INFO - Application started
+2026-04-08 16:49:11,316 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:49:11,317 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:49:11,580 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:11] "[35m[1mGET /student/drives-listing HTTP/1.1[0m" 500 -
+2026-04-08 16:49:11,596 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:11] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 16:49:11,596 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:11] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 16:49:11,603 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:11] "GET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png&s=MRVJznZ6CI6oSVEOYjkC HTTP/1.1" 200 -
+2026-04-08 16:49:11,611 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:11] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 16:49:13,104 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:13] "[35m[1mGET /student/drives-listing HTTP/1.1[0m" 500 -
+2026-04-08 16:49:13,114 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:13] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 16:49:13,115 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:13] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 16:49:13,125 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:13] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png&s=MRVJznZ6CI6oSVEOYjkC HTTP/1.1[0m" 304 -
+2026-04-08 16:49:13,132 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:13] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 16:49:13,315 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:13] "[35m[1mGET /student/drives-listing HTTP/1.1[0m" 500 -
+2026-04-08 16:49:13,327 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:13] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 16:49:13,329 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:13] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 16:49:13,340 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:13] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png&s=MRVJznZ6CI6oSVEOYjkC HTTP/1.1[0m" 304 -
+2026-04-08 16:49:13,347 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:13] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 16:49:31,663 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 16:49:31,757 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 16:49:31,847 - config - INFO - Application started
+2026-04-08 16:49:32,127 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 16:49:32,129 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 16:49:33,148 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 16:49:33] "GET /student/drives-listing HTTP/1.1" 200 -
+2026-04-08 17:20:04,215 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 17:20:04,298 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 17:20:04,388 - config - INFO - Application started
+2026-04-08 17:20:04,669 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 17:20:04,670 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 17:20:09,715 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 17:20:09,806 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 17:20:09,899 - config - INFO - Application started
+2026-04-08 17:20:10,168 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 17:20:10,170 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 17:20:10,654 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 17:20:10] "GET /student/drives-listing HTTP/1.1" 200 -
+2026-04-08 17:20:22,260 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 17:20:22,352 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 17:20:22,447 - config - INFO - Application started
+2026-04-08 17:20:22,715 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 17:20:22,717 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 17:20:23,404 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 17:20:23] "GET /student/drives-listing HTTP/1.1" 200 -
+2026-04-08 17:24:34,525 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 17:24:34,612 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 17:24:34,701 - config - INFO - Application started
+2026-04-08 17:24:34,989 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 17:24:34,990 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 17:24:35,652 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 17:24:35] "[35m[1mGET /student/drives-listing HTTP/1.1[0m" 500 -
+2026-04-08 17:24:35,665 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 17:24:35] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-08 17:24:35,665 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 17:24:35] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-08 17:24:35,673 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 17:24:35] "GET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png&s=fsWiSFQm2zm0imRZia5B HTTP/1.1" 200 -
+2026-04-08 17:24:35,681 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 17:24:35] "[36mGET /student/drives-listing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-08 17:24:45,069 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 17:24:45,157 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 17:24:45,252 - config - INFO - Application started
+2026-04-08 17:24:45,537 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 17:24:45,539 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 17:24:45,769 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 17:24:45] "GET /student/drives-listing HTTP/1.1" 200 -
+2026-04-08 17:25:23,809 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-08 17:25:23,894 - werkzeug - INFO -  * Restarting with stat
+2026-04-08 17:25:23,987 - config - INFO - Application started
+2026-04-08 17:25:24,265 - werkzeug - WARNING -  * Debugger is active!
+2026-04-08 17:25:24,267 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 17:25:25,410 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 17:25:25] "GET /student/drives-listing HTTP/1.1" 200 -

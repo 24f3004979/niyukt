@@ -52,6 +52,7 @@ Checks for validity of data flow for final Executions
             try:
                 cursor.execute(query, data)
                 fetched = cursor.fetchall()
+                print(f"Fetch request processed for {anchor_information} result : {fetched}")
                 return fetched
             except Exception as e:
                 raise Exception(f"Core Generic Model fetch failed with : {e}")

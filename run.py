@@ -4,6 +4,7 @@ from api.admin import admin
 from api.login import login_route
 from api.dashboard import dashboard_route
 from api.company_dashboard import company
+from api.student_dashboard import *
 
 
 app = Flask(__name__)
@@ -15,6 +16,7 @@ app.register_blueprint(admin)
 app.register_blueprint(login_route)
 app.register_blueprint(dashboard_route)
 app.register_blueprint(company)
+app.register_blueprint(student)
 
 @app.route("/")
 def launch():

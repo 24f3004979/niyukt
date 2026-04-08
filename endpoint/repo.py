@@ -39,7 +39,8 @@ class Repo:
         with sql.connect(path) as connection:
             cursor = connection.cursor()
             cursor.execute(query, (anchor_information[1], ))
-            fetch = cursor.fetchall()  # BUG : Its an error here all to one
+            fetch = cursor.fetchone()  # BUG : Its an error here all to one
+            # Breaking the verification pipeline information 
             # Comprehensive fetch analysis
             print(f"Fetch requirements filter : {required.split(",")}")
             if (len(required.split(",")) == 1) and (fetch != None):

@@ -36,9 +36,14 @@ def root():
 def load_drives():
     placement = Placement()
     id = session.get('id')
-    print(f"Company id  : {id}")
-    anchor = ("company_id", id)
-    company_drive = placement.repo.fetch(anchor, 'job_role,description')
+
+    # Loading Drive with drive class inbuilt generic support
+
+    drives = Drive()
+    anchor_information = [('company_id', id)]
+    # Best way to fetch based on my framework
+    company_drive = drives.db.repo_fetch(anchor_information, 'job_role,description,status')
+    
     print(f"company drive: {company_drive}")
 
     return jsonify({"drive":company_drive})  # company drive information
@@ -48,8 +53,14 @@ def applications(drive_id):
     '''
     Filter query to DB with company name
     fetching all applications with given drive id
+
+    Fetch via DB for given drive id applications
+
+    id fetching pipeline : 
+        fetch student id form application table for given drive id
+            -> For requested student load its basic profile
     '''
-    pass
+    pass # First Make studet to apply for given  approved drives
     
 
 @company.route('/alter-application', methods=['POST'])
