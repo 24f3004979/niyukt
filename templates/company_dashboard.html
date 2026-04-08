@@ -20,7 +20,7 @@
   <section id="app">
 
   <aside id="control-units">
-      <a id="user-btn"><img class="icon" src="{{ url_for('static', filename='icons/user.svg')}}" > </a>
+    <a id="user-btn" href='http://127.0.0.1:8080/company/'><img class="icon" src="{{ url_for('static', filename='icons/user.svg')}}" > </a>
     <a id="requests-btn"><img class="icon" src="{{ url_for('static', filename='icons/request.svg')}}"> </a>
     <a id="data-btn"><img class="icon" src="{{ url_for('static', filename='icons/Charts.svg')}}" > </a>
   </aside>
@@ -29,33 +29,23 @@
         <h1 class='display-1' style='color:white;'>COMPANY INFORMATION</h1>
         <table class='table' id="info-box">
           <tr>
-          <th>Entity</th>
-          <th>Quantity</th>
+          <th>Job Role</th>
+          <th>status</th>
           </tr>
 
-          <tr>
-            <td>Drives</td>
-            <td>{{ information['drives'] }}</td>
-          </tr>
-          <tr>
-            <td>Applications</td>
-            <td>{{ information['applications']}}</td>
-          </tr>
-
-          <tr>
-            <td>Running drives</td>
-            <td>{{ information['running_drives']}}</td>
-          </tr>
-
-
+          {% for drive in drives %}
+            <tr>
+            <td> <button class='drive-btn' id='{{drive[3]}}'> {{drive[0]}} </button></td>
+              <td> {{drive[2]}}</td>
+            </tr>
+          {% endfor %}
 
         </table>
   </div>
 
   </section>
 
-    <script src="{{ url_for('static', filename='js/admin_dashboard.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/events.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/company_dashboard.js') }}"></script>
 
   </body>
 </html>

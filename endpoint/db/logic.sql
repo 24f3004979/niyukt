@@ -26,8 +26,8 @@ CREATE TABLE application (
   drive_id INTEGER NOT NULL,
 
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-  status TEXT NOT NULL DEFAULT 'not-applied'
-    CHECK(status in ('applied','not-applied', 'selected', 'shortlisted', 'rejected')),
+  status TEXT NOT NULL DEFAULT 'applied'
+    CHECK(status in ('applied', 'selected', 'shortlisted', 'rejected')),
   UNIQUE(student_id, drive_id),
 
   FOREIGN KEY(student_id) REFERENCES student(student_id) ON DELETE CASCADE,

@@ -7,6 +7,7 @@ Student Model
 '''
 from .user import *
 from config import *
+from endpoint.repo import *
 
 class Student:
     '''
@@ -19,6 +20,7 @@ class Student:
         self.user = User()
         std_columns = tuple("student_id,resume,branch".split(","))
         self.db = GenericModel("student", std_columns)
+        self.repo = Repo("student")
         
     def activate(self, information):
         '''

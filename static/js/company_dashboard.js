@@ -1,18 +1,70 @@
-// Event Listeners
 
-async function ApplyDrive(element){
+// Binding apply button
+let elements = document.querySelectorAll('.drive-btn')
+elements.forEach(element => {
+  element.addEventListener('click', (event) => {
+    console.log("Applying into the given drive");
+    loadapplications(element);
+  });
+});
+
+
+function loadapplications(element){
+  fetch(`http://127.0.0.1:8080/company/applications/${element.id}`).then(response => response.json()).then(data => renderUsers(data));
+}
+
+function renderUsers(users){
+  let content = document.getElementById("main-content");
+  
+  // Build template
+  let html = `
+  <div id="user-control-panel">
+  <h1 style="color : white"> USERS </h1>
+  <table id="users">
+  <tr class="head-table">
+  <th> Name </th>
+  <th> Role </th>
+  <th> Status </th>
+  </tr>
+  `;
+
+  users.forEach(user =>{
+    html += `
+    <tr class='table_element'>
+    <td class="name"> ${user.name} </td>
+    <td> ${user.resume} </td>
+    <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.status}"> ${user.status} </button> </td>
+    </tr>
+`
+  });
+
+  html += `</div> </table>`;
+
+  content.innerHTML = html;
+}
+
+
+
+// TODO : Make one alter application function
+async function AlterStatus(element){
   console.log(element.id); // fetching information about the element
   let current_status = element.textContent;
 
+  let target = "selected"
+  if (current_status === "applied"){
+    target = 'selected';
+  }
+
   const data = {
     name : element.id,
-    st : current_status,
+    status : current_status,
+    target_status : target,
     work : "alter" // delete for deleting :)
   }
 
   console.log(`Sending status for the given elemnt : ${data.st}`)
 
-  const response = await fetch(`http://127.0.0.1:8080/student/apply/${element.id}`,
+  const response = await fetch(`http://127.0.0.1:8080/company/alter-application`,
     {
       method : "POST",
       headers : {
@@ -25,9 +77,9 @@ async function ApplyDrive(element){
   }
 
   const result = await response.json();
-  element.textContent = result.st;
+  element.textContent = target;
   }
-
+/*
 // Binding apply button
 let elements = document.querySelectorAll('.apply-btn')
 elements.forEach(element => {
@@ -37,6 +89,7 @@ elements.forEach(element => {
   });
 });
 
+/*
 // Alteration Status for the placement drive
 async function AlterDriveStatus(element){
   console.log(`Element id with element.id as : ${element.id}`);
@@ -164,6 +217,8 @@ async function loadgraph(){
   console.log(data.image);
   renderGraph(data.image);
 }
+
+*/
 
 // Search Box functionality Making simple searching way for filtering the given changes
 document.getElementById("search-box").addEventListener('input', filterUsers);

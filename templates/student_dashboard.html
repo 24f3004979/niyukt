@@ -29,26 +29,32 @@
         <h1 class='display-1' style='color:white;'>STUDENT  INFORMATION</h1>
         <table class='table' id="info-box">
           <tr>
-          <th>Entity</th>
-          <th>Quantity</th>
+            <th>
+              Company Name
+            </th>
+            <th>
+              Job Role 
+            </th>
+            <th>
+              Discription
+            </th>
+            <th>
+              Status
+            </th>
+            <th>
+              Apply
+            </th>
           </tr>
-
-          <tr>
-            <td>Drives</td>
-            <td>{{ information['drives'] }}</td>
-          </tr>
-          <tr>
-            <td>Applications</td>
-            <td>{{ information['applications']}}</td>
-          </tr>
-
-          <tr>
-            <td>Running drives</td>
-            <td>{{ information['running_drives']}}</td>
-          </tr>
-
-
-
+          {% for drive in drive_listing %}
+            <tr>
+              <td> {{ drive['company_name'] }} </td>
+              <td> {{ drive['job_role'] }}</td>
+              <td> {{ drive['discription'] }}</td>
+              <td> {{ drive['status']  }}</td>
+            <td><button id="{{ drive['drive_id'] }}" class="apply-btn">Apply</button></td>
+            </tr>
+          {% endfor %}
+            
         </table>
   </div>
 
