@@ -63,12 +63,16 @@ def applications(drive_id):
     '''
     ap = Application()
     anchor_information = [('drive_id', drive_id)]
-    students_list = ap.db.repo_fetch(anchor_information, 'student_id')
+    students_list = ap.db.repo_fetch(anchor_information, 'id,student_id')
 
     # Making List of all students 
     std_l = []
     for s in students_list:
-        std_l.append(s[0])
+
+        info = []
+        info.append(s[0])  # application id
+        info.append(s[1])  # student id
+        std_l.append(info)
 
     # Fetching information about the student via fetch of repo
     usr = User()
@@ -76,17 +80,18 @@ def applications(drive_id):
     payload = []
     for st in std_l:
         info = {}
-        anchor_info = ('id',st)
+        anchor_info = ('id',st[1])
         name = usr.repo.fetch(anchor_info, 'name')
         info['name'] = name  # Name of student
-        anchor_info = ('student_id', st)
+        anchor_info = ('student_id', st[1])
         resume = student.repo.fetch(anchor_info, 'resume')
         info['resume'] = resume
-        anchor_info = ('student_id',st)
+        anchor_info = ('student_id',st[1])
         status = ap.repo.fetch(anchor_info, 'status')
         info['status'] = status
+        info['application_id']=st[0]
         payload.append(info)
-
+    print(f"Payload for the student information : {payload}")
     return payload  # List of all students who applied for given drive
     
 
@@ -113,12 +118,13 @@ def alter_application():
     update_info = ('status', target_status) # making simple change
     anchor_information = ('id', application_id)
     try:
-        application.db.update(update_info, anchor_information)
-        print(f'Student Being Selected')
+        print(f"Update sequnece Data : {anchor_information}, {update_info}")
+        update_info = application.db.update(update_info, anchor_information)
+        print(f'Student Being Selected with information : {update_info}')
         return jsonify({'st':target_status})
     except Exception as e:
         print(f"Failing with {e}")
-        return jsonify({'st':current_status})
+        return jsonify({'st':"Failed"})
 
 
 @company.route('/create-drive', methods=['GET', 'POST'])

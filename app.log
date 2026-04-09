@@ -3744,3 +3744,750 @@
 2026-04-08 22:09:59,430 - config - INFO - Application started
 2026-04-08 22:09:59,938 - werkzeug - WARNING -  * Debugger is active!
 2026-04-08 22:09:59,942 - werkzeug - INFO -  * Debugger PIN: 104-721-960
+2026-04-08 22:13:47,763 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 22:13:47] "GET / HTTP/1.1" 200 -
+2026-04-08 22:13:47,803 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 22:13:47] "[36mGET /static/images/niyukt.png HTTP/1.1[0m" 304 -
+2026-04-08 22:13:47,812 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 22:13:47] "[36mGET /static/images/cover.png HTTP/1.1[0m" 304 -
+2026-04-08 22:13:59,358 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 22:13:59] "GET /login/ HTTP/1.1" 200 -
+2026-04-08 22:13:59,376 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2026 22:13:59] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 09:38:15,379 - config - INFO - Application started
+2026-04-09 09:38:16,838 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-09 09:38:16,839 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-09 09:38:16,841 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 09:38:17,296 - config - INFO - Application started
+2026-04-09 09:38:18,561 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 09:38:18,588 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 09:38:46,306 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:38:46] "GET /login/ HTTP/1.1" 200 -
+2026-04-09 09:38:46,337 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:38:46] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 09:38:46,427 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:38:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-09 09:38:57,012 - config - INFO - anchor information : ('name', 'Google')
+2026-04-09 09:38:57,016 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-04-09 09:38:57,202 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:38:57] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 09:38:57,214 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:38:57] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 09:38:57,230 - config - INFO - User Loged in Google
+2026-04-09 09:38:57,231 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:38:57] "GET /dashboard/ HTTP/1.1" 200 -
+2026-04-09 09:39:02,356 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:02] "GET /login/ HTTP/1.1" 200 -
+2026-04-09 09:39:02,371 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:02] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 09:39:13,157 - config - INFO - anchor information : ('name', 'Admin1')
+2026-04-09 09:39:13,159 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-04-09 09:39:13,314 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 09:39:13,324 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 09:39:13,335 - config - INFO - User Loged in Admin1
+2026-04-09 09:39:13,336 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 09:39:13,347 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-04-09 09:39:13,375 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "GET /admin/ HTTP/1.1" 200 -
+2026-04-09 09:39:13,400 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:39:13,405 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:39:13,410 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:39:13,425 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-09 09:39:13,427 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:39:13,428 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:13] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:39:15,350 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 09:39:15,351 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 09:39:15,351 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 09:39:15,352 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:15] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 09:39:20,664 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 09:39:20,665 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 09:39:20,665 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 09:39:20,666 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:20] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 09:39:21,749 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:21] "GET /admin/users HTTP/1.1" 200 -
+2026-04-09 09:39:23,830 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:23] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-04-09 09:39:24,693 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:24] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-04-09 09:39:31,399 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 09:39:31,400 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 09:39:31,401 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 09:39:31,402 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:31] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 09:39:39,057 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:39] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-04-09 09:39:43,860 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:43] "GET /login/ HTTP/1.1" 200 -
+2026-04-09 09:39:43,882 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:43] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 09:39:54,341 - config - INFO - anchor information : ('name', 'Google')
+2026-04-09 09:39:54,344 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-04-09 09:39:54,514 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:54] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 09:39:54,524 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:54] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 09:39:54,534 - config - INFO - User Loged in Google
+2026-04-09 09:39:54,535 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:54] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 09:39:54,547 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:54] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-09 09:39:54,570 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:54] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 09:39:54,596 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:54] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:39:54,598 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:54] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:39:54,603 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:54] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:39:54,612 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:54] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:39:54,613 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:54] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:39:58,177 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:39:58] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 09:40:11,640 - config - INFO - anchor information : ('name', 'Madhav')
+2026-04-09 09:40:11,641 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav')
+2026-04-09 09:40:11,815 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:11] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 09:40:11,824 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:11] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 09:40:11,836 - config - INFO - User Loged in Madhav
+2026-04-09 09:40:11,837 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:11] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 09:40:11,849 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:11] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-09 09:40:11,876 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:11] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 09:40:11,903 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:11] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:40:11,904 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:11] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:40:11,907 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:11] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:40:11,916 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:11] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:40:11,919 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:11] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:40:19,188 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'not_verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 09:40:19,188 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'not_verified'}
+2026-04-09 09:40:19,189 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 09:40:19,190 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:19] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 09:40:26,083 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:26] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 09:40:26,102 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:26] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:40:26,105 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:26] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:40:26,106 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:26] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:40:26,115 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:26] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:40:26,119 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:26] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:40:42,864 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:42] "GET /login/ HTTP/1.1" 200 -
+2026-04-09 09:40:42,881 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:42] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 09:40:50,037 - config - INFO - anchor information : ('name', 'Google')
+2026-04-09 09:40:50,038 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-04-09 09:40:50,212 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:50] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 09:40:50,220 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:50] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 09:40:50,234 - config - INFO - User Loged in Google
+2026-04-09 09:40:50,235 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:50] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 09:40:50,243 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:50] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-09 09:40:50,255 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:50] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 09:40:50,281 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:50] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:40:50,282 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:50] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:40:50,287 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:50] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:40:50,301 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:50] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:40:50,302 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:40:50] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:41:03,147 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:03] "GET /login/ HTTP/1.1" 200 -
+2026-04-09 09:41:03,165 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 09:41:16,769 - config - INFO - anchor information : ('name', 'Admin1')
+2026-04-09 09:41:16,770 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-04-09 09:41:16,926 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:16] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 09:41:16,935 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:16] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 09:41:16,948 - config - INFO - User Loged in Admin1
+2026-04-09 09:41:16,952 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:16] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 09:41:16,961 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:16] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-04-09 09:41:16,974 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:16] "GET /admin/ HTTP/1.1" 200 -
+2026-04-09 09:41:16,998 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:16] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:41:17,003 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:17] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:41:17,008 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:17] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:41:17,012 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:17] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:41:17,019 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:17] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:41:17,023 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:17] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-09 09:41:19,443 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'not_verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 09:41:19,444 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'not_verified'}
+2026-04-09 09:41:19,445 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 09:41:19,445 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:19] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 09:41:23,343 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:23] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-04-09 09:41:26,685 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:26] "GET /admin/ HTTP/1.1" 200 -
+2026-04-09 09:41:26,705 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:26] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:41:26,710 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:26] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:41:26,720 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:26] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:41:26,730 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:26] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:41:26,735 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:26] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-09 09:41:26,736 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:26] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:41:28,216 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 09:41:28,217 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 09:41:28,218 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 09:41:28,218 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:28] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 09:41:35,025 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:35] "[32mGET /company/ HTTP/1.1[0m" 302 -
+2026-04-09 09:41:35,034 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:35] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-04-09 09:41:35,041 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:35] "GET /login/ HTTP/1.1" 200 -
+2026-04-09 09:41:35,059 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:35] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 09:41:42,555 - config - INFO - anchor information : ('name', 'Google')
+2026-04-09 09:41:42,556 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-04-09 09:41:42,724 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:42] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 09:41:42,733 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:42] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 09:41:42,745 - config - INFO - User Loged in Google
+2026-04-09 09:41:42,746 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:42] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 09:41:42,758 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:42] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-09 09:41:42,771 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:42] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 09:41:42,799 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:42] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:41:42,800 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:42] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:41:42,805 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:42] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:41:42,817 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:42] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:41:42,822 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:41:42] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:42:07,999 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:42:07] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 09:42:13,815 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:42:13] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:42:13,843 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:42:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 09:42:24,512 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:42:24] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 09:43:02,831 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-09 09:43:03,201 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 09:43:03,619 - config - INFO - Application started
+2026-04-09 09:43:04,769 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 09:43:04,774 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 09:43:26,998 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-09 09:43:27,251 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 09:43:27,695 - config - INFO - Application started
+2026-04-09 09:43:28,921 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 09:43:28,927 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 09:43:32,055 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:43:32] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 09:45:22,476 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:45:22] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 09:45:22,532 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:45:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 09:45:22,534 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:45:22] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:45:22,534 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:45:22] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:45:22,535 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:45:22] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:45:22,555 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:45:22] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:45:22,555 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:45:22] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 09:45:24,451 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:45:24] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 09:45:27,255 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:45:27] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 09:46:17,547 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-09 09:46:17,865 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 09:46:18,327 - config - INFO - Application started
+2026-04-09 09:46:19,701 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 09:46:19,709 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 09:46:25,327 - config - INFO - Application started
+2026-04-09 09:46:26,544 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-09 09:46:26,544 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-09 09:46:26,546 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 09:46:27,009 - config - INFO - Application started
+2026-04-09 09:46:27,575 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 09:46:27,578 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 09:46:27,642 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:46:27] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 09:46:27,683 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:46:27] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:46:27,696 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:46:27] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:46:27,699 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:46:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 09:46:27,701 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:46:27] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:46:27,722 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:46:27] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:46:27,722 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:46:27] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:46:29,572 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:46:29] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 09:46:32,684 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:46:32] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 09:50:35,020 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:50:35] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 09:50:35,050 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:50:35] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:50:35,056 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:50:35] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:50:35,058 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:50:35] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:50:35,066 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:50:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 09:50:35,075 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:50:35] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 09:50:35,077 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:50:35] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:50:37,197 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:50:37] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 09:53:24,448 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-09 09:53:24,775 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 09:53:25,198 - config - INFO - Application started
+2026-04-09 09:53:26,400 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 09:53:26,406 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 09:53:54,374 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:53:54] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 09:53:54,420 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:53:54] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:53:54,424 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:53:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 09:53:54,441 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:53:54] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:53:54,443 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:53:54] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:53:54,455 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:53:54] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:53:54,458 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:53:54] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 09:53:56,129 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:53:56] "[35m[1mGET /company/applications/1 HTTP/1.1[0m" 500 -
+2026-04-09 09:54:37,070 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-09 09:54:37,397 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 09:54:37,845 - config - INFO - Application started
+2026-04-09 09:54:38,844 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 09:54:38,847 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 09:54:38,938 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:54:38] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 09:54:38,991 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:54:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 09:54:38,993 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:54:38] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:54:38,993 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:54:38] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:54:39,008 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:54:39] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:54:39,020 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:54:39] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:54:39,022 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:54:39] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:54:40,598 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:54:40] "[35m[1mGET /company/applications/1 HTTP/1.1[0m" 500 -
+2026-04-09 09:55:09,162 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-09 09:55:09,484 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 09:55:09,948 - config - INFO - Application started
+2026-04-09 09:55:11,227 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 09:55:11,233 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 09:55:16,996 - config - INFO - Application started
+2026-04-09 09:55:18,305 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-09 09:55:18,306 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-09 09:55:18,307 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 09:55:18,766 - config - INFO - Application started
+2026-04-09 09:55:19,528 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 09:55:19,532 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 09:55:19,553 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:19] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 09:55:19,587 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:19] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:55:19,589 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:19] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:55:19,593 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:19] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:55:19,596 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 09:55:19,615 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:19] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:55:19,617 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:19] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:55:20,638 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:20] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 09:55:23,977 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:23] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 09:55:49,052 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:49] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 09:55:49,071 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:49] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 09:55:49,074 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:49] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:55:49,081 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:49] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:55:49,086 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 09:55:49,099 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:49] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 09:55:49,101 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:49] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 09:55:50,712 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:50] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 09:55:57,277 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('selected', '1') Reason : Finalized applications cannot be modified
+2026-04-09 09:55:57,278 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('selected', '1'))
+2026-04-09 09:55:57,279 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 09:55:57] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:00:41,000 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:00:41] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:00:41,027 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:00:41] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:00:41,035 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:00:41] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:00:41,037 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:00:41] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:00:41,041 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:00:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:00:41,054 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:00:41] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:00:41,055 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:00:41] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:00:43,140 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:00:43] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 10:03:38,979 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:03:38] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:03:39,013 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:03:39] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:03:39,016 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:03:39] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:03:39,023 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:03:39] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:03:39,031 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:03:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:03:39,040 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:03:39] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:03:39,044 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:03:39] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:03:40,636 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:03:40] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 10:03:43,628 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-04-09 10:03:43,628 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-04-09 10:03:43,629 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:03:43] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:04:38,263 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:04:38] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:04:38,299 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:04:38] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:04:38,301 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:04:38] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:04:38,306 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:04:38] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:04:38,317 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:04:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:04:38,324 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:04:38] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:04:38,327 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:04:38] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:04:40,173 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:04:40] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 10:04:43,026 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-04-09 10:04:43,027 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-04-09 10:04:43,028 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:04:43] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:05:31,051 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:05:31] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:05:31,085 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:05:31] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:05:31,085 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:05:31] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:05:31,088 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:05:31] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:05:31,101 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:05:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:05:31,107 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:05:31] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:05:31,109 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:05:31] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:05:32,755 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:05:32] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 10:05:35,195 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-04-09 10:05:35,196 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-04-09 10:05:35,198 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:05:35] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:05:49,273 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:05:49] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:06:56,080 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/company_dashboard.py', reloading
+2026-04-09 10:06:56,366 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:06:56,851 - config - INFO - Application started
+2026-04-09 10:06:58,187 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:06:58,194 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:08:10,961 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:10] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:08:11,016 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:08:11,018 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:11] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:08:11,020 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:11] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:08:11,021 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:11] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:08:11,033 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:11] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:08:11,038 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:11] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:08:31,684 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:31] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:08:31,706 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:31] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:08:31,715 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:31] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:08:31,716 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:31] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:08:31,728 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:08:31,736 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:31] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:08:31,737 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:08:31] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:09:34,665 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:09:34] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:09:34,687 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:09:34] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:09:34,698 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:09:34] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:09:34,700 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:09:34] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:09:34,711 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:09:34] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:09:34,715 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:09:34] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:09:34,789 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:09:34] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:10:14,631 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:14] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:10:14,656 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:14] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:10:14,665 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:14] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:10:14,665 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:14] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:10:14,679 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:14] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:10:14,683 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:14] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:10:14,730 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:10:33,739 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:33] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:10:33,766 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:33] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:10:33,775 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:33] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:10:33,782 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:33] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:10:33,791 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:33] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:10:33,816 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:33] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:10:33,827 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:10:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:11:06,652 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:06] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:11:06,679 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:06] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:11:06,688 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:06] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:11:06,693 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:06] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:11:06,706 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:06] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:11:06,707 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:06] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:11:06,736 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:11:29,899 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:29] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:11:29,928 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:29] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:11:29,932 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:29] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:11:29,936 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:29] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:11:29,948 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:29] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:11:29,955 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:29] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:11:30,002 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:11:32,290 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:32] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 10:11:35,893 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-04-09 10:11:35,893 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-04-09 10:11:35,894 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:35] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:11:54,083 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-04-09 10:11:54,083 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-04-09 10:11:54,084 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:11:54] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:12:14,757 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '2') Reason : Finalized applications cannot be modified
+2026-04-09 10:12:14,757 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '2'))
+2026-04-09 10:12:14,759 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:12:14] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:12:18,364 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '2') Reason : Finalized applications cannot be modified
+2026-04-09 10:12:18,364 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '2'))
+2026-04-09 10:12:18,364 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:12:18] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:17:00,099 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:17:00] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:17:00,125 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:17:00] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:17:00,135 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:17:00] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:17:00,138 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:17:00] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:17:00,150 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:17:00] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:17:00,154 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:17:00] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:17:00,192 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:17:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:17:01,484 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:17:01] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 10:17:03,910 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-04-09 10:17:03,910 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-04-09 10:17:03,910 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:17:03] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:19:15,533 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:19:15] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:19:15,562 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:19:15] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:19:15,564 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:19:15] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:19:15,568 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:19:15] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:19:15,582 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:19:15] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:19:15,584 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:19:15] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:19:15,609 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:19:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:19:17,010 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:19:17] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 10:19:19,489 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-04-09 10:19:19,490 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-04-09 10:19:19,490 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:19:19] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:19:23,988 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-04-09 10:19:23,989 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-04-09 10:19:23,989 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:19:23] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:21:26,718 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:26] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:21:26,744 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:26] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:21:26,749 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:26] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:21:26,751 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:26] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:21:26,765 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:26] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:21:26,766 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:26] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-09 10:21:26,788 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:21:28,181 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:28] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 10:21:30,692 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-04-09 10:21:30,693 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-04-09 10:21:30,695 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:30] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:21:33,448 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '2') Reason : Finalized applications cannot be modified
+2026-04-09 10:21:33,448 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '2'))
+2026-04-09 10:21:33,449 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:33] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-09 10:21:53,723 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:21:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:22:13,374 - config - INFO - anchor information : ('name', 'Google')
+2026-04-09 10:22:13,376 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-04-09 10:22:13,541 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 10:22:13,554 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 10:22:13,567 - config - INFO - User Loged in Google
+2026-04-09 10:22:13,568 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 10:22:13,578 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-09 10:22:13,592 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:22:13,621 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:22:13,628 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:22:13,637 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:22:13,648 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:22:13,657 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:22:13,681 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:13] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:22:53,031 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:53] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:22:53,059 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:53] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:22:53,063 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:53] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:22:53,104 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:22:56,475 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:56] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 10:22:58,402 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:22:58,430 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:58] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 10:22:58,442 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:22:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:23:00,149 - config - INFO - anchor information : ('name', 'Google')
+2026-04-09 10:23:00,151 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-04-09 10:23:00,312 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:00] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 10:23:00,318 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:00] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 10:23:00,326 - config - INFO - User Loged in Google
+2026-04-09 10:23:00,327 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:00] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 10:23:00,333 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:00] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-09 10:23:00,344 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:00] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:23:00,370 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:00] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:23:00,375 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:00] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:23:00,390 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:23:26,072 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:26] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:23:26,101 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:26] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:23:26,107 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:26] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:23:26,108 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:26] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:23:26,124 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:26] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:23:26,128 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:26] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:23:26,144 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:23:27,965 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:27] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-09 10:23:29,230 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:29] "GET /company/ HTTP/1.1" 200 -
+2026-04-09 10:23:29,251 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:29] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:23:29,253 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:29] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:23:29,259 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:29] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:23:29,269 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:29] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:23:29,273 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:29] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:23:29,306 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:23:58,042 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:58] "[32mGET /student/ HTTP/1.1[0m" 302 -
+2026-04-09 10:23:58,063 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:58] "GET /login/ HTTP/1.1" 200 -
+2026-04-09 10:23:58,088 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:58] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 10:23:58,133 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:23:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:24:04,462 - config - INFO - anchor information : ('name', 'Madhav')
+2026-04-09 10:24:04,464 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav')
+2026-04-09 10:24:04,620 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 10:24:04,629 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 10:24:04,641 - config - INFO - User Loged in Madhav
+2026-04-09 10:24:04,642 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 10:24:04,654 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-09 10:24:04,675 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 10:24:04,706 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:24:04,711 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:24:04,718 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:24:04,729 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:24:04,734 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:24:04,744 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:24:17,820 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 10:24:17,822 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 10:24:17,823 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 10:24:17,824 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:17] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 10:24:29,884 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:29] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 10:24:29,907 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:29] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:24:29,909 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:29] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:24:29,910 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:29] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:24:29,928 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:24:29,933 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:29] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:24:29,939 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:24:29] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:25:01,308 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 10:25:01,309 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 10:25:01,310 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 10:25:01,310 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:01] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 10:25:14,468 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:14] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 10:25:14,491 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:14] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:25:14,494 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:14] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:25:14,496 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:14] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:25:14,515 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:14] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:25:14,517 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:14] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:25:14,521 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:25:19,362 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 10:25:19,362 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 10:25:19,363 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 10:25:19,364 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:19] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 10:25:54,261 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 10:25:54,262 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 10:25:54,263 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 10:25:54,264 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:54] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 10:25:54,310 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:25:56,248 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:56] "[32mGET /admin/ HTTP/1.1[0m" 302 -
+2026-04-09 10:25:56,285 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:56] "GET /login/ HTTP/1.1" 200 -
+2026-04-09 10:25:56,314 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:56] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 10:25:56,338 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:25:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:26:01,542 - config - INFO - anchor information : ('name', 'Admin1')
+2026-04-09 10:26:01,543 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-04-09 10:26:01,699 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 10:26:01,708 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 10:26:01,720 - config - INFO - User Loged in Admin1
+2026-04-09 10:26:01,721 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 10:26:01,733 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-04-09 10:26:01,756 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "GET /admin/ HTTP/1.1" 200 -
+2026-04-09 10:26:01,790 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:26:01,793 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:26:01,798 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:26:01,811 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:26:01,816 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:26:01,824 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:26:01,856 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:01] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-09 10:26:11,247 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:11] "GET /admin/users HTTP/1.1" 200 -
+2026-04-09 10:26:15,813 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 10:26:15,814 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 10:26:15,815 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 10:26:15,815 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:15] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 10:26:21,808 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 10:26:21,809 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 10:26:21,810 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 10:26:21,811 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:21] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 10:26:24,109 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:24] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-09 10:26:25,497 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:25] "GET /admin/users HTTP/1.1" 200 -
+2026-04-09 10:26:29,100 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:29] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-09 10:26:30,303 - config - INFO - Listing information : [(1, 3, 'Job1', "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", '2026-04-18 12:41:31', 'verified'), (2, 3, 'New Job', 'we want best', '2026-04-18 13:38:59', 'verified')]
+2026-04-09 10:26:30,304 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'Job1', 'discription': "Core Responsibilities\r\nFront-End Development: Creating visually appealing interfaces and layouts for web applications using HTML, CSS, and JavaScript.\r\nBack-End Development: Implementing server-side logic and database integration for functionality, such as user authentication or content management.\r\nWebsite Maintenance: Running site audits, repairing bugs, and applying updates to ensure optimal performance.\r\nCross-Browser Optimization: Ensuring sites function correctly across all browsers (Chrome, Safari, Firefox) and devices (desktop, mobile).\r\nCollaboration: Working with designers, project managers, and clients to meet business requirements. \r\nIndeed\r\nIndeed\r\n +6\r\nKey Skills & Requirements\r\nLanguages: Proficiency in HTML, CSS, JavaScript, and sometimes back-end languages (e.g., Python, PHP).\r\nTechnical Skills: Knowledge of responsive design, web frameworks, and version control systems (e.g., Git).\r\nProblem-Solving: Strong diagnostic skills for debugging and troubleshooting issues.\r\nEducation: Typically a bachelor's degree in Computer Science, or equivalent experience/bootcamp certification. \r\nWorkable\r\nWorkable\r\n +4\r\nTools & Technologies\r\nFrameworks: Knowledge of React, Vue, or Angular is frequently requested.\r\nContent Management Systems (CMS): Familiarity with WordPress or similar platforms. \r\nIndeed\r\nIndeed\r\n +4", 'status': 'verified'}
+2026-04-09 10:26:30,304 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 3, 'job_role': 'New Job', 'discription': 'we want best', 'status': 'verified'}
+2026-04-09 10:26:30,305 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:30] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-09 10:26:31,302 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:26:31] "GET /admin/users HTTP/1.1" 200 -
+2026-04-09 10:35:43,417 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:35:43,702 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:35:44,211 - config - INFO - Application started
+2026-04-09 10:35:45,535 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:35:45,542 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:39:39,712 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:39:40,021 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:39:40,471 - config - INFO - Application started
+2026-04-09 10:39:41,781 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:39:41,789 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:40:14,114 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:40:14,422 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:40:14,873 - config - INFO - Application started
+2026-04-09 10:40:16,042 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:40:16,045 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:40:16,147 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:16] "GET /admin/ HTTP/1.1" 200 -
+2026-04-09 10:40:16,182 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:16] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:40:16,184 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:16] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:40:16,190 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:16] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:40:16,219 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:16] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:40:16,220 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:16] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:40:16,227 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:16] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-09 10:40:16,231 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:40:27,702 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:27] "GET /login/ HTTP/1.1" 200 -
+2026-04-09 10:40:27,724 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:27] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-09 10:40:27,774 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:40:34,889 - config - INFO - anchor information : ('name', 'Madhav')
+2026-04-09 10:40:34,890 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav')
+2026-04-09 10:40:35,060 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-09 10:40:35,069 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-09 10:40:35,080 - config - INFO - User Loged in Madhav
+2026-04-09 10:40:35,081 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-09 10:40:35,092 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-09 10:40:35,118 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 10:40:35,150 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:40:35,152 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 10:40:35,156 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:40:35,175 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 10:40:35,177 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 10:40:35,180 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:40:40,323 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:40] "[35m[1mGET /student/applications HTTP/1.1[0m" 500 -
+2026-04-09 10:40:40,350 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:40] "GET /student/applications?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-04-09 10:40:40,351 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:40] "GET /student/applications?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-04-09 10:40:40,376 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:40:40,404 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:40] "GET /student/applications?__debugger__=yes&cmd=resource&f=console.png&s=iIAvVmxhV1dtSjnpO7xL HTTP/1.1" 200 -
+2026-04-09 10:40:40,530 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:40] "GET /student/applications?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-04-09 10:40:52,350 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:40:52,683 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:40:53,138 - config - INFO - Application started
+2026-04-09 10:40:54,131 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:40:54,133 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:40:54,156 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:54] "GET /student/applications HTTP/1.1" 200 -
+2026-04-09 10:40:54,202 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:40:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:43:29,619 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:43:29,933 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:43:30,404 - config - INFO - Application started
+2026-04-09 10:43:31,739 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:43:31,746 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:43:34,798 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:43:35,123 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:43:35,596 - config - INFO - Application started
+2026-04-09 10:43:36,919 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:43:36,924 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:43:53,659 - config - INFO - Application started
+2026-04-09 10:43:54,820 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-09 10:43:54,820 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-09 10:43:54,822 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:43:55,296 - config - INFO - Application started
+2026-04-09 10:43:56,593 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:43:56,598 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:43:59,563 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:43:59] "[35m[1mGET /student/applications HTTP/1.1[0m" 500 -
+2026-04-09 10:43:59,600 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:43:59] "[36mGET /student/applications?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-09 10:43:59,601 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:43:59] "[36mGET /student/applications?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-09 10:43:59,608 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:43:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:43:59,628 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:43:59] "GET /student/applications?__debugger__=yes&cmd=resource&f=console.png&s=PuVUA7xA1XzpkF5kzAYx HTTP/1.1" 200 -
+2026-04-09 10:43:59,677 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:43:59] "[36mGET /student/applications?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-09 10:44:45,082 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/drive.py', reloading
+2026-04-09 10:44:45,438 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:44:45,895 - config - INFO - Application started
+2026-04-09 10:44:46,637 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:44:46,644 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:44:46,685 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:44:46] "[35m[1mGET /student/applications HTTP/1.1[0m" 500 -
+2026-04-09 10:44:46,727 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:44:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:44:46,728 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:44:46] "[36mGET /student/applications?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-09 10:44:46,729 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:44:46] "[36mGET /student/applications?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-09 10:44:46,762 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:44:46] "GET /student/applications?__debugger__=yes&cmd=resource&f=console.png&s=pdIQfdOXk6Dax5l4gqRb HTTP/1.1" 200 -
+2026-04-09 10:44:46,799 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:44:46] "[36mGET /student/applications?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-09 10:45:02,849 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:45:03,161 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:45:03,485 - config - INFO - Application started
+2026-04-09 10:45:04,188 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:45:04,191 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:45:04,207 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:45:04] "GET /student/applications HTTP/1.1" 200 -
+2026-04-09 10:45:04,242 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:45:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:45:50,656 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:45:50,953 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:45:51,440 - config - INFO - Application started
+2026-04-09 10:45:52,167 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:45:52,171 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:45:52,199 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:45:52] "[35m[1mGET /student/applications HTTP/1.1[0m" 500 -
+2026-04-09 10:45:52,226 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:45:52] "[36mGET /student/applications?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-04-09 10:45:52,236 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:45:52] "[36mGET /student/applications?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-04-09 10:45:52,239 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:45:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:45:52,268 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:45:52] "GET /student/applications?__debugger__=yes&cmd=resource&f=console.png&s=ClZ4XHlQJjykdvSbtPsf HTTP/1.1" 200 -
+2026-04-09 10:45:52,326 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:45:52] "[36mGET /student/applications?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-04-09 10:46:01,299 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:46:01,637 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:46:02,092 - config - INFO - Application started
+2026-04-09 10:46:02,808 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:46:02,812 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:46:02,833 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:46:02] "GET /student/applications HTTP/1.1" 200 -
+2026-04-09 10:46:02,869 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:46:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:47:12,407 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:47:12,708 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:47:13,074 - config - INFO - Application started
+2026-04-09 10:47:13,696 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:47:13,698 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:48:17,305 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:48:17,605 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:48:18,059 - config - INFO - Application started
+2026-04-09 10:48:19,369 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:48:19,376 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:48:21,421 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:48:21,689 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:48:22,117 - config - INFO - Application started
+2026-04-09 10:48:23,374 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:48:23,380 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:49:49,212 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 10:49:49,456 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:49:49,664 - config - INFO - Application started
+2026-04-09 10:49:50,439 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:49:50,443 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 10:49:50,460 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:49:50] "GET /student/applications HTTP/1.1" 200 -
+2026-04-09 10:49:50,491 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 10:49:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 10:56:25,706 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/model/company.py', reloading
+2026-04-09 10:56:26,044 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 10:56:26,481 - config - INFO - Application started
+2026-04-09 10:56:27,783 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 10:56:27,789 - werkzeug - INFO -  * Debugger PIN: 345-880-828
+2026-04-09 11:02:24,935 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:24] "[33mGET /student/a HTTP/1.1[0m" 404 -
+2026-04-09 11:02:24,979 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 11:02:28,800 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:28] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 11:02:28,861 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 11:02:28,863 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:28] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 11:02:28,866 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:28] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:02:28,867 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:28] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:02:28,882 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:28] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:02:28,888 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:28] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-04-09 11:02:32,861 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:32] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-09 11:02:32,865 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:02:32] "GET /student/applications HTTP/1.1" 200 -
+2026-04-09 11:03:03,149 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:03] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 11:03:03,178 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:03] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 11:03:03,180 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:03] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:03:03,184 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:03] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:03:03,194 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:03] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:03:03,200 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:03] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-04-09 11:03:03,203 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 11:03:05,597 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:05] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-09 11:03:05,601 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:05] "GET /student/applications HTTP/1.1" 200 -
+2026-04-09 11:03:11,614 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:11] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 11:03:11,635 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:11] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:03:11,639 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:11] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 11:03:11,642 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:11] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:03:11,659 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:11] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:03:11,660 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:11] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 11:03:11,664 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:03:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 11:05:30,674 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:30] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 11:05:30,700 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:30] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 11:05:30,710 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:30] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:05:30,716 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:30] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:05:30,731 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:30] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 11:05:30,734 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:30] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:05:30,736 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 11:05:32,480 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:32] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 11:05:32,506 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:32] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 11:05:32,512 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:32] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:05:32,514 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:32] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:05:32,524 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:32] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:05:32,531 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 11:05:32,533 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:32] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 11:05:34,630 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:34] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-09 11:05:34,635 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:34] "GET /student/applications HTTP/1.1" 200 -
+2026-04-09 11:05:36,531 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:36] "GET /student/ HTTP/1.1" 200 -
+2026-04-09 11:05:36,552 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:36] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-09 11:05:36,559 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:36] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:05:36,561 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:36] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:05:36,574 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:36] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-09 11:05:36,579 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:36] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-09 11:05:36,581 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 11:05:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-09 11:06:23,328 - werkzeug - INFO -  * Detected change in '/home/madhav/Projects/niyukt/api/student_dashboard.py', reloading
+2026-04-09 11:06:23,686 - werkzeug - INFO -  * Restarting with stat
+2026-04-09 11:06:24,174 - config - INFO - Application started
+2026-04-09 11:06:25,544 - werkzeug - WARNING -  * Debugger is active!
+2026-04-09 11:06:25,552 - werkzeug - INFO -  * Debugger PIN: 345-880-828

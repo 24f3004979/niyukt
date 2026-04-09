@@ -45,6 +45,37 @@ def apply_into(drive_id):
     except Exception as e:
         return jsonify({'st':'failed'})
 
+# Render all applications applied by student and its status
+@student.route('/applications', methods=['GET'])
+def load_applications():
+    a = Application()
+    id = session.get('id')
+    anchor_information = [('student_id',id)]
+    applications = a.db.repo_fetch(anchor_information, 'drive_id,status')
+    print(applications)
+    d = Drive()
+    u = User()
+    # Fetch applications information company name, role , status
+    final_payload = []
+    for ap in applications:
+        info = {}
+
+        drive_id = ap[0]  # drive id
+        status = ap[1]  # status of application
+        anchor_info = ('id', drive_id)
+        company_id, job_role = d.repo.fetch(anchor_info, 'company_id,job_role')
+        print(f"drive Information {drive_id} with role : {job_role}")
+
+        # Fetch company name with company id
+        anchor_info = ('id', company_id)
+        company_name = u.repo.fetch(anchor_info, 'name')
+
+        # Final infomration payload
+        info['company_name'] = company_name
+        info['job_role'] = job_role
+        info['status'] = status
+        final_payload.append(info)
+    return final_payload
 
 
 def drive_listing():
@@ -70,5 +101,7 @@ def drive_listing():
         info['discription'] = drive[2] # discription
         info['status'] = drive[3]
         info['drive_id'] = drive[4]
+
+        # fetch student drive status with application if any
         listing_payload.append(info)
     return listing_payload # Final payload for verified drives listing

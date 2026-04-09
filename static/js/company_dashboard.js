@@ -23,8 +23,9 @@ function renderUsers(users){
   <table id="users">
   <tr class="head-table">
   <th> Name </th>
-  <th> Role </th>
-  <th> Status </th>
+  <th> Resume </th>
+  <th> Final Decission </th>
+  <th> Control </th>
   </tr>
   `;
 
@@ -33,7 +34,8 @@ function renderUsers(users){
     <tr class='table_element'>
     <td class="name"> ${user.name} </td>
     <td> ${user.resume} </td>
-    <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.status}"> ${user.status} </button> </td>
+    <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.application_id}"> ${user.status} </button> </td>
+    <td> <button class='control-btn' onclick="RejectStatus(this)" id="${user.application_id}"> reject </button> </td>
     </tr>
 `
   });
@@ -56,7 +58,7 @@ async function AlterStatus(element){
   }
 
   const data = {
-    name : element.id,
+    drive_id : element.id,
     status : current_status,
     target_status : target,
     work : "alter" // delete for deleting :)
@@ -79,6 +81,47 @@ async function AlterStatus(element){
   const result = await response.json();
   element.textContent = target;
   }
+
+
+// TODO : Make one alter application function
+async function RejectStatus(element){
+  console.log(element.id); // fetching information about the element
+  let current_status = element.textContent;
+
+  let target = "rejected"
+  const data = {
+    drive_id : element.id,
+    status : current_status,
+    target_status : target,
+    work : "alter" // delete for deleting :)
+  }
+
+  console.log(`Sending status for the given elemnt : ${data.st}`)
+
+  const response = await fetch(`http://127.0.0.1:8080/company/alter-application`,
+    {
+      method : "POST",
+      headers : {
+        'Content-Type' : 'application/json'  // such critical stuff :
+      },
+      body : JSON.stringify(data)
+    })
+  if (!response.ok){
+    console.log("Failed with not ok");
+  }
+
+  const result = await response.json();
+  console.log("Response for the rejection");
+  console.log(result);
+  if (result.st === "Failed"){
+    element.innerText = "Finalized status";
+  }
+  element.innerText = result.st;
+}
+
+
+
+
 /*
 // Binding apply button
 let elements = document.querySelectorAll('.apply-btn')

@@ -66,10 +66,10 @@ async function AlterDriveStatus(element){
 }
 
 
-document.getElementById("requests-btn").addEventListener('click', loaddrives);
+document.getElementById("data-btn").addEventListener('click', loaddrives);
 
 async function loaddrives(){
-  const response = await fetch("http://127.0.0.1:8080/admin/requests");
+  const response = await fetch("http://127.0.0.1:8080/student/applications");
 
   if (!response.ok){
     console.log("Failed for drivers fetch")
@@ -85,12 +85,11 @@ function renderDrive(drives){
   let content = document.getElementById("main-content");
   let html = `
   <div id="user-control-panel">
-    <h1 style="color : white"> DRIVES </h1>
+    <h1 style="color : white"> APPLICATIONS MADE </h1>
       <table id="drives">
         <tr class="head-table">
           <th> Company Name </th>
           <th> Job role </th>
-          <th> Discription </th>
           <th> current stage </th>
         </tr>
   `;
@@ -100,9 +99,9 @@ function renderDrive(drives){
     html += `
     <tr class="table_element">
       <td id="name"> ${drive.company_name } </td>
-      <td> ${drive.job_role} </td>
-      <td> ${drive.discription} </td>  <!-- Making simple for now expanding thing in future -->
-      <td> <button class="drive-ctrl-btn" id="${drive.drive_id}" onclick="AlterDriveStatus(this)" > ${drive.status} </td>
+      <td> ${drive.company_name} </td>
+      <td> ${drive.job_role} </td>  <!-- Making simple for now expanding thing in future -->
+      <td> ${drive.status} </td>
     </tr>
     `
   });
@@ -186,4 +185,6 @@ function filterUsers(){
   });
 }
 
+
 // Final commit for admin dashboard build
+

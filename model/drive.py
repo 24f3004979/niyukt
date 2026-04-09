@@ -6,11 +6,13 @@ Simple unit for handleing placement drive
     3. Update DB and sync fetch responses
 '''
 from endpoint.GenericModel import *
+from endpoint.repo import *
 
 class Drive:
     def __init__(self):
         columns = ("company_id", "job_role", "description")
         self.db = GenericModel("placement_drive", columns)
+        self.repo = Repo("placement_drive")
 
     def create(self, information):
         try:
