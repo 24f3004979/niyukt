@@ -4,21 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Niyukt</title>
-    <!--<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}"> -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+
   </head>
   <body>
-
+    <div id="bar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav-bar">
-      <div class="container-fluid">
+      <div class="container-fluid" id="bar-core">
         <a class="navbar-brand" href="#"><img
             src="{{ url_for('static', filename='images/niyukt.svg') }}"
             height=70 width=70></a>
-        <a class="navbar-brand" href="#">Niyukt</a>
+        <a class="navbar-brand" href="#"><strong>Niyukt</strong></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNav" aria-controls="navbarNav"
@@ -28,10 +25,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://127.0.0.1:8080/login">Account</a>
+              <a class="nav-link" href="http://127.0.0.1:8080/login">LOGIN</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -40,6 +37,15 @@
         </div>
       </div>
     </nav>
+    </div>
+    
+    <div id="hero-section">
+      <div id="hero-text">
+        <h1 class="display-1"> FOR YOU </h1>
+        <h2 class="display-2"><strong><b> With YOU</b></strong></h2>
+      </div>
+      <button id="start"><strong><b>GET STARTED</b></strong></button>
+    </div>
 
     
 

@@ -1,170 +1,66 @@
-:root {
-  --font-primary: "Ubuntu Mono";
-  --font-ui: "JetBrain Mono;
-}
-
-
-
-body {
-    font-family: var(--font-ui);
-    font-size: 16px; /* Set a base font size if needed */
-    line-height: 1.5; /* Improve readability */
-    margin: 0; /* Reset default margin */
-    padding: 0; /* Reset default padding */
-}
-
-/* Additional styling */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif; /* Ensure headings use the same font */
-}
-
-p {
-    font-family: 'Roboto', sans-serif; /* Ensure paragraphs use the same font */
-}
-
-
 *{
   margin:0;
   padding:0;
 }
 
-#logo-image{
-  heigth : 5rem;
-  width :5rem;
-}
-
-.center-item{
-  display : flex;
-  justify-content : center;
-  align-items : center;
-}
-
-.app{
+#bar{
+  background-color: hsl(0, 0%, 0%);
+  height: 10rem;
   width : 100%;
-  
-  display : flex;
-  justify-content : space-around;
-}
 
-header{
   display : flex;
-  justify-content : center;
-  background-color : black;
+  justify-content: center;
   align-items: center;
-  padding : 3rem;
 }
 
-#main-bar{
-  display: flex;
-  justify-content :space-between;
-  align-items : center;
-  background-color : hsl(0, 0%, 10%);
-  border-radius : 5px;
-  width : 80%;
-  height : 3rem;
+#nav-bar{
+  border-radius: 10px;
 }
 
-#logo{
-  background-color : yellow;
-  height : 6rem;
-  width : 6rem;
-  background-color : transparent;
-
-}
-
-#log-in{
-  background-color : yellow;
-  height : 3rem;
-  width : 5rem;
-  font-weight : bolder;
-  color : black;
-  border-radius : 10px;
-}
-
-nav{
-  background-color : yellow;
-  display: flex;
-  justify-content : space-around;
-  align-items : center;
-  height : 3rem;
-  width : 16rem;
-  border-radius : 10px;
-}
-
-nav a{
-  text-decoration : none;
-  font-weight : lighter;
-  font-size : 1rem;
-  color : black;
-}
 
 #hero-section{
-  background-color : black;
-  height : 100vh;
-  width : 100%;
-}
-
-#hero-content{
-  padding : 2%;
-  display : flex;
-  background-color  : hsl(0, 0%, 10%);
-  padding : 2%;
-  align-items : center;
-  justify-content : space-around;
-  height : 60rem;
-  width : 60rem;
-
-  border-radius : 10px;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 }
 
 #hero-text{
-  height : 20rem;
-  width : 30rem;
-}
-#hero-text h1{
-  font-size: 5rem;
-  color  : hsl(0, 100%, 100%);
-}
-
-#image-section-college{
-  background-color : yellow;
-  height : 20rem;
-  width : 20rem;
-  border-radius : 10px;
-}
-
-#breif-section{
-  background-color : black;
-  height : 80vh;
-  width : 100%;
-}
-
-#breif-content{
-  background-color : hsl(0, 0%, 10%);
-  height : 80%;
-  width : 80%;
+  height: 30rem;
+  width :40%;
   display: flex;
-  justify-content : space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  background-color: hsl(0,0%,5%);
+  animation: float 5s ease-in-out infinite;
+}
+#hero-text h1,h2{
+  color : hsl(100,100%,90%);
 }
 
-.breif-content{
-  height : 30rem;
-  width : 40rem;
-  background-color : yellow;
-  display : flex;
-  border-radius : 10px;
-  align-items : center;
-  justify-content : center;
-  justify-content : center;
-  align-items : center;
+#start{
+  height : 4rem;
+  width: 10rem;
+  border-radius: 5px;
+  color : white;
+  font-weight: 100;
+  font-size : 14px;
+  background-image: linear-gradient(rgb(255, 0, 0),blue);
 }
 
-#colleg-image-elem{
-  height : 24rem;
-  width : 33rem;
-  border-radius : 10px;
-  margin : 2%;
-}
 
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 

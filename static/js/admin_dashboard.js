@@ -164,7 +164,7 @@ function renderGraph(images){
 
   let content = document.getElementById("main-content");
   let html = `
-  <h1> Graphs </h1>
+  <h1 style='color:white;'> Graphs </h1>
   `
   // Making image and their heding with this format
   images.forEach(image =>{
@@ -202,6 +202,8 @@ async function loadgraph(){
   console.log(data.image);
   renderGraph(data.image);
 }
+
+document.getElementById('data-btn').addEventListener('click',loadgraph);
 
 // Search Box functionality Making simple searching way for filtering the given changes
 document.getElementById("search-box").addEventListener('input', filterUsers);
