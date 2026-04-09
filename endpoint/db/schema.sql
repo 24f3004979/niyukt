@@ -10,7 +10,7 @@ CREATE TABLE user (
 
     role TEXT NOT NULL CHECK(role in ('student', 'company', 'admin')),
     status TEXT NOT NULL DEFAULT 'deactivated'
-        CHECK(status IN ('active', 'deactivated'))
+        CHECK(status IN ('activated', 'deactivated'))
 );
 
 -- Company

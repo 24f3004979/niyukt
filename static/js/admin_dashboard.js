@@ -13,7 +13,7 @@ function renderUsers(users){
   let html = `
   <div id="user-control-panel">
   <h1 style="color : white"> USERS </h1>
-  <table id="users">
+  <table id="drives"  class='table'>
   <tr class="head-table">
   <th> Name </th>
   <th> Role </th>
@@ -22,11 +22,19 @@ function renderUsers(users){
   `;
 
   users.forEach(user =>{
+    
+    if (user.status == "deactivated"){
+      status = "activate"
+    }
+    if (user.status === "activated"){
+      status = "deactivate"
+    }
+
     html += `
     <tr class='table_element'>
     <td class="name"> ${user.name} </td>
     <td> ${user.role} </td>
-    <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.name}"> ${user.status} </button> </td>
+    <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.name}">${status}</button> </td>
     </tr>
 `
   });
@@ -114,7 +122,7 @@ function renderDrive(drives){
   let html = `
   <div id="user-control-panel">
     <h1 style="color : white"> DRIVES </h1>
-      <table id="drives">
+      <table id="drives" class='table'>
         <tr class="head-table">
           <th> Company Name </th>
           <th> Job role </th>
@@ -147,6 +155,8 @@ function render_dashboard(data){
   `
   content.innerHTML = html;
 }
+
+
 
 function renderGraph(images){
   console.log("Loading Images for the admin panel");

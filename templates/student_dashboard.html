@@ -12,8 +12,11 @@
   <body>
   <div id="main-bar">
       <div id="search-bar">
+        <a href="/logout" style="color : white; text-decoration: none;">LOGOUT</a>
           <input type="text" id="search-box">
           <button type="submit">search</button>
+          <a href="http://127.0.0.1:8080/student" style="text-decoration: none; color:white">HOME</a>
+
       </div>
   </div>
 
@@ -21,13 +24,13 @@
 
   <aside id="control-units">
     <a id="user-btn" href='http://127.0.0.1:8080/student/'><img class="icon" src="{{ url_for('static', filename='icons/user.svg')}}" > </a>
-    <a id="requests-btn"><img class="icon" src="{{ url_for('static', filename='icons/request.svg')}}"> </a>
-    <a id="data-btn"><img class="icon" src="{{ url_for('static', filename='icons/Charts.svg')}}" > </a>
+    <a id="data-btn"><img class="icon" src="{{ url_for('static', filename='icons/history.svg')}}" > </a>
   </aside>
 
   <div id="main-content">
-        <h1 class='display-1' style='color:white;'>STUDENT  INFORMATION</h1>
-        <table class='table' id="info-box">
+    <h1 style="color:azure"> Hey ! {{dashboard_information[0]}}</h1>
+        <h1 class='display-1' style='color:white;'>STUDENT DASHBOARD</h1>
+        <table class='table' id="dashboard-info">
           <tr>
             <th>
               Company Name
@@ -51,7 +54,7 @@
               <td> {{ drive['job_role'] }}</td>
               <td> {{ drive['discription'] }}</td>
               <td> {{ drive['status']  }}</td>
-            <td><button id="{{ drive['drive_id'] }}" class="apply-btn">Apply</button></td>
+            <td><button id="{{ drive['drive_id'] }}" class="apply-btn" style="background-color: aquamarine;">{{ drive['student_status']}}</button></td>
             </tr>
           {% endfor %}
             

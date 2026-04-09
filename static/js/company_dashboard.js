@@ -20,7 +20,7 @@ function renderUsers(users){
   let html = `
   <div id="user-control-panel">
   <h1 style="color : white"> USERS </h1>
-  <table id="users">
+  <table id="users-box" class='table'>
   <tr class="head-table">
   <th> Name </th>
   <th> Resume </th>
@@ -34,8 +34,8 @@ function renderUsers(users){
     <tr class='table_element'>
     <td class="name"> ${user.name} </td>
     <td> ${user.resume} </td>
-    <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.application_id}"> ${user.status} </button> </td>
-    <td> <button class='control-btn' onclick="RejectStatus(this)" id="${user.application_id}"> reject </button> </td>
+    <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.application_id}" style='background-color:green;'> ${user.status} </button> </td>
+    <td> <button class='control-btn' onclick="RejectStatus(this)" id="${user.application_id}" style='background-color:red;'> reject </button> </td>
     </tr>
 `
   });

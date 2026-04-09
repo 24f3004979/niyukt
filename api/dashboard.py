@@ -23,7 +23,7 @@ def dashboard():
         return redirect("/register/login")
 
     log.info(f"User Loged in {user}")
-    if status == "active": # Based on Role navigate dashboard
+    if status == "activated": # Based on Role navigate dashboard
         if role == "admin":
             print(f"ADMIN LOGED IN ======+  +++++++++++++++++++++++ +----------------")
             return redirect('/admin')

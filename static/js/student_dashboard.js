@@ -4,6 +4,10 @@ async function ApplyDrive(element){
   console.log(element.id); // fetching information about the element
   let current_status = element.textContent;
 
+  if (current_status === "selected"){
+    return;
+  }
+
   const data = {
     name : element.id,
     st : current_status,
@@ -41,6 +45,9 @@ elements.forEach(element => {
 async function AlterDriveStatus(element){
   console.log(`Element id with element.id as : ${element.id}`);
   let current_status = element.textContent;
+  if(element.innerText === 'selected'){
+    return;
+  }
 
   const data = {
     drive_id : element.id,
@@ -98,7 +105,6 @@ function renderDrive(drives){
     // TODO : With same pattern make alteration sequence for controlling drives in college
     html += `
     <tr class="table_element">
-      <td id="name"> ${drive.company_name } </td>
       <td> ${drive.company_name} </td>
       <td> ${drive.job_role} </td>  <!-- Making simple for now expanding thing in future -->
       <td> ${drive.status} </td>

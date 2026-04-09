@@ -1,4 +1,4 @@
-from flask import Flask, render_template, session
+from flask import Flask, render_template, session, flash
 from api.registration import register
 from api.admin import admin
 from api.login import login_route
@@ -22,6 +22,12 @@ app.register_blueprint(student)
 def launch():
     return render_template('index.html')
 # BUG : Anyone can access admin any one can access the other account
+
+@app.route('/logout', methods=['GET'])
+def logout():
+    session.clear()
+    flash("Loged out :)", "success")
+    return redirect('http://127.0.0.1:8080/')
 
 if __name__ == "__main__":
     app.run(debug=True, port=8080)

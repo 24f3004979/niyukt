@@ -48,7 +48,7 @@ def test_user_model():
         "name": user,
         "email" : mail,
         "password" : "123",
-        "status" : "active",
+        "status" : "activated",
         "role" : "student"
     }
     
@@ -63,7 +63,7 @@ def test_student_model():
         "name": user,
         "email" : mail,
         "password" : hash_password("123"),
-        "status" : "active",
+        "status" : "activated",
         "role" : "student"
     }
 

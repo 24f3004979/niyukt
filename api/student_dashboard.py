@@ -15,8 +15,12 @@ from model.application import *
 
 student = Blueprint('/student', __name__, url_prefix="/student")
 
-def dashbaord_information(user_name):
-    pass # Making stuent specific dashbaord information
+def dashboard_information(user_name):
+    anchor_information = ('name', user_name)
+    u = User()
+    information = u.repo.fetch(anchor_information, 'name,email')
+    print(f"Dashboard information loaded for user :{information}")
+    return information
 
 @student.route('/')
 def root():
@@ -28,7 +32,9 @@ def root():
         return redirect('/login')
     drive_list = drive_listing()
     print(f"Drive list : {drive_list}")
-    return render_template('student_dashboard.html', drive_listing=drive_list)
+    name = session.get('user_name')
+    information = dashboard_information(name)
+    return render_template('student_dashboard.html', drive_listing=drive_list,dashboard_information=information)
 
 @student.route('/apply/<int:drive_id>', methods=['POST'])
 def apply_into(drive_id):
@@ -47,6 +53,10 @@ def apply_into(drive_id):
 
 # Render all applications applied by student and its status
 @student.route('/applications', methods=['GET'])
+def applicatiions():
+    payload = load_applications()
+    return payload
+
 def load_applications():
     a = Application()
     id = session.get('id')
@@ -63,7 +73,7 @@ def load_applications():
         drive_id = ap[0]  # drive id
         status = ap[1]  # status of application
         anchor_info = ('id', drive_id)
-        company_id, job_role = d.repo.fetch(anchor_info, 'company_id,job_role')
+        company_id, job_role,drive_id = d.repo.fetch(anchor_info, 'company_id,job_role,id')
         print(f"drive Information {drive_id} with role : {job_role}")
 
         # Fetch company name with company id
@@ -74,6 +84,7 @@ def load_applications():
         info['company_name'] = company_name
         info['job_role'] = job_role
         info['status'] = status
+        info['drive_id'] = drive_id
         final_payload.append(info)
     return final_payload
 
@@ -101,6 +112,15 @@ def drive_listing():
         info['discription'] = drive[2] # discription
         info['status'] = drive[3]
         info['drive_id'] = drive[4]
+
+        # Iterating all of the applications for makig the listing of current status
+        applications_list = load_applications()
+        current_id = drive[4]
+        for i in applications_list:
+            if current_id == i['drive_id']: # BUG: Messed up logic for checking status via applications
+                status = i['status']
+                break 
+        info['student_status'] = status  # current student status
 
         # fetch student drive status with application if any
         listing_payload.append(info)

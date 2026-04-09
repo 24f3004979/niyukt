@@ -55,20 +55,26 @@ def alterstatus():
     data = request.get_json()
     user_name = data.get("name")
     status = data.get("st").strip()
+    
 
     print(f"Initial status of given element : {status}")
 
     user = User()
+
+    if status == "deactivate":
+        update_status = "deactivated"
+    else:
+        update_status = "activated"
     # Updating DB
     try:
         anchor_information = ("name",user_name)
-        update_information = ("status", status)
+        update_information = ("status", update_status)
 
         user.db.update(update_information, anchor_information)
-        if status == "deactivated":
-            return jsonify({"status":"success", "st":"active"})
+        if update_status == "deactivated":
+            return jsonify({"status":"success", "st":"activate"})
         else:
-            return jsonify({"status":"success", "st":"deactivated"})
+            return jsonify({"status":"success", "st":"deactivate"})
     except Exception as e:
         print(f"Updating User inforamation failed with {e}")
         return jsonify("status", "Failed")

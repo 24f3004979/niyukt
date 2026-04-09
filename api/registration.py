@@ -105,7 +105,7 @@ def student_register():  # Working student registration flow tested :)
 
         info = extract_information(data)
         info["role"] = "student"
-        info["status"] = "active"
+        info["status"] = "activated"
         # password hash
 
         selection = data.get("branch-selection")
@@ -122,7 +122,7 @@ def student_register():  # Working student registration flow tested :)
         student = Student()
         try:
             if student.activate(information):
-                return "Student Registered : Wellcome to niyukt"
+                return "Student Registered"
             else:
                 return "Student Registration Failed"
         except Exception as e:

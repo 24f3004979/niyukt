@@ -6,16 +6,16 @@
 body{
   height : 100vh;
   width : 100%;
+  background-color: black;
 }
 
 #main-bar{
   display : flex;
   align-items: center;
-  justify-content : center;
+  justify-content : space-around;
   height : 4rem;
   width : 100%;
-  background-color : hsl(0, 0%, 20%);
-
+  background-color : hsl(0, 0%, 10%);
 }
 
 #search-bar{
@@ -23,14 +23,14 @@ body{
   justify-content : center;
   align-items : center;
   height : 3rem;
-  width : 30rem;
+  width : 40rem;
+  gap : 1%;
   position: fixed;
-  z-index : 2;
-  backdrop-filter: blur(10px);
 }
 #search-box{
   height : 2rem;
   font-size : 20px;
+  width : 40rem;
   font-family : "JetBrains Mono";
 }
 
@@ -51,7 +51,7 @@ body{
   border-radius : 10px;
   justify-content : space-around;
 
-  background-color : hsl(0, 0%, 15%);
+  background-color : hsl(0, 0%, 10%);
 }
 
 #app{
@@ -66,12 +66,15 @@ body{
 }
 
 #main-content{
-  background-color : hsl(0,0%, 15%);
+  background-color : hsl(0,0%, 10%);
   height: 80%;
   width : 80%;
 
   display: flex;
-  flex-direction : column;
+  flex-direction: column;
+
+  
+  align-items: center;
 
 
   overflow-y : scroll;
@@ -108,7 +111,31 @@ th{
 
 button{
   background-color : orange;
-  width : 5rem;
+  width : 8rem;
   height : 2rem;
 }
 
+.info-box{
+  width : 50rem;
+  border-radius : 5%;
+}
+
+#dashboard-info{
+  width : 40rem;
+}
+
+#users-box{
+  width : 40rem;
+}
+
+#create-drive-button{
+  background-color : blue;
+}
+
+.drive-btn{
+  width : 15rem;
+}
+
+#drives{
+  width : 30rem;
+}

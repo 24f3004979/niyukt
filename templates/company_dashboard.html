@@ -11,24 +11,21 @@
   </head>
   <body>
   <div id="main-bar">
+      
       <div id="search-bar">
+        <a href="/logout" style="color : white; text-decoration: none;">LOGOUT</a>
+          <a href= "http://127.0.0.1:8080/company/create-drive"><button id='create-drive-button'>create drive</button></a>
           <input type="text" id="search-box">
           <button type="submit">search</button>
+          <a href="http://127.0.0.1:8080/company" style="text-decoration: none; color:white">HOME</a>
       </div>
   </div>
 
   <section id="app">
 
-  <aside id="control-units">
-    <a id="user-btn" href='http://127.0.0.1:8080/company/'><img class="icon" src="{{ url_for('static', filename='icons/user.svg')}}" > </a>
-    <a id="requests-btn"><img class="icon" src="{{ url_for('static', filename='icons/request.svg')}}"> </a>
-    <a id="data-btn"><img class="icon" src="{{ url_for('static', filename='icons/Charts.svg')}}" > </a>
-
-  </aside>
-
   <div id="main-content">
-        <h1 class='display-1' style='color:white;'>COMPANY INFORMATION</h1>
-        <table class='table' id="info-box">
+        <h1 class='display-1' style='color:white;'> <strong id='company_name'>COMPANY</strong>DASHBOARD</h1>
+        <table  class="table" id="dashboard-info">
           <tr>
           <th>Job Role</th>
           <th>status</th>

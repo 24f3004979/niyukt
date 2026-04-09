@@ -13,7 +13,7 @@ body{
   display: flex;
   justify-content : center;
   align-items : center;
-  background-color : black;
+  background-color: black;
 }
 
 #form-content-box{
@@ -24,7 +24,7 @@ body{
 
 
 #form-content{
-  background-color : hsl(0, 0%, 85%);
+  background-color : hsl(0,0%, 5%);
   height : 50rem;
   width : 50rem;
   display:flex;
@@ -34,19 +34,20 @@ body{
   flex-direction : column;
   border-radius : 10px;
   box-shadow : 2px white;
+  border:solid white 2px;
 }
 
 
 .input-box{
   background-color : hsl(0, 0%, 95%);
   height : 3rem;
-  width : 16rem;
+  width : 20rem;
   border-radius : 5px;
 
   display : flex;
   align-items : center;
   justify-content : space-between;
-  padding :2%;
+  padding : 2%;
 }
 
 
