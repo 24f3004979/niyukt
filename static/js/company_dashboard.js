@@ -65,7 +65,7 @@ function renderUsers(users) {
     <div class="application-card">
       <div class="card-header">
         <span class="user-name">${user.name}</span>
-        <div class="status-badge" style="background-color: ${user.status === 'accepted' ? 'green' : '#444'}">
+        <div class="status-badge" style="background-color: ${user.status === 'selected' ? 'green' : '#ff0000'}; padding:1%; border-radius : 5px; color: white;">
           ${user.status}
         </div>
       </div>
@@ -76,7 +76,7 @@ function renderUsers(users) {
 
       <div class="card-actions">
         <button class="control-btn accept" onclick="AlterStatus(this)" id="${user.application_id}">
-          Update Status
+          ${user.status}
         </button>
         <button class="control-btn reject" onclick="RejectStatus(this)" id="${user.application_id}">
           Reject
@@ -100,8 +100,20 @@ async function AlterStatus(element){
   let current_status = element.textContent;
 
   let target = "selected"
+  if (current_status === "shortlist"){
+    target = 'shortlisted';
+  }
   if (current_status === "applied"){
-    target = 'selected';
+    target='shortlisted';
+  }
+  if (current_status == 'shortlisted'){
+    target = 'selected'; // No going back
+  }
+  if (current_status === "selected"){
+    return;
+  }
+  if (current_status === "rejected"){
+    return;
   }
 
   const data = {
@@ -123,6 +135,7 @@ async function AlterStatus(element){
     })
   if (!response.ok){
     console.log("Failed with not ok");
+    return;
   }
 
   const result = await response.json();

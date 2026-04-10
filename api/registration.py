@@ -122,11 +122,14 @@ def student_register():  # Working student registration flow tested :)
         student = Student()
         try:
             if student.activate(information):
-                return "Student Registered"
+                message = "You Have succesfully rejistered LOG IN NOW"
+                return render_template('success.html', message=message)
             else:
-                return "Student Registration Failed"
+                message = "Our servers are out ! report this error at our customer service"
+                return render_template('fail.html', message=message)
         except Exception as e:
-            return f"Failing With {e}"
+            message = "Either email or student name is already present, try again with different name "
+            return render_template('fail.html', message=message)
 
 @register.route("/company", methods=['POST', 'GET'])
 def register_company():
@@ -152,13 +155,17 @@ def register_company():
 
         try:
             if company.initiate(information):
-                return f"Company Registered : Admin Aproval required"
+                message = "You Have succesfully rejistered, Admin verification pending LOG IN NOW"
+                return render_template('success.html', message=message)
             else:
-                return "Company Registration Failed"
+                message = "We already have such company please register with different name and email"
+                return render_template('fail.html', message=message)
         except UserExists as e:
-            return f"User Exsists"
+            message = "We already have such company please register with different name and email"
+            return render_template('fail.html', message=message)
         except Exception as e:
-            return "Company Registration failed : Error"
+            message = "Our servers are out ! report this error at our customer service"
+            return render_template('fail.html', message=message)
 
 
         

@@ -34,7 +34,7 @@ function renderUsers(users){
     <tr class='table_element'>
     <td class="name"> ${user.name} </td>
     <td> ${user.role} </td>
-    <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.name}">${status}</button> </td>
+    <td> <button class="control-btn" onclick="AlterStatus(this)" id="${user.name}" style='color:black;'>${status}</button> </td>
     </tr>
 `
   });
