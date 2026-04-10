@@ -176,9 +176,6 @@ function renderGraph(images){
   content.innerHTML = html;
 }
 
-// Loading Graphs
-document.getElementById("data-btn").addEventListener('click', loaddashboard);
-
 async function loaddashboard(){
   const response = await fetch("http://127.0.0.1:8080/admin/dashboard")
 

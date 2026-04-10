@@ -13,13 +13,30 @@ class Repo:
     def __init__(self, table_name):
         self.table = table_name
 
-    def count(self):
-        q = f"select count(*) from {self.table}"
+    def count(self, target='*',condition=None):
+        q = f"select count({target}) from {self.table}"
+
         with sql.connect(path) as connection:
             cursor = connection.cursor()
-            cursor.execute(q)
+            if condition:
+                condition_string = ' where '
+                i = 1
+                data = []
+                for c in condition:
+                    condition_string += f'{c[0]} = ?{i}'
+                    data.append(c[1])
+                    if condition.index(c) < len(condition) - 1:
+                        condition_string += ' and '
+                # Simple And string query
+                q += condition_string
+                data =tuple(data)
+                print(f"Count Execution : {q} with data :{data}")
+                cursor.execute(q, data)
+            else:
+                cursor.execute(q)
             fetch = cursor.fetchone()
             return int(fetch[0])
+
     def exists(self, name):
         '''Making Existence check with search api of repo'''
         anchor_information = ("name", name)

@@ -116,6 +116,7 @@ def drive_listing():
         # Iterating all of the applications for makig the listing of current status
         applications_list = load_applications()
         current_id = drive[4]
+        status = 'apply'
         for i in applications_list:
             if current_id == i['drive_id']: # BUG: Messed up logic for checking status via applications
                 status = i['status']

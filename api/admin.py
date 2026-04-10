@@ -12,6 +12,8 @@ from model.user import *
 from flask import jsonify
 import matplotlib.pyplot as plt
 from endpoint.repo import *
+import matplotlib.pyplot as plt
+from model.application import *
 
 
 admin = Blueprint('/admin', __name__, url_prefix="/admin")
@@ -151,10 +153,28 @@ def graphs():  # Addon Feature touched
 
     Images creation should be handled with other function and into the main loop
     Making error for main loop thread error
+
+    Fetch information from placement portal
     '''
-    # Make list of images for loading
-    #TODO: Images are not being loaded with the main loader
-    print(f"Graphs loading graph function")
+    # Loading data
+    applications = Application()
+    condition1 = [('status','selected')]
+    condition2 = [('status','rejected')]
+    condition3 = [('status','shortlisted')]
+
+    selected = applications.repo.count('id', condition1)
+    rejected = applications.repo.count('id', condition2)
+    shortlisted = applications.repo.count('id', condition3)
+
+    # Making simple graph setup for given information
+    types = ['shortlisted', 'selected', 'rejected']
+    values = [shortlisted,selected, rejected] 
+
+    plt.figure()
+    plt.bar(types, values)
+    plt.title("Student Application Analysis")
+    plt.savefig('/home/madhav/Projects/niyukt/static/images/fig.png')
+    
     return jsonify({"image":["/images/fig.png"]})
 
 
