@@ -139,3 +139,69 @@ button{
 #drives{
   width : 30rem;
 }
+
+/* Container for all cards */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+/* Individual Card Styling */
+.application-card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.user-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Markdown Rendering Container */
+.resume-content {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: auto; /* Scrollable for long resumes */
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+  text-align: left;
+}
+
+/* Ensure Markdown elements inside look good */
+.resume-content h1, .resume-content h2 { margin-top: 0; color: #222; }
+.resume-content ul { padding-left: 20px; }
+
+.card-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.control-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.accept { background-color: #28a745; }
+.reject { background-color: #dc3545; }

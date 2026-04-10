@@ -12,7 +12,7 @@ elements.forEach(element => {
 function loadapplications(element){
   fetch(`http://127.0.0.1:8080/company/applications/${element.id}`).then(response => response.json()).then(data => renderUsers(data));
 }
-
+/*
 function renderUsers(users){
   let content = document.getElementById("main-content");
   
@@ -44,6 +44,53 @@ function renderUsers(users){
 
   content.innerHTML = html;
 }
+*/
+// Resume rendering logic
+
+function renderUsers(users) {
+  let content = document.getElementById("main-content");
+
+  // Header and Container
+  let html = `
+  <div id="user-control-panel">
+    <h1 style="color: white; margin-bottom: 20px;">Applications</h1>
+    <div class="cards-container">
+  `;
+
+  users.forEach(user => {
+    // Convert raw resume text to Markdown HTML
+    const resumeHTML = marked.parse(user.resume || "");
+
+    html += `
+    <div class="application-card">
+      <div class="card-header">
+        <span class="user-name">${user.name}</span>
+        <div class="status-badge" style="background-color: ${user.status === 'accepted' ? 'green' : '#444'}">
+          ${user.status}
+        </div>
+      </div>
+      
+      <div class="resume-content">
+        ${resumeHTML}
+      </div>
+
+      <div class="card-actions">
+        <button class="control-btn accept" onclick="AlterStatus(this)" id="${user.application_id}">
+          Update Status
+        </button>
+        <button class="control-btn reject" onclick="RejectStatus(this)" id="${user.application_id}">
+          Reject
+        </button>
+      </div>
+    </div>
+    `;
+  });
+
+  html += `</div></div>`; // Close container and panel
+  content.innerHTML = html;
+}
+
+// Making resume rendering into the main form
 
 
 

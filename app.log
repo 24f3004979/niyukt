@@ -273,3 +273,473 @@
 2026-04-09 23:17:15,106 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 3, 'job_role': 'SWE 2', 'discription': 'we want good people', 'status': 'verified'}
 2026-04-09 23:17:15,107 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 23:17:15] "GET /admin/requests HTTP/1.1" 200 -
 2026-04-09 23:17:19,111 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2026 23:17:19] "GET /admin/users HTTP/1.1" 200 -
+2026-04-10 08:19:25,357 - config - INFO - Application started
+2026-04-10 08:19:25,717 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Admin1'), failed
+2026-04-10 08:19:25,728 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Admin1', 'email': 'admin@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$XmvN+X+vlVJKSemd07rX+g$w6lRS4ofF54a+w4KticLfJaW6rT0ib2x2rJkQ/JpKvE', 'status': 'activated', 'role': 'admin'}
+2026-04-10 08:19:32,695 - config - INFO - Application started
+2026-04-10 08:19:34,087 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-10 08:19:34,088 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-10 08:19:34,089 - werkzeug - INFO -  * Restarting with stat
+2026-04-10 08:19:34,548 - config - INFO - Application started
+2026-04-10 08:19:35,641 - werkzeug - WARNING -  * Debugger is active!
+2026-04-10 08:19:35,664 - werkzeug - INFO -  * Debugger PIN: 694-855-634
+2026-04-10 08:19:45,169 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:19:45] "GET / HTTP/1.1" 200 -
+2026-04-10 08:19:45,254 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:19:45] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:19:45,256 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:19:45] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:19:45,419 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:19:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-10 08:19:49,796 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:19:49] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:19:49,861 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:19:49] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:19:54,827 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:19:54] "GET /register/company HTTP/1.1" 200 -
+2026-04-10 08:19:54,874 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:19:54] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:20:41,756 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'google@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$m9NaK2WMMQaA8N57TwnhHA$G2AxoggBTgvT8TyX51eOXW77Oww2kPhRTOm8Kaukun0', 'role': 'company', 'status': 'deactivated'}, 'company': {'discription': "Founded in 1998 by Larry Page and Sergey Brin, Google is a multinational technology leader specializing in internet-related services, including its dominant search engine, online advertising (Ads), cloud computing, and software. Headquartered in Mountain View, California, it aims to organize the world's information and make it universally accessible. "}}
+2026-04-10 08:20:41,758 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Google'), failed
+2026-04-10 08:20:41,771 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Google', 'email': 'google@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$m9NaK2WMMQaA8N57TwnhHA$G2AxoggBTgvT8TyX51eOXW77Oww2kPhRTOm8Kaukun0', 'role': 'company', 'status': 'deactivated'}
+2026-04-10 08:20:41,785 - config - INFO - Insertion Executed with insert into company('company_id', 'discription') values(?,?) with data : {'discription': "Founded in 1998 by Larry Page and Sergey Brin, Google is a multinational technology leader specializing in internet-related services, including its dominant search engine, online advertising (Ads), cloud computing, and software. Headquartered in Mountain View, California, it aims to organize the world's information and make it universally accessible. ", 'company_id': 2}
+2026-04-10 08:20:41,786 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:20:41] "POST /register/company HTTP/1.1" 200 -
+2026-04-10 08:20:50,174 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:20:50] "GET /register/student HTTP/1.1" 200 -
+2026-04-10 08:20:50,226 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:20:50] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:21:51,471 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Prashant Shukla'), failed
+2026-04-10 08:21:51,484 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Prashant Shukla', 'email': 'prince@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$1rr3vjfGuBeilLI2BuC8dw$PZjKIgBbBGJ6vpv0tl9ubDc8FhS8mPY4F7UQvK3j+AI', 'role': 'student', 'status': 'activated'}
+2026-04-10 08:21:51,497 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Computer Science', 'resume': '[YOUR NAME]\r\n[City, State, Zip] | [Phone Number] | [Email Address]\r\n[LinkedIn Profile URL] | [GitHub/Portfolio URL]\r\nTECHNICAL OBJECTIVE\r\nMotivated Computer Science student with foundational knowledge in software development, data structures, and web technologies. Seeking an entry-level internship to apply academic knowledge in Python and Java to real-world technical problems.\r\nTECHNICAL SKILLS\r\nLanguages: Python, Java, C++, HTML/CSS, SQL\r\nTools/Frameworks: Git, VS Code, Linux, React (Basic)\r\nConcepts: Object-Oriented Programming (OOP), Data Structures, Database Management\r\nSoft Skills: Problem-solving, Debugging, Team Collaboration, Quick Learner\r\nEDUCATION\r\nBachelor of Science in Computer Science | [University Name], [City, State]\r\nExpected Graduation: May 202X | GPA: [X.X]/4.0 (Optional, include if 3.0+)\r\nRelevant Coursework: Data Structures & Algorithms, Web Development, Database Systems, Computer Organization\r\n', 'student_id': 3}
+2026-04-10 08:21:51,498 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:21:51] "POST /register/student HTTP/1.1" 200 -
+2026-04-10 08:21:54,630 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:21:54] "GET /register/student HTTP/1.1" 200 -
+2026-04-10 08:21:54,685 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:21:54] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:22:19,790 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Shrivats Yadav'), failed
+2026-04-10 08:22:19,803 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Shrivats Yadav', 'email': 'shriva@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$KAVAKCWk1Hpvzfnf+///vw$jGRVf5HlhEV191fJ+Znvb4XH7X6ZeaXzEThIoY3wV6k', 'role': 'student', 'status': 'activated'}
+2026-04-10 08:22:19,815 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Computer Science', 'resume': '[YOUR NAME]\r\n[City, State, Zip] | [Phone Number] | [Email Address]\r\n[LinkedIn Profile URL] | [GitHub/Portfolio URL]\r\nTECHNICAL OBJECTIVE\r\nMotivated Computer Science student with foundational knowledge in software development, data structures, and web technologies. Seeking an entry-level internship to apply academic knowledge in Python and Java to real-world technical problems.\r\nTECHNICAL SKILLS\r\nLanguages: Python, Java, C++, HTML/CSS, SQL\r\nTools/Frameworks: Git, VS Code, Linux, React (Basic)\r\nConcepts: Object-Oriented Programming (OOP), Data Structures, Database Management\r\nSoft Skills: Problem-solving, Debugging, Team Collaboration, Quick Learner\r\nEDUCATION\r\nBachelor of Science in Computer Science | [University Name], [City, State]\r\nExpected Graduation: May 202X | GPA: [X.X]/4.0 (Optional, include if 3.0+)\r\nRelevant Coursework: Data Structures & Algorithms, Web Development, Database Systems, Computer Organization\r\n', 'student_id': 4}
+2026-04-10 08:22:19,816 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:22:19] "POST /register/student HTTP/1.1" 200 -
+2026-04-10 08:22:23,607 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:22:23] "GET /register/student HTTP/1.1" 200 -
+2026-04-10 08:22:23,661 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:22:23] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:22:43,729 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'S. Navneet'), failed
+2026-04-10 08:22:43,742 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'S. Navneet', 'email': 'navneet@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$xrg3ZgxBCEFobY2REmIsxQ$2z1g2BSkTvb+GRju1jv4azWPkZPFBdYZbQXkWxYYArU', 'role': 'student', 'status': 'activated'}
+2026-04-10 08:22:43,756 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': '[YOUR NAME]\r\n[City, State, Zip] | [Phone Number] | [Email Address]\r\n[LinkedIn Profile URL] | [GitHub/Portfolio URL]\r\nTECHNICAL OBJECTIVE\r\nMotivated Computer Science student with foundational knowledge in software development, data structures, and web technologies. Seeking an entry-level internship to apply academic knowledge in Python and Java to real-world technical problems.\r\nTECHNICAL SKILLS\r\nLanguages: Python, Java, C++, HTML/CSS, SQL\r\nTools/Frameworks: Git, VS Code, Linux, React (Basic)\r\nConcepts: Object-Oriented Programming (OOP), Data Structures, Database Management\r\nSoft Skills: Problem-solving, Debugging, Team Collaboration, Quick Learner\r\nEDUCATION\r\nBachelor of Science in Computer Science | [University Name], [City, State]\r\nExpected Graduation: May 202X | GPA: [X.X]/4.0 (Optional, include if 3.0+)\r\nRelevant Coursework: Data Structures & Algorithms, Web Development, Database Systems, Computer Organization\r\n', 'student_id': 5}
+2026-04-10 08:22:43,757 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:22:43] "POST /register/student HTTP/1.1" 200 -
+2026-04-10 08:22:46,435 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:22:46] "GET /register/student HTTP/1.1" 200 -
+2026-04-10 08:22:46,485 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:22:46] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:23:03,338 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Madhav Rimal'), failed
+2026-04-10 08:23:03,351 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Madhav Rimal', 'email': 'madhavprapanna@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$y/l/b20tJQTgHMMYI4SQkg$MU6Qjm/tC2TxO0oT+Hpp8srbJk7Y5sG65jNePsrtyPg', 'role': 'student', 'status': 'activated'}
+2026-04-10 08:23:03,363 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': '[YOUR NAME]\r\n[City, State, Zip] | [Phone Number] | [Email Address]\r\n[LinkedIn Profile URL] | [GitHub/Portfolio URL]\r\nTECHNICAL OBJECTIVE\r\nMotivated Computer Science student with foundational knowledge in software development, data structures, and web technologies. Seeking an entry-level internship to apply academic knowledge in Python and Java to real-world technical problems.\r\nTECHNICAL SKILLS\r\nLanguages: Python, Java, C++, HTML/CSS, SQL\r\nTools/Frameworks: Git, VS Code, Linux, React (Basic)\r\nConcepts: Object-Oriented Programming (OOP), Data Structures, Database Management\r\nSoft Skills: Problem-solving, Debugging, Team Collaboration, Quick Learner\r\nEDUCATION\r\nBachelor of Science in Computer Science | [University Name], [City, State]\r\nExpected Graduation: May 202X | GPA: [X.X]/4.0 (Optional, include if 3.0+)\r\nRelevant Coursework: Data Structures & Algorithms, Web Development, Database Systems, Computer Organization\r\n', 'student_id': 6}
+2026-04-10 08:23:03,364 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:23:03] "POST /register/student HTTP/1.1" 200 -
+2026-04-10 08:23:10,120 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:23:10] "GET /register/company HTTP/1.1" 200 -
+2026-04-10 08:23:10,176 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:23:10] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:23:56,706 - config - INFO - Company information for initiation :::: {'user': {'name': 'Microsoft', 'email': 'microsoft@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$KAUAgPD+PyckBEBIaQ1BqA$egkgPJ2QiFjgeC0A/mpLyHFmN4klOn16Ugz4htqilpc', 'role': 'company', 'status': 'deactivated'}, 'company': {'discription': 'The term text or text message is the preferred terminology for Microsoft\'s style guide when referring to SMS or MMS, rather than using "SMS" or "MMS" for US audiences.  Microsoft offers specific tools for handling text, including the TEXT function in Excel to format numbers as text strings and the Speak feature in Office apps like Word and Outlook to read text aloud using text-to-speech. '}}
+2026-04-10 08:23:56,708 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Microsoft'), failed
+2026-04-10 08:23:56,726 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Microsoft', 'email': 'microsoft@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$KAUAgPD+PyckBEBIaQ1BqA$egkgPJ2QiFjgeC0A/mpLyHFmN4klOn16Ugz4htqilpc', 'role': 'company', 'status': 'deactivated'}
+2026-04-10 08:23:56,739 - config - INFO - Insertion Executed with insert into company('company_id', 'discription') values(?,?) with data : {'discription': 'The term text or text message is the preferred terminology for Microsoft\'s style guide when referring to SMS or MMS, rather than using "SMS" or "MMS" for US audiences.  Microsoft offers specific tools for handling text, including the TEXT function in Excel to format numbers as text strings and the Speak feature in Office apps like Word and Outlook to read text aloud using text-to-speech. ', 'company_id': 7}
+2026-04-10 08:23:56,740 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:23:56] "POST /register/company HTTP/1.1" 200 -
+2026-04-10 08:24:03,174 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:03] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:24:03,227 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:24:10,604 - config - INFO - anchor information : ('name', 'Admin1')
+2026-04-10 08:24:10,606 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-04-10 08:24:10,812 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:24:10,829 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:24:10,849 - config - INFO - User Loged in Admin1
+2026-04-10 08:24:10,851 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:24:10,865 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-04-10 08:24:10,894 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "GET /admin/ HTTP/1.1" 200 -
+2026-04-10 08:24:10,965 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:24:10,969 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:24:10,979 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:24:10,982 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:24:10,983 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:24:10,990 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:10] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-10 08:24:14,819 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:14] "GET /admin/users HTTP/1.1" 200 -
+2026-04-10 08:24:19,588 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:19] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-04-10 08:24:21,513 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:21] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-04-10 08:24:26,629 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:24:26,672 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:26] "GET / HTTP/1.1" 200 -
+2026-04-10 08:24:26,720 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:26] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:24:26,721 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:26] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:24:28,343 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:28] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:24:28,399 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:28] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:24:35,591 - config - INFO - anchor information : ('name', 'Google')
+2026-04-10 08:24:35,593 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-04-10 08:24:35,796 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:35] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:24:35,812 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:35] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:24:35,829 - config - INFO - User Loged in Google
+2026-04-10 08:24:35,831 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:35] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:24:35,853 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:35] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-10 08:24:35,880 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:35] "GET /company/ HTTP/1.1" 200 -
+2026-04-10 08:24:35,961 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:35] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:24:35,965 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:24:35] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:25:26,334 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:25:26] "GET /company/create-drive HTTP/1.1" 200 -
+2026-04-10 08:25:26,383 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:25:26] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:25:34,996 - config - INFO - Insertion Executed with insert into placement_drive('company_id', 'job_role', 'description') values(?,?,?) with data : {'company_id': 2, 'job_role': 'Web Developer', 'description': 'Key Responsibilities:\r\nDevelop, test, and maintain front-end and back-end web applications.\r\nWrite clean, well-documented, and efficient code.\r\nEnsure high-performance, responsive, and secure websites.\r\nCollaborate with designers to implement visual elements.\r\nTroubleshoot, debug, and upgrade existing systems.\r\nIntegrate data from various back-end services and databases. \r\nIndeed\r\nIndeed\r\n +7\r\nRequired Skills:\r\nProficiency in HTML, CSS, and JavaScript.\r\nExperience with CMS (e.g., WordPress).\r\nKnowledge of browser debugging and performance testing.\r\nUnderstanding of SEO principles.\r\nStrong communication and problem-solving skills. \r\nIndeed\r\nIndeed\r\n +6\r\nCommon Technologies:\r\nFront-end: HTML5, CSS3, JavaScript, React, jQuery.\r\nBack-end: PHP, Python, SQL, REST APIs.\r\nTools: Git, GitHub, Content Management Systems.'}
+2026-04-10 08:25:34,997 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:25:34] "POST /company/create-drive HTTP/1.1" 200 -
+2026-04-10 08:25:40,045 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:25:40] "GET /company/ HTTP/1.1" 200 -
+2026-04-10 08:25:40,110 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:25:40] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:25:40,113 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:25:40] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:25:41,577 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:25:41] "GET /company/create-drive HTTP/1.1" 200 -
+2026-04-10 08:25:41,631 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:25:41] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:26:08,690 - config - INFO - Insertion Executed with insert into placement_drive('company_id', 'job_role', 'description') values(?,?,?) with data : {'company_id': 2, 'job_role': 'Data scientist', 'description': 'Key Responsibilities:\r\nData Analysis & Modeling: Clean, preprocess, and analyze data to create machine learning models for forecasting and classification.\r\nActionable Insights: Translate complex data findings into clear strategies for stakeholders to improve operational efficiency.\r\nData Visualization: Create dashboards (e.g., Tableau, Power BI, Python/R libraries) to share results.\r\nData Engineering Support: Collaborate on data pipeline development (ETL) and automated processes.\r\nExperimentation: Design A/B tests and statistical studies to validate hypotheses. \r\nTaggd\r\nTaggd\r\n +4\r\nRequirements and Skills:\r\nTechnical Skills: Proficiency in Python, R, and SQL.\r\nMathematical Knowledge: Strong understanding of statistics and predictive modeling.\r\nTools: Experience with tools like Tableau, Power BI, Hadoop, or Spark.\r\nExperience: Proven experience as a Data Scientist or in a relevant analytical role.\r\nCommunication: Ability to explain complex technical findings to non-technical stakeholders. \r\nWorkable\r\nWorkable\r\n +7'}
+2026-04-10 08:26:08,691 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:26:08] "POST /company/create-drive HTTP/1.1" 200 -
+2026-04-10 08:26:12,818 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:26:12] "GET /company/ HTTP/1.1" 200 -
+2026-04-10 08:26:12,886 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:26:12] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:26:12,890 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:26:12] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:26:21,818 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:26:21] "GET /company/applications/2 HTTP/1.1" 200 -
+2026-04-10 08:26:25,203 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:26:25] "GET /company/ HTTP/1.1" 200 -
+2026-04-10 08:26:25,279 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:26:25] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:26:25,282 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:26:25] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:37:10,428 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:37:10,435 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:10] "GET / HTTP/1.1" 200 -
+2026-04-10 08:37:10,487 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:10] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:37:10,489 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:10] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:37:12,188 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:12] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:37:12,230 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:12] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:37:18,059 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-04-10 08:37:18,061 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-04-10 08:37:18,266 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:18] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:37:18,281 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:18] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:37:18,301 - config - INFO - User Loged in Madhav Rimal
+2026-04-10 08:37:18,302 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:18] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:37:18,321 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:18] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-10 08:37:18,354 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:18] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:37:18,420 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:18] "GET /static/css/admin.css HTTP/1.1" 200 -
+2026-04-10 08:37:18,425 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:18] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:37:18,433 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:18] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:37:18,435 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:18] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:37:22,715 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:37:22,729 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:22] "GET / HTTP/1.1" 200 -
+2026-04-10 08:37:22,786 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:22] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:37:22,789 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:22] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:37:24,304 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:24] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:37:24,355 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:24] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:37:42,942 - config - INFO - anchor information : ('name', 'HariKrishna Paudel')
+2026-04-10 08:37:42,944 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'HariKrishna Paudel'), failed
+2026-04-10 08:37:42,945 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:42] "POST /login/verification HTTP/1.1" 200 -
+2026-04-10 08:37:47,200 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:47] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:37:47,263 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:47] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:37:49,090 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:49] "GET /register/student HTTP/1.1" 200 -
+2026-04-10 08:37:49,133 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:37:49] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:38:13,510 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Hari Paudel'), failed
+2026-04-10 08:38:13,523 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Hari Paudel', 'email': 'hari@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$fy9FCIGwFoLw/n9vDSFkjA$OgKbxis7C2FA/FF4Zk0vhNqhQMuHjsgDJpelo3vM1lE', 'role': 'student', 'status': 'activated'}
+2026-04-10 08:38:13,539 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': '# Alex Rivera\r\n**Full Stack Developer** 📍 San Francisco, CA | 📧 alex.dev@email.com | 🌐 github.com/arivera-dev\r\n\r\n---\r\n\r\n## 🚀 Summary\r\nResults-driven developer with **5+ years of experience** building scalable web applications. Specialist in React, Node.js, and cloud architecture. Passionate about clean code and mentored 10+ junior developers.\r\n\r\n---\r\n\r\n## 🛠 Technical Skills\r\n* **Languages:** JavaScript (ES6+), Python, TypeScript, SQL\r\n* **Frontend:** React, Vue.js, Tailwind CSS, Redux\r\n* **Backend:** Node.js, Express, FastAPI, PostgreSQL\r\n* **Tools:** Docker, AWS (S3/EC2), Git, CI/CD Pipelines\r\n\r\n---\r\n\r\n## 💼 Professional Experience\r\n\r\n### **Senior Web Developer** | TechFlow Solutions\r\n*Jan 2021 – Present*\r\n\r\n* Led the migration of a legacy PHP monolith to a **microservices architecture**, improving load speeds by 40%.\r\n* Designed a real-time analytics dashboard using **Socket.io** and **D3.js**.\r\n* Reduced API latency by 25% through optimized database indexing and Redis caching.\r\n\r\n### **Junior Developer** | Startup Hub\r\n*June 2018 – Dec 2020*\r\n\r\n* Developed responsive landing pages that increased user conversion by 15%.\r\n* Collaborated with the UI/UX team to implement a custom **Design System** in Figma and React.\r\n\r\n---\r\n\r\n## 🎓 Education\r\n* **B.S. in Computer Science** | University of Technology (2018)\r\n\r\n---\r\n\r\n## 🏆 Projects\r\n1.  **OpenSource TaskMaster:** A kanban-style productivity app with 500+ stars on GitHub.\r\n2.  **EcoTrack API:** A carbon footprint calculator built with Python and Flask.', 'student_id': 8}
+2026-04-10 08:38:13,539 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:13] "POST /register/student HTTP/1.1" 200 -
+2026-04-10 08:38:23,083 - config - INFO - Listing information : [(1, 2, 'Web Developer', 'Key Responsibilities:\r\nDevelop, test, and maintain front-end and back-end web applications.\r\nWrite clean, well-documented, and efficient code.\r\nEnsure high-performance, responsive, and secure websites.\r\nCollaborate with designers to implement visual elements.\r\nTroubleshoot, debug, and upgrade existing systems.\r\nIntegrate data from various back-end services and databases. \r\nIndeed\r\nIndeed\r\n +7\r\nRequired Skills:\r\nProficiency in HTML, CSS, and JavaScript.\r\nExperience with CMS (e.g., WordPress).\r\nKnowledge of browser debugging and performance testing.\r\nUnderstanding of SEO principles.\r\nStrong communication and problem-solving skills. \r\nIndeed\r\nIndeed\r\n +6\r\nCommon Technologies:\r\nFront-end: HTML5, CSS3, JavaScript, React, jQuery.\r\nBack-end: PHP, Python, SQL, REST APIs.\r\nTools: Git, GitHub, Content Management Systems.', '2026-04-20 02:55:34', 'not_verified'), (2, 2, 'Data scientist', 'Key Responsibilities:\r\nData Analysis & Modeling: Clean, preprocess, and analyze data to create machine learning models for forecasting and classification.\r\nActionable Insights: Translate complex data findings into clear strategies for stakeholders to improve operational efficiency.\r\nData Visualization: Create dashboards (e.g., Tableau, Power BI, Python/R libraries) to share results.\r\nData Engineering Support: Collaborate on data pipeline development (ETL) and automated processes.\r\nExperimentation: Design A/B tests and statistical studies to validate hypotheses. \r\nTaggd\r\nTaggd\r\n +4\r\nRequirements and Skills:\r\nTechnical Skills: Proficiency in Python, R, and SQL.\r\nMathematical Knowledge: Strong understanding of statistics and predictive modeling.\r\nTools: Experience with tools like Tableau, Power BI, Hadoop, or Spark.\r\nExperience: Proven experience as a Data Scientist or in a relevant analytical role.\r\nCommunication: Ability to explain complex technical findings to non-technical stakeholders. \r\nWorkable\r\nWorkable\r\n +7', '2026-04-20 02:56:08', 'not_verified')]
+2026-04-10 08:38:23,084 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Web Developer', 'discription': 'Key Responsibilities:\r\nDevelop, test, and maintain front-end and back-end web applications.\r\nWrite clean, well-documented, and efficient code.\r\nEnsure high-performance, responsive, and secure websites.\r\nCollaborate with designers to implement visual elements.\r\nTroubleshoot, debug, and upgrade existing systems.\r\nIntegrate data from various back-end services and databases. \r\nIndeed\r\nIndeed\r\n +7\r\nRequired Skills:\r\nProficiency in HTML, CSS, and JavaScript.\r\nExperience with CMS (e.g., WordPress).\r\nKnowledge of browser debugging and performance testing.\r\nUnderstanding of SEO principles.\r\nStrong communication and problem-solving skills. \r\nIndeed\r\nIndeed\r\n +6\r\nCommon Technologies:\r\nFront-end: HTML5, CSS3, JavaScript, React, jQuery.\r\nBack-end: PHP, Python, SQL, REST APIs.\r\nTools: Git, GitHub, Content Management Systems.', 'status': 'not_verified'}
+2026-04-10 08:38:23,085 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 2, 'job_role': 'Data scientist', 'discription': 'Key Responsibilities:\r\nData Analysis & Modeling: Clean, preprocess, and analyze data to create machine learning models for forecasting and classification.\r\nActionable Insights: Translate complex data findings into clear strategies for stakeholders to improve operational efficiency.\r\nData Visualization: Create dashboards (e.g., Tableau, Power BI, Python/R libraries) to share results.\r\nData Engineering Support: Collaborate on data pipeline development (ETL) and automated processes.\r\nExperimentation: Design A/B tests and statistical studies to validate hypotheses. \r\nTaggd\r\nTaggd\r\n +4\r\nRequirements and Skills:\r\nTechnical Skills: Proficiency in Python, R, and SQL.\r\nMathematical Knowledge: Strong understanding of statistics and predictive modeling.\r\nTools: Experience with tools like Tableau, Power BI, Hadoop, or Spark.\r\nExperience: Proven experience as a Data Scientist or in a relevant analytical role.\r\nCommunication: Ability to explain complex technical findings to non-technical stakeholders. \r\nWorkable\r\nWorkable\r\n +7', 'status': 'not_verified'}
+2026-04-10 08:38:23,086 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:23] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-10 08:38:27,121 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:27] "[32mGET /admin/ HTTP/1.1[0m" 302 -
+2026-04-10 08:38:27,144 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:27] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:38:27,199 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:27] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:38:34,774 - config - INFO - anchor information : ('name', 'Admin1')
+2026-04-10 08:38:34,775 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-04-10 08:38:34,968 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:34] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:38:34,988 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:34] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:38:35,006 - config - INFO - User Loged in Admin1
+2026-04-10 08:38:35,007 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:35] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:38:35,024 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:35] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-04-10 08:38:35,044 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:35] "GET /admin/ HTTP/1.1" 200 -
+2026-04-10 08:38:35,132 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:35] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:38:35,135 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:35] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:38:35,141 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:35] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:38:35,143 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:35] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:38:35,150 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:35] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:38:35,153 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:35] "[36mGET /static/js/events.js HTTP/1.1[0m" 304 -
+2026-04-10 08:38:37,918 - config - INFO - Listing information : [(1, 2, 'Web Developer', 'Key Responsibilities:\r\nDevelop, test, and maintain front-end and back-end web applications.\r\nWrite clean, well-documented, and efficient code.\r\nEnsure high-performance, responsive, and secure websites.\r\nCollaborate with designers to implement visual elements.\r\nTroubleshoot, debug, and upgrade existing systems.\r\nIntegrate data from various back-end services and databases. \r\nIndeed\r\nIndeed\r\n +7\r\nRequired Skills:\r\nProficiency in HTML, CSS, and JavaScript.\r\nExperience with CMS (e.g., WordPress).\r\nKnowledge of browser debugging and performance testing.\r\nUnderstanding of SEO principles.\r\nStrong communication and problem-solving skills. \r\nIndeed\r\nIndeed\r\n +6\r\nCommon Technologies:\r\nFront-end: HTML5, CSS3, JavaScript, React, jQuery.\r\nBack-end: PHP, Python, SQL, REST APIs.\r\nTools: Git, GitHub, Content Management Systems.', '2026-04-20 02:55:34', 'not_verified'), (2, 2, 'Data scientist', 'Key Responsibilities:\r\nData Analysis & Modeling: Clean, preprocess, and analyze data to create machine learning models for forecasting and classification.\r\nActionable Insights: Translate complex data findings into clear strategies for stakeholders to improve operational efficiency.\r\nData Visualization: Create dashboards (e.g., Tableau, Power BI, Python/R libraries) to share results.\r\nData Engineering Support: Collaborate on data pipeline development (ETL) and automated processes.\r\nExperimentation: Design A/B tests and statistical studies to validate hypotheses. \r\nTaggd\r\nTaggd\r\n +4\r\nRequirements and Skills:\r\nTechnical Skills: Proficiency in Python, R, and SQL.\r\nMathematical Knowledge: Strong understanding of statistics and predictive modeling.\r\nTools: Experience with tools like Tableau, Power BI, Hadoop, or Spark.\r\nExperience: Proven experience as a Data Scientist or in a relevant analytical role.\r\nCommunication: Ability to explain complex technical findings to non-technical stakeholders. \r\nWorkable\r\nWorkable\r\n +7', '2026-04-20 02:56:08', 'not_verified')]
+2026-04-10 08:38:37,918 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Web Developer', 'discription': 'Key Responsibilities:\r\nDevelop, test, and maintain front-end and back-end web applications.\r\nWrite clean, well-documented, and efficient code.\r\nEnsure high-performance, responsive, and secure websites.\r\nCollaborate with designers to implement visual elements.\r\nTroubleshoot, debug, and upgrade existing systems.\r\nIntegrate data from various back-end services and databases. \r\nIndeed\r\nIndeed\r\n +7\r\nRequired Skills:\r\nProficiency in HTML, CSS, and JavaScript.\r\nExperience with CMS (e.g., WordPress).\r\nKnowledge of browser debugging and performance testing.\r\nUnderstanding of SEO principles.\r\nStrong communication and problem-solving skills. \r\nIndeed\r\nIndeed\r\n +6\r\nCommon Technologies:\r\nFront-end: HTML5, CSS3, JavaScript, React, jQuery.\r\nBack-end: PHP, Python, SQL, REST APIs.\r\nTools: Git, GitHub, Content Management Systems.', 'status': 'not_verified'}
+2026-04-10 08:38:37,919 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 2, 'company_id': 2, 'job_role': 'Data scientist', 'discription': 'Key Responsibilities:\r\nData Analysis & Modeling: Clean, preprocess, and analyze data to create machine learning models for forecasting and classification.\r\nActionable Insights: Translate complex data findings into clear strategies for stakeholders to improve operational efficiency.\r\nData Visualization: Create dashboards (e.g., Tableau, Power BI, Python/R libraries) to share results.\r\nData Engineering Support: Collaborate on data pipeline development (ETL) and automated processes.\r\nExperimentation: Design A/B tests and statistical studies to validate hypotheses. \r\nTaggd\r\nTaggd\r\n +4\r\nRequirements and Skills:\r\nTechnical Skills: Proficiency in Python, R, and SQL.\r\nMathematical Knowledge: Strong understanding of statistics and predictive modeling.\r\nTools: Experience with tools like Tableau, Power BI, Hadoop, or Spark.\r\nExperience: Proven experience as a Data Scientist or in a relevant analytical role.\r\nCommunication: Ability to explain complex technical findings to non-technical stakeholders. \r\nWorkable\r\nWorkable\r\n +7', 'status': 'not_verified'}
+2026-04-10 08:38:37,920 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:37] "GET /admin/requests HTTP/1.1" 200 -
+2026-04-10 08:38:40,367 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:40] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-04-10 08:38:43,083 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:43] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-04-10 08:38:51,881 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:51] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:38:51,892 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:51] "GET / HTTP/1.1" 200 -
+2026-04-10 08:38:51,948 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:51] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:38:51,949 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:51] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:38:53,618 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:53] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:38:53,674 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:38:53] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:39:02,623 - config - INFO - anchor information : ('name', 'Google')
+2026-04-10 08:39:02,624 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-04-10 08:39:02,825 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:02] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:39:02,847 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:02] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:39:02,868 - config - INFO - User Loged in Google
+2026-04-10 08:39:02,870 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:02] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:39:02,884 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:02] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-10 08:39:02,909 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:02] "GET /company/ HTTP/1.1" 200 -
+2026-04-10 08:39:02,984 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:02] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:39:02,988 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:02] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-10 08:39:09,925 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:09] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:39:09,944 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:39:45,633 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:45] "GET /company/ HTTP/1.1" 200 -
+2026-04-10 08:39:45,716 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:39:45,727 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:45] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:39:45,730 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:45] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-04-10 08:39:47,439 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:47] "GET /company/applications/2 HTTP/1.1" 200 -
+2026-04-10 08:39:54,393 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:39:54,403 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:54] "GET / HTTP/1.1" 200 -
+2026-04-10 08:39:54,447 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:39:54,454 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:54] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:39:54,457 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:54] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:39:56,098 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:56] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:39:56,149 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:39:56,176 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:39:56] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:40:03,018 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-04-10 08:40:03,020 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Madhav Rimal')
+2026-04-10 08:40:03,219 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:03] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:40:03,235 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:03] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:40:03,257 - config - INFO - User Loged in Madhav Rimal
+2026-04-10 08:40:03,258 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:03] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:40:03,278 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:03] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-10 08:40:03,306 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:03] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:40:03,376 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:03,414 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:03] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:40:03,419 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:03] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:40:03,429 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:03] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:40:03,431 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:03] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:40:06,068 - config - INFO - Insertion Executed with insert into application('student_id', 'drive_id') values(?,?) with data : {'student_id': 6, 'drive_id': 1}
+2026-04-10 08:40:06,068 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:06] "POST /student/apply/1 HTTP/1.1" 200 -
+2026-04-10 08:40:08,929 - config - INFO - Insertion Executed with insert into application('student_id', 'drive_id') values(?,?) with data : {'student_id': 6, 'drive_id': 2}
+2026-04-10 08:40:08,930 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:08] "POST /student/apply/2 HTTP/1.1" 200 -
+2026-04-10 08:40:13,771 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:40:13,779 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:13] "GET / HTTP/1.1" 200 -
+2026-04-10 08:40:13,836 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:13,858 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:13] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:40:13,862 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:13] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:40:15,431 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:15] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:40:15,477 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:15,505 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:15] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:40:23,069 - config - INFO - anchor information : ('name', 'Prashant Shukla')
+2026-04-10 08:40:23,070 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Prashant Shukla')
+2026-04-10 08:40:23,267 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:23] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:40:23,283 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:23] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:40:23,303 - config - INFO - User Loged in Prashant Shukla
+2026-04-10 08:40:23,304 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:23] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:40:23,324 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:23] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-10 08:40:23,351 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:23] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:40:23,425 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:23,460 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:23] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:40:23,466 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:23] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:40:23,472 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:23] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:40:23,478 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:23] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:40:24,978 - config - INFO - Insertion Executed with insert into application('student_id', 'drive_id') values(?,?) with data : {'student_id': 3, 'drive_id': 1}
+2026-04-10 08:40:24,979 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:24] "POST /student/apply/1 HTTP/1.1" 200 -
+2026-04-10 08:40:30,562 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:30] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:40:30,580 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:30] "GET / HTTP/1.1" 200 -
+2026-04-10 08:40:30,639 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:30,650 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:30] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:40:30,654 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:30] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:40:32,679 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:32] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:40:32,738 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:32,751 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:32] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:40:40,700 - config - INFO - anchor information : ('name', 'Shrivats')
+2026-04-10 08:40:40,701 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Shrivats'), failed
+2026-04-10 08:40:40,702 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:40] "POST /login/verification HTTP/1.1" 200 -
+2026-04-10 08:40:40,759 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:46,396 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:46] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:40:46,452 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:46,475 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:46] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:40:52,955 - config - INFO - anchor information : ('name', 'Shrivats Yadav')
+2026-04-10 08:40:52,957 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Shrivats Yadav')
+2026-04-10 08:40:53,146 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:53] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:40:53,168 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:53] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:40:53,189 - config - INFO - User Loged in Shrivats Yadav
+2026-04-10 08:40:53,190 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:53] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:40:53,207 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:53] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-10 08:40:53,235 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:53] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:40:53,302 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:53,337 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:53] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:40:53,339 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:53] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:40:53,343 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:53] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:40:53,349 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:53] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:40:54,720 - config - INFO - Insertion Executed with insert into application('student_id', 'drive_id') values(?,?) with data : {'student_id': 4, 'drive_id': 1}
+2026-04-10 08:40:54,721 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:54] "POST /student/apply/1 HTTP/1.1" 200 -
+2026-04-10 08:40:58,220 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:40:58,233 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:58] "GET / HTTP/1.1" 200 -
+2026-04-10 08:40:58,283 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:58,293 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:58] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:40:58,298 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:58] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:40:59,624 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:59] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:40:59,690 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:40:59,729 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:40:59] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:41:16,760 - config - INFO - anchor information : ('name', 'Hari Paudel')
+2026-04-10 08:41:16,761 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Hari Paudel')
+2026-04-10 08:41:16,961 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:16] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:41:16,976 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:16] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:41:16,998 - config - INFO - User Loged in Hari Paudel
+2026-04-10 08:41:16,999 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:16] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:41:17,016 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:17] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-10 08:41:17,037 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:17] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:41:17,111 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:41:17,141 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:17] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:41:17,155 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:17] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:41:17,157 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:17] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:41:17,161 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:17] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:41:18,645 - config - INFO - Insertion Executed with insert into application('student_id', 'drive_id') values(?,?) with data : {'student_id': 8, 'drive_id': 1}
+2026-04-10 08:41:18,646 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:18] "POST /student/apply/1 HTTP/1.1" 200 -
+2026-04-10 08:41:20,556 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:41:20,567 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:20] "GET / HTTP/1.1" 200 -
+2026-04-10 08:41:20,613 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:41:20,620 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:20] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:41:20,623 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:20] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:41:22,314 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:22] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:41:22,365 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:41:22,391 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:22] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:41:28,892 - config - INFO - anchor information : ('name', 'Google')
+2026-04-10 08:41:28,894 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-04-10 08:41:29,097 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:29] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:41:29,119 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:29] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:41:29,141 - config - INFO - User Loged in Google
+2026-04-10 08:41:29,143 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:29] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:41:29,157 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:29] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-10 08:41:29,180 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:29] "GET /company/ HTTP/1.1" 200 -
+2026-04-10 08:41:29,247 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:41:29,279 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:29] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:41:29,283 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:29] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:41:30,945 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:30] "GET /company/applications/2 HTTP/1.1" 200 -
+2026-04-10 08:41:45,683 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:45] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-10 08:41:48,387 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '2') Reason : Finalized applications cannot be modified
+2026-04-10 08:41:48,387 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '2'))
+2026-04-10 08:41:48,388 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:41:48] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-10 08:42:05,883 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:05] "GET /company/ HTTP/1.1" 200 -
+2026-04-10 08:42:05,957 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:42:05,990 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:05] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:42:05,991 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:05] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:42:07,690 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:07] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-04-10 08:42:32,160 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:32] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-10 08:42:35,150 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:35] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-10 08:42:38,656 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:38] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-10 08:42:42,711 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:42:42,721 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:42] "GET / HTTP/1.1" 200 -
+2026-04-10 08:42:42,774 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:42:42,784 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:42] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:42:42,797 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:42] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:42:44,403 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:44] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:42:44,463 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:42:44,500 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:44] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:42:53,844 - config - INFO - anchor information : ('name', 'Hari Paudel')
+2026-04-10 08:42:53,845 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Hari Paudel')
+2026-04-10 08:42:54,056 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:54] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:42:54,076 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:54] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:42:54,096 - config - INFO - User Loged in Hari Paudel
+2026-04-10 08:42:54,097 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:54] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:42:54,113 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:54] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-04-10 08:42:54,141 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:54] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:42:54,215 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:42:54,252 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:54] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:42:54,258 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:54] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:42:54,263 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:54] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:42:54,269 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:54] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:42:57,599 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:57] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-10 08:42:57,603 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:42:57] "GET /student/applications HTTP/1.1" 200 -
+2026-04-10 08:43:06,873 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:43:06] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:43:06,935 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:43:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:43:06,948 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:43:06] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:43:06,954 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:43:06] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:43:06,959 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:43:06] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:43:06,970 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:43:06] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:43:08,666 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:43:08] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-10 08:43:08,670 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:43:08] "GET /student/applications HTTP/1.1" 200 -
+2026-04-10 08:44:44,774 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:44] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:44:44,857 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:44] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:44:44,864 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:44] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:44:44,867 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:44] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:44:44,868 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:44] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-04-10 08:44:44,921 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:44:48,983 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:48] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:44:49,056 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:49] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:44:49,060 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:49] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:44:49,064 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:49] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:44:49,071 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:44:49,074 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:44:49] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,292 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:45:49,373 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:45:49,383 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,385 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,397 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,400 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-04-10 08:45:49,517 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:45:49,644 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,645 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,650 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,653 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,711 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:45:49,769 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:45:49,907 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,908 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,911 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:45:49,920 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:45:49,921 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:49] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:45:53,772 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:53] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:45:53,855 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:45:53,864 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:53] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:45:53,869 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:53] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:45:53,872 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:53] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:45:53,881 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:45:53] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:46:02,314 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:46:02] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:46:02,420 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:46:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:46:02,439 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:46:02] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:46:02,449 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:46:02] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:46:02,451 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:46:02] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:46:02,458 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:46:02] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-04-10 08:46:03,716 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:46:03] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-10 08:46:03,720 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:46:03] "GET /student/applications HTTP/1.1" 200 -
+2026-04-10 08:47:43,355 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:47:43] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:47:43,461 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:47:43] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:47:43,463 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:47:43] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:47:43,467 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:47:43] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:47:43,483 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:47:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:47:43,500 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:47:43] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-04-10 08:47:44,877 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:47:44] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-10 08:48:02,900 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:48:02] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:48:02,999 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:48:02] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:48:03,003 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:48:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:48:03,005 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:48:03] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:48:03,006 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:48:03] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:48:03,042 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:48:03] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-04-10 08:48:04,479 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:48:04] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-10 08:48:04,483 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:48:04] "GET /student/applications HTTP/1.1" 200 -
+2026-04-10 08:49:05,879 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:05] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:49:05,964 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:05] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:49:05,970 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:05] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:49:05,974 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:05] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:49:05,993 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:05] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-04-10 08:49:06,005 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:49:07,640 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:07] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-10 08:49:07,644 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:07] "GET /student/applications HTTP/1.1" 200 -
+2026-04-10 08:49:09,708 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:09] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:49:09,789 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:09] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:49:09,792 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:09] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:49:09,799 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:49:09,800 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:09] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:49:09,828 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:09] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:49:14,889 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:14] "[33mGET /admin/dashboard HTTP/1.1[0m" 404 -
+2026-04-10 08:49:14,894 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:14] "GET /student/applications HTTP/1.1" 200 -
+2026-04-10 08:49:16,108 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:16] "GET /student/ HTTP/1.1" 200 -
+2026-04-10 08:49:16,190 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:16] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:49:16,191 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:16] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:49:16,195 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:16] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:49:16,202 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:49:16,213 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:16] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:49:21,151 - config - INFO - Insertion Executed with insert into application('student_id', 'drive_id') values(?,?) with data : {'student_id': 8, 'drive_id': 2}
+2026-04-10 08:49:21,153 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:21] "POST /student/apply/2 HTTP/1.1" 200 -
+2026-04-10 08:49:22,846 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-10 08:49:22,860 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:22] "GET / HTTP/1.1" 200 -
+2026-04-10 08:49:22,930 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:22] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-04-10 08:49:22,934 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:22] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-04-10 08:49:22,949 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:49:24,567 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:24] "GET /login/ HTTP/1.1" 200 -
+2026-04-10 08:49:24,623 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:49:24,654 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:24] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-04-10 08:49:31,653 - config - INFO - anchor information : ('name', 'Google')
+2026-04-10 08:49:31,654 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-04-10 08:49:31,841 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:31] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-04-10 08:49:31,860 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:31] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-04-10 08:49:31,883 - config - INFO - User Loged in Google
+2026-04-10 08:49:31,884 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:31] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-04-10 08:49:31,898 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:31] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-04-10 08:49:31,922 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:31] "GET /company/ HTTP/1.1" 200 -
+2026-04-10 08:49:32,005 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-04-10 08:49:32,048 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:32] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-04-10 08:49:32,050 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:32] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-04-10 08:49:34,096 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:34] "GET /company/applications/2 HTTP/1.1" 200 -
+2026-04-10 08:49:38,658 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('selected', '2') Reason : Finalized applications cannot be modified
+2026-04-10 08:49:38,658 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('selected', '2'))
+2026-04-10 08:49:38,659 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:38] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-10 08:49:39,861 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '2') Reason : Finalized applications cannot be modified
+2026-04-10 08:49:39,861 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '2'))
+2026-04-10 08:49:39,862 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:39] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-10 08:49:41,795 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:41] "POST /company/alter-application HTTP/1.1" 200 -
+2026-04-10 08:49:43,577 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('selected', '6') Reason : Finalized applications cannot be modified
+2026-04-10 08:49:43,577 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('selected', '6'))
+2026-04-10 08:49:43,578 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2026 08:49:43] "POST /company/alter-application HTTP/1.1" 200 -
