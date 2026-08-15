@@ -173,7 +173,7 @@ def graphs():  # Addon Feature touched
     plt.figure()
     plt.bar(types, values)
     plt.title("Student Application Analysis")
-    plt.savefig('/home/madhav/Projects/niyukt/static/images/fig.png')
+    plt.savefig('/home/madhav/workspace/projects/niyukt/static/images/fig.png')
     
     return jsonify({"image":["/images/fig.png"]})
 

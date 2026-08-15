@@ -16,7 +16,7 @@ from config import *
 from endpoint.repo import *
 
 # Loading Path for sql operations
-path = '/home/madhav/Projects/niyukt/endpoint/db/niyukt.db'
+path = '/home/madhav/workspace/projects/niyukt/endpoint/db/niyukt.db'
 
 class GenericModel:
     '''

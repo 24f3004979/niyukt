@@ -15,7 +15,7 @@ Making Simpler Version of Executor for simplification
 + Potential Theading Issue of sqlite3 due to Multi thread request
 '''
 
-path = "/home/madhav/Projects/niyukt/endpoint/db/niyukt.db"
+path = "/home/madhav/workspace/projects/niyukt/endpoint/db/niyukt.db"
 
 
 def executor(query, data):

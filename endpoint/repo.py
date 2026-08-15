@@ -7,7 +7,7 @@ from config import *
 from endpoint.QueryBuilder import *
 import os
 
-path = '/home/madhav/Projects/niyukt/endpoint/db/niyukt.db'
+path = '/home/madhav/workspace/projects/niyukt/endpoint/db/niyukt.db'
 
 class Repo:
     def __init__(self, table_name):

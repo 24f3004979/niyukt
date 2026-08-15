@@ -1,0 +1,420 @@
+2026-08-15 15:57:00,232 - config - INFO - Application started
+2026-08-15 15:57:00,578 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-08-15 15:57:00,578 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-08-15 15:57:00,578 - werkzeug - INFO -  * Restarting with stat
+2026-08-15 15:57:00,665 - config - INFO - Application started
+2026-08-15 15:57:00,961 - werkzeug - WARNING -  * Debugger is active!
+2026-08-15 15:57:00,961 - werkzeug - INFO -  * Debugger PIN: 910-239-491
+2026-08-15 15:57:30,005 - config - INFO - Application started
+2026-08-15 16:00:42,497 - config - INFO - Application started
+2026-08-15 16:00:42,819 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-08-15 16:00:42,819 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-08-15 16:00:42,819 - werkzeug - INFO -  * Restarting with stat
+2026-08-15 16:00:42,912 - config - INFO - Application started
+2026-08-15 16:00:43,208 - werkzeug - WARNING -  * Debugger is active!
+2026-08-15 16:00:43,209 - werkzeug - INFO -  * Debugger PIN: 910-239-491
+2026-08-15 16:00:57,855 - config - INFO - Application started
+2026-08-15 16:01:35,544 - werkzeug - INFO -  * Detected change in '/home/madhav/workspace/projects/niyukt/endpoint/repo.py', reloading
+2026-08-15 16:01:35,643 - werkzeug - INFO -  * Restarting with stat
+2026-08-15 16:01:35,739 - config - INFO - Application started
+2026-08-15 16:01:36,060 - werkzeug - WARNING -  * Debugger is active!
+2026-08-15 16:01:36,061 - werkzeug - INFO -  * Debugger PIN: 910-239-491
+2026-08-15 16:01:38,467 - config - INFO - Application started
+2026-08-15 16:01:38,562 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Admin1'), failed
+2026-08-15 16:01:38,563 - config - ERROR - Failed at insert of Generic Model with unable to open database file
+2026-08-15 16:02:06,262 - werkzeug - INFO -  * Detected change in '/home/madhav/workspace/projects/niyukt/endpoint/GenericModel.py', reloading
+2026-08-15 16:02:06,340 - werkzeug - INFO -  * Restarting with stat
+2026-08-15 16:02:06,428 - config - INFO - Application started
+2026-08-15 16:02:06,735 - werkzeug - WARNING -  * Debugger is active!
+2026-08-15 16:02:06,735 - werkzeug - INFO -  * Debugger PIN: 910-239-491
+2026-08-15 16:02:09,332 - config - INFO - Application started
+2026-08-15 16:02:09,425 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Admin1'), failed
+2026-08-15 16:02:09,431 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Admin1', 'email': 'admin@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$iDFmjHHOGWOMkRKilDIGwA$sSMZlmlj8JIwk6tawz4HQ+QGovTP2meC4Pbuy1Jnhxk', 'status': 'activated', 'role': 'admin'}
+2026-08-15 16:02:40,905 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:02:40] "GET / HTTP/1.1" 200 -
+2026-08-15 16:02:40,941 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:02:40] "GET /static/css/index.css HTTP/1.1" 200 -
+2026-08-15 16:02:41,218 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:02:41] "GET /static/images/niyukt.svg HTTP/1.1" 200 -
+2026-08-15 16:02:41,232 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:02:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-15 16:02:50,688 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:02:50] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:02:50,693 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:02:50] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:02:50,735 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:02:50] "GET /static/css/form-styles.css HTTP/1.1" 200 -
+2026-08-15 16:03:01,480 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:03:01] "GET / HTTP/1.1" 200 -
+2026-08-15 16:03:01,515 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:03:01] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-15 16:03:01,516 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:03:01] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:03:29,349 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:03:29] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:03:29,358 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:03:29] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:03:29,416 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:03:29] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:03:38,846 - config - INFO - anchor information : ('name', 'Admin')
+2026-08-15 16:03:38,847 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Admin'), failed
+2026-08-15 16:03:38,847 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:03:38] "POST /login/verification HTTP/1.1" 200 -
+2026-08-15 16:04:07,501 - config - INFO - anchor information : ('name', 'Admin1')
+2026-08-15 16:04:07,501 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-08-15 16:04:07,572 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:04:07,577 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:04:07,582 - config - INFO - User Loged in Admin1
+2026-08-15 16:04:07,583 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:04:07,587 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-08-15 16:04:07,595 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "GET /admin/ HTTP/1.1" 200 -
+2026-08-15 16:04:07,635 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "GET /static/css/admin.css HTTP/1.1" 200 -
+2026-08-15 16:04:07,637 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:04:07,640 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "GET /static/js/admin_dashboard.js HTTP/1.1" 200 -
+2026-08-15 16:04:07,640 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "GET /static/icons/Charts.svg HTTP/1.1" 200 -
+2026-08-15 16:04:07,642 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "GET /static/icons/user.svg HTTP/1.1" 200 -
+2026-08-15 16:04:07,642 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "GET /static/icons/request.svg HTTP/1.1" 200 -
+2026-08-15 16:04:07,647 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:07] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:04:18,218 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:18] "GET /register/company HTTP/1.1" 200 -
+2026-08-15 16:04:18,254 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:04:18] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:05:47,376 - config - INFO - Company information for initiation :::: {'user': {'name': 'Google', 'email': 'google@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$uTcGYAwB4JxzTomx9n4vRQ$ZjWXAaPCcCusc/tdZVoZg0r5u5zG5A92wmvJ1Pp389E', 'role': 'company', 'status': 'deactivated'}, 'company': {'discription': 'We are searching search engine'}}
+2026-08-15 16:05:47,376 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Google'), failed
+2026-08-15 16:05:47,380 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Google', 'email': 'google@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$uTcGYAwB4JxzTomx9n4vRQ$ZjWXAaPCcCusc/tdZVoZg0r5u5zG5A92wmvJ1Pp389E', 'role': 'company', 'status': 'deactivated'}
+2026-08-15 16:05:47,383 - config - INFO - Insertion Executed with insert into company('company_id', 'discription') values(?,?) with data : {'discription': 'We are searching search engine', 'company_id': 2}
+2026-08-15 16:05:47,384 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:05:47] "POST /register/company HTTP/1.1" 200 -
+2026-08-15 16:05:57,895 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:05:57] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:05:57,901 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:05:57] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:05:57,947 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:05:57] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:06:12,953 - config - INFO - anchor information : ('name', 'Admin1')
+2026-08-15 16:06:12,953 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-08-15 16:06:13,026 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:06:13,032 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:06:13,039 - config - INFO - User Loged in Admin1
+2026-08-15 16:06:13,039 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:06:13,045 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-08-15 16:06:13,051 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "GET /admin/ HTTP/1.1" 200 -
+2026-08-15 16:06:13,104 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:06:13,106 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:06:13,108 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:06:13,110 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:06:13,110 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:06:13,111 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:06:13,116 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:13] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:06:16,446 - config - ERROR - Repo failed for fetching information instance for giveen table : placement_drive
+2026-08-15 16:06:16,446 - config - INFO - Listing information : False
+2026-08-15 16:06:16,457 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:16] "[35m[1mGET /admin/requests HTTP/1.1[0m" 500 -
+2026-08-15 16:06:17,279 - config - ERROR - Repo failed for fetching information instance for giveen table : placement_drive
+2026-08-15 16:06:17,280 - config - INFO - Listing information : False
+2026-08-15 16:06:17,282 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:17] "[35m[1mGET /admin/requests HTTP/1.1[0m" 500 -
+2026-08-15 16:06:18,107 - config - ERROR - Repo failed for fetching information instance for giveen table : placement_drive
+2026-08-15 16:06:18,107 - config - INFO - Listing information : False
+2026-08-15 16:06:18,110 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:18] "[35m[1mGET /admin/requests HTTP/1.1[0m" 500 -
+2026-08-15 16:06:18,298 - config - ERROR - Repo failed for fetching information instance for giveen table : placement_drive
+2026-08-15 16:06:18,298 - config - INFO - Listing information : False
+2026-08-15 16:06:18,303 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:18] "[35m[1mGET /admin/requests HTTP/1.1[0m" 500 -
+2026-08-15 16:06:18,477 - config - ERROR - Repo failed for fetching information instance for giveen table : placement_drive
+2026-08-15 16:06:18,478 - config - INFO - Listing information : False
+2026-08-15 16:06:18,482 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:18] "[35m[1mGET /admin/requests HTTP/1.1[0m" 500 -
+2026-08-15 16:06:19,355 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:19] "GET /admin/users HTTP/1.1" 200 -
+2026-08-15 16:06:25,708 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:25] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-08-15 16:06:27,722 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:27] "GET /admin/users HTTP/1.1" 200 -
+2026-08-15 16:06:28,783 - config - ERROR - Repo failed for fetching information instance for giveen table : placement_drive
+2026-08-15 16:06:28,783 - config - INFO - Listing information : False
+2026-08-15 16:06:28,787 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:28] "[35m[1mGET /admin/requests HTTP/1.1[0m" 500 -
+2026-08-15 16:06:29,931 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:29] "[35m[1mGET /admin/graphs HTTP/1.1[0m" 500 -
+2026-08-15 16:06:30,872 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:30] "GET /admin/users HTTP/1.1" 200 -
+2026-08-15 16:06:33,405 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-15 16:06:33,414 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:33] "GET / HTTP/1.1" 200 -
+2026-08-15 16:06:33,451 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:33] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-15 16:06:33,453 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:33] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:06:35,432 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:35] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:06:35,437 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:35] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:06:35,479 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:35] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:06:37,037 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:37] "GET /register/company HTTP/1.1" 200 -
+2026-08-15 16:06:37,079 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:37] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:06:57,786 - config - INFO - Company information for initiation :::: {'user': {'name': 'microsoft', 'email': 'micro@linux.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$751zTgnh3JtTCqHUurdWSg$9NkCZs4nhPHX3/2KnZv5nDb8weM7qp1F6qQM/dbAWf0', 'role': 'company', 'status': 'deactivated'}, 'company': {'discription': 'We are giving up on windows'}}
+2026-08-15 16:06:57,787 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'microsoft'), failed
+2026-08-15 16:06:57,790 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'microsoft', 'email': 'micro@linux.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$751zTgnh3JtTCqHUurdWSg$9NkCZs4nhPHX3/2KnZv5nDb8weM7qp1F6qQM/dbAWf0', 'role': 'company', 'status': 'deactivated'}
+2026-08-15 16:06:57,793 - config - INFO - Insertion Executed with insert into company('company_id', 'discription') values(?,?) with data : {'discription': 'We are giving up on windows', 'company_id': 3}
+2026-08-15 16:06:57,794 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:06:57] "POST /register/company HTTP/1.1" 200 -
+2026-08-15 16:07:00,737 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:07:00] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:07:00,742 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:07:00] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:07:00,787 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:07:00] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:07:03,359 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:07:03] "GET /register/student HTTP/1.1" 200 -
+2026-08-15 16:07:03,398 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:07:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:07:55,923 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'madhav'), failed
+2026-08-15 16:07:55,927 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'madhav', 'email': 'madhav@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$QajV2tvbG8O4l1JqjXEuhQ$tD2A29F+TWTFenZAYfHwm/+tlUVpRDNdG6KcgZpkiJc', 'role': 'student', 'status': 'activated'}
+2026-08-15 16:07:55,931 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': '# Madhav rimal\r\nI am good at python\r\n\r\nProjects\r\n1. Godfire\r\n2. yantragya\r\n3. Google\r\n4. Linux', 'student_id': 4}
+2026-08-15 16:07:55,932 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:07:55] "POST /register/student HTTP/1.1" 200 -
+2026-08-15 16:07:59,468 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:07:59] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:07:59,472 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:07:59] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:07:59,513 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:07:59] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:08:02,968 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:08:02] "GET /register/student HTTP/1.1" 200 -
+2026-08-15 16:08:03,011 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:08:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:09:42,809 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Himanshu'), failed
+2026-08-15 16:09:42,812 - config - INFO - Insertion Executed with insert into user('name', 'email', 'password', 'status', 'role') values(?,?,?,?,?) with data : {'name': 'Himanshu', 'email': 'himanshu@gmail.com', 'password': '$argon2id$v=19$m=65536,t=3,p=4$wjhnTKk1ZgxhTAmBkDLmfA$RuOQbN/fLjvvrTvLIg6Q1HN2ZYVWihW3C7vxwZUwV7s', 'role': 'student', 'status': 'activated'}
+2026-08-15 16:09:42,815 - config - INFO - Insertion Executed with insert into student('student_id', 'resume', 'branch') values(?,?,?) with data : {'branch': 'Data Science', 'resume': '# Himanshu Rimal\r\n> I am great at coding made good project\r\n\r\n## Projects made\r\n1. Nasa hacked\r\n2. Elon musk engeneer\r\n3. spider man web development', 'student_id': 5}
+2026-08-15 16:09:42,815 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:09:42] "POST /register/student HTTP/1.1" 200 -
+2026-08-15 16:09:47,491 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:09:47] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:09:47,497 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:09:47] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:09:47,533 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:09:47] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:10:00,079 - config - INFO - anchor information : ('name', 'google')
+2026-08-15 16:10:00,079 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'google'), failed
+2026-08-15 16:10:00,079 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:00] "POST /login/verification HTTP/1.1" 200 -
+2026-08-15 16:10:09,490 - config - INFO - anchor information : ('name', 'Admin1')
+2026-08-15 16:10:09,491 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-08-15 16:10:09,567 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:10:09,571 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:10:09,576 - config - INFO - User Loged in Admin1
+2026-08-15 16:10:09,577 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:10:09,581 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-08-15 16:10:09,587 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "GET /admin/ HTTP/1.1" 200 -
+2026-08-15 16:10:09,631 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:10:09,633 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:10:09,635 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:10:09,635 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:10:09,636 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:10:09,637 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:10:09,643 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:09] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:10:11,715 - config - ERROR - Repo failed for fetching information instance for giveen table : placement_drive
+2026-08-15 16:10:11,715 - config - INFO - Listing information : False
+2026-08-15 16:10:11,719 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:11] "[35m[1mGET /admin/requests HTTP/1.1[0m" 500 -
+2026-08-15 16:10:12,586 - config - ERROR - Repo failed for fetching information instance for giveen table : placement_drive
+2026-08-15 16:10:12,587 - config - INFO - Listing information : False
+2026-08-15 16:10:12,592 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:12] "[35m[1mGET /admin/requests HTTP/1.1[0m" 500 -
+2026-08-15 16:10:13,757 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:13] "GET /admin/users HTTP/1.1" 200 -
+2026-08-15 16:10:19,313 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:19] "POST /admin/alter-status HTTP/1.1" 200 -
+2026-08-15 16:10:27,062 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-15 16:10:27,069 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:27] "GET / HTTP/1.1" 200 -
+2026-08-15 16:10:27,110 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:27] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-15 16:10:27,112 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:27] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:10:28,550 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:28] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:10:28,556 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:28] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:10:28,601 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:28] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:10:37,939 - config - INFO - anchor information : ('name', 'Google')
+2026-08-15 16:10:37,939 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-08-15 16:10:38,013 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:38] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:10:38,018 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:38] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:10:38,026 - config - INFO - User Loged in Google
+2026-08-15 16:10:38,026 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:38] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:10:38,032 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:38] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-08-15 16:10:38,040 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:38] "GET /company/ HTTP/1.1" 200 -
+2026-08-15 16:10:38,094 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:38] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:10:38,094 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:38] "GET /static/js/company_dashboard.js HTTP/1.1" 200 -
+2026-08-15 16:10:41,820 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:41] "GET /company/create-drive HTTP/1.1" 200 -
+2026-08-15 16:10:41,857 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:41] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:10:55,919 - config - INFO - Insertion Executed with insert into placement_drive('company_id', 'job_role', 'description') values(?,?,?) with data : {'company_id': 2, 'job_role': 'Hacker', 'description': 'Hack google'}
+2026-08-15 16:10:55,919 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:55] "POST /company/create-drive HTTP/1.1" 200 -
+2026-08-15 16:10:58,426 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:10:58] "GET /company/create-drive HTTP/1.1" 200 -
+2026-08-15 16:11:00,985 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:00] "GET /company/ HTTP/1.1" 200 -
+2026-08-15 16:11:01,026 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:01] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:11:01,028 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:01] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:11:05,249 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-15 16:11:05,256 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:05] "GET / HTTP/1.1" 200 -
+2026-08-15 16:11:05,291 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:05] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-15 16:11:05,293 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:05] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:11:07,540 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:07] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:11:07,544 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:07] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:11:07,579 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:07] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:11:13,146 - config - INFO - anchor information : ('name', 'Admin1')
+2026-08-15 16:11:13,146 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-08-15 16:11:13,219 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:11:13,225 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:11:13,231 - config - INFO - User Loged in Admin1
+2026-08-15 16:11:13,231 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:11:13,237 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-08-15 16:11:13,243 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "GET /admin/ HTTP/1.1" 200 -
+2026-08-15 16:11:13,291 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:11:13,292 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:11:13,294 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:11:13,296 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:11:13,297 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:11:13,297 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:11:13,307 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:13] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:11:15,950 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-15 16:11:15,954 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:15] "GET / HTTP/1.1" 200 -
+2026-08-15 16:11:15,992 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:15] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-15 16:11:15,994 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:15] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:11:17,644 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:17] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:11:17,649 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:17] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:11:17,694 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:17] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:11:26,006 - config - INFO - anchor information : ('name', 'Madhav Rimal')
+2026-08-15 16:11:26,006 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'Madhav Rimal'), failed
+2026-08-15 16:11:26,007 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:26] "POST /login/verification HTTP/1.1" 200 -
+2026-08-15 16:11:33,293 - config - INFO - anchor information : ('name', 'madhav')
+2026-08-15 16:11:33,294 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'madhav')
+2026-08-15 16:11:33,371 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:33] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:11:33,376 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:33] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:11:33,380 - config - INFO - User Loged in madhav
+2026-08-15 16:11:33,381 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:33] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:11:33,388 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:33] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-08-15 16:11:33,396 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:33] "GET /student/ HTTP/1.1" 200 -
+2026-08-15 16:11:33,433 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:33] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:11:33,435 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:33] "GET /static/js/student_dashboard.js HTTP/1.1" 200 -
+2026-08-15 16:11:33,437 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:33] "GET /static/icons/history.svg HTTP/1.1" 200 -
+2026-08-15 16:11:33,438 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:33] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:11:45,755 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-15 16:11:45,763 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:45] "GET / HTTP/1.1" 200 -
+2026-08-15 16:11:45,799 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:45] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-15 16:11:45,806 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:45] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:11:47,493 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:47] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:11:47,497 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:47] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:11:47,529 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:47] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:11:52,160 - config - INFO - anchor information : ('name', 'Admin1')
+2026-08-15 16:11:52,160 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-08-15 16:11:52,235 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:11:52,241 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:11:52,246 - config - INFO - User Loged in Admin1
+2026-08-15 16:11:52,247 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:11:52,251 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-08-15 16:11:52,256 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "GET /admin/ HTTP/1.1" 200 -
+2026-08-15 16:11:52,304 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:11:52,304 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:11:52,305 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:11:52,308 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:11:52,309 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:11:52,311 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:11:52,319 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:52] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:11:56,442 - config - INFO - Listing information : [(1, 2, 'Hacker', 'Hack google', '2026-08-25 10:40:55', 'not_verified')]
+2026-08-15 16:11:56,443 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Hacker', 'discription': 'Hack google', 'status': 'not_verified'}
+2026-08-15 16:11:56,443 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:56] "GET /admin/requests HTTP/1.1" 200 -
+2026-08-15 16:11:59,061 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:11:59] "POST /admin/alter-drive-status HTTP/1.1" 200 -
+2026-08-15 16:12:00,978 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-15 16:12:00,983 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:00] "GET / HTTP/1.1" 200 -
+2026-08-15 16:12:01,015 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:01] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-15 16:12:01,019 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:01] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:12:03,099 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:03] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:12:03,102 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:03] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:12:03,138 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:03] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:12:10,034 - config - INFO - anchor information : ('name', 'madhav')
+2026-08-15 16:12:10,035 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'madhav')
+2026-08-15 16:12:10,107 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:10] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:12:10,113 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:10] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:12:10,120 - config - INFO - User Loged in madhav
+2026-08-15 16:12:10,120 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:10] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:12:10,125 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:10] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-08-15 16:12:10,131 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:10] "GET /student/ HTTP/1.1" 200 -
+2026-08-15 16:12:10,181 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:10] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:12:10,184 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:10] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:12:10,184 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:10] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:12:10,185 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:10] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:12:14,155 - config - INFO - Insertion Executed with insert into application('student_id', 'drive_id') values(?,?) with data : {'student_id': 4, 'drive_id': 1}
+2026-08-15 16:12:14,155 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:14] "POST /student/apply/1 HTTP/1.1" 200 -
+2026-08-15 16:12:16,504 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-15 16:12:16,509 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:16] "GET / HTTP/1.1" 200 -
+2026-08-15 16:12:16,556 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:16] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-15 16:12:16,557 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:16] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:12:17,901 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:17] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:12:17,909 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:17] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:12:17,950 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:17] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:12:25,853 - config - INFO - anchor information : ('name', 'himanshu')
+2026-08-15 16:12:25,853 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'himanshu'), failed
+2026-08-15 16:12:25,854 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:25] "POST /login/verification HTTP/1.1" 200 -
+2026-08-15 16:12:32,980 - config - INFO - anchor information : ('name', 'Himanshu')
+2026-08-15 16:12:32,980 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Himanshu')
+2026-08-15 16:12:33,054 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:33] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:12:33,057 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:33] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:12:33,062 - config - INFO - User Loged in Himanshu
+2026-08-15 16:12:33,062 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:33] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:12:33,066 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:33] "[32mGET /student HTTP/1.1[0m" 308 -
+2026-08-15 16:12:33,075 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:33] "GET /student/ HTTP/1.1" 200 -
+2026-08-15 16:12:33,111 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:33] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:12:33,111 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:33] "[36mGET /static/js/student_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:12:33,113 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:33] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:12:33,115 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:33] "[36mGET /static/icons/history.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:12:35,283 - config - INFO - Insertion Executed with insert into application('student_id', 'drive_id') values(?,?) with data : {'student_id': 5, 'drive_id': 1}
+2026-08-15 16:12:35,283 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:35] "POST /student/apply/1 HTTP/1.1" 200 -
+2026-08-15 16:12:36,818 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-15 16:12:36,825 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:36] "GET / HTTP/1.1" 200 -
+2026-08-15 16:12:36,870 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:36] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-15 16:12:36,872 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:36] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:12:39,531 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:39] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:12:39,538 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:39] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:12:39,585 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:39] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:12:41,562 - config - INFO - anchor information : ('name', 'google@gmail.com')
+2026-08-15 16:12:41,563 - config - WARNING -  Fetch-exists : Existence Check for given information : ('name', 'google@gmail.com'), failed
+2026-08-15 16:12:41,563 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:41] "POST /login/verification HTTP/1.1" 200 -
+2026-08-15 16:12:48,319 - config - INFO - anchor information : ('name', 'Google')
+2026-08-15 16:12:48,320 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Google')
+2026-08-15 16:12:48,391 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:48] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:12:48,395 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:48] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:12:48,400 - config - INFO - User Loged in Google
+2026-08-15 16:12:48,400 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:48] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:12:48,404 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:48] "[32mGET /company HTTP/1.1[0m" 308 -
+2026-08-15 16:12:48,409 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:48] "GET /company/ HTTP/1.1" 200 -
+2026-08-15 16:12:48,443 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:48] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:12:48,445 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:48] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:12:54,704 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:12:54] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-08-15 16:13:30,723 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:30] "POST /company/alter-application HTTP/1.1" 200 -
+2026-08-15 16:13:34,667 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:34] "POST /company/alter-application HTTP/1.1" 200 -
+2026-08-15 16:13:37,722 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('selected', '2') Reason : Finalized applications cannot be modified
+2026-08-15 16:13:37,722 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('selected', '2'))
+2026-08-15 16:13:37,722 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:37] "POST /company/alter-application HTTP/1.1" 200 -
+2026-08-15 16:13:39,401 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:39] "GET /company/ HTTP/1.1" 200 -
+2026-08-15 16:13:39,453 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:39] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:13:39,454 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:39] "[36mGET /static/js/company_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:13:40,981 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:40] "GET /company/applications/1 HTTP/1.1" 200 -
+2026-08-15 16:13:46,646 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-08-15 16:13:46,646 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-08-15 16:13:46,646 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:46] "POST /company/alter-application HTTP/1.1" 200 -
+2026-08-15 16:13:47,649 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-08-15 16:13:47,650 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-08-15 16:13:47,650 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:47] "POST /company/alter-application HTTP/1.1" 200 -
+2026-08-15 16:13:47,799 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-08-15 16:13:47,799 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-08-15 16:13:47,800 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:47] "POST /company/alter-application HTTP/1.1" 200 -
+2026-08-15 16:13:47,950 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-08-15 16:13:47,951 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-08-15 16:13:47,951 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:47] "POST /company/alter-application HTTP/1.1" 200 -
+2026-08-15 16:13:48,106 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-08-15 16:13:48,107 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-08-15 16:13:48,107 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:48] "POST /company/alter-application HTTP/1.1" 200 -
+2026-08-15 16:13:48,250 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-08-15 16:13:48,250 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-08-15 16:13:48,251 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:48] "POST /company/alter-application HTTP/1.1" 200 -
+2026-08-15 16:13:48,430 - config - ERROR - Generic Model failed for query : update application set status = ? where id = ? with data : ('rejected', '1') Reason : Finalized applications cannot be modified
+2026-08-15 16:13:48,430 - config - ERROR - Update information failed with DB Execution Failed with Generic Model Failed with Finalized applications cannot be modified Information : ('update application set status = ? where id = ?', ('rejected', '1'))
+2026-08-15 16:13:48,431 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:48] "POST /company/alter-application HTTP/1.1" 200 -
+2026-08-15 16:13:58,522 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-15 16:13:58,527 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:58] "GET / HTTP/1.1" 200 -
+2026-08-15 16:13:58,579 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:58] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-15 16:13:58,580 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:58] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:13:59,994 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:59] "[32mGET /login HTTP/1.1[0m" 308 -
+2026-08-15 16:13:59,998 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:13:59] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:14:00,036 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:00] "[36mGET /static/css/form-styles.css HTTP/1.1[0m" 304 -
+2026-08-15 16:14:05,205 - config - INFO - anchor information : ('name', 'Admin1')
+2026-08-15 16:14:05,205 - config - INFO -  Fetch-exists : Found Given Informatioin : ('name', 'Admin1')
+2026-08-15 16:14:05,277 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[32mPOST /login/verification HTTP/1.1[0m" 302 -
+2026-08-15 16:14:05,282 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2026-08-15 16:14:05,286 - config - INFO - User Loged in Admin1
+2026-08-15 16:14:05,286 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2026-08-15 16:14:05,290 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[32mGET /admin HTTP/1.1[0m" 308 -
+2026-08-15 16:14:05,296 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "GET /admin/ HTTP/1.1" 200 -
+2026-08-15 16:14:05,339 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:14:05,340 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:14:05,342 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:14:05,344 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:14:05,344 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:14:05,345 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:14:05,350 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:05] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:14:08,693 - config - INFO - Listing information : [(1, 2, 'Hacker', 'Hack google', '2026-08-25 10:40:55', 'verified')]
+2026-08-15 16:14:08,694 - config - INFO - Payload : {'company_name': 'Google', 'drive_id': 1, 'company_id': 2, 'job_role': 'Hacker', 'discription': 'Hack google', 'status': 'verified'}
+2026-08-15 16:14:08,694 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:08] "GET /admin/requests HTTP/1.1" 200 -
+2026-08-15 16:14:10,217 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:10] "[35m[1mGET /admin/graphs HTTP/1.1[0m" 500 -
+2026-08-15 16:14:10,931 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:10] "[35m[1mGET /admin/graphs HTTP/1.1[0m" 500 -
+2026-08-15 16:14:11,112 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:11] "[35m[1mGET /admin/graphs HTTP/1.1[0m" 500 -
+2026-08-15 16:14:11,304 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:11] "[35m[1mGET /admin/graphs HTTP/1.1[0m" 500 -
+2026-08-15 16:14:12,372 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:12] "GET /admin/users HTTP/1.1" 200 -
+2026-08-15 16:14:14,039 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:14] "[35m[1mGET /admin/graphs HTTP/1.1[0m" 500 -
+2026-08-15 16:14:32,733 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:14:32] "[35m[1mGET /admin/graphs HTTP/1.1[0m" 500 -
+2026-08-15 16:15:08,765 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:15:08] "GET /login/ HTTP/1.1" 200 -
+2026-08-15 16:15:08,782 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:15:08] "GET /static/css/form-styles.css HTTP/1.1" 200 -
+2026-08-15 16:16:48,295 - werkzeug - INFO -  * Detected change in '/home/madhav/workspace/projects/niyukt/api/admin.py', reloading
+2026-08-15 16:16:49,461 - werkzeug - INFO -  * Restarting with stat
+2026-08-15 16:16:49,576 - config - INFO - Application started
+2026-08-15 16:16:49,900 - werkzeug - WARNING -  * Debugger is active!
+2026-08-15 16:16:49,900 - werkzeug - INFO -  * Debugger PIN: 910-239-491
+2026-08-15 16:16:54,336 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:54] "GET /admin/ HTTP/1.1" 200 -
+2026-08-15 16:16:54,433 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:54] "[36mGET /static/css/admin.css HTTP/1.1[0m" 304 -
+2026-08-15 16:16:54,435 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:54] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:16:54,435 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:54] "[36mGET /static/js/admin_dashboard.js HTTP/1.1[0m" 304 -
+2026-08-15 16:16:54,440 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:54] "[36mGET /static/icons/request.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:16:54,440 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:54] "[36mGET /static/icons/user.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:16:54,441 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:54] "[36mGET /static/icons/Charts.svg HTTP/1.1[0m" 304 -
+2026-08-15 16:16:54,449 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:54] "[33mGET /static/js/events.js HTTP/1.1[0m" 404 -
+2026-08-15 16:16:55,940 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:55] "GET /admin/graphs HTTP/1.1" 200 -
+2026-08-15 16:16:55,953 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:55] "[32mGET /static//images/fig.png HTTP/1.1[0m" 308 -
+2026-08-15 16:16:55,973 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2026 16:16:55] "GET /static/images/fig.png HTTP/1.1" 200 -
+2026-08-15 16:17:32,156 - werkzeug - INFO -  * Detected change in '/home/madhav/workspace/projects/niyukt/api/admin.py', reloading
+2026-08-15 16:17:33,235 - werkzeug - INFO -  * Restarting with stat
+2026-08-15 16:17:33,324 - config - INFO - Application started
+2026-08-15 16:17:33,646 - werkzeug - WARNING -  * Debugger is active!
+2026-08-15 16:17:33,646 - werkzeug - INFO -  * Debugger PIN: 910-239-491

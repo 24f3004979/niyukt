@@ -12,6 +12,13 @@ Core functionality
     4. Data History of all operations 
     5. Admin control over all operations
 
+## Project Show case screenshots - Designs are self made
+![login page](login.png)
+![company page](company.png)
+
+![graph](graph.png)
+![admin page](admin.png)
+
 ## Setup Guide for project
 
 Make virtual environement
