@@ -418,3 +418,55 @@
 2026-08-15 16:17:33,324 - config - INFO - Application started
 2026-08-15 16:17:33,646 - werkzeug - WARNING -  * Debugger is active!
 2026-08-15 16:17:33,646 - werkzeug - INFO -  * Debugger PIN: 910-239-491
+2026-08-21 09:07:02,723 - config - INFO - Application started
+2026-08-21 09:07:03,594 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-08-21 09:07:03,594 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-08-21 09:07:03,595 - werkzeug - INFO -  * Restarting with stat
+2026-08-21 09:07:03,779 - config - INFO - Application started
+2026-08-21 09:07:04,320 - werkzeug - WARNING -  * Debugger is active!
+2026-08-21 09:07:04,320 - werkzeug - INFO -  * Debugger PIN: 455-557-060
+2026-08-21 09:07:45,497 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:07:45] "GET / HTTP/1.1" 200 -
+2026-08-21 09:07:45,602 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:07:45] "GET /static/css/index.css HTTP/1.1" 200 -
+2026-08-21 09:07:48,972 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:07:48] "GET /static/images/niyukt.svg HTTP/1.1" 200 -
+2026-08-21 09:17:25,485 - config - INFO - Application started
+2026-08-21 09:17:26,025 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-08-21 09:17:26,025 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-08-21 09:17:26,026 - werkzeug - INFO -  * Restarting with stat
+2026-08-21 09:17:26,189 - config - INFO - Application started
+2026-08-21 09:17:26,720 - werkzeug - WARNING -  * Debugger is active!
+2026-08-21 09:17:26,720 - werkzeug - INFO -  * Debugger PIN: 455-557-060
+2026-08-21 09:18:59,858 - config - INFO - Application started
+2026-08-21 09:19:00,430 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-08-21 09:19:00,431 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-08-21 09:19:00,431 - werkzeug - INFO -  * Restarting with stat
+2026-08-21 09:19:00,597 - config - INFO - Application started
+2026-08-21 09:19:01,142 - werkzeug - WARNING -  * Debugger is active!
+2026-08-21 09:19:01,143 - werkzeug - INFO -  * Debugger PIN: 455-557-060
+2026-08-21 09:19:17,341 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:19:17] "GET / HTTP/1.1" 200 -
+2026-08-21 09:19:17,440 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:19:17] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-21 09:19:17,447 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:19:17] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-21 09:19:27,947 - config - INFO - Application started
+2026-08-21 09:19:28,517 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-08-21 09:19:28,517 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-08-21 09:19:28,518 - werkzeug - INFO -  * Restarting with stat
+2026-08-21 09:19:28,701 - config - INFO - Application started
+2026-08-21 09:19:29,325 - werkzeug - WARNING -  * Debugger is active!
+2026-08-21 09:19:29,325 - werkzeug - INFO -  * Debugger PIN: 455-557-060
+2026-08-21 09:19:29,341 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:19:29] "GET / HTTP/1.1" 200 -
+2026-08-21 09:19:29,572 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:19:29] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-21 09:19:29,575 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:19:29] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
+2026-08-21 09:19:38,427 - config - INFO - Application started
+2026-08-21 09:19:39,080 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-08-21 09:19:39,080 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-08-21 09:19:39,081 - werkzeug - INFO -  * Restarting with stat
+2026-08-21 09:19:39,268 - config - INFO - Application started
+2026-08-21 09:19:39,886 - werkzeug - WARNING -  * Debugger is active!
+2026-08-21 09:19:39,887 - werkzeug - INFO -  * Debugger PIN: 455-557-060
+2026-08-21 09:19:39,904 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:19:39] "GET / HTTP/1.1" 200 -
+2026-08-21 09:19:40,042 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:19:40] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2026-08-21 09:19:40,044 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2026 09:19:40] "[36mGET /static/images/niyukt.svg HTTP/1.1[0m" 304 -
